@@ -1,6 +1,5 @@
 import Navbar from "@/components/layout/navbar";
 import Hero from "@/components/sections/hero";
-import About from "@/components/sections/about";
 import Process from "@/components/sections/process";
 import Testimonials from "@/components/sections/testimonials";
 import Universities from "@/components/sections/universities";
@@ -12,7 +11,6 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       <Navbar />
       <Hero />
-      <About />
       <Process />
       <Testimonials />
       <Universities />
