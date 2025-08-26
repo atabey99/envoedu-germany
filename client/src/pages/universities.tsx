@@ -1,6 +1,7 @@
-import UniversityCard from "@/components/ui/university-card";
 import { Search, Filter, MapPin } from "lucide-react";
 import { useState } from "react";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/sections/footer";
 
 const universities = [
   {
@@ -83,8 +84,10 @@ export default function Universities() {
   });
 
   return (
-    <div className="py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <div className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6" data-testid="universities-page-title">
@@ -270,7 +273,9 @@ export default function Universities() {
             ))}
           </div>
         </div>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
