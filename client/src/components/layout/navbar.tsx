@@ -21,14 +21,14 @@ export default function Navbar() {
             <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-services">
               Hizmetler
             </Link>
-            <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-about">
-              Hakkımızda
+            <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-universities">
+              Üniversiteler
             </Link>
             <Link href="/process" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-process">
               Süreç
             </Link>
-            <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-universities">
-              Üniversiteler
+            <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-about">
+              Hakkımızda
             </Link>
             <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-contact">
               İletişim
@@ -62,14 +62,14 @@ export default function Navbar() {
               <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-services">
                 Hizmetler
               </Link>
-              <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-about">
-                Hakkımızda
+              <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-universities">
+                Üniversiteler
               </Link>
               <Link href="/process" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-process">
                 Süreç
               </Link>
-              <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-universities">
-                Üniversiteler
+              <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-about">
+                Hakkımızda
               </Link>
               <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-contact">
                 İletişim
