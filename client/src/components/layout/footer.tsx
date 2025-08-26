@@ -1,6 +1,6 @@
 import { Link } from "wouter";
 import { GraduationCap } from "lucide-react";
-import { SiFacebook, SiInstagram, SiLinkedin, SiYoutube } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiLinkedin, SiYoutube, SiX } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -27,6 +27,9 @@ export default function Footer() {
               </a>
               <a href="#" className="text-secondary-foreground/60 hover:text-accent transition-colors" data-testid="footer-youtube">
                 <SiYoutube className="w-5 h-5" />
+              </a>
+              <a href="#" className="text-secondary-foreground/60 hover:text-accent transition-colors" data-testid="footer-x">
+                <SiX className="w-5 h-5" />
               </a>
             </div>
           </div>

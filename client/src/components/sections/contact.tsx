@@ -261,6 +261,13 @@ export default function Contact() {
                 >
                   <i className="fab fa-youtube"></i>
                 </a>
+                <a 
+                  href="#" 
+                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                  data-testid="social-x"
+                >
+                  <i className="fab fa-x-twitter"></i>
+                </a>
               </div>
             </div>
           </div>

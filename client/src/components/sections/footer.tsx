@@ -1,5 +1,5 @@
 import { GraduationCap } from "lucide-react";
-import { SiFacebook, SiInstagram, SiLinkedin } from "react-icons/si";
+import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -35,6 +35,13 @@ export default function Footer() {
                 data-testid="footer-social-linkedin"
               >
                 <SiLinkedin />
+              </a>
+              <a 
+                href="#" 
+                className="text-secondary-foreground/60 hover:text-accent transition-colors"
+                data-testid="footer-social-x"
+              >
+                <SiX />
               </a>
             </div>
           </div>
