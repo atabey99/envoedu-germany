@@ -51,9 +51,9 @@ export default function Hero() {
             <div className="absolute -bottom-6 -left-6 bg-card p-4 rounded-lg shadow-lg" data-testid="hero-notification">
               <div className="flex items-center space-x-3">
                 <div className="flex -space-x-2">
-                  <div className="w-8 h-8 rounded-full bg-accent border-2 border-card"></div>
-                  <div className="w-8 h-8 rounded-full bg-primary border-2 border-card"></div>
-                  <div className="w-8 h-8 rounded-full bg-secondary border-2 border-card"></div>
+                  <div className="w-8 h-8 rounded-full bg-black border-2 border-card"></div>
+                  <div className="w-8 h-8 rounded-full bg-red-500 border-2 border-card"></div>
+                  <div className="w-8 h-8 rounded-full bg-yellow-500 border-2 border-card"></div>
                 </div>
                 <div className="text-sm font-medium text-card-foreground">Bu ay 24 öğrenci kaydoldu</div>
               </div>
