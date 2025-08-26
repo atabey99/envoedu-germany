@@ -14,7 +14,7 @@ export default function Navbar() {
             <span className="text-xl font-bold" style={{color: '#ddd'}}>EduConsult Germany</span>
           </Link>
           
-          <div className="hidden md:flex space-x-8" style={{marginRight: '10px'}}>
+          <div className="hidden md:flex space-x-8" style={{marginRight: '60px'}}>
             <Link href="/" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-home">
               Ana Sayfa
             </Link>
