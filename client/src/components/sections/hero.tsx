@@ -3,8 +3,14 @@ import { Link } from "wouter";
 
 export default function Hero() {
   return (
-    <section className="hero-gradient text-foreground relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="hero-gradient text-foreground relative" style={{
+      backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg)',
+      backgroundSize: 'cover',
+      backgroundPosition: 'center',
+      backgroundRepeat: 'no-repeat'
+    }}>
+      <div className="absolute inset-0 bg-black opacity-40"></div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl font-bold leading-tight text-primary" data-testid="hero-title">
