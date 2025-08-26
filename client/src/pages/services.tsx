@@ -1,4 +1,6 @@
 import ServiceCard from "@/components/ui/service-card";
+import Navbar from "@/components/layout/navbar";
+import Footer from "@/components/sections/footer";
 import { GraduationCap, FileText, Languages, IdCard, Home, Handshake, Users, Award, Clock, Globe } from "lucide-react";
 
 const mainServices = [
@@ -75,8 +77,10 @@ const additionalServices = [
 
 export default function Services() {
   return (
-    <div className="py-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-background">
+      <Navbar />
+      <div className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
           <h1 className="text-5xl font-bold text-foreground mb-6" data-testid="services-page-title">
@@ -185,7 +189,9 @@ export default function Services() {
             ))}
           </div>
         </div>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 }
