@@ -6,7 +6,7 @@ import Footer from "@/components/sections/footer";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-screen bg-background pt-16">
       <Navbar />
       <Hero />
       <Testimonials />
