@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="space-y-8">
             <h1 className="text-5xl font-bold leading-tight" data-testid="hero-title">
               Almanya'da Eğitim Hayalinizi
-              <span className="text-accent"> Gerçeğe</span> Dönüştürün
+              <span className="text-yellow-300"> Gerçeğe</span> Dönüştürün
             </h1>
             <p className="text-xl text-primary-foreground/90 leading-relaxed" data-testid="hero-description">
               Türk öğrenciler için özel olarak tasarlanmış kapsamlı danışmanlık hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
