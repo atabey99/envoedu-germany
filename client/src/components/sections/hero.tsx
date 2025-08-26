@@ -16,12 +16,12 @@ export default function Hero() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
-                <button className="bg-accent text-accent-foreground px-8 py-4 rounded-lg font-semibold hover:bg-accent/90 transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-consultation">
+                <button className="bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-consultation">
                   <CalendarCheck className="w-5 h-5" />
                   <span>Ücretsiz Danışmanlık Al</span>
                 </button>
               </Link>
-              <button className="border-2 border-primary text-primary px-8 py-4 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-success-stories">
+              <button className="border-2 border-gray-500 text-gray-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-500 hover:text-white transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-success-stories">
                 <Play className="w-5 h-5" />
                 <span>Başarı Hikayelerini İzle</span>
               </button>
