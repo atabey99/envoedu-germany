@@ -6,36 +6,36 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-secondary text-secondary-foreground border-b border-border fixed top-0 w-full z-50">
+    <nav className="bg-secondary text-secondary-foreground/80 border-b border-border fixed top-0 w-full z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2" data-testid="nav-logo">
             <GraduationCap className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">EduConsult Germany</span>
+            <span className="text-xl font-bold text-secondary-foreground/90">EduConsult Germany</span>
           </Link>
           
           <div className="hidden md:flex space-x-8">
-            <Link href="/" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-home">
+            <Link href="/" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-home">
               Ana Sayfa
             </Link>
-            <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-services">
+            <Link href="/services" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-services">
               Hizmetler
             </Link>
-            <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-universities">
+            <Link href="/universities" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-universities">
               Üniversiteler
             </Link>
-            <Link href="/process" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-process">
+            <Link href="/process" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-process">
               Süreç
             </Link>
-            <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-about">
+            <Link href="/about" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-about">
               Hakkımızda
             </Link>
-            <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="nav-contact">
+            <Link href="/contact" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="nav-contact">
               İletişim
             </Link>
           </div>
 
-          <div className="hidden md:flex space-x-2 text-sm text-muted-foreground">
+          <div className="hidden md:flex space-x-2 text-sm text-secondary-foreground/60">
             <span>TR</span>
             <span>|</span>
             <span>DE</span>
@@ -56,25 +56,25 @@ export default function Navbar() {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t border-border" data-testid="nav-mobile-menu">
             <div className="flex flex-col space-y-4">
-              <Link href="/" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-home">
+              <Link href="/" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-home">
                 Ana Sayfa
               </Link>
-              <Link href="/services" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-services">
+              <Link href="/services" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-services">
                 Hizmetler
               </Link>
-              <Link href="/universities" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-universities">
+              <Link href="/universities" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-universities">
                 Üniversiteler
               </Link>
-              <Link href="/process" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-process">
+              <Link href="/process" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-process">
                 Süreç
               </Link>
-              <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-about">
+              <Link href="/about" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-about">
                 Hakkımızda
               </Link>
-              <Link href="/contact" className="text-muted-foreground hover:text-primary transition-colors" data-testid="mobile-nav-contact">
+              <Link href="/contact" className="text-secondary-foreground/70 hover:text-accent transition-colors" data-testid="mobile-nav-contact">
                 İletişim
               </Link>
-              <div className="flex space-x-2 text-sm text-muted-foreground pt-4 border-t border-border">
+              <div className="flex space-x-2 text-sm text-secondary-foreground/60 pt-4 border-t border-border">
                 <span>TR</span>
                 <span>|</span>
                 <span>DE</span>
