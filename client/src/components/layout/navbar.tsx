@@ -11,7 +11,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2 px-3 py-2 rounded-lg relative" data-testid="nav-logo" style={{
             backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg)',
-            backgroundSize: 'cover',
+            backgroundSize: 'contain',
             backgroundPosition: 'center',
             backgroundRepeat: 'no-repeat'
           }}>
