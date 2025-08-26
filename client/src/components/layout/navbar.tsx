@@ -9,15 +9,9 @@ export default function Navbar() {
     <nav className="bg-secondary border-b border-border fixed top-0 w-full z-50" style={{color: '#ddd'}}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-2 px-3 py-2 rounded-lg relative" data-testid="nav-logo" style={{
-            backgroundImage: 'url(https://upload.wikimedia.org/wikipedia/en/b/ba/Flag_of_Germany.svg)',
-            backgroundSize: 'contain',
-            backgroundPosition: 'center',
-            backgroundRepeat: 'no-repeat'
-          }}>
-            <div className="absolute inset-0 bg-black opacity-30 rounded-lg"></div>
-            <GraduationCap className="w-8 h-8 text-primary relative z-10" />
-            <span className="text-xl font-bold relative z-10" style={{color: '#ddd'}}>EduConsult Germany</span>
+          <Link href="/" className="flex items-center space-x-2" data-testid="nav-logo">
+            <GraduationCap className="w-8 h-8 text-primary" />
+            <span className="text-xl font-bold" style={{color: '#ddd'}}>EduConsult Germany</span>
           </Link>
           
           <div className="hidden md:flex space-x-8" style={{float: 'right'}}>
