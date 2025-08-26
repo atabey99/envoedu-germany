@@ -3,16 +3,15 @@ import { Link } from "wouter";
 
 export default function Hero() {
   return (
-    <section className="hero-gradient text-primary-foreground relative">
-      <div className="absolute inset-0 bg-black/30"></div>
-      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+    <section className="hero-gradient text-foreground relative">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
-            <h1 className="text-5xl font-bold leading-tight text-white drop-shadow-lg" data-testid="hero-title">
+            <h1 className="text-5xl font-bold leading-tight text-primary" data-testid="hero-title">
               Almanya'da Eğitim Hayalinizi
-              <span className="text-yellow-300"> Gerçeğe</span> Dönüştürün
+              <span className="text-secondary"> Gerçeğe</span> Dönüştürün
             </h1>
-            <p className="text-xl text-primary-foreground/90 leading-relaxed" data-testid="hero-description">
+            <p className="text-xl text-foreground/80 leading-relaxed" data-testid="hero-description">
               Türk öğrenciler için özel olarak tasarlanmış kapsamlı danışmanlık hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -22,7 +21,7 @@ export default function Hero() {
                   <span>Ücretsiz Danışmanlık Al</span>
                 </button>
               </Link>
-              <button className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 rounded-lg font-semibold hover:bg-primary-foreground hover:text-primary transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-success-stories">
+              <button className="border-2 border-primary text-primary px-8 py-4 rounded-lg font-semibold hover:bg-primary hover:text-white transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto" data-testid="button-success-stories">
                 <Play className="w-5 h-5" />
                 <span>Başarı Hikayelerini İzle</span>
               </button>
@@ -30,15 +29,15 @@ export default function Hero() {
             <div className="flex space-x-8 pt-4">
               <div className="text-center">
                 <div className="text-3xl font-bold" data-testid="stat-students">500+</div>
-                <div className="text-sm text-primary-foreground/80">Başarılı Öğrenci</div>
+                <div className="text-sm text-foreground/70">Başarılı Öğrenci</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold" data-testid="stat-universities">50+</div>
-                <div className="text-sm text-primary-foreground/80">Partner Üniversite</div>
+                <div className="text-sm text-foreground/70">Partner Üniversite</div>
               </div>
               <div className="text-center">
                 <div className="text-3xl font-bold" data-testid="stat-success-rate">98%</div>
-                <div className="text-sm text-primary-foreground/80">Başarı Oranı</div>
+                <div className="text-sm text-foreground/70">Başarı Oranı</div>
               </div>
             </div>
           </div>
