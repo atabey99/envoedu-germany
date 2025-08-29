@@ -18,6 +18,8 @@ const universities = [
     founded: 1868,
     students: 45000,
     internationalStudents: 12000,
+    coordinates: "48.1496,11.5678",
+    address: "Arcisstraße 21, 80333 München, Germany",
     faculties: ["Mühendislik", "Doğa Bilimleri", "Matematik", "Bilgisayar Bilimleri", "Mimarlık"],
     admissionRequirements: [
       "Lise diploması veya dengi belge",
@@ -55,6 +57,8 @@ const universities = [
     founded: 1386,
     students: 30000,
     internationalStudents: 8000,
+    coordinates: "49.4093,8.7073",
+    address: "Grabengasse 1, 69117 Heidelberg, Germany",
     faculties: ["Tıp", "Hukuk", "Felsefe", "Biyoloji", "Matematik", "Fizik"],
     admissionRequirements: [
       "Lise diploması veya dengi belge",
@@ -92,6 +96,8 @@ const universities = [
     founded: 1810,
     students: 35000,
     internationalStudents: 10000,
+    coordinates: "52.5200,13.4050",
+    address: "Unter den Linden 6, 10117 Berlin, Germany",
     faculties: ["İşletme", "Sosyal Bilimler", "Tarih", "Edebiyat", "Ekonomi", "Psikoloji"],
     admissionRequirements: [
       "Lise diploması veya dengi belge",
@@ -129,6 +135,8 @@ const universities = [
     founded: 1911,
     students: 5000,
     internationalStudents: 3500,
+    coordinates: "51.5330,9.9358",
+    address: "Bunsenstraße 10, 37073 Göttingen, Germany",
     faculties: ["Fizik", "Kimya", "Biyoloji", "Matematik", "Araştırma Enstitüleri"],
     admissionRequirements: [
       "Lisans diploması (doktora için)",
@@ -166,6 +174,8 @@ const universities = [
     founded: 1870,
     students: 47000,
     internationalStudents: 15000,
+    coordinates: "50.7753,6.0839",
+    address: "Templergraben 55, 52062 Aachen, Germany",
     faculties: ["Makine Mühendisliği", "Elektrik Mühendisliği", "Bilgisayar Mühendisliği", "İnşaat Mühendisliği", "Kimya Mühendisliği"],
     admissionRequirements: [
       "Lise diploması veya dengi belge",
@@ -203,6 +213,8 @@ const universities = [
     founded: 1948,
     students: 38000,
     internationalStudents: 11000,
+    coordinates: "52.4537,13.2900",
+    address: "Kaiserswerther Str. 16-18, 14195 Berlin, Germany",
     faculties: ["Siyaset Bilimi", "Edebiyat", "Psikoloji", "Sosyoloji", "Tarih", "Felsefe"],
     admissionRequirements: [
       "Lise diploması veya dengi belge",
@@ -281,6 +293,20 @@ export default function UniversityDetail() {
                 <p className="text-xl text-muted-foreground leading-relaxed">
                   {university.description}
                 </p>
+                
+                {/* University Map */}
+                <div className="mt-6 border border-border rounded-xl overflow-hidden shadow-lg">
+                  <iframe
+                    src={`https://www.google.com/maps?q=${university.coordinates}&output=embed`}
+                    width="100%"
+                    height="300"
+                    style={{ border: 0 }}
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    title={`${university.name} lokasyonu`}
+                  ></iframe>
+                </div>
                 
                 <div className="flex flex-wrap gap-3">
                   {university.programs.map((program, index) => (
