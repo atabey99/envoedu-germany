@@ -87,7 +87,7 @@ export default function About() {
               
               <div className="absolute -bottom-6 -right-6 bg-card p-6 rounded-xl shadow-lg border border-border" data-testid="about-stats">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">500+</div>
+                  <div className="text-3xl font-bold text-primary">100+</div>
                   <div className="text-sm text-muted-foreground">Başarılı Öğrenci</div>
                 </div>
               </div>
