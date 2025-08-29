@@ -1,5 +1,6 @@
 import { Search, Filter, MapPin } from "lucide-react";
 import { useState } from "react";
+import { Link } from "wouter";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
 
@@ -209,9 +210,11 @@ export default function Universities() {
                   </div>
                 </div>
                 
-                <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors" data-testid={`university-button-${index}`}>
-                  Detayları İncele
-                </button>
+                <Link href={`/university/${index}`}>
+                  <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors" data-testid={`university-button-${index}`}>
+                    Detayları İncele
+                  </button>
+                </Link>
               </div>
             </div>
           ))}

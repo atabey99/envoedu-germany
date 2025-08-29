@@ -7,6 +7,7 @@ import Home from "@/pages/home";
 import Services from "@/pages/services";
 import About from "@/pages/about";
 import Universities from "@/pages/universities";
+import UniversityDetail from "@/pages/university-detail";
 import Process from "@/pages/process";
 import Contact from "@/pages/contact";
 import NotFound from "@/pages/not-found";
@@ -17,6 +18,7 @@ function Router() {
       <Route path="/" component={Home} />
       <Route path="/services" component={Services} />
       <Route path="/universities" component={Universities} />
+      <Route path="/university/:id" component={UniversityDetail} />
       <Route path="/process" component={Process} />
       <Route path="/about" component={About} />
       <Route path="/contact" component={Contact} />
