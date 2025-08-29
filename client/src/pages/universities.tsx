@@ -12,6 +12,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Fen Bilimleri", "Bilgisayar Bilimleri"],
     ranking: 5,
+    worldRanking: 54,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"]
   },
@@ -22,6 +23,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "Felsefe"],
     ranking: 5,
+    worldRanking: 64,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"]
   },
@@ -32,6 +34,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["İşletme", "Sosyoloji", "Tarih"],
     ranking: 4,
+    worldRanking: 127,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"]
   },
@@ -42,6 +45,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Fizik", "Kimya", "Biyoloji"],
     ranking: 5,
+    worldRanking: 35,
     tuition: "Araştırma Enstitüsü",
     language: ["İngilizce", "Almanca"]
   },
@@ -52,6 +56,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Makine", "Elektrik"],
     ranking: 5,
+    worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"]
   },
@@ -62,6 +67,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Siyaset Bilimi", "Edebiyat", "Psikoloji"],
     ranking: 4,
+    worldRanking: 138,
     tuition: "Devlet Üniversitesi - Ücretsiz", 
     language: ["Almanca", "İngilizce"]
   }
@@ -170,10 +176,15 @@ export default function Universities() {
                   <h3 className="text-xl font-semibold text-foreground" data-testid={`university-name-${index}`}>
                     {university.name}
                   </h3>
-                  <div className="flex">
-                    {[...Array(university.ranking)].map((_, i) => (
-                      <span key={i} className="text-accent">⭐</span>
-                    ))}
+                  <div className="text-right">
+                    <div className="flex">
+                      {[...Array(university.ranking)].map((_, i) => (
+                        <span key={i} className="text-accent">⭐</span>
+                      ))}
+                    </div>
+                    <div className="text-xs text-muted-foreground mt-1">
+                      Dünya #{university.worldRanking}
+                    </div>
                   </div>
                 </div>
                 

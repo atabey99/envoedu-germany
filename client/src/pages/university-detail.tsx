@@ -12,6 +12,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Mühendislik", "Fen Bilimleri", "Bilgisayar Bilimleri"],
     ranking: 5,
+    worldRanking: 54,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     founded: 1868,
@@ -48,6 +49,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Tıp", "Hukuk", "Felsefe"],
     ranking: 5,
+    worldRanking: 64,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     founded: 1386,
@@ -84,6 +86,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["İşletme", "Sosyoloji", "Tarih"],
     ranking: 4,
+    worldRanking: 127,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     founded: 1810,
@@ -120,6 +123,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Fizik", "Kimya", "Biyoloji"],
     ranking: 5,
+    worldRanking: 35,
     tuition: "Araştırma Enstitüsü",
     language: ["İngilizce", "Almanca"],
     founded: 1911,
@@ -156,6 +160,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Mühendislik", "Makine", "Elektrik"],
     ranking: 5,
+    worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     founded: 1870,
@@ -192,6 +197,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Siyaset Bilimi", "Edebiyat", "Psikoloji"],
     ranking: 4,
+    worldRanking: 138,
     tuition: "Devlet Üniversitesi - Ücretsiz", 
     language: ["Almanca", "İngilizce"],
     founded: 1948,
@@ -249,13 +255,18 @@ export default function UniversityDetail() {
           <div className="mb-16">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
-                <div className="flex items-center space-x-3">
-                  <div className="flex">
-                    {[...Array(university.ranking)].map((_, i) => (
-                      <Star key={i} className="w-5 h-5 text-accent fill-current" />
-                    ))}
+                <div className="flex items-center space-x-4">
+                  <div className="flex items-center space-x-2">
+                    <div className="flex">
+                      {[...Array(university.ranking)].map((_, i) => (
+                        <Star key={i} className="w-5 h-5 text-accent fill-current" />
+                      ))}
+                    </div>
+                    <span className="text-sm text-muted-foreground">({university.ranking}/5)</span>
                   </div>
-                  <span className="text-sm text-muted-foreground">({university.ranking}/5)</span>
+                  <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                    Dünya Sıralaması #{university.worldRanking}
+                  </div>
                 </div>
                 
                 <h1 className="text-5xl font-bold text-foreground mb-4" data-testid="university-detail-title">
