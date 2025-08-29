@@ -264,7 +264,7 @@ export default function UniversityDetail() {
                     </div>
                     <span className="text-sm text-muted-foreground">({university.ranking}/5)</span>
                   </div>
-                  <div className="bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                  <div className="bg-gradient-to-r from-accent to-primary text-white px-4 py-2 rounded-xl border-2 border-accent/30 text-lg font-bold shadow-md">
                     Dünya Sıralaması #{university.worldRanking}
                   </div>
                 </div>

@@ -182,7 +182,7 @@ export default function Universities() {
                         <span key={i} className="text-accent">⭐</span>
                       ))}
                     </div>
-                    <div className="text-xs text-muted-foreground mt-1">
+                    <div className="bg-gradient-to-r from-accent to-primary text-white px-3 py-1 rounded-lg border-2 border-accent/20 text-sm font-bold mt-1 shadow-sm">
                       Dünya #{university.worldRanking}
                     </div>
                   </div>
