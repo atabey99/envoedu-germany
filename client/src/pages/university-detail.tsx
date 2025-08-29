@@ -301,22 +301,11 @@ export default function UniversityDetail() {
                     width="100%"
                     height="300"
                     style={{ border: 0 }}
-                    allowFullScreen=""
+                    allowFullScreen
                     loading="lazy"
                     referrerPolicy="no-referrer-when-downgrade"
                     title={`${university.name} lokasyonu`}
                   ></iframe>
-                </div>
-                
-                <div className="flex flex-wrap gap-3">
-                  {university.programs.map((program, index) => (
-                    <span 
-                      key={index} 
-                      className="bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium"
-                    >
-                      {program}
-                    </span>
-                  ))}
                 </div>
               </div>
               
