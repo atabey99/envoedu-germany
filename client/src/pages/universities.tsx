@@ -855,33 +855,26 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   }
 ];
 
-const cities = ["Tümü", "Berlin", "München", "Heidelberg", "Aachen", "Göttingen"];
+const categoryOptions = ["Üniversite", "Fachhochschule"];
 const programs = ["Tümü", "Mühendislik", "Tıp", "İşletme", "Hukuk", "Fen Bilimleri"];
 
 export default function Universities() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCity, setSelectedCity] = useState("Tümü");
+  const [selectedCategory, setSelectedCategory] = useState<UniversityCategory>("Üniversite");
   const [selectedProgram, setSelectedProgram] = useState("Tümü");
-  const [selectedCategory, setSelectedCategory] = useState<UniversityCategory | "Tümü">("Tümü");
-
-  const categories = [
-    { value: "Tümü" as const, label: "Tümü", icon: Filter },
-    { value: "Üniversite" as const, label: "Üniversite", icon: GraduationCap },
-    { value: "Fachhochschule" as const, label: "Fachhochschule", icon: Building }
-  ];
 
   const filteredUniversities = universities.filter(uni => {
     const matchesSearch = uni.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          uni.description.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesCity = selectedCity === "Tümü" || uni.city === selectedCity;
     const matchesProgram = selectedProgram === "Tümü" || uni.programs.some(p => p.includes(selectedProgram));
-    const matchesCategory = selectedCategory === "Tümü" || uni.category === selectedCategory;
+    const matchesCategory = uni.category === selectedCategory;
     
-    return matchesSearch && matchesCity && matchesProgram && matchesCategory;
+    return matchesSearch && matchesProgram && matchesCategory;
   });
 
   return (
@@ -916,17 +909,17 @@ export default function Universities() {
               />
             </div>
 
-            {/* City Filter */}
+            {/* Category Filter */}
             <div className="relative">
-              <MapPin className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+              <GraduationCap className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
               <select
                 className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background appearance-none"
-                value={selectedCity}
-                onChange={(e) => setSelectedCity(e.target.value)}
-                data-testid="city-filter"
+                value={selectedCategory}
+                onChange={(e) => setSelectedCategory(e.target.value as UniversityCategory)}
+                data-testid="category-filter"
               >
-                {cities.map(city => (
-                  <option key={city} value={city}>{city}</option>
+                {categoryOptions.map(category => (
+                  <option key={category} value={category}>{category}</option>
                 ))}
               </select>
             </div>
