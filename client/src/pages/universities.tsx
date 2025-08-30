@@ -1002,9 +1002,6 @@ export default function Universities() {
                 
                 <div className="space-y-1 text-sm">
                   <div className="text-muted-foreground">
-                    <span className="font-medium">Ücret:</span> {university.tuition}
-                  </div>
-                  <div className="text-muted-foreground">
                     <span className="font-medium">Dil:</span> {university.language.join(", ")}
                   </div>
                 </div>

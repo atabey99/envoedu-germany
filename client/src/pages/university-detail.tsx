@@ -426,10 +426,6 @@ export default function UniversityDetail() {
                     <span className="text-foreground font-medium">{university.language.join(", ")}</span>
                   </div>
                   <div className="flex justify-between">
-                    <span className="text-muted-foreground">Ücret:</span>
-                    <span className="text-foreground font-medium">{university.tuition}</span>
-                  </div>
-                  <div className="flex justify-between">
                     <span className="text-muted-foreground">Öğrenci Sayısı:</span>
                     <span className="text-foreground font-medium">{university.students.toLocaleString()}</span>
                   </div>
