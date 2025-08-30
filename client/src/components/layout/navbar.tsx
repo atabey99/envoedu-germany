@@ -35,13 +35,6 @@ export default function Navbar() {
             </Link>
           </div>
 
-          <div className="hidden md:flex space-x-2 text-sm" style={{color: '#ddd'}}>
-            <span>TR</span>
-            <span>|</span>
-            <span>DE</span>
-            <span>|</span>
-            <span>EN</span>
-          </div>
 
           <button 
             className="md:hidden"
@@ -74,13 +67,6 @@ export default function Navbar() {
               <Link href="/contact" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-contact">
                 İletişim
               </Link>
-              <div className="flex space-x-2 text-sm pt-4 border-t border-border" style={{color: '#ddd'}}>
-                <span>TR</span>
-                <span>|</span>
-                <span>DE</span>
-                <span>|</span>
-                <span>EN</span>
-              </div>
             </div>
           </div>
         )}
