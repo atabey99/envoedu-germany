@@ -1,8 +1,10 @@
-import { Search, Filter, MapPin } from "lucide-react";
+import { Search, Filter, MapPin, GraduationCap, Building } from "lucide-react";
 import { useState } from "react";
 import { Link } from "wouter";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
+
+type UniversityCategory = "Üniversite" | "Fachhochschule";
 
 const universities = [
   {
@@ -14,7 +16,8 @@ const universities = [
     ranking: 5,
     worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Augsburg",
@@ -25,7 +28,8 @@ const universities = [
     ranking: 4,
     worldRanking: 412,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Bamberg",
@@ -36,7 +40,8 @@ const universities = [
     ranking: 4,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Bayreuth",
@@ -47,7 +52,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Free University of Berlin",
@@ -58,7 +64,8 @@ const universities = [
     ranking: 4,
     worldRanking: 138,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Humboldt University of Berlin",
@@ -69,7 +76,8 @@ const universities = [
     ranking: 4,
     worldRanking: 127,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Technical University of Berlin",
@@ -80,7 +88,8 @@ const universities = [
     ranking: 5,
     worldRanking: 189,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Berlin University of the Arts",
@@ -91,7 +100,8 @@ const universities = [
     ranking: 5,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Bielefeld University",
@@ -102,7 +112,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Ruhr University Bochum",
@@ -113,7 +124,8 @@ const universities = [
     ranking: 4,
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Bonn",
@@ -124,7 +136,8 @@ const universities = [
     ranking: 5,
     worldRanking: 87,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Brandenburg University of Technology",
@@ -135,7 +148,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Braunschweig University of Technology",
@@ -146,7 +160,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Bremen",
@@ -157,7 +172,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Chemnitz University of Technology",
@@ -168,7 +184,8 @@ const universities = [
     ranking: 4,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Clausthal University of Technology",
@@ -179,7 +196,8 @@ const universities = [
     ranking: 4,
     worldRanking: 678,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Cologne",
@@ -190,7 +208,8 @@ const universities = [
     ranking: 5,
     worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Darmstadt University of Technology",
@@ -201,7 +220,8 @@ const universities = [
     ranking: 5,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "TU Dortmund University",
@@ -212,7 +232,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Dresden University of Technology",
@@ -223,7 +244,8 @@ const universities = [
     ranking: 5,
     worldRanking: 167,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Duisburg-Essen",
@@ -234,7 +256,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Düsseldorf",
@@ -245,7 +268,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Erfurt",
@@ -256,7 +280,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Erlangen-Nuremberg",
@@ -267,7 +292,8 @@ const universities = [
     ranking: 5,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Flensburg",
@@ -278,7 +304,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Goethe University Frankfurt",
@@ -289,7 +316,8 @@ const universities = [
     ranking: 5,
     worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Freiburg",
@@ -300,7 +328,8 @@ const universities = [
     ranking: 5,
     worldRanking: 109,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Giessen",
@@ -311,7 +340,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Göttingen",
@@ -322,7 +352,8 @@ const universities = [
     ranking: 5,
     worldRanking: 128,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Greifswald",
@@ -333,7 +364,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Hagen",
@@ -344,7 +376,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Uzaktan Eğitim - Düşük ücret",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Halle-Wittenberg",
@@ -355,7 +388,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Hamburg",
@@ -366,7 +400,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Leibniz University Hannover",
@@ -377,7 +412,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Heidelberg",
@@ -388,7 +424,8 @@ const universities = [
     ranking: 5,
     worldRanking: 64,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Hildesheim",
@@ -399,7 +436,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Hohenheim",
@@ -410,7 +448,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Technical University Ilmenau",
@@ -421,7 +460,8 @@ const universities = [
     ranking: 4,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Jena",
@@ -432,7 +472,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Kassel",
@@ -443,7 +484,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Kiel",
@@ -454,7 +496,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Koblenz-Landau",
@@ -465,7 +508,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Konstanz",
@@ -476,7 +520,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Leipzig",
@@ -487,7 +532,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Lübeck",
@@ -498,7 +544,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Leuphana University Lüneburg",
@@ -509,7 +556,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Magdeburg",
@@ -520,7 +568,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Mainz",
@@ -531,7 +580,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Mannheim",
@@ -542,7 +592,8 @@ const universities = [
     ranking: 5,
     worldRanking: 189,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Marburg",
@@ -553,7 +604,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Technical University of Munich",
@@ -564,7 +616,8 @@ const universities = [
     ranking: 5,
     worldRanking: 54,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Ludwig Maximilian University Munich",
@@ -575,7 +628,8 @@ const universities = [
     ranking: 5,
     worldRanking: 59,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Münster",
@@ -586,7 +640,8 @@ const universities = [
     ranking: 4,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Oldenburg",
@@ -597,7 +652,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Osnabrück",
@@ -608,7 +664,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Paderborn",
@@ -619,7 +676,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Passau",
@@ -630,7 +688,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Potsdam",
@@ -641,7 +700,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Regensburg",
@@ -652,7 +712,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Rostock",
@@ -663,7 +724,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Saarland University",
@@ -685,7 +747,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "German University of Administrative Sciences Speyer",
@@ -696,7 +759,8 @@ const universities = [
     ranking: 4,
     worldRanking: 567,
     tuition: "Özel Üniversite",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Stuttgart",
@@ -707,7 +771,8 @@ const universities = [
     ranking: 5,
     worldRanking: 234,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Trier",
@@ -718,7 +783,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Tübingen",
@@ -729,7 +795,8 @@ const universities = [
     ranking: 5,
     worldRanking: 169,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Ulm",
@@ -740,7 +807,8 @@ const universities = [
     ranking: 4,
     worldRanking: 345,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Vechta",
@@ -751,7 +819,8 @@ const universities = [
     ranking: 3,
     worldRanking: 678,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "Bauhaus University Weimar",
@@ -762,7 +831,8 @@ const universities = [
     ranking: 4,
     worldRanking: 456,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"]
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Wuppertal",
@@ -773,7 +843,8 @@ const universities = [
     ranking: 3,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"]
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
   },
   {
     name: "University of Würzburg",
@@ -795,14 +866,22 @@ export default function Universities() {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCity, setSelectedCity] = useState("Tümü");
   const [selectedProgram, setSelectedProgram] = useState("Tümü");
+  const [selectedCategory, setSelectedCategory] = useState<UniversityCategory | "Tümü">("Tümü");
+
+  const categories = [
+    { value: "Tümü" as const, label: "Tümü", icon: Filter },
+    { value: "Üniversite" as const, label: "Üniversite", icon: GraduationCap },
+    { value: "Fachhochschule" as const, label: "Fachhochschule", icon: Building }
+  ];
 
   const filteredUniversities = universities.filter(uni => {
     const matchesSearch = uni.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          uni.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesCity = selectedCity === "Tümü" || uni.city === selectedCity;
     const matchesProgram = selectedProgram === "Tümü" || uni.programs.some(p => p.includes(selectedProgram));
+    const matchesCategory = selectedCategory === "Tümü" || uni.category === selectedCategory;
     
-    return matchesSearch && matchesCity && matchesProgram;
+    return matchesSearch && matchesCity && matchesProgram && matchesCategory;
   });
 
   return (
@@ -818,6 +897,32 @@ export default function Universities() {
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed" data-testid="universities-page-description">
             Almanya'nın en prestijli üniversiteleriyle işbirliği halindeyiz. Size en uygun üniversiteyi bulmanıza yardımcı oluyoruz.
           </p>
+        </div>
+
+        {/* Category Tabs */}
+        <div className="mb-8">
+          <div className="flex justify-center">
+            <div className="bg-muted rounded-lg p-1">
+              {categories.map((category) => {
+                const Icon = category.icon;
+                return (
+                  <button
+                    key={category.value}
+                    onClick={() => setSelectedCategory(category.value)}
+                    className={`flex items-center space-x-2 px-6 py-3 rounded-md transition-all ${
+                      selectedCategory === category.value
+                        ? "bg-primary text-primary-foreground shadow-sm"
+                        : "text-muted-foreground hover:text-foreground"
+                    }`}
+                    data-testid={`category-${category.value}`}
+                  >
+                    <Icon className="w-4 h-4" />
+                    <span className="font-medium">{category.label}</span>
+                  </button>
+                );
+              })}
+            </div>
+          </div>
         </div>
 
         {/* Filters */}
@@ -871,7 +976,7 @@ export default function Universities() {
         {/* Results Count */}
         <div className="mb-8">
           <p className="text-muted-foreground" data-testid="results-count">
-            {filteredUniversities.length} üniversite bulundu
+            {filteredUniversities.length} {selectedCategory === "Fachhochschule" ? "fachhochschule" : selectedCategory === "Üniversite" ? "üniversite" : "kurum"} bulundu
           </p>
         </div>
 
