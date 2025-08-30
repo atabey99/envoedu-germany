@@ -899,31 +899,6 @@ export default function Universities() {
           </p>
         </div>
 
-        {/* Category Tabs */}
-        <div className="mb-8">
-          <div className="flex justify-center">
-            <div className="bg-muted rounded-lg p-1">
-              {categories.map((category) => {
-                const Icon = category.icon;
-                return (
-                  <button
-                    key={category.value}
-                    onClick={() => setSelectedCategory(category.value)}
-                    className={`flex items-center space-x-2 px-6 py-3 rounded-md transition-all ${
-                      selectedCategory === category.value
-                        ? "bg-primary text-primary-foreground shadow-sm"
-                        : "text-muted-foreground hover:text-foreground"
-                    }`}
-                    data-testid={`category-${category.value}`}
-                  >
-                    <Icon className="w-4 h-4" />
-                    <span className="font-medium">{category.label}</span>
-                  </button>
-                );
-              })}
-            </div>
-          </div>
-        </div>
 
         {/* Filters */}
         <div className="bg-card p-6 rounded-xl border border-border mb-12">
