@@ -965,12 +965,7 @@ export default function Universities() {
                     {university.name}
                   </h3>
                   <div className="text-right">
-                    <div className="flex">
-                      {[...Array(university.ranking)].map((_, i) => (
-                        <span key={i} className="text-accent">⭐</span>
-                      ))}
-                    </div>
-                    <div className="bg-gradient-to-r from-accent to-primary text-white px-3 py-1 rounded-lg border-2 border-accent/20 text-sm font-bold mt-1 shadow-sm">
+                    <div className="bg-gradient-to-r from-accent to-primary text-white px-3 py-1 rounded-lg border-2 border-accent/20 text-sm font-bold shadow-sm">
                       Dünya #{university.worldRanking}
                     </div>
                   </div>

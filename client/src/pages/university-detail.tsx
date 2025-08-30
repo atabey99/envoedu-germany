@@ -268,14 +268,6 @@ export default function UniversityDetail() {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
               <div className="space-y-6">
                 <div className="flex items-center space-x-4">
-                  <div className="flex items-center space-x-2">
-                    <div className="flex">
-                      {[...Array(university.ranking)].map((_, i) => (
-                        <Star key={i} className="w-5 h-5 text-accent fill-current" />
-                      ))}
-                    </div>
-                    <span className="text-sm text-muted-foreground">({university.ranking}/5)</span>
-                  </div>
                   <div className="bg-gradient-to-r from-accent to-primary text-white px-4 py-2 rounded-xl border-2 border-accent/30 text-lg font-bold shadow-md">
                     Dünya Sıralaması #{university.worldRanking}
                   </div>
