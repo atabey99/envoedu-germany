@@ -14,7 +14,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Makine", "Elektrik"],
     ranking: 5,
-    worldRanking: 145,
+    worldRanking: 92,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -62,7 +62,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Siyaset Bilimi", "Edebiyat", "Psikoloji"],
     ranking: 4,
-    worldRanking: 138,
+    worldRanking: 104,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -74,7 +74,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["İşletme", "Sosyoloji", "Tarih"],
     ranking: 4,
-    worldRanking: 127,
+    worldRanking: 84,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -86,7 +86,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Bilgisayar Bilimleri", "Matematik"],
     ranking: 5,
-    worldRanking: 189,
+    worldRanking: 140,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -122,7 +122,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
     ranking: 4,
-    worldRanking: 201,
+    worldRanking: 325,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -134,7 +134,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Hukuk", "Ekonomi", "Tıp"],
     ranking: 5,
-    worldRanking: 87,
+    worldRanking: 89,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -254,7 +254,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "İşletme", "Tıp"],
     ranking: 4,
-    worldRanking: 234,
+    worldRanking: 275,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -290,7 +290,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
     ranking: 5,
-    worldRanking: 234,
+    worldRanking: 225,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -314,7 +314,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["İşletme", "Finans", "Hukuk"],
     ranking: 5,
-    worldRanking: 145,
+    worldRanking: 225,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -326,7 +326,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "Doğa Bilimleri"],
     ranking: 5,
-    worldRanking: 109,
+    worldRanking: 128,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -350,7 +350,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Fizik", "Matematik", "Biyoloji"],
     ranking: 5,
-    worldRanking: 128,
+    worldRanking: 121,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -398,7 +398,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["İşletme", "Hukuk", "Sosyal Bilimler"],
     ranking: 4,
-    worldRanking: 234,
+    worldRanking: 132,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -422,7 +422,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "Felsefe"],
     ranking: 5,
-    worldRanking: 64,
+    worldRanking: 47,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -518,7 +518,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "İnsan Bilimleri"],
     ranking: 4,
-    worldRanking: 234,
+    worldRanking: 275,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -590,7 +590,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["İşletme", "Ekonomi", "Sosyal Bilimler"],
     ranking: 5,
-    worldRanking: 189,
+    worldRanking: 199,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -614,7 +614,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Fen Bilimleri", "Bilgisayar Bilimleri"],
     ranking: 5,
-    worldRanking: 54,
+    worldRanking: 26,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -626,7 +626,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "İnsan Bilimleri"],
     ranking: 5,
-    worldRanking: 59,
+    worldRanking: 38,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -638,7 +638,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Hukuk", "İşletme", "Sosyal Bilimler"],
     ranking: 4,
-    worldRanking: 234,
+    worldRanking: 188,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -698,7 +698,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "İnsan Bilimleri"],
     ranking: 4,
-    worldRanking: 345,
+    worldRanking: 225,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -769,7 +769,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Mühendislik", "Teknoloji", "Mimarlık"],
     ranking: 5,
-    worldRanking: 234,
+    worldRanking: 275,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -793,7 +793,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "Teoloji"],
     ranking: 5,
-    worldRanking: 169,
+    worldRanking: 100,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -853,7 +853,7 @@ const universities = [
     image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
     programs: ["Tıp", "Hukuk", "Doğa Bilimleri"],
     ranking: 4,
-    worldRanking: 234,
+    worldRanking: 163,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
