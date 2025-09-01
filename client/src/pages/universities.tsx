@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Link } from "wouter";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
-import rwthAachenImage from "@assets/generated_images/RWTH_Aachen_campus_photo_8bb04c2c.png";
+import rwthAachenImage from "@assets/image_1756692457849.png";
 
 type UniversityCategory = "Üniversite" | "Fachhochschule";
 
