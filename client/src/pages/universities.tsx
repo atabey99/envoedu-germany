@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "wouter";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
+import rwthAachenImage from "@assets/generated_images/RWTH_Aachen_campus_photo_8bb04c2c.png";
 
 type UniversityCategory = "Üniversite" | "Fachhochschule";
 
@@ -11,7 +12,7 @@ const universities = [
     name: "RWTH Aachen University",
     city: "Aachen",
     description: "Almanya'nın en büyük teknik üniversitesi",
-    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    image: rwthAachenImage,
     programs: ["Mühendislik", "Makine", "Elektrik"],
     ranking: 5,
     worldRanking: 92,
