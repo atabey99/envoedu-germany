@@ -4,6 +4,7 @@ import { Link } from "wouter";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
 import rwthAachenImage from "@assets/image_1756692457849.png";
+import bambergUniversityImage from "@assets/generated_images/Bamberg_University_historic_building_7d384329.png";
 
 type UniversityCategory = "Üniversite" | "Fachhochschule";
 
@@ -36,7 +37,7 @@ const universities = [
     name: "University of Bamberg",
     city: "Bamberg",
     description: "Tarihi şehirde modern eğitim",
-    image: "https://images.unsplash.com/photo-1543269664-647b20536c8a?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    image: bambergUniversityImage,
     programs: ["Sosyal Bilimler", "İnsan Bilimleri", "Bilgi İşlem"],
     ranking: 4,
     worldRanking: 567,
