@@ -889,122 +889,12 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory
   },
   {
-    name: "University of Augsburg",
-    city: "Augsburg",
-    description: "1970'de kurulan, sosyal bilimler ve işletme odaklı modern üniversite",
-    programs: ["Sosyal Bilimler", "İşletme", "Hukuk", "Matematik"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Bamberg (Otto-Friedrich-Universität)",
-    city: "Bamberg",
-    description: "Sosyal bilimler ve beşeri bilimler odaklı prestijli küçük üniversite",
-    programs: ["Sosyal Bilimler", "Beşeri Bilimler", "İşletme", "Eğitim"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Bayreuth",
-    city: "Bayreuth",
-    description: "1975'te kurulan, hukuk ve ekonomi alanında güçlü araştırma üniversitesi",
-    programs: ["Hukuk", "İşletme", "Doğa Bilimleri", "Mühendislik"],
-    ranking: 2,
-    worldRanking: 301,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Passau",
-    city: "Passau",
-    description: "Hukuk, işletme ve bilgisayar bilimleri alanında güçlü küçük üniversite",
-    programs: ["Hukuk", "İşletme", "Bilgisayar", "Sosyal Bilimler"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Konstanz",
-    city: "Konstanz",
-    description: "1966'da kurulan, araştırma odaklı mükemmellik üniversitesi",
-    programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Hukuk", "İşletme"],
-    ranking: 1,
-    worldRanking: 151,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Duisburg-Essen",
-    city: "Duisburg",
-    description: "Ruhr bölgesinin büyük araştırma üniversitesi, çok kampüslü",
-    programs: ["Mühendislik", "Tıp", "İşletme", "Sosyal Bilimler"],
-    ranking: 2,
-    worldRanking: 251,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
     name: "University of Kiel (Christian-Albrechts-Universität)",
     city: "Kiel",
     description: "1665'te kurulan, deniz bilimleri ve tıp alanında güçlü üniversite",
     programs: ["Tıp", "Deniz Bilimleri", "Hukuk", "Sosyal Bilimler"],
     ranking: 2,
     worldRanking: 251,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Oldenburg (Carl von Ossietzky Universität)",
-    city: "Oldenburg",
-    description: "1973'te kurulan, eğitim ve çevre bilimleri odaklı üniversite",
-    programs: ["Eğitim", "Çevre Bilimleri", "İşletme", "Sosyal Bilimler"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Lübeck",
-    city: "Lübeck",
-    description: "Tıp ve teknoloji odaklı küçük ama prestijli araştırma üniversitesi",
-    programs: ["Tıp", "Teknoloji", "Bilgisayar", "Doğa Bilimleri"],
-    ranking: 2,
-    worldRanking: 301,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Osnabrück",
-    city: "Osnabrück",
-    description: "Sosyal bilimler ve öğretmen eğitimi alanında güçlü üniversite",
-    programs: ["Sosyal Bilimler", "Eğitim", "İşletme", "Hukuk"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Kassel",
-    city: "Kassel",
-    description: "1971'de kurulan, mühendislik ve sanat alanında güçlü üniversite",
-    programs: ["Mühendislik", "Sanat", "Eğitim", "Sosyal Bilimler"],
-    ranking: 4,
-    worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -2022,17 +1912,6 @@ const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory
   },
   {
-    name: "Hochschule Mittweida",
-    city: "Mittweida",
-    description: "Saksonya'da medya ve teknoloji odaklı geleneksel Fachhochschule",
-    programs: ["Medya", "Teknoloji", "İşletme", "Sosyal Bilimler"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
     name: "Frankfurt University of Applied Sciences",
     city: "Frankfurt am Main",
     description: "Frankfurt'ta geniş program yelpazesine sahip büyük Fachhochschule",
@@ -2264,17 +2143,6 @@ const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory
   },
   {
-    name: "Hochschule Neubrandenburg",
-    city: "Neubrandenburg",
-    description: "Mecklenburg'da tarım ve gıda teknolojisi odaklı Fachhochschule",
-    programs: ["Tarım", "Gıda Teknolojisi", "Çevre", "Sosyal Çalışma"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
     name: "Hof University of Applied Sciences",
     city: "Hof",
     description: "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı köklü Fachhochschule",
@@ -2400,17 +2268,6 @@ const universities: University[] = [
     city: "Potsdam",
     description: "Brandenburg'da tasarım ve kültür odaklı yaratıcı Fachhochschule",
     programs: ["Tasarım", "Kültür", "Sosyal Çalışma", "Mimarlık"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Brandenburg University of Applied Sciences",
-    city: "Brandenburg an der Havel",
-    description: "Brandenburg'da teknoloji ve işletme odaklı gelişen Fachhochschule",
-    programs: ["Teknoloji", "İşletme", "Mühendislik", "Medya"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
@@ -2605,17 +2462,6 @@ const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory
   },
   {
-    name: "Hochschule Albstadt-Sigmaringen",
-    city: "Albstadt",
-    description: "Tekstil ve mühendislik alanında uzman küçük Fachhochschule",
-    programs: ["Tekstil Mühendisliği", "Mühendislik", "İşletme", "Teknoloji"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
     name: "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt",
     city: "Würzburg",
     description: "Franconia bölgesinde çift kampüslü teknik Fachhochschule",
@@ -2759,17 +2605,6 @@ const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory
   },
   {
-    name: "Hochschule Magdeburg-Stendal",
-    city: "Magdeburg",
-    description: "Sachsen-Anhalt'ta çift kampüslü geniş program yelpazesine sahip Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Sağlık"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
     name: "Hochschule für Musik und Theater München",
     city: "München",
     description: "München'de müzik ve tiyatro eğitimi veren sanat Fachhochschule'si",
@@ -2778,61 +2613,6 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Niederrhein",
-    city: "Krefeld",
-    description: "Kuzey Rhein bölgesinde çok kampüslü büyük Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Nordhausen",
-    city: "Nordhausen",
-    description: "Thüringen'de küçük ama kaliteli mühendislik odaklı Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Sağlık"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Osnabrück",
-    city: "Osnabrück",
-    description: "Niedersachsen'da çok kampüslü tarım ve mühendislik odaklı Fachhochschule",
-    programs: ["Tarım", "Mühendislik", "İşletme", "Sosyal Çalışma"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Ravensburg-Weingarten",
-    city: "Ravensburg",
-    description: "Baden-Württemberg'de çift kampüslü teknoloji ve sosyal çalışma Fachhochschule'si",
-    programs: ["Teknoloji", "Sosyal Çalışma", "İşletme", "Mühendislik"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Reutlingen",
-    city: "Reutlingen",
-    description: "Baden-Württemberg'de uluslararası işletme odaklı Fachhochschule",
-    programs: ["Uluslararası İşletme", "Mühendislik", "İşletme", "Tasarım"],
-    ranking: 3,
-    worldRanking: 501,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
     category: "Fachhochschule" as UniversityCategory
   },
   {
@@ -2851,61 +2631,6 @@ const universities: University[] = [
     city: "Mülheim an der Ruhr",
     description: "2009'da kurulan Ruhr bölgesinin yeni teknoloji Fachhochschule'si",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Bilgisayar"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Schmalkalden",
-    city: "Schmalkalden",
-    description: "Thüringen'de teknoloji ve işletme odaklı küçük Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Teknoloji", "Bilgisayar"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Stralsund",
-    city: "Stralsund",
-    description: "Baltık denizi kıyısında turizm ve mühendislik odaklı Fachhochschule",
-    programs: ["Turizm", "Mühendislik", "İşletme", "Bilgisayar"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Trier",
-    city: "Trier",
-    description: "Rheinland-Pfalz'ta çok kampüslü geniş programlara sahip Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Tasarım", "Çevre"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Ulm",
-    city: "Ulm",
-    description: "Baden-Württemberg'de teknoloji ve sağlık odaklı modern Fachhochschule",
-    programs: ["Mühendislik", "Sağlık", "İşletme", "Bilgisayar"],
-    ranking: 4,
-    worldRanking: 601,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
-  },
-  {
-    name: "Hochschule Worms",
-    city: "Worms",
-    description: "Rheinland-Pfalz'ta turizm ve işletme odaklı küçük Fachhochschule",
-    programs: ["Turizm", "İşletme", "Bilgisayar", "Uluslararası İlişkiler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
