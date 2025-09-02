@@ -25,7 +25,7 @@ const universities: University[] = [
     description: "Almanya'nın en prestijli teknik üniversitelerinden biri",
     programs: ["Mühendislik", "Fen Bilimleri", "Teknoloji", "Tıp"],
     ranking: 1,
-    worldRanking: 87,
+    worldRanking: 92,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -80,7 +80,7 @@ const universities: University[] = [
     description: "1810'da kurulan, modern üniversite kavramının öncüsü",
     programs: ["Sosyal Bilimler", "Hukuk", "Doğa Bilimleri", "Tıp"],
     ranking: 1,
-    worldRanking: 120,
+    worldRanking: 84,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -135,7 +135,7 @@ const universities: University[] = [
     description: "1818'de kurulan, Nobel ödüllü mezunlarıyla ünlü üniversite",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Hukuk", "Matematik"],
     ranking: 1,
-    worldRanking: 98,
+    worldRanking: 89,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -355,7 +355,7 @@ const universities: University[] = [
     description: "1737'de kurulan, Nobel ödüllü bilim insanlarının üniversitesi",
     programs: ["Doğa Bilimleri", "Sosyal Bilimler", "Tıp", "Hukuk"],
     ranking: 1,
-    worldRanking: 134,
+    worldRanking: 111,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -443,7 +443,7 @@ const universities: University[] = [
     description: "1386'da kurulan, Almanya'nın en eski üniversitesi",
     programs: ["Tıp", "Doğa Bilimleri", "Hukuk", "Sosyal Bilimler"],
     ranking: 1,
-    worldRanking: 44,
+    worldRanking: 47,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -641,7 +641,7 @@ const universities: University[] = [
     description: "Almanya'nın en prestijli teknik üniversitesi",
     programs: ["Mühendislik", "Doğa Bilimleri", "Tıp", "İşletme"],
     ranking: 1,
-    worldRanking: 38,
+    worldRanking: 30,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -652,7 +652,7 @@ const universities: University[] = [
     description: "1472'de kurulan, Almanya'nın en prestijli üniversitelerinden",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Tıp", "Hukuk"],
     ranking: 1,
-    worldRanking: 59,
+    worldRanking: 38,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
@@ -817,7 +817,7 @@ const universities: University[] = [
     description: "1477'de kurulan, Almanya'nın en prestijli üniversitelerinden",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Tıp", "Hukuk"],
     ranking: 1,
-    worldRanking: 89,
+    worldRanking: 100,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
