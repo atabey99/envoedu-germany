@@ -8,6 +8,7 @@ type UniversityCategory = "Üniversite" | "Fachhochschule";
 
 const universities = [
   {
+    name: "RWTH Aachen University",
     city: "Aachen",
     description: "Almanya'nın en büyük teknik üniversitesi",
     programs: ["Mühendislik", "Makine", "Elektrik"],
@@ -18,6 +19,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Augsburg",
     city: "Augsburg",
     description: "Bavyera'da kaliteli eğitim sunan üniversite",
     programs: ["İşletme", "Sosyal Bilimler", "Matematik"],
@@ -28,6 +30,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Bamberg",
     city: "Bamberg",
     description: "Tarihi şehirde modern eğitim",
     programs: ["Sosyal Bilimler", "İnsan Bilimleri", "Bilgi İşlem"],
@@ -38,6 +41,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Bayreuth",
     city: "Bayreuth",
     description: "İnovatif ve disiplinlerarası eğitim",
     programs: ["Hukuk", "Ekonomi", "Kültür Çalışmaları"],
@@ -48,6 +52,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Free University of Berlin",
     city: "Berlin",
     description: "Berlin'in liberal ve uluslararası üniversitesi",
     programs: ["Siyaset Bilimi", "Edebiyat", "Psikoloji"],
@@ -58,6 +63,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Humboldt University of Berlin",
     city: "Berlin",
     description: "Berlin'in kalbi Unter den Linden'da",
     programs: ["İşletme", "Sosyoloji", "Tarih"],
@@ -68,6 +74,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Technische Universität Berlin",
     city: "Berlin",
     description: "Berlin'de teknik eğitimin öncüsü",
     programs: ["Mühendislik", "Bilgisayar Bilimleri", "Matematik"],
@@ -78,6 +85,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Berlin University of the Arts",
     city: "Berlin",
     description: "Sanat ve tasarım eğitiminde lider",
     programs: ["Güzel Sanatlar", "Müzik", "Tasarım"],
@@ -88,6 +96,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Bielefeld",
     city: "Bielefeld",
     description: "Sosyal bilimler ve teknoloji odaklı",
     programs: ["Sosyoloji", "Psikoloji", "Biyoloji"],
@@ -98,6 +107,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Ruhr University Bochum",
     city: "Bochum",
     description: "Ruhr bölgesinin araştırma üniversitesi",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
@@ -108,6 +118,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Bonn",
     city: "Bonn",
     description: "Eski başkent Bonn'da prestijli eğitim",
     programs: ["Hukuk", "Ekonomi", "Tıp"],
@@ -118,6 +129,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Brandenburg University of Technology Cottbus",
     city: "Cottbus",
     description: "Teknoloji ve mühendislik odaklı üniversite",
     programs: ["Mühendislik", "Çevre Bilimleri", "Bilgisayar"],
@@ -128,6 +140,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Technische Universität Braunschweig",
     city: "Braunschweig",
     description: "Teknik eğitimde 270 yıllık deneyim",
     programs: ["Mühendislik", "Doğa Bilimleri", "Mimarlık"],
@@ -138,6 +151,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Bremen",
     city: "Bremen",
     description: "Kuzey Almanya'da araştırma odaklı üniversite",
     programs: ["Mühendislik", "Sosyal Bilimler", "Doğa Bilimleri"],
@@ -148,6 +162,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Chemnitz University of Technology",
     city: "Chemnitz",
     description: "Doğu Almanya'da modern teknoloji üniversitesi",
     programs: ["Mühendislik", "Bilgisayar Bilimleri", "Ekonomi"],
@@ -158,6 +173,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Clausthal University of Technology",
     city: "Clausthal",
     description: "Maden ve malzeme mühendisliğinde uzman",
     programs: ["Maden Mühendisliği", "Malzeme Bilimi", "Enerji"],
@@ -168,6 +184,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Cologne",
     city: "Köln",
     description: "Almanya'nın en büyük üniversitelerinden",
     programs: ["İşletme", "Hukuk", "Tıp"],
@@ -178,6 +195,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Darmstadt",
     city: "Darmstadt",
     description: "Teknoloji ve mühendislikte excellence",
     programs: ["Mühendislik", "Bilgisayar", "Matematik"],
@@ -188,6 +206,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Dortmund University",
     city: "Dortmund",
     description: "Ruhr bölgesinde teknoloji üniversitesi",
     programs: ["Mühendislik", "Bilgisayar", "Fizik"],
@@ -198,6 +217,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Dresden",
     city: "Dresden",
     description: "Doğu Almanya'nın en büyük teknik üniversitesi",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
@@ -208,6 +228,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Duisburg-Essen",
     city: "Duisburg",
     description: "NRW'de modern ve uluslararası üniversite",
     programs: ["Mühendislik", "İşletme", "Tıp"],
@@ -218,6 +239,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Heinrich Heine University Düsseldorf",
     city: "Düsseldorf",
     description: "NRW'de prestijli araştırma üniversitesi",
     programs: ["Tıp", "Hukuk", "Felsefe"],
@@ -228,6 +250,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Erfurt",
     city: "Erfurt",
     description: "Thüringen'de liberal arts eğitimi",
     programs: ["Eğitim", "Sosyal Bilimler", "Felsefe"],
@@ -238,6 +261,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Friedrich-Alexander-Universität Erlangen-Nürnberg",
     city: "Erlangen",
     description: "Friedrich-Alexander Üniversitesi",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
@@ -258,6 +282,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Goethe University Frankfurt",
     city: "Frankfurt",
     description: "Finans merkezi Frankfurt'ta prestijli üniversite",
     programs: ["İşletme", "Finans", "Hukuk"],
@@ -268,6 +293,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Freiburg",
     city: "Freiburg",
     description: "Baden-Württemberg'de eski ve prestijli üniversite",
     programs: ["Tıp", "Hukuk", "Doğa Bilimleri"],
@@ -767,6 +793,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Bergakademie Freiberg",
     city: "Freiberg",
     description: "Maden ve malzeme bilimlerinde dünya lideri",
     programs: ["Maden Mühendisliği", "Malzeme Bilimi", "Jeoloji"],
@@ -877,6 +904,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Heinrich Heine University Düsseldorf",
     city: "Düsseldorf",
     description: "Düsseldorf'ta tıp ve doğa bilimleri odaklı",
     programs: ["Tıp", "Doğa Bilimleri", "Felsefe"],
@@ -897,6 +925,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Dresden",
     city: "Dresden",
     description: "Doğu Almanya'nın en büyük teknik üniversitesi",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
@@ -907,6 +936,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "Friedrich-Alexander-Universität Erlangen-Nürnberg",
     city: "Erlangen",
     description: "Friedrich-Alexander Üniversitesi",
     programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
@@ -1027,6 +1057,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Freiburg",
     city: "Freiburg",
     description: "Albert-Ludwigs-Universität - Baden-Württemberg'de eski ve prestijli üniversite",
     programs: ["Tıp", "Hukuk", "Doğa Bilimleri", "Orman Bilimleri"],
@@ -1087,6 +1118,7 @@ const universities = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "TU Bergakademie Freiberg",
     city: "Freiberg",
     description: "Bergakademie Freiberg - Maden ve malzeme bilimlerinde dünya lideri",
     programs: ["Maden Mühendisliği", "Malzeme Bilimi", "Jeoloji", "Çevre Teknolojisi"],
@@ -1117,7 +1149,7 @@ export default function Universities() {
   const [selectedProgram, setSelectedProgram] = useState("Tümü");
 
   const filteredUniversities = universities.filter(uni => {
-    const matchesSearch = uni.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    const matchesSearch = (uni.name?.toLowerCase().includes(searchTerm.toLowerCase()) || false) ||
                          uni.description.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesProgram = selectedProgram === "Tümü" || uni.programs.some(p => p.includes(selectedProgram));
     const matchesCategory = uni.category === selectedCategory;
@@ -1295,7 +1327,6 @@ export default function Universities() {
               }
             ].map((benefit, index) => (
               <div key={index} className="text-center space-y-4" data-testid={`benefit-${index}`}>
-                <div className="text-4xl" data-testid={`benefit-icon-${index}`}>{benefit.icon}</div>
                 <h3 className="text-xl font-semibold text-foreground" data-testid={`benefit-title-${index}`}>{benefit.title}</h3>
                 <p className="text-muted-foreground" data-testid={`benefit-description-${index}`}>{benefit.description}</p>
               </div>
