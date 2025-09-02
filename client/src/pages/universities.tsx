@@ -3163,6 +3163,42 @@ const universities = [
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Koblenz",
+    city: "Koblenz",
+    description: "Rheinland-Pfalz'da eğitim ve bilgisayar bilimleri odaklı üniversite",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Eğitim", "Psikoloji", "Bilgisayar", "İnsan Bilimleri"],
+    ranking: 3,
+    worldRanking: 567,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "TU Freiberg (Bergakademie Freiberg)",
+    city: "Freiberg",
+    description: "Bergakademie Freiberg - Maden ve malzeme bilimlerinde dünya lideri",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Maden Mühendisliği", "Malzeme Bilimi", "Jeoloji", "Çevre Teknolojisi"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "TU Ilmenau (Technische Universität Ilmenau)",
+    city: "Ilmenau",
+    description: "Technische Universität Ilmenau - Thüringen'de teknoloji odaklı üniversite",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Elektrik", "Bilgisayar", "Makine", "Medya Teknolojisi"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   }
 ];
 
