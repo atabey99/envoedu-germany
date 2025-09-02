@@ -3055,6 +3055,114 @@ const universities = [
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "FernUniversität in Hagen (distance university)",
+    city: "Hagen",
+    description: "Almanya'nın en büyük uzaktan eğitim üniversitesi",
+    image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["İşletme", "Hukuk", "Matematik", "Bilgisayar"],
+    ranking: 3,
+    worldRanking: 567,
+    tuition: "Uzaktan Eğitim - Düşük ücret",
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Tübingen (Eberhard Karls Universität)",
+    city: "Tübingen",
+    description: "Eberhard Karls Universität - Baden-Württemberg'de prestijli üniversite",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tıp", "Hukuk", "Teoloji", "Doğa Bilimleri"],
+    ranking: 5,
+    worldRanking: 101,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Mainz (Johannes Gutenberg-Universität)",
+    city: "Mainz",
+    description: "Johannes Gutenberg-Universität - Rheinland-Pfalz'da büyük araştırma üniversitesi",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tıp", "Medya", "Doğa Bilimleri", "İnsan Bilimleri"],
+    ranking: 4,
+    worldRanking: 275,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Halle-Wittenberg (Martin-Luther-Universität)",
+    city: "Halle",
+    description: "Martin-Luther-Universität - Doğu Almanya'da tarihi üniversite",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tarih", "Felsefe", "Doğa Bilimleri", "Hukuk"],
+    ranking: 4,
+    worldRanking: 345,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Freiburg (Albert-Ludwigs-Universität Freiburg)",
+    city: "Freiburg",
+    description: "Albert-Ludwigs-Universität - Baden-Württemberg'de eski ve prestijli üniversite",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tıp", "Hukuk", "Doğa Bilimleri", "Orman Bilimleri"],
+    ranking: 5,
+    worldRanking: 128,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "Goethe University Frankfurt am Main",
+    city: "Frankfurt am Main",
+    description: "Johann Wolfgang Goethe Üniversitesi - Finans merkezi Frankfurt'ta prestijli üniversite",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["İşletme", "Finans", "Hukuk", "Tıp"],
+    ranking: 5,
+    worldRanking: 225,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Jena (Friedrich-Schiller-Universität Jena)",
+    city: "Jena",
+    description: "Friedrich-Schiller-Universität - Thüringen'de araştırma odaklı üniversite",
+    image: "https://images.unsplash.com/photo-1607013251379-e6eecfffe234?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Optik", "Biyoloji", "Felsefe", "Fizik"],
+    ranking: 4,
+    worldRanking: 345,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Heidelberg (Ruprecht-Karls-Universität)",
+    city: "Heidelberg",
+    description: "Ruprecht-Karls-Universität - Almanya'nın en eski ve prestijli üniversitesi",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tıp", "Hukuk", "Felsefe", "Doğa Bilimleri"],
+    ranking: 5,
+    worldRanking: 47,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "Technische Universität Berlin",
+    city: "Berlin",
+    description: "Berlin Teknik Üniversitesi - Berlin'de teknoloji eğitimin öncüsü",
+    image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Bilgisayar Bilimleri", "Matematik", "Mimarlık"],
+    ranking: 5,
+    worldRanking: 140,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   }
 ];
 
