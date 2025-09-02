@@ -1987,6 +1987,215 @@ const universities: University[] = [
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
     category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Braunschweig University of Art",
+    city: "Braunschweig",
+    description: "Güzel sanatlar ve tasarım alanında uzman sanat Fachhochschule'si",
+    programs: ["Güzel Sanatlar", "Tasarım", "Medya Sanatı", "Sahne Sanatları"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of the Arts Bremen",
+    city: "Bremen",
+    description: "Bremen'de müzik ve sahne sanatları odaklı sanat Fachhochschule'si",
+    programs: ["Müzik", "Sahne Sanatları", "Güzel Sanatlar", "Sanat Eğitimi"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Catholic University of Applied Sciences, Mainz",
+    city: "Mainz",
+    description: "Katolik değerler temelinde sosyal çalışma odaklı Fachhochschule",
+    programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Düşük Ücret",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "German University of Digital Science",
+    city: "Berlin",
+    description: "Dijital teknolojiler ve bilgisayar bilimleri odaklı modern Fachhochschule",
+    programs: ["Bilgisayar", "Dijital Teknoloji", "Yapay Zeka", "Veri Bilimi"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "City University of Applied Sciences Bremen",
+    city: "Bremen",
+    description: "Bremen'de uygulama odaklı çok disiplinli Fachhochschule",
+    programs: ["İşletme", "Mühendislik", "Sosyal Çalışma", "Medya"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule für Gestaltung Schwäbisch Gmünd",
+    city: "Schwäbisch Gmünd",
+    description: "Tasarım ve görsel iletişim alanında uzman Fachhochschule",
+    programs: ["Grafik Tasarım", "Endüstriyel Tasarım", "İç Mimarlık", "Dijital Tasarım"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "IU International University of Applied Sciences",
+    city: "Bad Honnef",
+    description: "Uluslararası odaklı özel uzaktan eğitim Fachhochschule'si",
+    programs: ["İşletme", "Bilgisayar", "Sağlık", "Pazarlama"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "SRH University Heidelberg",
+    city: "Heidelberg",
+    description: "Heidelberg'de özel sağlık ve mühendislik odaklı Fachhochschule",
+    programs: ["Sağlık", "Mühendislik", "İşletme", "Psikoloji"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "SRH Hochschule Berlin",
+    city: "Berlin",
+    description: "Berlin'de özel işletme ve teknoloji odaklı Fachhochschule",
+    programs: ["İşletme", "Teknoloji", "Tasarım", "Medya"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Technical University of Applied Sciences Lübeck",
+    city: "Lübeck",
+    description: "Lübeck'te teknik uygulamalar odaklı Fachhochschule",
+    programs: ["Mühendislik", "Bilgisayar", "Teknoloji", "İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hanover University of Applied Sciences and Arts",
+    city: "Hannover",
+    description: "Hannover'da sanat ve uygulamalı bilimler birleşimi",
+    programs: ["Tasarım", "Medya", "Mühendislik", "İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Fachhochschule Dortmund",
+    city: "Dortmund",
+    description: "Dortmund'da geniş program yelpazesine sahip büyük Fachhochschule",
+    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Merseburg University of Applied Sciences",
+    city: "Merseburg",
+    description: "Sachsen-Anhalt'ta kimya ve mühendislik odaklı geleneksel Fachhochschule",
+    programs: ["Kimya Mühendisliği", "Mühendislik", "Medya", "İşletme"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule Neu-Ulm für Wirtschaft (HNU)",
+    city: "Neu-Ulm",
+    description: "Ekonomi ve bilgi yönetimi odaklı modern işletme Fachhochschule'si",
+    programs: ["İşletme", "Bilgi Yönetimi", "Lojistik", "Sağlık Yönetimi"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule Neubrandenburg",
+    city: "Neubrandenburg",
+    description: "Mecklenburg'da tarım ve gıda teknolojisi odaklı Fachhochschule",
+    programs: ["Tarım", "Gıda Teknolojisi", "Çevre", "Sosyal Çalışma"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hof University of Applied Sciences",
+    city: "Hof",
+    description: "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı köklü Fachhochschule",
+    programs: ["Teknoloji", "İşletme", "Bilgisayar", "Mühendislik"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Ludwigshafen University of Applied Sciences",
+    city: "Ludwigshafen",
+    description: "Rhine-Neckar bölgesinde işletme ve sosyal çalışma odaklı Fachhochschule",
+    programs: ["İşletme", "Sosyal Çalışma", "Sağlık", "Mühendislik"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Kempten University of Applied Sciences",
+    city: "Kempten",
+    description: "Allgäu bölgesinde turizm ve teknoloji odaklı Fachhochschule",
+    programs: ["Turizm", "Teknoloji", "İşletme", "Mühendislik"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Landshut",
+    city: "Landshut",
+    description: "Bavyera'da mühendislik ve işletme odaklı güçlü Fachhochschule",
+    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Teknoloji"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
   }
 ];
 
