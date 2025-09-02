@@ -2935,6 +2935,126 @@ const universities = [
     tuition: "Devlet Yüksekokulu - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "TU Darmstadt (Technische Universität Darmstadt)",
+    city: "Darmstadt",
+    description: "Almanya'nın en prestijli teknoloji üniversitelerinden",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Teknoloji", "Bilgisayar"],
+    ranking: 5,
+    worldRanking: 234,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "TU Dresden (Technische Universität Dresden)",
+    city: "Dresden",
+    description: "Doğu Almanya'nın en büyük teknik üniversitesi",
+    image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
+    ranking: 5,
+    worldRanking: 167,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "FAU Erlangen–Nuremberg (Friedrich-Alexander-Universität)",
+    city: "Erlangen",
+    description: "Friedrich-Alexander Üniversitesi",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Tıp", "Doğa Bilimleri"],
+    ranking: 5,
+    worldRanking: 225,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Weimar (Bauhaus-Universität)",
+    city: "Weimar",
+    description: "Bauhaus geleneğinde sanat ve mimarlık",
+    image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mimarlık", "Sanat", "Tasarım"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Göttingen (Georg-August-Universität)",
+    city: "Göttingen",
+    description: "Georg-August-Universität - Nobel ödüllü bilim insanlarının üniversitesi",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Fizik", "Matematik", "Biyoloji"],
+    ranking: 5,
+    worldRanking: 121,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "Justus Liebig University Giessen",
+    city: "Giessen",
+    description: "Justus Liebig Üniversitesi - Veteriner ve tarım bilimlerinde öncü",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Veteriner", "Tarım", "Yaşam Bilimleri"],
+    ranking: 4,
+    worldRanking: 345,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Kiel (Christian-Albrechts-Universität)",
+    city: "Kiel",
+    description: "Christian-Albrechts-Universität - Deniz bilimleri merkezi",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Deniz Bilimleri", "Tıp", "Hukuk"],
+    ranking: 4,
+    worldRanking: 345,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Münster (Westfälische Wilhelms-Universität)",
+    city: "Münster",
+    description: "Westfälische Wilhelms-Universität - NRW'de prestijli üniversite",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Hukuk", "Tıp", "Felsefe"],
+    ranking: 4,
+    worldRanking: 234,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Oldenburg (Carl von Ossietzky Universität)",
+    city: "Oldenburg",
+    description: "Carl von Ossietzky Universität - Kuzey Almanya'da modern üniversite",
+    image: "https://images.unsplash.com/photo-1568667256549-094345857637?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Eğitim", "Çevre Bilimleri", "İnsan Bilimleri"],
+    ranking: 4,
+    worldRanking: 456,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Würzburg (Julius-Maximilians-Universität)",
+    city: "Würzburg",
+    description: "Julius-Maximilians-Universität - Bavyera'da tarihi üniversite",
+    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Tıp", "Biyoloji", "Felsefe"],
+    ranking: 4,
+    worldRanking: 234,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
   }
 ];
 
