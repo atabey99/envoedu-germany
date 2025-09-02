@@ -18,7 +18,19 @@ interface University {
   category: UniversityCategory;
 }
 
-const universities: University[] = [];
+const universities: University[] = [
+  {
+    name: "RWTH Aachen University",
+    city: "Aachen",
+    description: "Almanya'nın en prestijli teknik üniversitelerinden biri",
+    programs: ["Mühendislik", "Fen Bilimleri", "Teknoloji", "Tıp"],
+    ranking: 1,
+    worldRanking: 87,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  }
+];
 
 const categoryOptions = ["Üniversite", "Fachhochschule"];
 const programs = ["Tümü", "Mühendislik", "Tıp", "İşletme", "Hukuk", "Fen Bilimleri"];
