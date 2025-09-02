@@ -889,6 +889,127 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory
   },
   {
+    name: "University of Augsburg",
+    city: "Augsburg",
+    description: "1970'de kurulan, sosyal bilimler ve işletme odaklı modern üniversite",
+    programs: ["Sosyal Bilimler", "İşletme", "Hukuk", "Matematik"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Bamberg (Otto-Friedrich-Universität)",
+    city: "Bamberg",
+    description: "Sosyal bilimler ve beşeri bilimler odaklı prestijli küçük üniversite",
+    programs: ["Sosyal Bilimler", "Beşeri Bilimler", "İşletme", "Eğitim"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Bayreuth",
+    city: "Bayreuth",
+    description: "1975'te kurulan, hukuk ve ekonomi alanında güçlü araştırma üniversitesi",
+    programs: ["Hukuk", "İşletme", "Doğa Bilimleri", "Mühendislik"],
+    ranking: 2,
+    worldRanking: 301,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Passau",
+    city: "Passau",
+    description: "Hukuk, işletme ve bilgisayar bilimleri alanında güçlü küçük üniversite",
+    programs: ["Hukuk", "İşletme", "Bilgisayar", "Sosyal Bilimler"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Konstanz",
+    city: "Konstanz",
+    description: "1966'da kurulan, araştırma odaklı mükemmellik üniversitesi",
+    programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Hukuk", "İşletme"],
+    ranking: 1,
+    worldRanking: 151,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Duisburg-Essen",
+    city: "Duisburg",
+    description: "Ruhr bölgesinin büyük araştırma üniversitesi, çok kampüslü",
+    programs: ["Mühendislik", "Tıp", "İşletme", "Sosyal Bilimler"],
+    ranking: 2,
+    worldRanking: 251,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Kiel (Christian-Albrechts-Universität)",
+    city: "Kiel",
+    description: "1665'te kurulan, deniz bilimleri ve tıp alanında güçlü üniversite",
+    programs: ["Tıp", "Deniz Bilimleri", "Hukuk", "Sosyal Bilimler"],
+    ranking: 2,
+    worldRanking: 251,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Oldenburg (Carl von Ossietzky Universität)",
+    city: "Oldenburg",
+    description: "1973'te kurulan, eğitim ve çevre bilimleri odaklı üniversite",
+    programs: ["Eğitim", "Çevre Bilimleri", "İşletme", "Sosyal Bilimler"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Lübeck",
+    city: "Lübeck",
+    description: "Tıp ve teknoloji odaklı küçük ama prestijli araştırma üniversitesi",
+    programs: ["Tıp", "Teknoloji", "Bilgisayar", "Doğa Bilimleri"],
+    ranking: 2,
+    worldRanking: 301,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Osnabrück",
+    city: "Osnabrück",
+    description: "Sosyal bilimler ve öğretmen eğitimi alanında güçlü üniversite",
+    programs: ["Sosyal Bilimler", "Eğitim", "İşletme", "Hukuk"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
+    name: "University of Kassel",
+    city: "Kassel",
+    description: "1971'de kurulan, mühendislik ve sanat alanında güçlü üniversite",
+    programs: ["Mühendislik", "Sanat", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory
+  },
+  {
     name: "FH Aachen – University of Applied Sciences",
     city: "Aachen",
     description: "Uygulamalı bilimler alanında güçlü mühendislik programları",
