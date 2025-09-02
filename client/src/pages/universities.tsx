@@ -1767,6 +1767,226 @@ const universities: University[] = [
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Alice Salomon University of Applied Sciences Berlin",
+    city: "Berlin",
+    description: "Sosyal çalışma ve sağlık alanında uzman Berlin Fachhochschule'si",
+    programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Berlin School of Economics and Law",
+    city: "Berlin",
+    description: "Berlin'de işletme ve hukuk odaklı uygulamalı bilimler üniversitesi",
+    programs: ["İşletme", "Hukuk", "Kamu Yönetimi", "Sosyal Bilimler"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Berliner Hochschule für Technik (HTW Berlin)",
+    city: "Berlin",
+    description: "Berlin'in teknik uygulamalar odaklı Fachhochschule'si",
+    programs: ["Mühendislik", "Teknoloji", "Bilgisayar", "Tasarım"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Dresden University of Applied Sciences (HTW Dresden)",
+    city: "Dresden",
+    description: "Dresden'de teknoloji ve mühendislik odaklı Fachhochschule",
+    programs: ["Mühendislik", "Teknoloji", "İşletme", "Tasarım"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Ernst-Abbe-Hochschule Jena",
+    city: "Jena",
+    description: "Jena'da teknoloji ve mühendislik odaklı Fachhochschule",
+    programs: ["Optik", "Mühendislik", "İşletme", "Sosyal Çalışma"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Eberswalde University for Sustainable Development",
+    city: "Eberswalde",
+    description: "Sürdürülebilir kalkınma ve orman mühendisliği odaklı uzman Fachhochschule",
+    programs: ["Orman Mühendisliği", "Sürdürülebilirlik", "Çevre", "Turizm"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Jade University of Applied Sciences (Wilhelmshaven/Oldenburg/Elsfleth)",
+    city: "Wilhelmshaven",
+    description: "Kuzey Almanya'da üç kampüslü denizcilik ve mühendislik Fachhochschule'si",
+    programs: ["Denizcilik", "Mühendislik", "Mimarlık", "İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Kiel University of Applied Sciences",
+    city: "Kiel",
+    description: "Schleswig-Holstein'da denizcilik ve teknoloji odaklı Fachhochschule",
+    programs: ["Denizcilik", "Mühendislik", "İşletme", "Sosyal Çalışma"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "West Coast University of Applied Sciences (Westküste)",
+    city: "Heide",
+    description: "Schleswig-Holstein'da küçük ama uzman Fachhochschule",
+    programs: ["İşletme", "Hukuk", "Teknoloji", "Çevre"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Harz University of Applied Studies",
+    city: "Wernigerode",
+    description: "Harz dağlarında turizm ve bilgisayar odaklı Fachhochschule",
+    programs: ["Turizm", "Bilgisayar", "İşletme", "Medya"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Nordhausen University of Applied Sciences",
+    city: "Nordhausen",
+    description: "Thüringen'de mühendislik ve sosyal bilimler odaklı Fachhochschule",
+    programs: ["Mühendislik", "Sosyal Bilimler", "İşletme", "Sağlık"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule Wismar",
+    city: "Wismar",
+    description: "Baltık denizi kıyısında denizcilik ve mühendislik odaklı Fachhochschule",
+    programs: ["Denizcilik", "Mühendislik", "İşletme", "Tasarım"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule Mittweida",
+    city: "Mittweida",
+    description: "Saksonya'da medya ve teknoloji odaklı geleneksel Fachhochschule",
+    programs: ["Medya", "Teknoloji", "İşletme", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Frankfurt University of Applied Sciences",
+    city: "Frankfurt am Main",
+    description: "Frankfurt'ta geniş program yelpazesine sahip büyük Fachhochschule",
+    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Sağlık"],
+    ranking: 2,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Bingen Technical University of Applied Sciences",
+    city: "Bingen",
+    description: "Rheinland-Pfalz'ta teknik ve çevre odaklı Fachhochschule",
+    programs: ["Çevre Teknolojisi", "Mühendislik", "İşletme", "Kimya"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Environmental Campus Birkenfeld",
+    city: "Birkenfeld",
+    description: "Çevre teknolojileri ve sürdürülebilirlik odaklı uzman kampüs",
+    programs: ["Çevre Teknolojisi", "Sürdürülebilirlik", "Enerji", "İşletme"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Munich Business School",
+    city: "München",
+    description: "München'de özel işletme odaklı Fachhochschule",
+    programs: ["İşletme", "Finans", "Pazarlama", "Uluslararası İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Coburg University of Applied Sciences",
+    city: "Coburg",
+    description: "Bavyera'da tasarım ve mühendislik odaklı köklü Fachhochschule",
+    programs: ["Tasarım", "Mühendislik", "İşletme", "Sosyal Çalışma"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Lutheran University of Applied Sciences Nuremberg",
+    city: "Nürnberg",
+    description: "Nürnberg'de sosyal çalışma ve sağlık odaklı Protestan Fachhochschule",
+    programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Düşük Ücret",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "FOM University of Applied Sciences",
+    city: "Essen",
+    description: "Almanya'nın en büyük özel Fachhochschule'si, çok kampüslü",
+    programs: ["İşletme", "Mühendislik", "Sağlık", "Hukuk"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
   }
 ];
 
