@@ -2815,6 +2815,126 @@ const universities = [
     tuition: "Devlet Yüksekokulu - Ücretsiz",
     language: ["Almanca"],
     category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Berlin",
+    city: "Berlin",
+    description: "Berlin'de teknoloji ve işletme eğitimi",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "İşletme", "Bilgisayar"],
+    ranking: 4,
+    worldRanking: 456,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Bielefeld",
+    city: "Bielefeld",
+    description: "Bielefeld'de mühendislik ve sosyal bilimler",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Sosyal Çalışma", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Bochum",
+    city: "Bochum",
+    description: "Bochum'da teknoloji ve mühendislik",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Teknoloji", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Bonn-Rhein-Sieg",
+    city: "Sankt Augustin",
+    description: "Bonn yakınında teknoloji ve işletme",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Bilgisayar", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Brandenburg",
+    city: "Brandenburg",
+    description: "Brandenburg'da teknoloji ve işletme",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "İşletme", "Bilgisayar"],
+    ranking: 4,
+    worldRanking: 678,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Darmstadt",
+    city: "Darmstadt",
+    description: "Darmstadt'ta teknoloji ve mühendislik",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Teknoloji", "Bilgisayar"],
+    ranking: 4,
+    worldRanking: 456,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Dresden",
+    city: "Dresden",
+    description: "Dresden'de teknoloji ve tasarım",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Tasarım", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Essen",
+    city: "Essen",
+    description: "Essen'de mühendislik ve sosyal bilimler",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Sosyal Çalışma", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Freiburg",
+    city: "Freiburg",
+    description: "Freiburg'da teknoloji ve çevre bilimleri",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Mühendislik", "Çevre Bilimleri", "İşletme"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "University of Applied Sciences Gelsenkirchen",
+    city: "Gelsenkirchen",
+    description: "Gelsenkirchen'de enerji ve teknoloji",
+    image: "https://images.unsplash.com/photo-1523050854058-99df38ce1532?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&h=200",
+    programs: ["Enerji Mühendisliği", "Mühendislik", "İşletme"],
+    ranking: 4,
+    worldRanking: 678,
+    tuition: "Devlet Yüksekokulu - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
   }
 ];
 
