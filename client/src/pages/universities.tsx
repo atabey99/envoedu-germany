@@ -3026,13 +3026,6 @@ export default function Universities() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
           {filteredUniversities.map((university, index) => (
             <div key={index} className="bg-card p-6 rounded-xl shadow-sm border border-border card-hover" data-testid={`university-${index}`}>
-              <img 
-                src={university.image} 
-                alt={`${university.name} campus`} 
-                className="w-full h-48 object-cover rounded-lg mb-4" 
-                data-testid={`university-image-${index}`}
-              />
-              
               <div className="space-y-3">
                 <div className="flex justify-between items-start">
                   <h3 className="text-xl font-semibold text-foreground" data-testid={`university-name-${index}`}>
