@@ -2801,6 +2801,72 @@ const universities: University[] = [
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule der Bundesagentur für Arbeit (HdBA)",
+    city: "Mannheim",
+    description: "Federal İstihdam Ajansı'nın özel amaçlı kamu yönetimi Fachhochschule'si",
+    programs: ["Kamu Yönetimi", "İstihdam Politikaları", "Sosyal Güvenlik", "İşgücü"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Özel Program",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Katholische Hochschule Nordrhein-Westfalen",
+    city: "Köln",
+    description: "Kuzey Rhein-Westfalen'da Katolik sosyal çalışma odaklı dört kampüslü Fachhochschule",
+    programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Düşük Ücret",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Evangelische Hochschule Darmstadt",
+    city: "Darmstadt",
+    description: "Darmstadt'ta Protestan değerlerle sosyal çalışma eğitimi veren Fachhochschule",
+    programs: ["Sosyal Çalışma", "Sosyal Pedagoji", "Eğitim", "Danışmanlık"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Düşük Ücret",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule für Polizei Baden-Württemberg",
+    city: "Villingen-Schwenningen",
+    description: "Baden-Württemberg eyalet polisi için özel polis eğitimi Fachhochschule'si",
+    programs: ["Polis Bilimleri", "Kamu Güvenliği", "Hukuk", "Kriminoloji"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Özel Program",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "AMD Akademie Mode & Design",
+    city: "Hamburg",
+    description: "Moda ve tasarım alanında uzman özel çok kampüslü Fachhochschule",
+    programs: ["Moda Tasarımı", "Grafik Tasarım", "İç Mimarlık", "Moda İşletmeciliği"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory
+  },
+  {
+    name: "Hochschule für Verwaltung und Rechtspflege",
+    city: "Meißen",
+    description: "Saksonya'da kamu yönetimi ve hukuk uygulamaları odaklı devlet Fachhochschule'si",
+    programs: ["Kamu Yönetimi", "Hukuk", "Vergi", "Sosyal Güvenlik"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Özel Program",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory
   }
 ];
 
