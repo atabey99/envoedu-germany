@@ -9,7 +9,6 @@ const universities = [
     name: "Technical University of Munich",
     city: "München",
     description: "Almanya'nın en iyi teknik üniversitelerinden biri",
-    image: "https://images.unsplash.com/photo-1564981797816-1043664bf78d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Mühendislik", "Fen Bilimleri", "Bilgisayar Bilimleri"],
     ranking: 5,
     worldRanking: 54,
@@ -48,7 +47,6 @@ const universities = [
     name: "Heidelberg Üniversitesi",
     city: "Heidelberg", 
     description: "Almanya'nın en eski ve prestijli üniversitesi",
-    image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Tıp", "Hukuk", "Felsefe"],
     ranking: 5,
     worldRanking: 64,
@@ -87,7 +85,6 @@ const universities = [
     name: "Humboldt Üniversitesi",
     city: "Berlin",
     description: "Berlin'in kalbi Unter den Linden'da",
-    image: "https://images.unsplash.com/photo-1562774053-701939374585?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["İşletme", "Sosyoloji", "Tarih"],
     ranking: 4,
     worldRanking: 127,
@@ -126,7 +123,6 @@ const universities = [
     name: "Max Planck Institute",
     city: "Göttingen",
     description: "Dünya çapında araştırma merkezi",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Fizik", "Kimya", "Biyoloji"],
     ranking: 5,
     worldRanking: 35,
@@ -165,7 +161,6 @@ const universities = [
     name: "RWTH Aachen",
     city: "Aachen",
     description: "Almanya'nın en büyük teknik üniversitesi",
-    image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Mühendislik", "Makine", "Elektrik"],
     ranking: 5,
     worldRanking: 145,
@@ -204,7 +199,6 @@ const universities = [
     name: "Freie Universität Berlin",
     city: "Berlin",
     description: "Berlin'in liberal ve uluslararası üniversitesi",
-    image: "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     programs: ["Siyaset Bilimi", "Edebiyat", "Psikoloji"],
     ranking: 4,
     worldRanking: 138,
@@ -265,48 +259,38 @@ export default function UniversityDetail() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Hero Section */}
           <div className="mb-16">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-              <div className="space-y-6">
-                <div className="flex items-center space-x-4">
-                  <div className="bg-gradient-to-r from-accent to-primary text-white px-4 py-2 rounded-xl border-2 border-accent/30 text-lg font-bold shadow-md">
-                    Dünya Sıralaması #{university.worldRanking}
-                  </div>
-                </div>
-                
-                <h1 className="text-5xl font-bold text-foreground mb-4" data-testid="university-detail-title">
-                  {university.name}
-                </h1>
-                
-                <div className="flex items-center text-muted-foreground text-lg">
-                  <MapPin className="w-5 h-5 mr-2" />
-                  <span>{university.city}, Almanya</span>
-                </div>
-                
-                <p className="text-xl text-muted-foreground leading-relaxed">
-                  {university.description}
-                </p>
-                
-                {/* University Map */}
-                <div className="mt-6 border border-border rounded-xl overflow-hidden shadow-lg">
-                  <iframe
-                    src={`https://www.google.com/maps?q=${university.coordinates}&output=embed`}
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title={`${university.name} lokasyonu`}
-                  ></iframe>
+            <div className="space-y-6">
+              <div className="flex items-center space-x-4">
+                <div className="bg-gradient-to-r from-accent to-primary text-white px-4 py-2 rounded-xl border-2 border-accent/30 text-lg font-bold shadow-md">
+                  Dünya Sıralaması #{university.worldRanking}
                 </div>
               </div>
               
-              <div className="relative">
-                <img 
-                  src={university.image} 
-                  alt={`${university.name} kampüsü`} 
-                  className="w-full h-96 object-cover rounded-xl shadow-lg" 
-                />
+              <h1 className="text-5xl font-bold text-foreground mb-4" data-testid="university-detail-title">
+                {university.name}
+              </h1>
+              
+              <div className="flex items-center text-muted-foreground text-lg">
+                <MapPin className="w-5 h-5 mr-2" />
+                <span>{university.city}, Almanya</span>
+              </div>
+              
+              <p className="text-xl text-muted-foreground leading-relaxed">
+                {university.description}
+              </p>
+              
+              {/* University Map */}
+              <div className="mt-6 border border-border rounded-xl overflow-hidden shadow-lg">
+                <iframe
+                  src={`https://www.google.com/maps?q=${university.coordinates}&output=embed`}
+                  width="100%"
+                  height="300"
+                  style={{ border: 0 }}
+                  allowFullScreen
+                  loading="lazy"
+                  referrerPolicy="no-referrer-when-downgrade"
+                  title={`${university.name} lokasyonu`}
+                ></iframe>
               </div>
             </div>
           </div>
