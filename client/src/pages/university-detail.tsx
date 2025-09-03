@@ -231,6 +231,51 @@ const universities = [
       "Uluslararası öğrenci desteği",
       "Berlin akademik bursları"
     ]
+  },
+  {
+    id: 6,
+    name: "University of Erfurt",
+    city: "Erfurt",
+    description: "Liberal sanatlar ve sosyal bilimler odaklı reform üniversitesi",
+    programs: ["Sosyal Bilimler", "Eğitim", "Hukuk", "Felsefe"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1379,
+    students: 6000,
+    internationalStudents: 500,
+    coordinates: "50.9877,11.0065",
+    address: "Nordhäuser Straße 63, 99089 Erfurt, Germany",
+    faculties: ["Felsefe", "Eğitim Bilimleri", "Ekonomi/Hukuk/Sosyal Bilimler", "Katolik İlahiyat", "Max Weber Merkezi"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur eşdeğeri",
+      "Almanca dil yeterlik belgesi (DSH-2 veya TestDaF 4x4)",
+      "İngilizce programlar için IELTS 6.0+ veya TOEFL",
+      "Bazı programlar için özel yetenek sınavı",
+      "Motivasyon mektubu ve CV",
+      "Akademik referans mektupları"
+    ],
+    campusFacilities: [
+      "Modern kampüs kompleksi",
+      "Erfurt Üniversite Kütüphanesi",
+      "Audimax ana konferans salonu",
+      "Spor salonu ve beach volley sahası",
+      "Öğrenci yaşam merkezleri",
+      "Kampüs eğitim bahçesi",
+      "Villa Martin (İlahiyat binası)",
+      "Gotha Araştırma Merkezi",
+      "Kafeler ve sosyal alanlar"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Deutschland Stipendium",
+      "PROMOS programı",
+      "Thüringen eyalet bursları",
+      "Erasmus+ değişim programları",
+      "Araştırma asistanlığı bursları",
+      "Uluslararası öğrenci destekleri"
+    ]
   }
 ];
 
