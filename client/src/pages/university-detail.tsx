@@ -1,4 +1,5 @@
 import { useParams } from "wouter";
+import { useEffect } from "react";
 import { MapPin, Star, Globe, Calendar, BookOpen, Users, Award, Clock } from "lucide-react";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
@@ -2009,6 +2010,11 @@ export default function UniversityDetail() {
   const params = useParams();
   const universityId = parseInt(params.id || "0");
   const university = universities.find(uni => uni.id === universityId);
+
+  // Sayfa açıldığında en üste scroll et
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [universityId]);
 
   if (!university) {
     return (
