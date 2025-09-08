@@ -1092,6 +1092,419 @@ const universities = [
       "Tarihi vakıf bursları",
       "Uluslararası öğrenci destekleri"
     ]
+  },
+  {
+    id: 27,
+    name: "University of Hamburg",
+    city: "Hamburg",
+    description: "1919'da kurulan, Hamburg'un en büyük araştırma üniversitesi",
+    programs: ["Hukuk", "İşletme", "Tıp", "Beşeri Bilimler"],
+    ranking: 2,
+    worldRanking: 191,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1919,
+    students: 44000,
+    internationalStudents: 4400,
+    coordinates: "53.5683,9.9755",
+    address: "Edmund-Siemers-Allee 1, 20146 Hamburg, Germany",
+    faculties: ["Hukuk", "İşletme/Ekonomi/Sosyal", "Tıp", "Eğitim", "Beşeri Bilimler", "Matematik/Doğa", "Psikoloji/İnsan Hareketi", "Hamburg İş Okulu"],
+    admissionRequirements: [
+      "10,000 yeni öğrenci/yıl",
+      "Numerus clausus programlar için GPA seçici",
+      "149 farklı ana alan",
+      "180+ derece programı",
+      "Almanca dil yeterliliği",
+      "Bazı İngilizce yüksek lisans programları"
+    ],
+    campusFacilities: [
+      "Von-Melle-Park ana kampüsü",
+      "Botanik bahçesi (Klein Flottbek)",
+      "Hamburg Gözlemevi",
+      "7 işbirliği araştırma merkezi",
+      "4 Mükemmellik Kümesi (2019'dan beri)",
+      "Zooloji ve Mineraloji müzeleri",
+      "DESY tesisleri ortaklığı"
+    ],
+    scholarships: [
+      "Uluslararası öğrenci bursları",
+      "DAAD bursları",
+      "Research assistantship programs",
+      "Excellence University status benefits",
+      "Çok sayıda external funding opportunities"
+    ]
+  },
+  {
+    id: 28,
+    name: "University of Stuttgart",
+    city: "Stuttgart",
+    description: "1829'da kurulan, TU9 üyesi teknik üniversite",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Mimarlık", "İnsan Bilimleri"],
+    ranking: 2,
+    worldRanking: 312,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1829,
+    students: 20898,
+    internationalStudents: 5580,
+    coordinates: "48.7425,9.1062",
+    address: "Pfaffenwaldring 5c, 70569 Stuttgart, Germany",
+    faculties: ["Mimarlık/Kent Planlama", "İnşaat/Çevre", "Kimya", "Enerji/Süreç/Bio", "Bilgisayar/Elektrik", "Havacılık/Jeodezi", "Mühendislik Tasarım", "Matematik/Fizik", "Beşeri Bilimler", "Yönetim/Ekonomi/Sosyal"],
+    admissionRequirements: [
+      "Minimum 2.8 GPA (4.0 üzerinden)",
+      "Kabul oranı ~%53",
+      "8-10% uluslararası lisans kabul",
+      "IELTS skorları gerekli",
+      "C@MPUS başvuru sistemi",
+      "167 toplam program"
+    ],
+    campusFacilities: [
+      "İki ana kampüs (Stadtmitte/Vaihingen)",
+      "Merkezi kütüphane + 117 enstitü kütüphanesi",
+      "Combined Heating and Power plant",
+      "5 öğrenci yurdu (~3,000 daire)",
+      "Modern spor tesisleri",
+      "S-Bahn bağlantısı (Universität durağı)"
+    ],
+    scholarships: [
+      "DAAD (ana burs sağlayıcı)",
+      "Home country scholarships",
+      "€213.50-€300/hafta yurt ücretleri",
+      "International Office destekleri",
+      "Endüstri işbirlikleri"
+    ]
+  },
+  {
+    id: 29,
+    name: "Karlsruhe Institute of Technology (KIT)",
+    city: "Karlsruhe",
+    description: "2009'da kurulan (1825 köklü), Excellence University",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Bilgisayar", "Ekonomi"],
+    ranking: 1,
+    worldRanking: 98,
+    tuition: "EU dışından €1,500/dönem",
+    language: ["Almanca", "İngilizce"],
+    founded: 2009,
+    students: 25100,
+    internationalStudents: 6000,
+    coordinates: "49.0097,8.4044",
+    address: "P.O. Box 3640, 76021 Karlsruhe, Germany",
+    faculties: ["Mimarlık", "İnşaat/Jeoloji/Ekoloji", "Kimya/Süreç", "Kimya/Biyoloji", "Bilgisayar", "Ekonomi", "Elektrik/IT", "Beşeri/Sosyal", "Matematik", "Makine", "Fizik"],
+    admissionRequirements: [
+      "Kabul oranı %26 (çok seçici)",
+      "Lisans 3 hafta, Yüksek lisans 4-5 hafta süre",
+      "Kış dönemi: 15 Temmuz",
+      "Yaz dönemi: 15 Ocak",
+      "İngilizce programlar mevcut",
+      "Excellence University statüsü"
+    ],
+    campusFacilities: [
+      "Kampüs Kuzey + Kampüs Güney",
+      "Ana Alman nükleer araştırma merkezi",
+      "KATRIN nötrino deneyi",
+      "€900 milyon yıllık bütçe",
+      "120+ uzman araştırma enstitüsü",
+      "10 tam donanımlı bilgisayar odası"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Excellence Initiative finansmanı",
+      "Carl Benz School programları",
+      "HECTOR School business programları",
+      "Uluslararası değişim bursları"
+    ]
+  },
+  {
+    id: 30,
+    name: "University of Göttingen",
+    city: "Göttingen",
+    description: "1737'de kurulan, 47 Nobel ödüllü ile ilişkili",
+    programs: ["Doğa Bilimleri", "Tıp", "Beşeri Bilimler", "Hukuk"],
+    ranking: 2,
+    worldRanking: 243,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1737,
+    students: 28000,
+    internationalStudents: 3080,
+    coordinates: "51.5339,9.9386",
+    address: "Wilhelmsplatz 1, 37073 Göttingen, Germany",
+    faculties: ["Doğa Bilimleri (Kimya/Biyoloji/Fizik/Matematik)", "Tıp", "Beşeri/Sosyal", "Hukuk", "Ekonomi", "Tarım", "Orman/Ekoloji", "Jeobilim/Coğrafya", "İlahiyat"],
+    admissionRequirements: [
+      "210+ derece programı",
+      "%11 uluslararası öğrenci",
+      "535 profesör",
+      "U15 araştırma üniversiteleri üyesi",
+      "Göttingen Campus ittifakı",
+      "7 araştırma merkezi ortaklığı"
+    ],
+    campusFacilities: [
+      "Merkezi kampüs şehir merkezi yakını",
+      "Güney matematik/bilgisayar fakültesi",
+      "Kuzey doğa bilimleri merkezi",
+      "Botanik bahçeleri",
+      "Max Planck enstitüleri yakınlığı",
+      "Merkezi kütüphane",
+      "UNESCO Dünya Mirası şehir"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "U15 araştırma bursları",
+      "Max Planck ortaklık bursları",
+      "Göttingen Campus fonları",
+      "Uluslararası değişim programları"
+    ]
+  },
+  {
+    id: 31,
+    name: "University of Würzburg",
+    city: "Würzburg",
+    description: "1402'de kurulan, Röntgen'in X-ışını keşfettiği yer",
+    programs: ["Tıp", "Doğa Bilimleri", "Beşeri Bilimler", "Hukuk"],
+    ranking: 2,
+    worldRanking: 416,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1402,
+    students: 26787,
+    internationalStudents: 1000,
+    coordinates: "49.7832,9.9726",
+    address: "Sanderring 2, 97070 Würzburg, Germany",
+    faculties: ["Protestan İlahiyat", "Katolik İlahiyat", "Hukuk", "Ekonomi/İşletme", "Tıp", "Felsefe/Tarih", "Sosyal/Davranış", "Modern Diller", "Kültür", "Matematik/Fizik", "Kimya/Eczacılık", "Biyoloji", "Jeobilimler", "Psikoloji/Bilgisayar"],
+    admissionRequirements: [
+      "280 derece programı",
+      "483 profesör",
+      "U15 araştırma üniversiteleri",
+      "14 Nobel ödüllü ilişkisi",
+      "Coimbra Group üyesi",
+      "€162.1 milyon dış fon"
+    ],
+    campusFacilities: [
+      "Hubland Kampüsü (111 hektar)",
+      "Eski Şehir tarihi binalar",
+      "Tıp Kampüsü (Grombühl)",
+      "Botanik Bahçesi (17. yy)",
+      "29 ERC hibesi",
+      "11 Leibniz Ödülü",
+      "2 Mükemmellik Kümesi"
+    ],
+    scholarships: [
+      "Uluslararası öğrenci burs programları",
+      "4 Lisansüstü Okul",
+      "Almanca dil kursları",
+      "DAAD bursları",
+      "Research excellence funding"
+    ]
+  },
+  {
+    id: 32,
+    name: "University of Mannheim",
+    city: "Mannheim",
+    description: "1967'de kurulan, Almanya'da İşletme #1",
+    programs: ["İşletme", "Ekonomi", "Sosyal Bilimler", "Hukuk"],
+    ranking: 2,
+    worldRanking: 416,
+    tuition: "Uluslararası €1,500/dönem",
+    language: ["Almanca", "İngilizce"],
+    founded: 1967,
+    students: 11640,
+    internationalStudents: 1700,
+    coordinates: "49.4836,8.4630",
+    address: "L 1, 1 (Entrance B), 68161 Mannheim, Germany",
+    faculties: ["İşletme Yönetimi", "Ekonomi", "Sosyal Bilimler", "Hukuk", "Beşeri Bilimler"],
+    admissionRequirements: [
+      "Kabul oranı %20-35 (seçici)",
+      "Ücretsiz başvuru",
+      "Yaz ve Kış dönem kabulü",
+      "80+ lisans programı",
+      "62+ toplam kurs",
+      "APS sertifikası (Hindistan)"
+    ],
+    campusFacilities: [
+      "Mannheim Sarayı'nda (1720-1760)",
+      "6 hektar kampüs, 440m cephe",
+      "Mannheim Business School (MBS)",
+      "GESS Lisansüstü Okulu",
+      "50+ öğrenci organizasyonu",
+      "82 spor branşı",
+      "Kampüs merkezinde konum"
+    ],
+    scholarships: [
+      "Deutschland Scholarship",
+      "DAAD Scholarship (€1,000)",
+      "Konrad-Adenauer-Stiftung",
+      "ASEM-DUO Exchange Grant",
+      "Baden-Württemberg Scholarship",
+      "~200 öğrenci/yıl burs alır"
+    ]
+  },
+  {
+    id: 33,
+    name: "University of Konstanz",
+    city: "Konstanz",
+    description: "1966'da kurulan, 'Constance Gölü'nde Küçük Harvard'",
+    programs: ["Doğa Bilimleri", "Beşeri Bilimler", "Hukuk"],
+    ranking: 2,
+    worldRanking: 250,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1966,
+    students: 11500,
+    internationalStudents: 1150,
+    coordinates: "47.6900,9.1880",
+    address: "Universitätsstraße 10, D-78464 Konstanz, Germany",
+    faculties: ["Doğa Bilimleri", "Beşeri Bilimler", "Hukuk/Ekonomi/Siyaset"],
+    admissionRequirements: [
+      "100+ kurs programı",
+      "100 ülkeden öğrenci",
+      "Excellence University statüsü",
+      "Times Under 50 List #7 (2016)",
+      "İsviçre sınırından 4 km",
+      "Constance Gölü kıyısında"
+    ],
+    campusFacilities: [
+      "90,000 m² Gießberg kampüsü",
+      "Mainauwald ormanı içinde",
+      "24 saat açık kütüphane",
+      "Botanik bahçesi",
+      "2 yaya/bisiklet köprüsü",
+      "Almanya'nın en güneyindeki üniversite",
+      "Gölö manzaralı kampüs"
+    ],
+    scholarships: [
+      "Excellence University fonları",
+      "DAAD bursları",
+      "220+ Avrupa ortaklığı",
+      "Harvard/Yale işbirlikleri",
+      "Uluslararası değişim programları",
+      "Balsillie School ortaklığı"
+    ]
+  },
+  {
+    id: 34,
+    name: "University of Tübingen",
+    city: "Tübingen",
+    description: "1477'de kurulan, Excellence University",
+    programs: ["Tıp", "Hukuk", "İlahiyat", "Beşeri Bilimler"],
+    ranking: 1,
+    worldRanking: 150,
+    tuition: "Uluslararası €1,500/dönem",
+    language: ["Almanca", "İngilizce"],
+    founded: 1477,
+    students: 27665,
+    internationalStudents: 4100,
+    coordinates: "48.5200,9.0592",
+    address: "Geschwister-Scholl-Platz, 72074 Tübingen, Germany",
+    faculties: ["Protestan İlahiyat", "Katolik İlahiyat", "Hukuk", "Ekonomi/İşletme", "Tıp", "Felsefe/Tarih", "Sosyal/Davranış", "Modern Diller", "Kültür", "Matematik/Fizik", "Kimya/Eczacılık", "Biyoloji", "Jeobilimler", "Psikoloji/Bilgisayar"],
+    admissionRequirements: [
+      "200 çalışma programı",
+      "450+ profesör, 2,000 asistan",
+      "11 Nobel ödüllü ilişkisi",
+      "4+ dönem Almanca gerekli",
+      "Excellence University statüsü",
+      "€199.80/dönem ek ücret"
+    ],
+    campusFacilities: [
+      "Tarihi merkez (Beşeri bilimler)",
+      "Morgenstelle Kampüsü (Doğa bilimleri)",
+      "Klinikum (Tıp hastanesi)",
+      "Cyber Valley (AI konsorsiyumu)",
+      "Waldhäuser Ost yurdu (1,700 oda)",
+      "Französisches Viertel yurdu (500 oda)",
+      "UNESCO Dünya Mirası şehir"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Excellence University funding",
+      "Cyber Valley AI bursları",
+      "Uluslararası değişim programları",
+      "Hochschulsport facilities",
+      "Research excellence grants"
+    ]
+  },
+  {
+    id: 35,
+    name: "University of Regensburg",
+    city: "Regensburg",
+    description: "1962'de kurulan, Papa Benedict XVI'nın eski üniversitesi",
+    programs: ["İlahiyat", "Hukuk", "Tıp", "Beşeri Bilimler"],
+    ranking: 3,
+    worldRanking: 745,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1962,
+    students: 21000,
+    internationalStudents: 1800,
+    coordinates: "48.9922,12.0903",
+    address: "Universitätsstraße 31, 93053 Regensburg, Germany",
+    faculties: ["Katolik İlahiyat", "Hukuk", "İşletme/Ekonomi/YBS", "Tıp", "Felsefe/Sanat/Tarih", "Psikoloji/Eğitim/Spor", "Dil/Edebiyat/Kültür", "Matematik", "Fizik", "Biyoloji/Preklinik", "Kimya/Eczacılık"],
+    admissionRequirements: [
+      "158 disiplin programa",
+      "90 ülkeden öğrenci",
+      "%8 uluslararası öğrenci",
+      "312 profesör",
+      "13:1 öğrenci-öğretim üyesi oranı",
+      "%60 kadın öğrenci"
+    ],
+    campusFacilities: [
+      "Merkezi kampüs (150 hektar)",
+      "Tuna Nehri'nin güneyinde",
+      "Eski Şehir'e 15 dk otobüs",
+      "Büyük merkezi Mensa",
+      "3.15 milyon kitap kütüphane",
+      "360 partner üniversite",
+      "UNESCO Dünya Mirası şehir"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Almanca yeterlik kursları",
+      "360 partner üniversite değişim",
+      "Papa Benedict XVI mirası",
+      "Uluslararası ofis destekleri",
+      "Bavyera eyalet bursları"
+    ]
+  },
+  {
+    id: 36,
+    name: "Technical University of Berlin (TU Berlin)",
+    city: "Berlin",
+    description: "1879'da kurulan, TU9 üyesi teknik üniversite",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Bilgisayar", "İnsan Bilimleri"],
+    ranking: 2,
+    worldRanking: 145,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1879,
+    students: 43000,
+    internationalStudents: 10000,
+    coordinates: "52.5119,13.3269",
+    address: "Straße des 17. Juni 135, 10623 Berlin, Germany",
+    faculties: ["Beşeri/Eğitim", "Matematik/Doğa", "Süreç Bilimleri", "Elektrik/Bilgisayar", "Makine/Ulaştırma", "Planlama/İnşaat/Çevre", "Ekonomi/Yönetim"],
+    admissionRequirements: [
+      "150+ derece programı",
+      "20 İngilizce program",
+      "110+ Almanca program",
+      "%27 uluslararası öğrenci",
+      "Minimum 2.7 GPA (değişim)",
+      "A2 Almanca önerilir"
+    ],
+    campusFacilities: [
+      "Ernst-Reuter-Platz merkez",
+      "604,000 m² kampüs alanı",
+      "Rosa Röhre (pembe boru) landmark",
+      "Wedding/Dahlem ek lokasyonlar",
+      "Berlin University Alliance",
+      "Mükemmel ulaşım bağlantıları",
+      "Brandenburg Kapısı yakınlığı"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "TU9 alliance benefits",
+      "Berlin University Alliance",
+      "Excellence University fonları",
+      "Endüstri işbirliği bursları",
+      "10 Nobel ödüllü mezun"
+    ]
   }
 ];
 
