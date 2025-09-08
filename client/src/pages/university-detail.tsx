@@ -599,6 +599,499 @@ const universities = [
       "COOL SILICON bursları",
       "Endüstri işbirliği bursları"
     ]
+  },
+  {
+    id: 15,
+    name: "Clausthal University of Technology",
+    city: "Clausthal-Zellerfeld",
+    description: "1775'te kurulan, dünyanın en eski madencilik bilim üniversitesi",
+    programs: ["Maden Mühendisliği", "Metalurji", "Malzeme Bilimi", "Kimya Mühendisliği"],
+    ranking: 4,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1775,
+    students: 3500,
+    internationalStudents: 1050,
+    coordinates: "51.8067,10.3333",
+    address: "Adolph-Roemer-Straße 2A, 38678 Clausthal-Zellerfeld, Germany",
+    faculties: ["Enerji/Ham Maddeler", "Doğa Bilimleri/Malzeme", "Ekonomi/Matematik/Bilgisayar/Makine"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Kabul oranı %50 (açık kabul)",
+      "Almanca programlar için DSH-2/TestDaF",
+      "İngilizce programlar için IELTS/TOEFL",
+      "Minimum not şartı yok",
+      "75€ başvuru ücreti"
+    ],
+    campusFacilities: [
+      "Kompakt kampüs tasarımı",
+      "Harz Dağları'nda doğal manzara",
+      "Energy Research Center Goslar",
+      "Drilling Simulator Celle",
+      "60+ spor aktivitesi merkezi",
+      "Modern laboratuvarlar",
+      "Merkezi kütüphane"
+    ],
+    scholarships: [
+      "Almanya bursu programı (%8 öğrenci)",
+      "DAAD uluslararası bursları",
+      "Tarihi vakıf bursları",
+      "İş-çalışma fırsatları",
+      "Çin öğrenci özel programları"
+    ]
+  },
+  {
+    id: 16,
+    name: "University of Cologne",
+    city: "Köln",
+    description: "1388'de kurulan, Almanya'nın en eski üniversitelerinden biri",
+    programs: ["Hukuk", "İşletme", "Sosyal Bilimler", "Tıp"],
+    ranking: 1,
+    worldRanking: 157,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1388,
+    students: 52204,
+    internationalStudents: 5074,
+    coordinates: "50.9289,6.9283",
+    address: "Albertus-Magnus-Platz, 50923 Köln, Germany",
+    faculties: ["İşletme/Ekonomi/Sosyal", "Tıp", "Hukuk", "Beşeri Bilimler", "Matematik/Doğa", "İnsan Bilimleri"],
+    admissionRequirements: [
+      "Üniversite giriş yeterliliği belgesi",
+      "Almanca dil yeterlik belgesi (DSH-2)",
+      "Kabul oranı %20 (çok seçici)",
+      "İngilizce programlar için IELTS 5.5-7.0",
+      "Uni-Assist değerlendirme süreci",
+      "Başvuru ücreti yok"
+    ],
+    campusFacilities: [
+      "Köln şehir merkezinde kampüs",
+      "5.4 milyon ciltlik kütüphane sistemi",
+      "5 Mükemmellik Kümesi",
+      "Excellence Initiative üyesi",
+      "300+ üniversite ortaklığı",
+      "100+ öğrenci organizasyonu",
+      "Üniversite hastanesi"
+    ],
+    scholarships: [
+      "€300/ay üniversite bursları",
+      "DAAD bursları",
+      "Cologne Üniversite Vakfı",
+      "Performans odaklı ödüller",
+      "Engellilik destekleri"
+    ]
+  },
+  {
+    id: 17,
+    name: "Technical University of Darmstadt",
+    city: "Darmstadt",
+    description: "1877'de kurulan, Avrupa'nın ilk otonom üniversitesi",
+    programs: ["Mühendislik", "Bilgisayar", "Fizik", "Mimarlık"],
+    ranking: 3,
+    worldRanking: 253,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1877,
+    students: 25000,
+    internationalStudents: 4500,
+    coordinates: "49.8728,8.6512",
+    address: "Karolinenplatz 5, 64289 Darmstadt, Germany",
+    faculties: ["Mimarlık", "Biyoloji", "Kimya", "İnşaat/Çevre", "Bilgisayar", "Elektrik", "Tarih/Sosyal", "İnsan Bilimleri", "Hukuk/Ekonomi", "Malzeme/Yer", "Matematik", "Makine", "Fizik"],
+    admissionRequirements: [
+      "Almanca Abitur veya dengi",
+      "Kabul oranı %29 (orta seçici)",
+      "İngilizce programlar için IELTS 7.0+",
+      "Online TUCaN sistemi başvurusu",
+      "APS sertifikası (bazı ülkeler)",
+      "Studienkolleg hazırlık kursları"
+    ],
+    campusFacilities: [
+      "5 kampüs lokasyonu",
+      "164 bina 600 acre alanda",
+      "August-Euler Airfield",
+      "Dünyanın ilk elektrik mühendisliği fakültesi",
+      "UNITE! Avrupa Üniversitesi ağı",
+      "Excellence Cluster",
+      "Modern araştırma merkezleri"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Hükümet destekli programlar",
+      "Özel vakıf bursları",
+      "Kayıt ücreti €220/dönem",
+      "Yaşam maliyeti €9,000-13,000/yıl"
+    ]
+  },
+  {
+    id: 18,
+    name: "TU Dortmund University",
+    city: "Dortmund",
+    description: "1968'de kurulan genç ve dinamik teknik üniversite",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Sosyal Bilimler", "Öğretmenlik"],
+    ranking: 3,
+    worldRanking: 673,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1968,
+    students: 34600,
+    internationalStudents: 3806,
+    coordinates: "51.4928,7.4125",
+    address: "August-Schmidt-Straße 4, 44227 Dortmund, Germany",
+    faculties: ["Matematik", "Fizik", "Informatik", "Elektrik", "Makine", "İnşaat", "Biyomedikal", "Kimya", "Eğitim", "Rehabilitasyon", "Sosyal", "Kültürel", "Spor", "Psikoloji", "Felsefe/Teoloji", "Sanat/Spor"],
+    admissionRequirements: [
+      "My Assist online portal başvurusu",
+      "Kabul oranı %59",
+      "GRE önerilir (zorunlu değil)",
+      "Numerus Clausus rekabetçi programlarda",
+      "Almanca dil yeterlik belgesi",
+      "Sosyal katkı ücreti ~€350/dönem"
+    ],
+    campusFacilities: [
+      "Kuzey ve Güney kampüsü",
+      "H-Bahn otomatik monoray sistemi",
+      "735 koltuklu ana auditorium",
+      "Merkezi kütüphane",
+      "Teknoloji transfer merkezi",
+      "Çok sayıda kafeterya",
+      "Öğrenci yurdu imkanları"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Deutschlandstipendium",
+      "Erasmus+ programları",
+      "NRW eyalet bursları",
+      "Araştırma asistanlığı bursları"
+    ]
+  },
+  {
+    id: 19,
+    name: "TU Dresden",
+    city: "Dresden",
+    description: "1828'de kurulan Excellence University",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Tıp", "Sosyal Bilimler"],
+    ranking: 1,
+    worldRanking: 218,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1828,
+    students: 32000,
+    internationalStudents: 6400,
+    coordinates: "51.0269,13.7275",
+    address: "01069 Dresden, Germany",
+    faculties: ["Matematik", "Fizik", "Kimya", "Biyoloji", "Psikoloji", "Hukuk", "Ekonomi", "Eğitim", "Makine", "Elektrik", "Bilgisayar", "İnşaat", "Çevre", "Ulaştırma", "Mimarlık", "Tıp", "Orman"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Kabul oranı %46",
+      "Almanca programlar için TestDaF/DSH",
+      "İngilizce programlar için TOEFL 80+/IELTS 6.0+",
+      "Başvuru ücreti €75",
+      "Uni-assist değerlendirme"
+    ],
+    campusFacilities: [
+      "5 okul altında 17 fakülte",
+      "SLUB - 90+ milyon kaynaklı kütüphane",
+      "Clusters of Excellence",
+      "TU9 üyesi",
+      "5 botanik bahçesi",
+      "Üniversite hastanesi",
+      "4,000 sanat eseri koleksiyonu"
+    ],
+    scholarships: [
+      "DAAD bursları (€934/ay)",
+      "Deutschlandstipendium (€300/ay)",
+      "Heinrich Böll Scholarship",
+      "Erasmus+ hareketlilik hibesi",
+      "STIBET programı",
+      "Motivasyon bursları"
+    ]
+  },
+  {
+    id: 20,
+    name: "University of Duisburg-Essen",
+    city: "Duisburg/Essen",
+    description: "2003'te birleşen, Almanya'nın en genç büyük üniversitelerinden",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Tıp", "Sosyal Bilimler"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 2003,
+    students: 43000,
+    internationalStudents: 8600,
+    coordinates: "51.4269,6.8000",
+    address: "Universitätsstraße 2, 45141 Essen, Germany",
+    faculties: ["Mühendislik", "Doğa Bilimleri", "Fizik", "Kimya", "Bilgisayar", "İşletme", "Ekonomi", "Beşeri Bilimler", "Tıp", "Sosyal Bilimler", "Eğitim", "Sanat/Kültür"],
+    admissionRequirements: [
+      "Alemanca Abitur dengi belge",
+      "Lisans için 2.5 GPA, Yüksek lisans için 80-90%",
+      "Almanca programlar için dil yeterliliği",
+      "İngilizce programlar için TOEFL 100+/IELTS 7.5+",
+      "Uluslararası öğrenciler için Mayıs 1/Kasım 1",
+      "Dönem katkısı €312.40"
+    ],
+    campusFacilities: [
+      "İki kampüs arasında servis otobüsü",
+      "Fizik Almanya'da 1. sırada",
+      "Nanosicence araştırma tesisleri",
+      "Üniversite hastanesi",
+      "Çoklu kütüphane sistemi",
+      "100+ uluslararası ortaklık",
+      "Botanik bahçesi"
+    ],
+    scholarships: [
+      "Deutschlandstipendium",
+      "UDE-Stipendium (€300/ay)",
+      "Uluslararası öğrenci bursları",
+      "DAAD bursları",
+      "Campus konutu €250-450/ay"
+    ]
+  },
+  {
+    id: 21,
+    name: "Heinrich Heine University Düsseldorf",
+    city: "Düsseldorf",
+    description: "1965'te kurulan, şairin adını taşıyan modern üniversite",
+    programs: ["Tıp", "Hukuk", "İşletme", "Beşeri Bilimler"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1965,
+    students: 36000,
+    internationalStudents: 4680,
+    coordinates: "51.1914,6.7944",
+    address: "Universitätsstraße 1, 40225 Düsseldorf, Germany",
+    faculties: ["Tıp", "Beşeri Bilimler", "Matematik/Doğa Bilimleri", "İşletme/Ekonomi", "Hukuk"],
+    admissionRequirements: [
+      "Kabul oranı %45",
+      "IELTS/TOEFL kabul edilir",
+      "Ocak 15 yaz/Temmuz 15 kış dönem",
+      "Tavsiye mektupları gerekli",
+      "85+ farklı kurs seçeneği",
+      "Dönem hizmet ücreti €230"
+    ],
+    campusFacilities: [
+      "Bilk bölgesinde üçgen kampüs",
+      "Üniversite hastanesi ile birleşik",
+      "130 hektar toplam alan",
+      "6,000+ türde botanik bahçesi",
+      "Student Service Center",
+      "100+ spor çeşidi",
+      "Üniversite orkestrası"
+    ],
+    scholarships: [
+      "Üniversite ve dış kuruluş bursları",
+      "DAAD bursları",
+      "Leadership for Africa",
+      "Fulbright programı",
+      "Almanya'da top 5 burs sağlayıcı",
+      "Aylık yaşam maliyeti €800-1,100"
+    ]
+  },
+  {
+    id: 22,
+    name: "Friedrich-Alexander-Universität Erlangen-Nürnberg (FAU)",
+    city: "Erlangen/Nürnberg",
+    description: "1743'te kurulan, Bavyera'nın ikinci en büyük üniversitesi",
+    programs: ["Mühendislik", "Tıp", "Doğa Bilimleri", "İşletme"],
+    ranking: 2,
+    worldRanking: 232,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1743,
+    students: 41000,
+    internationalStudents: 8200,
+    coordinates: "49.5967,11.0047",
+    address: "Freyeslebenstrasse 1, 91058 Erlangen, Germany",
+    faculties: ["Beşeri/Sosyal/İlahiyat", "İşletme/Ekonomi/Hukuk", "Tıp", "Doğa Bilimleri", "Mühendislik"],
+    admissionRequirements: [
+      "280 derece programı",
+      "39+ İngilizce yüksek lisans",
+      "50+ uluslararası öğrenci programı",
+      "Minimal €150/dönem ücret",
+      "Excellence Initiative statüsü",
+      "200+ partner üniversite"
+    ],
+    campusFacilities: [
+      "3 şehir kampüsü (Erlangen/Nürnberg/Fürth)",
+      "5.4 milyon ciltlik kütüphane",
+      "25 klinikle üniversite hastanesi",
+      "Engineering Advanced Materials kümeleri",
+      "Zollhof teknoloji inkübatörü",
+      "Max Planck ortaklıkları",
+      "€210+ milyon araştırma finansmanı"
+    ],
+    scholarships: [
+      "DAAD Excellence bursları",
+      "Deutschlandstipendium",
+      "Bavyera eyalet bursları",
+      "Endüstri işbirliği bursları",
+      "Uluslararası değişim programları"
+    ]
+  },
+  {
+    id: 23,
+    name: "Europa-Universität Flensburg",
+    city: "Flensburg",
+    description: "1946'da kurulan, Danimarka sınırındaki Avrupa odaklı üniversite",
+    programs: ["Eğitim", "Avrupa Çalışmaları", "Çevre Bilimi", "Mühendislik"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1946,
+    students: 5000,
+    internationalStudents: 403,
+    coordinates: "54.7850,9.4306",
+    address: "Auf dem Campus 1, 24943 Flensburg, Germany",
+    faculties: ["Sanat", "Eğitim", "Mühendislik"],
+    admissionRequirements: [
+      "Online başvuru portalı",
+      "İngilizce yeterlik belgesi",
+      "Öğretmen eğitimi odaklı",
+      "Avrupa çalışmaları uzmanlığı",
+      "80+ partner üniversite",
+      "Yönetim ücreti €276.90 + €60 kayıt"
+    ],
+    campusFacilities: [
+      "Flensburg Fjord manzaralı kampüs",
+      "Audimax konferans salonu",
+      "Merkezi kütüphane",
+      "Spor ve fitness merkezi",
+      "Öğrenci yurdu",
+      "Kampüs kreşi",
+      "Yüzme havuzu ve şapel"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Avrupa değişim programları",
+      "Erasmus+ finansmanı",
+      "Uluslararası öğrenci destekleri",
+      "Aylık minimum €850 bütçe"
+    ]
+  },
+  {
+    id: 24,
+    name: "Goethe University Frankfurt",
+    city: "Frankfurt am Main",
+    description: "1914'te kurulan, Almanya'nın ilk 'vatandaş üniversitesi'",
+    programs: ["İşletme", "Hukuk", "Sosyal Bilimler", "Doğa Bilimleri"],
+    ranking: 2,
+    worldRanking: 316,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1914,
+    students: 48000,
+    internationalStudents: 7600,
+    coordinates: "50.1278,8.6631",
+    address: "Theodor-W.-Adorno-Platz 1, 60323 Frankfurt am Main, Germany",
+    faculties: ["Hukuk", "Ekonomi/İşletme", "Sosyal Bilimler", "Modern Diller", "Dilbilim/Kültür/Sanat", "Tıp", "Doğa Bilimleri", "Biyokimya/Kimya/Eczacılık", "Protestan İlahiyat", "Katolik İlahiyat", "Felsefe/Tarih", "Eğitim", "Psikoloji", "Jeobilimler/Coğrafya", "Bilgisayar/Matematik"],
+    admissionRequirements: [
+      "Kabul oranı ~%77",
+      "Başvuru ücreti €75/€30",
+      "Online üniversite portalı",
+      "Program bazında özel şartlar",
+      "136 ülkeden uluslararası öğrenci",
+      "Dönem katkısı €300-€900"
+    ],
+    campusFacilities: [
+      "4 ana kampüs (Westend ana merkez)",
+      "Tarihi IG Farben Binası",
+      "Riedberg doğa bilimleri kampüsü",
+      "Niederrad tıp kampüsü",
+      "Senckenberg merkezi kütüphanesi",
+      "Frankfurt School mirası",
+      "Avrupa Merkez Bankası yakınlığı"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Aylık burslar uluslararası öğrencilere",
+      "Doktora başlangıç bursları (€1,550/ay)",
+      "Erasmus+ finansmanı",
+      "Leadership for Africa",
+      "Fulbright programları"
+    ]
+  },
+  {
+    id: 25,
+    name: "European University Viadrina Frankfurt (Oder)",
+    city: "Frankfurt (Oder)",
+    description: "1991'de yeniden kurulan, Alman-Polonya sınırındaki Avrupa üniversitesi",
+    programs: ["Hukuk", "İşletme", "Kültürel Çalışmalar", "Avrupa Çalışmaları"],
+    ranking: 4,
+    worldRanking: 701,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1991,
+    students: 6000,
+    internationalStudents: 2100,
+    coordinates: "52.3471,14.5506",
+    address: "Große Scharrnstraße 59, 15230 Frankfurt (Oder), Germany",
+    faculties: ["Hukuk", "Ekonomi/İşletme Yönetimi", "Kültürel Çalışmalar"],
+    admissionRequirements: [
+      "Almanya'nın en küçük üniversitelerinden",
+      "Uluslararası öğrenci oranı %25-40",
+      "90+ ülkeden öğrenci",
+      "Sınır ötesi işbirliği",
+      "10 dakika yürüyüşle Almanya-Polonya",
+      "250+ partner üniversite"
+    ],
+    campusFacilities: [
+      "Ana bina Große Scharrnstraße",
+      "Collegium Polonicum (Slubice/Polonya)",
+      "Sınır ötesi kampüs konsepti",
+      "Avrupa entegrasyonu odaklı",
+      "Adam Mickiewicz Üniversitesi ortaklığı",
+      "Frankfurt Institut of Transformational Studies"
+    ],
+    scholarships: [
+      "DAAD Avrupa çalışmaları bursları",
+      "Sınır araştırmaları bursları",
+      "Transformasyon ekonomisi destekleri",
+      "Erasmus+ değişim programları",
+      "Avrupa çalışmaları özel bursları"
+    ]
+  },
+  {
+    id: 26,
+    name: "TU Bergakademie Freiberg",
+    city: "Freiberg",
+    description: "1765'te kurulan, dünyanın en eski maden bilim üniversitesi",
+    programs: ["Maden Mühendisliği", "Metalurji", "Jeoloji", "Malzeme Bilimi"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1765,
+    students: 3471,
+    internationalStudents: 1423,
+    coordinates: "50.9167,13.3333",
+    address: "Prüferstraße 4, 09599 Freiberg, Germany",
+    faculties: ["Jeobilimler/Jeomühendislik", "Matematik/Bilgisayar/Doğa", "Malzeme Bilimi/Teknoloji", "Mühendislik", "Ekonomi", "Profesörlük (6. Fakülte)"],
+    admissionRequirements: [
+      "67 derece programı",
+      "STEM programlarında %85 kayıt",
+      "Çift diploma anlaşmaları",
+      "Çin, Fransa, Gana, İtalya, Polonya",
+      "Doktora derecelerinin %30'u yabancı",
+      "Bilimsel dalış sertifikası imkanı"
+    ],
+    campusFacilities: [
+      "Ore Dağları'nda kampüs",
+      "Schlossplatzquartier merkezi",
+      "Tarihi mimari + modern tesisler",
+      "İndium ve Germanyum keşif yeri",
+      "Alexander von Humboldt eski öğrenci",
+      "1702'den beri burs geçmişi"
+    ],
+    scholarships: [
+      "BAföG devlet desteği",
+      "Burs vakfı programları",
+      "Çalışarak okuma imkanları",
+      "Tarihi vakıf bursları",
+      "Uluslararası öğrenci destekleri"
+    ]
   }
 ];
 
