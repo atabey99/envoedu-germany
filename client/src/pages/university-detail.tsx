@@ -1505,6 +1505,503 @@ const universities = [
       "Endüstri işbirliği bursları",
       "10 Nobel ödüllü mezun"
     ]
+  },
+  {
+    id: 37,
+    name: "University of Freiburg",
+    city: "Freiburg im Breisgau",
+    description: "1457'de kurulan, Almanya'nın 5. en eski üniversitesi",
+    programs: ["Tıp", "Hukuk", "Doğa Bilimleri", "Beşeri Bilimler"],
+    ranking: 2,
+    worldRanking: 125,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1457,
+    students: 24500,
+    internationalStudents: 4459,
+    coordinates: "47.9978,7.8426",
+    address: "Friedrichstr. 39, 79098 Freiburg, Germany",
+    faculties: ["İlahiyat", "Hukuk", "Tıp", "Felsefe", "Modern Diller", "Matematik/Doğa", "Beşeri Bilimler", "Uygulamalı Bilimler", "Çevre/Doğa Kaynakları", "Teknik", "Ekonomi/Davranış"],
+    admissionRequirements: [
+      "240 derece programı",
+      "Kabul oranı ~%33",
+      "120+ ülkeden öğrenci",
+      "23 Nobel ödüllü ilişkisi",
+      "440 profesör, 32 junior profesör",
+      "2019-2023: 16 ERC hibesi"
+    ],
+    campusFacilities: [
+      "3 büyük kampüs",
+      "Üniversite Merkezi (tarihi merkez)",
+      "Enstitüler Bölgesi (bilim fakülteleri)",
+      "Mühendislik Kampüsü",
+      "Üniversite Tıp Merkezi (1,600 yatak)",
+      "Sürdürülebilirlik odağı (50+ profesörlük)",
+      "EPICUR üniversite ittifakı"
+    ],
+    scholarships: [
+      "Sürdürülebilirlik Sertifikası",
+      "DAAD bursları",
+      "219 milyon € 3. taraf fonlama (2023)",
+      "EPICUR ortaklık bursları",
+      "Uluslararası değişim programları",
+      "Excellence funding opportunities"
+    ]
+  },
+  {
+    id: 38,
+    name: "Justus Liebig University Giessen",
+    city: "Giessen",
+    description: "1607'de kurulan, modern tarım kimyasının beşiği",
+    programs: ["Tarım", "Veteriner", "Tıp", "Doğa Bilimleri"],
+    ranking: 3,
+    worldRanking: 496,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1607,
+    students: 25000,
+    internationalStudents: 1700,
+    coordinates: "50.5833,8.6667",
+    address: "Ludwigstrasse 23, 35390 Giessen, Germany",
+    faculties: ["Hukuk", "Ekonomi/İşletme", "Sosyal/Kültür", "Tarih/Kültür", "Dil/Edebiyat/Kültür", "Psikoloji/Spor", "Matematik/Bilgisayar/Fizik/Coğrafya", "Biyoloji/Kimya", "Tarım/Beslenme/Çevre", "Veteriner", "Tıp"],
+    admissionRequirements: [
+      "100+ derece programı",
+      "5,853 çalışan",
+      "Excellence Initiative fonlaması (2006'dan beri)",
+      "Justus von Liebig mirası",
+      "Wilhelm Conrad Röntgen mezunu",
+      "Çok disiplinli araştırma odağı"
+    ],
+    campusFacilities: [
+      "Geleneksel kampüs yok - şehir içinde dağınık",
+      "Üniversite Merkezi (Ludwigstrasse)",
+      "Seltersberg Kampüsü (şehir dışı)",
+      "Philosophikum II (şehir çeperi)",
+      "Modern laboratuvarlar",
+      "Biyomedikal Araştırma Merkezi",
+      "Digital Campus sanal öğrenme"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Excellence Strategy funding",
+      "Uluslararası geliştirme araştırma bursları",
+      "Doğu Avrupa çalışmaları fonları",
+      "100+ derece programı seçeneği"
+    ]
+  },
+  {
+    id: 39,
+    name: "University of Greifswald",
+    city: "Greifswald",
+    description: "1456'da kurulan, günümüz Almanya'nın 4. en eski üniversitesi",
+    programs: ["İlahiyat", "Tıp", "Hukuk", "Beşeri Bilimler"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1456,
+    students: 10300,
+    internationalStudents: 1030,
+    coordinates: "54.0979,13.3881",
+    address: "Domstraße 11, 17489 Greifswald, Germany",
+    faculties: ["İlahiyat", "Hukuk/Ekonomi", "Üniversite Tıbbı", "Sanat/Beşeri Bilimler", "Matematik/Doğa Bilimleri"],
+    admissionRequirements: [
+      "131 derece programı",
+      "90+ ülkeden öğrenci",
+      "13 sürekli eğitim kursu",
+      "3 araştırma alanı odağı",
+      "Baltık Denizi bölgesi araştırması",
+      "One Health yaklaşımı"
+    ],
+    campusFacilities: [
+      "Tarihi şehir merkezi kampüsü",
+      "Berthold-Beitz-Platz Kampüsü",
+      "Loefflerstraße Kampüsü",
+      "Yeni doğu kampüsü (inşaat)",
+      "€417 milyon kampüs yenileme (1991-2007)",
+      "4 uluslararası araştırma enstitüsü",
+      "Bisiklet dostu şehir (15 dk erişim)"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Baltık araştırma bursları",
+      "One Health program destekleri",
+      "Uluslararası değişim programları",
+      "90+ ülke ortaklık ağı"
+    ]
+  },
+  {
+    id: 40,
+    name: "FernUniversität Hagen",
+    city: "Hagen",
+    description: "1974'te kurulan, Almanya'nın tek uzaktan eğitim üniversitesi",
+    programs: ["İşletme", "Bilgisayar", "Psikoloji", "Hukuk"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1974,
+    students: 76647,
+    internationalStudents: 7665,
+    coordinates: "51.3780,7.4945",
+    address: "Universitätsstraße 11, 58097 Hagen, Germany",
+    faculties: ["Beşeri/Sosyal Bilimler", "Psikoloji", "Matematik/Bilgisayar", "Ekonomi/İşletme", "Hukuk"],
+    admissionRequirements: [
+      "Açık kabul politikası",
+      "Almanya'nın 2. en büyük üniversitesi",
+      "Ortalama yaş 32",
+      "%80 çalışan öğrenci",
+      "%19 önceden derece sahibi",
+      "50+ çalışma/araştırma merkezi"
+    ],
+    campusFacilities: [
+      "A45/A46 karayolu yakınında kampüs",
+      "13 Almanya kampüsü",
+      "180+ partner üniversite",
+      "Berlin, Münih, Leipzig merkezleri",
+      "Moodle öğrenme platformu",
+      "50+ Avrupa ve Doğu Avrupa merkezi",
+      "Esnek hibrit öğrenme modeli"
+    ],
+    scholarships: [
+      "BAföG uzaktan eğitim desteği",
+      "Çalışan öğrenci bursları",
+      "Uluslararası online programlar",
+      "Avrupa/Doğu Avrupa merkez fonları",
+      "Mesleki deneyim tabanlı kabul"
+    ]
+  },
+  {
+    id: 41,
+    name: "Martin Luther University Halle-Wittenberg",
+    city: "Halle",
+    description: "1817'de birleşen, Luther'in adını taşıyan 500+ yaşında kökleri",
+    programs: ["İlahiyat", "Doğa Bilimleri", "Beşeri Bilimler", "Tıp"],
+    ranking: 3,
+    worldRanking: 755,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1817,
+    students: 21000,
+    internationalStudents: 2100,
+    coordinates: "51.4858,11.9686",
+    address: "Universitätsplatz 10, 06108 Halle (Saale), Germany",
+    faculties: ["İlahiyat", "Hukuk/Ekonomi/İşletme", "Tıp", "Felsefe I", "Doğa Bilimleri II", "Doğa Bilimleri III", "Eğitim", "Mühendislik"],
+    admissionRequirements: [
+      "190+ program kursu",
+      "110+ ülkeden öğrenci",
+      "İlk 'modern' üniversite",
+      "4 Nobel ödüllü öğretim üyesi",
+      "Excellence Strategy kazananı",
+      "200+ partner üniversite"
+    ],
+    campusFacilities: [
+      "Universitätsplatz (Avrupa'nın en güzel)",
+      "Weinberg Kampüsü (doğa bilimleri)",
+      "Steintor Kampüsü (beşeri bilimler)",
+      "Francke Vakfı (eğitim/ilahiyat)",
+      "Leucorea Vakfı (Wittenberg)",
+      "Akademik Orkestra (1779)",
+      "Üniversite Korosu (1950)"
+    ],
+    scholarships: [
+      "Center for Chiral Electronics (€64.5M)",
+      "DAAD bursları",
+      "Excellence Strategy fonları",
+      "500+ yıl akademik gelenek bursları",
+      "190-330€/ay yurt konaklama"
+    ]
+  },
+  {
+    id: 42,
+    name: "HafenCity University Hamburg",
+    city: "Hamburg",
+    description: "2006'da kurulan, mimarlık ve kent gelişimine odaklanan tek üniversite",
+    programs: ["Mimarlık", "İnşaat", "Kent Planlama", "Jeomatik"],
+    ranking: 4,
+    worldRanking: 701,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 2006,
+    students: 2500,
+    internationalStudents: 250,
+    coordinates: "53.5420,9.9967",
+    address: "Henning-Voscherau-Platz 1, 20457 Hamburg, Germany",
+    faculties: ["Mimarlık", "İnşaat Mühendisliği", "Jeodezi/Jeoinformatik", "Kent Planlama", "Kent Tasarım/Metropol Kültürü"],
+    admissionRequirements: [
+      "40+ lisans/yüksek lisans programı",
+      "100+ ülkeden öğrenci",
+      "11 çifte diploma programı",
+      "Almanya'nın tek 'yapılı çevre' üniversitesi",
+      "MIT Media Lab ortaklığı",
+      "REAP İngilizce yüksek lisans"
+    ],
+    campusFacilities: [
+      "HafenCity bölgesi (en yeni kent gelişimi)",
+      "Speicherstadt (UNESCO) yakınında",
+      "Elbphilharmonie konsol salonu yakını",
+      "Code Unique Architekten tasarım",
+      "Modern rıhtım kampüsü",
+      "Avrupa'nın en büyük şehir içi inşaat",
+      "CityScienceLab araştırma merkezi"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Franco-German University üyeliği",
+      "SUNRISE Avrupa ittifakı",
+      "MIT Media Lab işbirliği bursları",
+      "Endüstri ortaklık programları"
+    ]
+  },
+  {
+    id: 43,
+    name: "Hamburg University of Technology (TUHH)",
+    city: "Hamburg",
+    description: "1978'de kurulan, 'İnsanlık için Teknoloji' misyonu",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Teknoloji", "Lojistik"],
+    ranking: 3,
+    worldRanking: 225,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1978,
+    students: 7500,
+    internationalStudents: 1500,
+    coordinates: "53.4606,9.9695",
+    address: "Am Schwarzenberg-Campus 1, 21073 Hamburg, Germany",
+    faculties: ["İleri Malzemeler/Bio-Süreçler", "Havacılık/Denizcilik", "Siber Fiziksel/Tıp Sistemleri", "Çevre/Enerji", "Lojistik/Mobilite/Altyapı"],
+    admissionRequirements: [
+      "40+ lisans/yüksek lisans programı",
+      "Kabul oranı %44",
+      "100+ profesör",
+      "1,500 uluslararası çalışan",
+      "İngilizce yüksek lisans programları",
+      "Tutkusuz ücretsiz programlar"
+    ],
+    campusFacilities: [
+      "Harburg tek kampüs",
+      "15 bina park manzarası",
+      "von Gerkan, Marg und Partner tasarım",
+      "Tarihi Schwarzenberg kışla",
+      "TuTech teknoloji transfer (1992)",
+      "Graduate Academy (2013)",
+      "Northern Institute of Technology"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "TuTech startup ekosistemi",
+      "Almanya'nın en başarılı genç üniversitesi",
+      "Endüstri bağlantı bursları",
+      "Times Young University #92"
+    ]
+  },
+  {
+    id: 44,
+    name: "Leibniz University Hannover",
+    city: "Hannover",
+    description: "1831'de kurulan, TU9 üyesi teknik üniversite",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Beşeri Bilimler", "Hukuk"],
+    ranking: 2,
+    worldRanking: 433,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1831,
+    students: 27200,
+    internationalStudents: 4000,
+    coordinates: "52.3819,9.7186",
+    address: "Welfengarten 1, 30060 Hannover, Germany",
+    faculties: ["Matematik/Fizik", "Doğa Bilimleri", "Hukuk", "Beşeri Bilimler", "Ekonomi/Yönetim", "Elektrik/Bilgisayar", "İnşaat/Çevre", "Makine", "Mimarlık"],
+    admissionRequirements: [
+      "190+ derece programı",
+      "Kabul oranı %51",
+      "357 profesör",
+      "3,400+ akademik personel",
+      "TU9 üyesi",
+      "€700-900 aylık yaşam maliyeti"
+    ],
+    campusFacilities: [
+      "Welfen Sarayı (ana bina)",
+      "160 bina 322,700 m²",
+      "4 mini-kampüs kümesi",
+      "TIB - dünyanın en büyük bilim kütüphanesi",
+      "100+ spor türü CAMPUSFit",
+      "KletterCAMPUS tırmanış salonu",
+      "City Railway erişimi"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "TU9 alliance benefits",
+      "THE Impact #34 Clean Water",
+      "Almanya ekonomisi top manager #7",
+      "Quantum physics araştırma bursları"
+    ]
+  },
+  {
+    id: 45,
+    name: "Ruprecht-Karls University Heidelberg",
+    city: "Heidelberg",
+    description: "1386'da kurulan, Almanya'nın en eski üniversitesi",
+    programs: ["Tıp", "Hukuk", "Doğa Bilimleri", "Beşeri Bilimler"],
+    ranking: 1,
+    worldRanking: 87,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1386,
+    students: 30000,
+    internationalStudents: 5400,
+    coordinates: "49.4103,8.7064",
+    address: "Grabengasse 1, 69117 Heidelberg, Germany",
+    faculties: ["İlahiyat", "Hukuk", "Felsefe", "Modern Diller", "Ekonomi/Sosyal", "Davranış/Kültür", "Matematik/Bilgisayar", "Kimya/Yer Bilimleri", "Fizik/Astronomi", "Biyobilimler", "Tıp (2 fakülte)"],
+    admissionRequirements: [
+      "160+ alan, 100+ disiplin",
+      "Excellence University statüsü",
+      "U15 araştırma üniversiteleri",
+      "League of European Research Universities",
+      "6.2 milyon basılı cilt kütüphane",
+      "Frankfurt Havalimanı 40 dk"
+    ],
+    campusFacilities: [
+      "Eski Şehir Kampüsü (tarihi merkez)",
+      "Neuenheimer Feld (doğa bilimleri/tıp)",
+      "Bergheim Kampüsü (sosyal bilimler)",
+      "Heidelberg Kalesi yakınlığı",
+      "Üniversite Müzesi",
+      "Bunsen yanıcı keşif yeri",
+      "Alman Romantizm beşiği"
+    ],
+    scholarships: [
+      "Excellence University fonları",
+      "DAAD bursları",
+      "Almanya'nın en eski üniversite bursları",
+      "Global branch office destekleri",
+      "Coimbra Group bursları",
+      "ruprecht gazetesi fonu"
+    ]
+  },
+  {
+    id: 46,
+    name: "University of Hildesheim",
+    city: "Hildesheim",
+    description: "1946'da kurulan, 2003'ten beri Vakıf Üniversitesi",
+    programs: ["Eğitim", "Kültür Çalışmaları", "Dilbilim", "Bilgisayar"],
+    ranking: 4,
+    worldRanking: 2438,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1946,
+    students: 8600,
+    internationalStudents: 860,
+    coordinates: "52.1500,9.9500",
+    address: "Universitätsplatz 1, 31141 Hildesheim, Germany",
+    faculties: ["Eğitim/Sosyal Bilimler", "Kültür Çalışmaları/Estetik İletişim", "Dilbilim/Bilgi Bilimleri", "Matematik/Doğa/Ekonomi/Bilgisayar"],
+    admissionRequirements: [
+      "40+ lisans/yüksek lisans programı",
+      "Kabul oranı %41-46",
+      "18 öğretmenlik alanı",
+      "Almanca/İngilizce programlar",
+      "Fransa/Güney Kore çifte diploma",
+      "Data Analytics İngilizce program"
+    ],
+    campusFacilities: [
+      "4 ana kampüs",
+      "Bühler Kampüsü (eğitim bilimleri)",
+      "Marienburger Höhe (dilbilim)",
+      "Domäne Marienburg (kültür çalışmaları)",
+      "1,500-2,000 öğrenci konaklama",
+      "180+ partner üniversite",
+      "14:1 öğrenci-öğretim üyesi oranı"
+    ],
+    scholarships: [
+      "College of Minerva bursları",
+      "Lore-Auerbach Scholarships",
+      "European Quality Label (2007/2011)",
+      "400+ yıllık değişim yeri",
+      "250+ partner okul öğretmenlik",
+      "50 ülke partnership ağı"
+    ]
+  },
+  {
+    id: 47,
+    name: "University of Hohenheim",
+    city: "Stuttgart",
+    description: "1818'de kurulan, Stuttgart'ın en eski üniversitesi",
+    programs: ["Tarım", "Doğa Bilimleri", "İşletme", "Ekonomi"],
+    ranking: 3,
+    worldRanking: 719,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1818,
+    students: 9000,
+    internationalStudents: 1500,
+    coordinates: "48.7094,9.2072",
+    address: "Schloss Hohenheim 1, 70599 Stuttgart, Germany",
+    faculties: ["Tarım Bilimleri", "Doğa Bilimleri", "İşletme/Ekonomi/Sosyal Bilimler"],
+    admissionRequirements: [
+      "35 lisans/yüksek lisans programı",
+      "Kabul oranı %42",
+      "100+ profesör",
+      "%15 uluslararası öğrenci",
+      "€3,000 lisansüstü program ücreti",
+      "Almanca/İngilizce orientasyon testi"
+    ],
+    campusFacilities: [
+      "Hohenheim Sarayı kampüsü",
+      "160,021 m² kampüs alanı",
+      "400+ bitki türü botanik bahçe",
+      "Almanya'nın 7. en güzel kampüsü",
+      "Alman Tarım Müzesi",
+      "Zooloji/Veteriner Müzesi",
+      "Tarih Müzesi"
+    ],
+    scholarships: [
+      "ELLS (Euroleague for Life Sciences)",
+      "HERMES network bursları",
+      "257-270€/ay kampüs konaklama",
+      "18 önde gelen Avrupa üniversitesi",
+      "DAAD bursları",
+      "Sürdürülebilir tarım araştırma fonları"
+    ]
+  },
+  {
+    id: 48,
+    name: "TU Ilmenau",
+    city: "Ilmenau",
+    description: "1894'te kurulan, Thüringen'in tek teknik üniversitesi",
+    programs: ["Elektrik/Enformatik", "Bilgisayar", "Makine", "Ekonomi"],
+    ranking: 3,
+    worldRanking: 525,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1894,
+    students: 4900,
+    internationalStudents: 1700,
+    coordinates: "50.6757,10.9367",
+    address: "Ehrenbergstraße 29, 98693 Ilmenau, Germany",
+    faculties: ["Elektrik/Enformatik", "Bilgisayar/Otomasyon", "Makine Mühendisliği", "Matematik/Doğa Bilimleri", "Ekonomi/Medya"],
+    admissionRequirements: [
+      "40+ lisans/yüksek lisans programı",
+      "11 çifte diploma programı",
+      "100+ ülkeden öğrenci",
+      "Kabul oranı %44",
+      "MP3 inventor Prof. Brandenburg",
+      "SUNRISE Avrupa ittifakı"
+    ],
+    campusFacilities: [
+      "Thüringen Ormanı'nda (500m yükseklik)",
+      "1894 tarihi + futuristik mimari",
+      "Almanya'nın en güzel kampüslerinden",
+      "Thüringen'in en büyük teknik kütüphanesi",
+      "Kompakt yürüme mesafesi",
+      "Ücretsiz bölgesel tren seyahati",
+      "33km Erfurt güneyinde"
+    ],
+    scholarships: [
+      "Franco-German University üyeliği",
+      "SUNRISE Avrupa ittifakı",
+      "MP3 teknoloji mirası bursları",
+      "DAAD bursları",
+      "Nano-mühendislik araştırma fonları",
+      "Endüstri ortaklık spin-off destekleri"
+    ]
   }
 ];
 
