@@ -276,6 +276,329 @@ const universities = [
       "Araştırma asistanlığı bursları",
       "Uluslararası öğrenci destekleri"
     ]
+  },
+  {
+    id: 7,
+    name: "University of the Arts Berlin (UdK)",
+    city: "Berlin",
+    description: "Avrupa'nın en büyük ve en eski sanat üniversitelerinden biri",
+    programs: ["Güzel Sanatlar", "Müzik", "Tasarım", "Sahne Sanatları"],
+    ranking: 1,
+    worldRanking: 42,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca"],
+    founded: 1696,
+    students: 4000,
+    internationalStudents: 1400,
+    coordinates: "52.5057,13.3233",
+    address: "Einsteinufer 43, 10587 Berlin, Germany",
+    faculties: ["Güzel Sanatlar", "Mimarlık/Medya/Tasarım", "Müzik", "Sahne Sanatları"],
+    admissionRequirements: [
+      "Sanatsal kabul sınavı (not ortalaması önemsiz)",
+      "Portfolio veya işitme kasetleri",
+      "Almanca dil yeterlik belgesi (DSH/TestDaF)",
+      "Alana özel yetenekler",
+      "Yaratıcı portföy sunumu"
+    ],
+    campusFacilities: [
+      "Charlottenburg'da ana kampüs",
+      "En son teknoloji stüdyoları",
+      "Konser salonları ve sergi alanları",
+      "UNI.T tiyatrosu",
+      "Ses-görüntü laboratuvarları",
+      "600+ yıllık etkinlik merkezi",
+      "Volkswagen-Bibliothek kütüphanesi"
+    ],
+    scholarships: [
+      "Carolo-Wilhelmina bursları",
+      "Deutschlandstipendium",
+      "DAAD sanat bursları",
+      "Berlin eyalet sanat destekleri",
+      "Uluslararası öğrenci bursları"
+    ]
+  },
+  {
+    id: 8,
+    name: "Bielefeld University",
+    city: "Bielefeld",
+    description: "Disiplinlerarası araştırma ve yenilikçi eğitim metodları ile tanınan reform üniversitesi",
+    programs: ["Sosyal Bilimler", "Eğitim", "Doğa Bilimleri", "İşletme"],
+    ranking: 3,
+    worldRanking: 301,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1969,
+    students: 25000,
+    internationalStudents: 1969,
+    coordinates: "52.0378,8.4930",
+    address: "Universitätsstraße 25, 33615 Bielefeld, Germany",
+    faculties: ["Dilbilim/Edebiyat", "Tarih/Felsefe/İlahiyat", "Sosyoloji", "Psikoloji/Spor", "Eğitim", "Hukuk", "İşletme/Ekonomi", "Matematik", "Fizik", "Kimya", "Biyoloji", "Teknoloji", "Halk Sağlığı"],
+    admissionRequirements: [
+      "Lise diploması veya dengi belge",
+      "Almanca dil yeterlik belgesi (C1 seviye)",
+      "Bazı programlar için Numerus Clausus",
+      "İngilizce programlar için IELTS/TOEFL",
+      "Motivasyon mektubu"
+    ],
+    campusFacilities: [
+      "Tek bina kampüs konsepti (Avrupa'nın en büyük yapılarından)",
+      "2.2 milyon ciltlik kütüphane",
+      "Moderne laboratuvarlar",
+      "Cognitive Interaction Technology Merkezi",
+      "Laborschule deneysel okulu",
+      "Kafeterya ve öğrenci hizmetleri"
+    ],
+    scholarships: [
+      "Deutschlandstipendium",
+      "DAAD bursları",
+      "NRW eyalet bursları",
+      "Araştırma bursları",
+      "İlk nesil üniversite öğrencisi bursları"
+    ]
+  },
+  {
+    id: 9,
+    name: "Ruhr University Bochum",
+    city: "Bochum",
+    description: "Almanya'nın ilk yeni tip üniversitelerinden, güçlü araştırma geleneği",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Tıp", "Sosyal Bilimler"],
+    ranking: 2,
+    worldRanking: 201,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1962,
+    students: 42718,
+    internationalStudents: 6512,
+    coordinates: "51.4451,7.2617",
+    address: "Universitätsstraße 150, 44801 Bochum, Germany",
+    faculties: ["Matematik", "Fizik/Astronomi", "Kimya/Biyokimya", "Biyoloji/Biotekno", "Jeowissenschaften", "Makine", "Elektrik", "İnşaat", "Informatik", "Tıp", "Sportwiss", "Psikoloji", "Felsefe", "Tarih", "Arkeoloji", "Edebiyat", "Dilbilim", "Sosyal Bilim", "Hukuk", "İşletme", "Sosyoloji"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Almanca dil yeterlik belgesi (C1 seviye)",
+      "İngilizce programlar için IELTS 6.5+",
+      "Tıp için Numerus Clausus",
+      "Program bazlı özel şartlar"
+    ],
+    campusFacilities: [
+      "Merkezileştirilmiş kampüs tasarımı",
+      "14 identik gökdelen binası",
+      "Dünya standartlarında araştırma laboratuvarları",
+      "Merkezi kütüphane",
+      "50+ spor tesisi",
+      "WORLDFACTORY start-up merkezi",
+      "Üniversite hastanesi"
+    ],
+    scholarships: [
+      "Deutschlandstipendium (€300/ay)",
+      "RUB mükemmellik bursları",
+      "DAAD araştırma bursları",
+      "NRW eyalet bursları",
+      "Endüstri sponsorlu bursları"
+    ]
+  },
+  {
+    id: 10,
+    name: "University of Bonn",
+    city: "Bonn",
+    description: "1818'de kurulan, Nobel ödüllü mezunlarıyla ünlü excellence üniversitesi",
+    programs: ["Sosyal Bilimler", "Doğa Bilimleri", "Hukuk", "Matematik"],
+    ranking: 1,
+    worldRanking: 89,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1818,
+    students: 35000,
+    internationalStudents: 4000,
+    coordinates: "50.7374,7.1003",
+    address: "Regina-Pacis-Weg 3, 53113 Bonn, Germany",
+    faculties: ["Protestan İlahiyat", "Katolik İlahiyat", "Hukuk/Ekonomi", "Tıp", "Felsefe", "Matematik/Doğa Bilimleri", "Tarım"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur eşdeğeri",
+      "Almanca dil yeterlik belgesi (DSH-2/C1)",
+      "İngilizce programlar için TOEFL 72+ veya IELTS 5.5+",
+      "Bazı programlar için Numerus Clausus",
+      "18 yaş minimum",
+      "Program bazlı özel şartlar"
+    ],
+    campusFacilities: [
+      "Barok saray ana binası",
+      "Poppelsdorf Sarayı (1715-1753)",
+      "250+ bina şehir genelinde",
+      "Venusberg kampüsünde üniversite hastanesi",
+      "6 Mükemmellik Kümesi",
+      "Innovation Campus Bonn",
+      "Kapsamlı kütüphane sistemi"
+    ],
+    scholarships: [
+      "Deutschland Stipendium",
+      "DAAD bursları",
+      "Excellence üniversite bursları",
+      "NRW araştırma bursları",
+      "Bonn üniversite bursları",
+      "Uluslararası doktora bursları"
+    ]
+  },
+  {
+    id: 11,
+    name: "Brandenburg University of Technology Cottbus-Senftenberg",
+    city: "Cottbus",
+    description: "Teknoloji ve çevre odaklı genç teknik üniversite",
+    programs: ["Mühendislik", "Çevre Teknolojisi", "Bilgisayar", "Mimarlık"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1991,
+    students: 7300,
+    internationalStudents: 2350,
+    coordinates: "51.7606,14.3347",
+    address: "Platz der Deutschen Einheit 1, 03046 Cottbus, Germany",
+    faculties: ["Matematik/Bilgisayar/Fizik/Elektrik", "Çevre/Doğa Bilimleri", "Makine Mühendisliği", "Mimarlık/İnşaat/Kentplanlama", "İşletme/Hukuk/Sosyal", "Sağlık"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Almanca dil yeterlik belgesi (B2-C1)",
+      "17+ İngilizce programlar mevcut",
+      "Açık kabul (Numerus Clausus yok)",
+      "Uluslararası öğrencilere garanti yurtluk"
+    ],
+    campusFacilities: [
+      "Dual kampüs (Cottbus + Senftenberg)",
+      "Modern çevre teknolojisi laboratuvarları",
+      "Enerji araştırma merkezleri",
+      "Yenilenebilir enerji tesisleri",
+      "Öğrenci yaşam alanları",
+      "Berlin'e 90 dakika mesafe"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Brandenburg eyalet bursları",
+      "Çevre teknolojisi araştırma bursları",
+      "Deutschlandstipendium",
+      "Lusatia dönüşüm bursları"
+    ]
+  },
+  {
+    id: 12,
+    name: "University of Bremen",
+    city: "Bremen",
+    description: "Yenilikçi ve uluslararası odaklı araştırma üniversitesi",
+    programs: ["Mühendislik", "Sosyal Bilimler", "Doğa Bilimleri", "İşletme"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1971,
+    students: 20000,
+    internationalStudents: 3000,
+    coordinates: "53.1067,8.8517",
+    address: "Bibliothekstraße 1, 28359 Bremen, Germany",
+    faculties: ["Fizik/Elektrik", "Biyoloji/Kimya", "Matematik/Bilgisayar", "Üretim Müh", "Jeoloji", "Hukuk", "İşletme/Ekonomi", "Sosyal Bilimler", "Kültürel Çalışmalar", "Dilbilim/Edebiyat", "İnsan/Sağlık", "Eğitim"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Almanca dil yeterlik belgesi (C1)",
+      "İngilizce programlar için C1 seviyesi",
+      "Kabul oranı %17 (seçici)",
+      "Psikoloji için yetenek sınavı",
+      "MBA için 1 yıl iş deneyimi"
+    ],
+    campusFacilities: [
+      "Yeşil teknoloji parkı kampüsü",
+      "State and University Library Bremen",
+      "5 yüksek profilli araştırma alanı",
+      "Max Planck işbirliği",
+      "Alfred Wegener Enstitüsü",
+      "600+ partner üniversite",
+      "Excellence Initiative üyesi"
+    ],
+    scholarships: [
+      "Deutschland Stipendium",
+      "DAAD Excellence bursları",
+      "Bremen araştırma bursları",
+      "Marin bilimler bursları",
+      "Doktora araştırma bursları"
+    ]
+  },
+  {
+    id: 13,
+    name: "Braunschweig University of Technology",
+    city: "Braunschweig",
+    description: "1745'te kurulan, Almanya'nın en eski teknik üniversitesi",
+    programs: ["Mühendislik", "Teknoloji", "Doğa Bilimleri", "Mimarlık"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1745,
+    students: 20000,
+    internationalStudents: 3200,
+    coordinates: "52.2742,10.5249",
+    address: "Universitätsplatz 2, 38106 Braunschweig, Germany",
+    faculties: ["Carl Friedrich (Matematik/Bilgisayar/İşletme)", "Yaşam Bilimleri", "Makine Mühendisliği", "Mimarlık/İnşaat/Çevre", "Beşeri/Eğitim", "Elektrik/Bilişim/Fizik"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Almanca dil yeterlik belgesi (C1)",
+      "Kabul oranı %51",
+      "75+ derece programı",
+      "TU9 üyesi prestij",
+      "15 Haziran başvuru tarihi"
+    ],
+    campusFacilities: [
+      "Şehir merkezinde 200+ bina",
+      "4 kampüs alanı",
+      "TU9 birliği üyesi",
+      "DLR, Helmholtz ortaklığı",
+      "Fraunhofer enstitüleri",
+      "Ücretsiz ulaşım",
+      "90+ öğrenci derneği"
+    ],
+    scholarships: [
+      "Carolo-Wilhelmina Scholarships",
+      "Deutschlandstipendium (€300/ay)",
+      "İlk nesil üniversite bursları",
+      "DAAD araştırma bursları",
+      "Fulbright programları"
+    ]
+  },
+  {
+    id: 14,
+    name: "Chemnitz University of Technology",
+    city: "Chemnitz",
+    description: "1836'da kurulan, güçlü endüstri bağlantıları olan teknik üniversite",
+    programs: ["Mühendislik", "Bilgisayar", "İşletme", "Doğa Bilimleri"],
+    ranking: 4,
+    worldRanking: 567,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1836,
+    students: 11400,
+    internationalStudents: 3000,
+    coordinates: "50.8136,12.9251",
+    address: "Straße der Nationen 62, 09111 Chemnitz, Germany",
+    faculties: ["Matematik", "Bilgisayar", "Makine Mühendisliği", "Elektrik/Bilişim", "Ekonomi/İşletme", "Doğa Bilimleri", "Beşeri Bilimler", "Davranış/Sosyal Bilimler"],
+    admissionRequirements: [
+      "Lise diploması veya Abitur",
+      "Almanca dil yeterlik belgesi (C1)",
+      "Kabul oranı %71",
+      "15 uzaktan eğitim programı",
+      "Kış/Yaz dönem başvuruları",
+      "110+ partner şirket"
+    ],
+    campusFacilities: [
+      "Çoklu kampüs yapısı",
+      "MERGE Excellence Cluster",
+      "MAIN Nanomembran Merkezi",
+      "Smart Systems Campus",
+      "TUClab Start-up ağı",
+      "200+ spin-off şirketi",
+      "SAXEED girişimci ağı"
+    ],
+    scholarships: [
+      "Deutschlandstipendium",
+      "DAAD teknoloji bursları",
+      "Saksonya eyalet bursları",
+      "COOL SILICON bursları",
+      "Endüstri işbirliği bursları"
+    ]
   }
 ];
 
