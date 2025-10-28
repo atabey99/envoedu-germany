@@ -8,7 +8,7 @@ const mainServices = [
     icon: GraduationCap,
     title: "Üniversite Seçimi",
     description: "Profilinize en uygun Almanya üniversitelerini belirleyip başvuru stratejinizi oluşturuyoruz.",
-    features: ["Üniversite araştırması", "Program analizi", "Şehir rehberi", "Bütçe planlaması"],
+    features: [],
     color: "primary" as const
   },
   {
@@ -22,14 +22,14 @@ const mainServices = [
     icon: Languages,
     title: "Dil Eğitimi",
     description: "Almanca seviyenizi geliştirin ve dil sınavlarına hazırlanın.",
-    features: ["Almanca kursu", "TestDaF hazırlığı", "DSH hazırlığı", "Konuşma pratiği"],
+    features: [],
     color: "secondary" as const
   },
   {
     icon: IdCard,
     title: "Vize İşlemleri",
-    description: "Öğrenci vizesi sürecinizi baştan sona yönetiyoruz.",
-    features: ["Vize danışmanlığı", "Belge hazırlama", "Randevu takibi", "Mülakata hazırlık"],
+    description: "Vize sürecinizi baştan sona yönetiyoruz.",
+    features: [],
     color: "primary" as const
   },
   {
