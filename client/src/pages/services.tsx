@@ -15,7 +15,7 @@ const mainServices = [
     icon: FileText,
     title: "Başvuru Hazırlığı", 
     description: "Motivasyon mektubu, CV ve gerekli belgelerinizi profesyonel olarak hazırlıyoruz.",
-    features: ["Motivasyon mektubu yazımı", "CV hazırlama", "Belge kontrolü", "Başvuru takibi"],
+    features: [],
     color: "accent" as const
   },
   {
