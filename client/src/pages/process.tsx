@@ -133,10 +133,6 @@ export default function Process() {
                     </div>
                     <div>
                       <h3 className="text-2xl font-bold text-foreground" data-testid={`process-step-title-${process.step}`}>{process.title}</h3>
-                      <div className="flex items-center space-x-2 text-muted-foreground">
-                        <Clock className="w-4 h-4" />
-                        <span data-testid={`process-step-duration-${process.step}`}>{process.duration}</span>
-                      </div>
                     </div>
                   </div>
                   
