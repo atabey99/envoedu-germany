@@ -31,20 +31,6 @@ const mainServices = [
     description: "Vize sürecinizi baştan sona yönetiyoruz.",
     features: [],
     color: "primary" as const
-  },
-  {
-    icon: Home,
-    title: "Yerleşim Desteği",
-    description: "Almanya'da yaşam kurulumunuzda size rehberlik ediyoruz.",
-    features: ["Konaklama bulma", "Banka hesabı açma", "Sigorta işlemleri", "Kayıt yenileme"],
-    color: "accent" as const
-  },
-  {
-    icon: Handshake,
-    title: "Kariyer Danışmanlığı",
-    description: "Mezuniyet sonrası kariyer planlamanızda destek sağlıyoruz.",
-    features: ["İş arama desteği", "Staj programları", "Networking etkinlikleri", "Mülakat hazırlığı"],
-    color: "secondary" as const
   }
 ];
 
