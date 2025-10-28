@@ -63,62 +63,6 @@ export default function Services() {
             ))}
           </div>
         </div>
-
-        {/* Service Packages */}
-        <div className="mt-20">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="service-packages-title">
-            Hizmet Paketleri
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {[
-              {
-                name: "Temel Paket",
-                price: "₺5,999",
-                description: "Başvuru sürecinde temel destek",
-                features: ["Üniversite seçimi", "Başvuru hazırlığı", "E-mail desteği", "3 aylık takip"]
-              },
-              {
-                name: "Kapsamlı Paket", 
-                price: "₺9,999",
-                description: "Tam destek ve danışmanlık",
-                features: ["Tüm temel hizmetler", "Vize danışmanlığı", "Telefon desteği", "6 aylık takip", "Yerleşim desteği"],
-                popular: true
-              },
-              {
-                name: "Premium Paket",
-                price: "₺14,999", 
-                description: "VIP hizmet ve kişisel mentor",
-                features: ["Tüm hizmetler", "Kişisel mentor", "7/24 destek", "12 aylık takip", "Kariyer danışmanlığı", "Aile desteği"]
-              }
-            ].map((pkg, index) => (
-              <div key={index} className={`relative bg-card p-8 rounded-xl border ${pkg.popular ? 'border-primary ring-2 ring-primary/20' : 'border-border'}`} data-testid={`service-package-${index}`}>
-                {pkg.popular && (
-                  <div className="absolute -top-3 left-1/2 transform -translate-x-1/2">
-                    <span className="bg-primary text-primary-foreground px-4 py-1 rounded-full text-sm font-semibold">
-                      En Popüler
-                    </span>
-                  </div>
-                )}
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-foreground mb-2" data-testid={`package-name-${index}`}>{pkg.name}</h3>
-                  <div className="text-3xl font-bold text-primary mb-2" data-testid={`package-price-${index}`}>{pkg.price}</div>
-                  <p className="text-muted-foreground mb-6" data-testid={`package-description-${index}`}>{pkg.description}</p>
-                </div>
-                <ul className="space-y-3 mb-8">
-                  {pkg.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="flex items-center text-sm" data-testid={`package-feature-${index}-${featureIndex}`}>
-                      <span className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0"></span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-                <button className={`w-full py-3 rounded-lg font-semibold transition-colors ${pkg.popular ? 'bg-primary text-primary-foreground hover:bg-primary/90' : 'bg-muted text-foreground hover:bg-muted/80'}`} data-testid={`package-button-${index}`}>
-                  Paketi Seç
-                </button>
-              </div>
-            ))}
-          </div>
-        </div>
         </div>
       </div>
       <Footer />
