@@ -1,7 +1,7 @@
 import ServiceCard from "@/components/ui/service-card";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
-import { GraduationCap, FileText, Languages, IdCard, Home, Handshake, Users, Award, Clock, Globe } from "lucide-react";
+import { GraduationCap, FileText, Languages, IdCard } from "lucide-react";
 
 const mainServices = [
   {
@@ -34,32 +34,6 @@ const mainServices = [
   }
 ];
 
-const additionalServices = [
-  {
-    icon: Users,
-    title: "Ailevilerine Destek",
-    description: "Öğrenci ailelerine yönelik bilgilendirme ve destek hizmetleri",
-    features: ["Aile bilgilendirmeleri", "Veli toplantıları", "İletişim desteği"]
-  },
-  {
-    icon: Award,
-    title: "Burs Danışmanlığı", 
-    description: "Alman üniversitelerindeki burs fırsatlarını değerlendirin",
-    features: ["Burs araştırması", "Başvuru desteği", "Takip hizmetleri"]
-  },
-  {
-    icon: Clock,
-    title: "Acil Durum Desteği",
-    description: "Almanya'da karşılaştığınız acil durumlarda 7/24 destek",
-    features: ["24/7 iletişim hattı", "Acil durum müdahalesi", "Yerel destek ağı"]
-  },
-  {
-    icon: Globe,
-    title: "Kültürel Adaptasyon",
-    description: "Alman kültürüne uyum sağlamanız için rehberlik",
-    features: ["Kültür eğitimi", "Sosyal aktiviteler", "Mentorluk programı"]
-  }
-];
 
 export default function Services() {
   return (
@@ -86,36 +60,6 @@ export default function Services() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {mainServices.map((service, index) => (
               <ServiceCard key={index} {...service} />
-            ))}
-          </div>
-        </div>
-
-        {/* Additional Services */}
-        <div className="bg-muted rounded-2xl p-8 md:p-12">
-          <h2 className="text-3xl font-bold text-foreground mb-8 text-center" data-testid="additional-services-title">
-            Ek Destek Hizmetleri
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {additionalServices.map((service, index) => (
-              <div key={index} className="bg-card p-6 rounded-xl border border-border" data-testid={`additional-service-${index}`}>
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <service.icon className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="text-lg font-semibold text-card-foreground mb-3" data-testid={`additional-service-title-${index}`}>
-                  {service.title}
-                </h3>
-                <p className="text-muted-foreground mb-4" data-testid={`additional-service-description-${index}`}>
-                  {service.description}
-                </p>
-                <ul className="space-y-2">
-                  {service.features.map((feature, featureIndex) => (
-                    <li key={featureIndex} className="text-sm text-muted-foreground flex items-center" data-testid={`additional-service-feature-${index}-${featureIndex}`}>
-                      <span className="w-1.5 h-1.5 bg-primary rounded-full mr-3 flex-shrink-0"></span>
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
-              </div>
             ))}
           </div>
         </div>
