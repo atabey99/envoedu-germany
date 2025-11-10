@@ -1,12 +1,5 @@
 import { Link } from "wouter";
 import { GraduationCap } from "lucide-react";
-import {
-  SiFacebook,
-  SiInstagram,
-  SiLinkedin,
-  SiYoutube,
-  SiX,
-} from "react-icons/si";
 
 export default function Footer() {
   return (
@@ -22,43 +15,6 @@ export default function Footer() {
               Almanya'da eğitim hayalinizi gerçeğe dönüştüren güvenilir
               ortağınız.
             </p>
-            <div className="flex space-x-4">
-              <a
-                href="#"
-                className="text-secondary-foreground/60 hover:text-accent transition-colors"
-                data-testid="footer-facebook"
-              >
-                <SiFacebook className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-secondary-foreground/60 hover:text-accent transition-colors"
-                data-testid="footer-instagram"
-              >
-                <SiInstagram className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-secondary-foreground/60 hover:text-accent transition-colors"
-                data-testid="footer-linkedin"
-              >
-                <SiLinkedin className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-secondary-foreground/60 hover:text-accent transition-colors"
-                data-testid="footer-youtube"
-              >
-                <SiYoutube className="w-5 h-5" />
-              </a>
-              <a
-                href="#"
-                className="text-secondary-foreground/60 hover:text-accent transition-colors"
-                data-testid="footer-x"
-              >
-                <SiX className="w-5 h-5" />
-              </a>
-            </div>
           </div>
 
           <div>
@@ -125,15 +81,7 @@ export default function Footer() {
                   Başarı Hikayeleri
                 </Link>
               </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-blog"
-                >
-                  Blog
-                </a>
-              </li>
+
               <li>
                 <a
                   href="#"

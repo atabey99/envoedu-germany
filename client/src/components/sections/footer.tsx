@@ -1,6 +1,4 @@
 import { GraduationCap } from "lucide-react";
-import { SiFacebook, SiInstagram, SiLinkedin, SiX } from "react-icons/si";
-
 export default function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground py-12">
@@ -19,55 +17,12 @@ export default function Footer() {
               ortağınız.
             </p>
           </div>
-
-          <div>
-            <h3 className="text-lg font-semibold mb-4">Hizmetler</h3>
-            <ul className="space-y-2 text-secondary-foreground/80">
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-service-consultation"
-                >
-                  Üniversite Danışmanlığı
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-service-application"
-                >
-                  Başvuru Hazırlığı
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-service-visa"
-                >
-                  Vize İşlemleri
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-service-language"
-                >
-                  Dil Eğitimi
-                </a>
-              </li>
-            </ul>
-          </div>
-
           <div>
             <h3 className="text-lg font-semibold mb-4">Bilgi</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>
                 <a
-                  href="#"
+                  href="/about"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-about"
                 >
@@ -83,18 +38,10 @@ export default function Footer() {
                   Başarı Hikayeleri
                 </a>
               </li>
+
               <li>
                 <a
-                  href="#"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-link-blog"
-                >
-                  Blog
-                </a>
-              </li>
-              <li>
-                <a
-                  href="#"
+                  href="/faq"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-faq"
                 >
