@@ -6,65 +6,140 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="bg-secondary border-b border-border fixed top-0 w-full z-50" style={{color: '#ddd'}}>
+    <nav
+      className="bg-secondary border-b border-border fixed top-0 w-full z-50"
+      style={{ color: "#ddd" }}
+    >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          <Link href="/" className="flex items-center space-x-6" data-testid="nav-logo">
+          <Link
+            href="/"
+            className="flex items-center space-x-6"
+            data-testid="nav-logo"
+          >
             <GraduationCap className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold" style={{color: '#ddd'}}>EduConsult Germany</span>
+            <span className="text-xl font-bold" style={{ color: "#ddd" }}>
+              EnvoEdu Germany
+            </span>
           </Link>
-          
-          <div className="hidden md:flex space-x-8" style={{float: 'right'}}>
-            <Link href="/" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-home">
+
+          <div className="hidden md:flex space-x-8" style={{ float: "right" }}>
+            <Link
+              href="/"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-home"
+            >
               Ana Sayfa
             </Link>
-            <Link href="/services" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-services">
+            <Link
+              href="/services"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-services"
+            >
               Hizmetler
             </Link>
-            <Link href="/universities" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-universities">
+            <Link
+              href="/universities"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-universities"
+            >
               Üniversiteler
             </Link>
-            <Link href="/process" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-process">
+            <Link
+              href="/process"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-process"
+            >
               Süreç
             </Link>
-            <Link href="/about" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-about">
+            <Link
+              href="/about"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-about"
+            >
               Hakkımızda
             </Link>
-            <Link href="/contact" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="nav-contact">
+            <Link
+              href="/contact"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-contact"
+            >
               İletişim
             </Link>
           </div>
 
-
-          <button 
+          <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             data-testid="nav-menu-button"
           >
-            {isMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {isMenuOpen ? (
+              <X className="w-6 h-6" />
+            ) : (
+              <Menu className="w-6 h-6" />
+            )}
           </button>
         </div>
 
         {/* Mobile menu */}
         {isMenuOpen && (
-          <div className="md:hidden py-4 border-t border-border" data-testid="nav-mobile-menu">
+          <div
+            className="md:hidden py-4 border-t border-border"
+            data-testid="nav-mobile-menu"
+          >
             <div className="flex flex-col space-y-4">
-              <Link href="/" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-home">
+              <Link
+                href="/"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-home"
+              >
                 Ana Sayfa
               </Link>
-              <Link href="/services" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-services">
+              <Link
+                href="/services"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-services"
+              >
                 Hizmetler
               </Link>
-              <Link href="/universities" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-universities">
+              <Link
+                href="/universities"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-universities"
+              >
                 Üniversiteler
               </Link>
-              <Link href="/process" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-process">
+              <Link
+                href="/process"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-process"
+              >
                 Süreç
               </Link>
-              <Link href="/about" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-about">
+              <Link
+                href="/about"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-about"
+              >
                 Hakkımızda
               </Link>
-              <Link href="/contact" className="hover:text-accent transition-colors" style={{color: '#ddd'}} data-testid="mobile-nav-contact">
+              <Link
+                href="/contact"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-contact"
+              >
                 İletişim
               </Link>
             </div>
