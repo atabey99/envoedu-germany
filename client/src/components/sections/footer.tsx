@@ -18,6 +18,8 @@ export default function Footer() {
               Almanya'da eğitim hayalinizi gerçeğe dönüştüren güvenilir
               ortağınız.
             </p>
+          </div>
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Hizmetler</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
