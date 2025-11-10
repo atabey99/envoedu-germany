@@ -1,17 +1,11 @@
 import TestimonialCard from "@/components/ui/testimonial-card";
 
-const testimonials: {
-  name: string;
-  program: string;
-  initials: string;
-  color: "primary" | "accent" | "secondary";
-  content: string;
-}[] = [
+const testimonials = [
   {
     name: "Ahmet Yılmaz",
     program: "Makine Mühendisliği, TUM",
     initials: "AY",
-    color: "primary",
+    color: "primary" as const,
     content:
       "Envoedu sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
   },
@@ -19,7 +13,7 @@ const testimonials: {
     name: "Zeynep Kaya",
     program: "İşletme, Humboldt Üniversitesi",
     initials: "ZK",
-    color: "accent",
+    color: "accent" as const,
     content:
       "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. Envoedu ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
   },
@@ -27,7 +21,7 @@ const testimonials: {
     name: "Mehmet Özkan",
     program: "Tıp, Heidelberg Üniversitesi",
     initials: "MÖ",
-    color: "secondary",
+    color: "secondary" as const,
     content:
       "Tıp fakültesi kabul sürecim gerçekten zordu ama Envoedu ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
   },
@@ -35,7 +29,8 @@ const testimonials: {
 
 export default function Testimonials() {
   return (
-    <section className="py-20 bg-background">
+    // Yeni: id eklendi
+    <section id="testimonials" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2

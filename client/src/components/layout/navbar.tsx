@@ -56,6 +56,15 @@ export default function Navbar() {
             >
               Süreç
             </Link>
+            {/* Yeni: Başarı Hikayeleri */}
+            <Link
+              href="/#testimonials"
+              className="hover:text-accent transition-colors"
+              style={{ color: "#ddd" }}
+              data-testid="nav-testimonials"
+            >
+              Başarı Hikayeleri
+            </Link>
             <Link
               href="/about"
               className="hover:text-accent transition-colors"
@@ -125,6 +134,15 @@ export default function Navbar() {
                 data-testid="mobile-nav-process"
               >
                 Süreç
+              </Link>
+              {/* Yeni: Başarı Hikayeleri */}
+              <Link
+                href="/#testimonials"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-testimonials"
+              >
+                Başarı Hikayeleri
               </Link>
               <Link
                 href="/about"
