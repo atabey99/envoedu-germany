@@ -1,6 +1,12 @@
 import TestimonialCard from "@/components/ui/testimonial-card";
 
-const testimonials = [
+const testimonials: {
+  name: string;
+  program: string;
+  initials: string;
+  color: "primary" | "accent" | "secondary";
+  content: string;
+}[] = [
   {
     name: "Ahmet Yılmaz",
     program: "Makine Mühendisliği, TUM",
