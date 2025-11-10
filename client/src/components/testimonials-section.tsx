@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 const testimonials = [
   {
     rating: 5,
-    content: "EduConsult sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
+    content: "Envoedu sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
     author: "Ahmet Yılmaz",
     program: "Makine Mühendisliği, TUM",
     initials: "AY",
@@ -12,7 +12,7 @@ const testimonials = [
   },
   {
     rating: 5,
-    content: "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. EduConsult ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
+    content: "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. Envoedu ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
     author: "Zeynep Kaya",
     program: "İşletme, Humboldt Üniversitesi",
     initials: "ZK",
@@ -21,7 +21,7 @@ const testimonials = [
   },
   {
     rating: 5,
-    content: "Tıp fakültesi kabul sürecim gerçekten zordu ama EduConsult ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
+    content: "Tıp fakültesi kabul sürecim gerçekten zordu ama Envoedu ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
     author: "Mehmet Özkan",
     program: "Tıp, Heidelberg Üniversitesi",
     initials: "MÖ",

@@ -34,7 +34,7 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
             <h2 className="text-4xl font-bold text-foreground" data-testid="about-title">
-              Neden EduConsult Germany?
+              Neden Envoedu Germany?
             </h2>
             <p className="text-lg text-muted-foreground leading-relaxed" data-testid="about-description">
               10 yılı aşkın deneyimimiz ve Almanya eğitim sistemi konusundaki derin bilgimizle 

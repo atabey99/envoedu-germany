@@ -200,8 +200,8 @@ export default function ContactSection() {
                   <div>
                     <h4 className="font-semibold text-foreground">E-posta</h4>
                     <p className="text-muted-foreground" data-testid="text-email-info">
-                      info@educonsult.com.tr<br />
-                      danismanlik@educonsult.com.tr
+                      info@envoedu.com.tr<br />
+                      danismanlik@envoedu.com.tr
                     </p>
                   </div>
                 </div>

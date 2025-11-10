@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <GraduationCap className="h-8 w-8 text-accent" />
-              <span className="text-xl font-bold">EduConsult Germany</span>
+              <span className="text-xl font-bold">Envoedu Germany</span>
             </div>
             <p className="text-secondary-foreground/80 mb-4">
               Almanya'da eğitim hayalinizi gerçeğe dönüştüren güvenilir ortağınız.
@@ -62,7 +62,7 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <div className="space-y-2 text-secondary-foreground/80">
               <p data-testid="footer-phone">+90 212 123 45 67</p>
-              <p data-testid="footer-email">info@educonsult.com.tr</p>
+              <p data-testid="footer-email">info@envoedu.com.tr</p>
               <p data-testid="footer-location">İstanbul, Türkiye</p>
             </div>
           </div>
@@ -70,7 +70,7 @@ export default function Footer() {
         
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-foreground/60 text-sm" data-testid="footer-copyright">
-            © 2024 EduConsult Germany. Tüm hakları saklıdır.
+            © 2024 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-privacy">Gizlilik Politikası</a>

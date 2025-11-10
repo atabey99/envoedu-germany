@@ -19,7 +19,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center space-x-2">
             <GraduationCap className="h-8 w-8 text-primary" />
-            <span className="text-xl font-bold text-foreground">EduConsult Germany</span>
+            <span className="text-xl font-bold text-foreground">Envoedu Germany</span>
           </div>
           
           <div className="hidden md:flex space-x-8">

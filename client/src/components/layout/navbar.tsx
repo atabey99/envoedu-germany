@@ -19,7 +19,7 @@ export default function Navbar() {
           >
             <GraduationCap className="w-8 h-8 text-primary" />
             <span className="text-xl font-bold" style={{ color: "#ddd" }}>
-              EnvoEdu Germany
+              Envoedu Germany
             </span>
           </Link>
 

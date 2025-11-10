@@ -1,6 +1,6 @@
 # Overview
 
-EduConsult Germany is a comprehensive educational consultancy web application designed specifically for Turkish students seeking higher education opportunities in Germany. The platform provides end-to-end consulting services including university selection, application preparation, visa processing, language training, and settlement support. Built as a full-stack web application, it features a modern React frontend with a Node.js/Express backend, offering both informational content and consultation request functionality.
+Envoedu Germany is a comprehensive educational consultancy web application designed specifically for Turkish students seeking higher education opportunities in Germany. The platform provides end-to-end consulting services including university selection, application preparation, visa processing, language training, and settlement support. Built as a full-stack web application, it features a modern React frontend with a Node.js/Express backend, offering both informational content and consultation request functionality.
 
 # User Preferences
 

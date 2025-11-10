@@ -7,7 +7,7 @@ const testimonials = [
     initials: "AY",
     color: "primary",
     content:
-      "EnvoEdu sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
+      "Envoedu sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
   },
   {
     name: "Zeynep Kaya",
@@ -15,7 +15,7 @@ const testimonials = [
     initials: "ZK",
     color: "accent",
     content:
-      "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. EnvoEdu ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
+      "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. Envoedu ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
   },
   {
     name: "Mehmet Özkan",
@@ -23,7 +23,7 @@ const testimonials = [
     initials: "MÖ",
     color: "secondary",
     content:
-      "Tıp fakültesi kabul sürecim gerçekten zordu ama EnvoEdu ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
+      "Tıp fakültesi kabul sürecim gerçekten zordu ama Envoedu ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
   },
 ];
 

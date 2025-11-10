@@ -147,7 +147,7 @@ export default function About() {
                 </h2>
                 <div className="space-y-6 text-muted-foreground">
                   <p data-testid="story-paragraph-1">
-                    EduConsult Germany, 2014 yılında Dr. Mehmet Yılmaz tarafından kuruldu. 
+                    Envoedu Germany, 2014 yılında Dr. Mehmet Yılmaz tarafından kuruldu. 
                     Kendisi de Almanya'da eğitim almış biri olarak, Türk öğrencilerin yaşadığı 
                     zorlukları çok iyi biliyordu.
                   </p>
