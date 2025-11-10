@@ -76,7 +76,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="#"
+                  href="/#testimonials"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-success-stories"
                 >
