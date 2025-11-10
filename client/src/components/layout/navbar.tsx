@@ -144,6 +144,14 @@ export default function Navbar() {
               >
                 İletişim
               </Link>
+              <Link
+                href="/faq"
+                className="hover:text-accent transition-colors"
+                style={{ color: "#ddd" }}
+                data-testid="mobile-nav-faq"
+              >
+                SSS
+              </Link>
             </div>
           </div>
         )}

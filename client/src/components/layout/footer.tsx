@@ -84,7 +84,7 @@ export default function Footer() {
 
               <li>
                 <a
-                  href="#"
+                  href="/faq"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-faq"
                 >
