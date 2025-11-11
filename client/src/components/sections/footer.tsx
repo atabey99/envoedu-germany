@@ -70,21 +70,21 @@ export default function Footer() {
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a
-              href="#"
+              href="/privacy"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-privacy"
             >
               Gizlilik Politikası
             </a>
             <a
-              href="#"
+              href="/terms"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-terms"
             >
               Kullanım Şartları
             </a>
             <a
-              href="#"
+              href="/cookies"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-cookies"
             >
