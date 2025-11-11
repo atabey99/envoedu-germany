@@ -47,6 +47,10 @@ const faqs = [
   {
     question: "Mezuniyet sonrası Almanya'da kalabilir miyim?",
     answer: "Evet! Almanya mezuniyet sonrası 18 ay iş arama vizesi sunar. Bu süre içinde işinize uygun bir iş bulabilir ve çalışma izni alabilirsiniz. İş bulduğunuzda Blue Card başvurusu yaparak kalıcı oturma hakkı kazanabilirsiniz."
+  },
+  {
+    question: "Danışmanlık sürecinin her aşaması ne kadar sürer?",
+    answer: "İlk Görüşme: Ücretsiz danışmanlık görüşmemiz yaklaşık 1 saat sürer. Profil Analizi: Akademik geçmişinizin detaylı analizi ve uygun programların belirlenmesi 1-2 hafta içinde tamamlanır. Başvuru Hazırlığı: Tüm belgelerin hazırlanması ve başvuruların yapılması 2-4 hafta sürer. Üniversite Yanıtı: Üniversitelerden kabul cevabı almak 6-12 hafta arasında değişir. Vize İşlemleri: Vize başvurusu ve süreç takibi 4-6 hafta içinde tamamlanır. Toplam süreç, başvurudan vizeli kesin kabul alana kadar yaklaşık 3-6 ay arasında değişebilir."
   }
 ];
 
