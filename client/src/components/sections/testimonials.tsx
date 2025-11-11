@@ -5,7 +5,7 @@ const testimonials = [
     name: "Ahmet Yılmaz",
     program: "Makine Mühendisliği, TUM",
     initials: "AY",
-    color: "primary" as const,
+    color: "primary",
     content:
       "Envoedu sayesinde hayalim olan Technical University of Munich'e kabul aldım. Süreç boyunca aldığım profesyonel destek muhteşemdi.",
   },
@@ -13,15 +13,15 @@ const testimonials = [
     name: "Zeynep Kaya",
     program: "İşletme, Humboldt Üniversitesi",
     initials: "ZK",
-    color: "accent" as const,
+    color: "accent",
     content:
-      "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. Envoedu ile her şey çok kolay oldu. Şimdi Berlin'de mutlu bir öğrenciyim.",
+      "Almanca seviyem sıfırdı, vize işlemleri karmaşık görünüyordu. Envoedu ile her şey çok kolay oldu. Şimdi Berlin'de okuyan bir öğrenciyim.",
   },
   {
     name: "Mehmet Özkan",
     program: "Tıp, Heidelberg Üniversitesi",
     initials: "MÖ",
-    color: "secondary" as const,
+    color: "secondary",
     content:
       "Tıp fakültesi kabul sürecim gerçekten zordu ama Envoedu ekibi beni hiç yalnız bırakmadı. Heidelberg Üniversitesi'nde tıp okuyorum şimdi.",
   },
@@ -43,7 +43,7 @@ export default function Testimonials() {
             className="text-xl text-muted-foreground max-w-3xl mx-auto"
             data-testid="testimonials-description"
           >
-            Öğrencilerimizin deneyimlerini dinleyin
+            Danışanlarımızın deneyimleri
           </p>
         </div>
 

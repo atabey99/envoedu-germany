@@ -23,7 +23,8 @@ const mainServices = [
   {
     icon: Languages,
     title: "Dil Eğitimi",
-    description: "Almanca seviyenizi geliştirin ve dil sınavlarına hazırlanın.",
+    description:
+      "Almanca seviyenizi geliştirin ve dil sınavlarına hazırlanın. Bunun için size özel en verimli dil kursunu analiz ederek öneriyoruz.",
     features: [],
     color: "secondary" as const,
   },
@@ -55,7 +56,7 @@ export default function Services() {
               data-testid="services-page-description"
             >
               Almanya'da eğitim yolculuğunuzun her adımında kapsamlı destek
-              sunuyoruz. Başvuru sürecinden mezuniyetinize kadar yanınızdayız.
+              sunuyoruz.
             </p>
           </div>
 
