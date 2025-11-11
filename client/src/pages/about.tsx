@@ -90,18 +90,6 @@ export default function About() {
                 className="rounded-xl shadow-lg w-full h-auto"
                 data-testid="about-image"
               />
-
-              <div
-                className="absolute -bottom-6 -right-6 bg-card p-6 rounded-xl shadow-lg border border-border"
-                data-testid="about-stats"
-              >
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-primary">100+</div>
-                  <div className="text-sm text-muted-foreground">
-                    Başarılı Öğrenci
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
