@@ -234,23 +234,7 @@ export default function Process() {
             </h2>
 
             <div className="space-y-6">
-              {[
-                {
-                  question: "Başvuru süreci ne kadar sürer?",
-                  answer:
-                    "Ortalama üniversite başvuru süreci 2 ay sürmektedir. Bu süre, belge hazırlığından üniversite kabulüne kadar tüm adımları kapsar.",
-                },
-                {
-                  question: "Almanca bilmek zorunlu mu?",
-                  answer:
-                    "İngilizce programlar için Almanca zorunlu değildir. Ancak Almanca bilen öğrencilerin daha fazla seçeneği olur ve günlük yaşamları kolaylaşır.",
-                },
-                {
-                  question: "Hangi dönemde başvuru yapılır?",
-                  answer:
-                    "Almanya'da yıl içinde iki dönem vardır: Kış dönemi (Ekim) ve Yaz dönemi (Nisan). Başvurular genellikle 6 ay öncesinden başlar.",
-                },
-              ].map((faq, index) => (
+              {[].map((faq, index) => (
                 <div
                   key={index}
                   className="bg-card p-6 rounded-xl border border-border"
