@@ -120,44 +120,6 @@ const universities = [
     ]
   },
   {
-    id: 3,
-    name: "Max Planck Institute",
-    city: "Göttingen",
-    description: "Dünya çapında araştırma merkezi",
-    programs: ["Fizik", "Kimya", "Biyoloji"],
-    ranking: 5,
-    worldRanking: 35,
-    tuition: "Araştırma Enstitüsü",
-    language: ["İngilizce", "Almanca"],
-    founded: 1911,
-    students: 5000,
-    internationalStudents: 3500,
-    coordinates: "51.5330,9.9358",
-    address: "Bunsenstraße 10, 37073 Göttingen, Germany",
-    faculties: ["Fizik", "Kimya", "Biyoloji", "Matematik", "Araştırma Enstitüleri"],
-    admissionRequirements: [
-      "Lisans diploması (doktora için)",
-      "İngilizce dil yeterlik belgesi (C1 seviye)",
-      "Güçlü akademik geçmiş",
-      "Araştırma önerisi",
-      "Professör desteği"
-    ],
-    campusFacilities: [
-      "En gelişmiş araştırma laboratuvarları",
-      "Bilimsel kütüphaneler",
-      "Konferans merkezleri",
-      "Doktora öğrenci merkezleri",
-      "Uluslararası misafirhane",
-      "Gelişmiş teknoloji merkezleri"
-    ],
-    scholarships: [
-      "Max Planck doktora bursları",
-      "Uluslararası araştırma bursları",
-      "IMPRS programları",
-      "Post-doktora fellowships"
-    ]
-  },
-  {
     id: 4,
     name: "RWTH Aachen",
     city: "Aachen",

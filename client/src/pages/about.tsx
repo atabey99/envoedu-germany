@@ -83,16 +83,7 @@ export default function About() {
               </div>
             </div>
 
-            <div className="relative">
-              <img
-                src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
-                alt="About us"
-                className="rounded-xl shadow-lg w-full h-auto"
-                data-testid="about-image"
-              />
-
-              
-            </div>
+            <div className="relative"></div>
           </div>
 
           {/* Why Choose Us */}
@@ -119,7 +110,7 @@ export default function About() {
                   description: "Şeffaf süreç ve %98 başarı oranı garantisi",
                   color: "accent",
                 },
-                
+
                 {
                   icon: Globe,
                   title: "Geniş Ağ",
@@ -222,7 +213,6 @@ export default function About() {
             </div>
           </div>
 
-          
           {/* Values */}
           <div>
             <h2
