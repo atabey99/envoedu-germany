@@ -1,11 +1,8 @@
 import {
   CheckCircle,
-  Clock,
   FileText,
   Users,
   Plane,
-  GraduationCap,
-  Calendar,
   MessageCircle,
 } from "lucide-react";
 import Navbar from "@/components/layout/navbar";
@@ -183,48 +180,6 @@ export default function Process() {
                       />
                     </div>
                   </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Timeline */}
-          <div className="mb-20 bg-muted rounded-2xl p-8 md:p-12">
-            <h2
-              className="text-3xl font-bold text-foreground mb-8 text-center"
-              data-testid="timeline-title"
-            >
-              Gerekli Süreçler
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  title: "Başvuru Hazırlığı",
-                  icon: FileText,
-                },
-                {
-                  title: "Üniversite Yanıtı",
-                  icon: GraduationCap,
-                },
-                { title: "Vize İşlemleri", icon: Plane },
-              ].map((timeline, index) => (
-                <div
-                  key={index}
-                  className="bg-card p-6 rounded-xl text-center"
-                  data-testid={`timeline-item-${index}`}
-                >
-                  <timeline.icon className="w-8 h-8 text-primary mx-auto mb-4" />
-                  <h3
-                    className="font-semibold text-foreground mb-2"
-                    data-testid={`timeline-item-title-${index}`}
-                  >
-                    {timeline.title}
-                  </h3>
-                  <p
-                    className="text-2xl font-bold text-primary"
-                    data-testid={`timeline-item-duration-${index}`}
-                  ></p>
                 </div>
               ))}
             </div>
