@@ -11,40 +11,7 @@ import {
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
 
-const teamMembers = [
-  {
-    name: "Dr. Mehmet Yılmaz",
-    title: "Kurucu & Baş Danışman",
-    education: "Technical University of Munich - Doktora",
-    experience: "15+ yıl Almanya eğitim danışmanlığı",
-    image:
-      "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
-  },
-  {
-    name: "Ayşe Kaya",
-    title: "Eğitim Danışmanı",
-    education: "Heidelberg Üniversitesi - Yüksek Lisans",
-    experience: "8+ yıl öğrenci rehberliği",
-    image:
-      "https://images.unsplash.com/photo-1494790108755-2616b612b5c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
-  },
-  {
-    name: "Can Özdemir",
-    title: "Vize Uzmanı",
-    education: "Humboldt Üniversitesi - Lisans",
-    experience: "6+ yıl vize danışmanlığı",
-    image:
-      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
-  },
-  {
-    name: "Zehra Aktaş",
-    title: "Dil Eğitmeni",
-    education: "Goethe Institut - Almanca Öğretmenliği",
-    experience: "10+ yıl Almanca eğitimi",
-    image:
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&h=300",
-  },
-];
+const teamMembers = [];
 
 export default function About() {
   return (
@@ -64,7 +31,7 @@ export default function About() {
               className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed"
               data-testid="about-page-description"
             >
-              2014'ten beri Türk öğrencilerin Almanya'da eğitim hayallerini
+              2014'ten beri öğrencilerin Almanya'da eğitim hayallerini
               gerçekleştirmelerine yardımcı oluyoruz. Deneyimli kadromuz ve
               güvenilir hizmetimizle binlerce öğrenciye ulaştık.
             </p>
@@ -87,7 +54,7 @@ export default function About() {
                   className="text-lg text-muted-foreground leading-relaxed"
                   data-testid="about-mission-description"
                 >
-                  Türk öğrencilerin Almanya'da kaliteli eğitim alabilmeleri için
+                  Öğrencilerin Almanya'da kaliteli eğitim alabilmeleri için
                   kapsamlı, güvenilir ve kişiselleştirilmiş danışmanlık
                   hizmetleri sunarak onların akademik ve kişisel gelişimlerine
                   katkıda bulunmak.

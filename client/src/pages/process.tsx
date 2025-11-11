@@ -225,37 +225,6 @@ export default function Process() {
           </div>
 
           {/* FAQ */}
-          <div>
-            <h2
-              className="text-3xl font-bold text-foreground mb-12 text-center"
-              data-testid="faq-title"
-            >
-              Sık Sorulan Sorular
-            </h2>
-
-            <div className="space-y-6">
-              {[].map((faq, index) => (
-                <div
-                  key={index}
-                  className="bg-card p-6 rounded-xl border border-border"
-                  data-testid={`faq-item-${index}`}
-                >
-                  <h3
-                    className="text-lg font-semibold text-foreground mb-3"
-                    data-testid={`faq-question-${index}`}
-                  >
-                    {faq.question}
-                  </h3>
-                  <p
-                    className="text-muted-foreground"
-                    data-testid={`faq-answer-${index}`}
-                  >
-                    {faq.answer}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </div>
         </div>
       </div>
       <Footer />

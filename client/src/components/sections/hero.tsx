@@ -34,14 +34,6 @@ export default function Hero() {
             </div>
             <div className="flex space-x-8 pt-4">
               <div className="text-center">
-                <div className="text-3xl font-bold" data-testid="stat-students">
-                  100+
-                </div>
-                <div className="text-sm text-foreground/70">
-                  Başarılı Öğrenci
-                </div>
-              </div>
-              <div className="text-center">
                 <div
                   className="text-3xl font-bold"
                   data-testid="stat-universities"
