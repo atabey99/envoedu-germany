@@ -18,7 +18,7 @@ export default function Hero() {
               className="text-xl text-foreground/80 leading-relaxed"
               data-testid="hero-description"
             >
-              Öğrenciler için özel olarak tasarlanmış kapsamlı danışmanlık
+              Sizler için özel olarak tasarlanmış kapsamlı danışmanlık
               hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
@@ -40,7 +40,9 @@ export default function Hero() {
                 >
                   100+
                 </div>
-                <div className="text-sm text-foreground/70">Üniversite Kabulü</div>
+                <div className="text-sm text-foreground/70">
+                  Üniversite Kabulü
+                </div>
               </div>
               <div className="text-center">
                 <div
