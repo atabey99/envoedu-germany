@@ -90,6 +90,8 @@ export default function About() {
                 className="rounded-xl shadow-lg w-full h-auto"
                 data-testid="about-image"
               />
+
+              
             </div>
           </div>
 
@@ -117,16 +119,11 @@ export default function About() {
                   description: "Şeffaf süreç ve %98 başarı oranı garantisi",
                   color: "accent",
                 },
-                {
-                  icon: Clock,
-                  title: "7/24 Destek",
-                  description: "Süreç boyunca kesintisiz destek ve takip",
-                  color: "secondary",
-                },
+                
                 {
                   icon: Globe,
                   title: "Geniş Ağ",
-                  description: "50+ partner üniversite ve güçlü mezun ağı",
+                  description: "50+ üniversite ve güçlü mezun ağı",
                   color: "primary",
                 },
               ].map((feature, index) => (
@@ -225,59 +222,7 @@ export default function About() {
             </div>
           </div>
 
-          {/* Team */}
-          <div className="mb-20">
-            <h2
-              className="text-4xl font-bold text-foreground mb-12 text-center"
-              data-testid="team-title"
-            >
-              Ekibimiz
-            </h2>
-
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {teamMembers.map((member, index) => (
-                <div
-                  key={index}
-                  className="text-center space-y-4"
-                  data-testid={`team-member-${index}`}
-                >
-                  <img
-                    src={member.image}
-                    alt={member.name}
-                    className="w-32 h-32 rounded-full mx-auto object-cover"
-                    data-testid={`team-member-image-${index}`}
-                  />
-                  <div>
-                    <h3
-                      className="text-xl font-semibold text-foreground"
-                      data-testid={`team-member-name-${index}`}
-                    >
-                      {member.name}
-                    </h3>
-                    <p
-                      className="text-primary font-medium"
-                      data-testid={`team-member-title-${index}`}
-                    >
-                      {member.title}
-                    </p>
-                    <p
-                      className="text-sm text-muted-foreground"
-                      data-testid={`team-member-education-${index}`}
-                    >
-                      {member.education}
-                    </p>
-                    <p
-                      className="text-sm text-muted-foreground"
-                      data-testid={`team-member-experience-${index}`}
-                    >
-                      {member.experience}
-                    </p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-
+          
           {/* Values */}
           <div>
             <h2

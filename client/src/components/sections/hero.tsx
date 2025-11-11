@@ -37,7 +37,10 @@ export default function Hero() {
                 <div
                   className="text-3xl font-bold"
                   data-testid="stat-universities"
-                ></div>
+                >
+                  100+
+                </div>
+                <div className="text-sm text-foreground/70">Üniversite Kabulü</div>
               </div>
               <div className="text-center">
                 <div
