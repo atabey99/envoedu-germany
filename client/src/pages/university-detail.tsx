@@ -2595,6 +2595,203 @@ const universities = [
       "Nobel ödüllü mezun ağı bursları",
       "Münih şehir avantajları"
     ]
+  },
+  {
+    id: 64,
+    name: "Jacobs University Bremen",
+    city: "Bremen",
+    description: "2001'de kurulan özel, İngilizce eğitim veren uluslararası üniversite",
+    programs: ["Mühendislik", "Doğa Bilimleri", "Sosyal Bilimler", "İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - €20,000/yıl",
+    language: ["İngilizce"],
+    founded: 2001,
+    students: 1500,
+    internationalStudents: 1400,
+    coordinates: "53.1677,8.6515",
+    address: "Campus Ring 1, 28759 Bremen, Germany",
+    faculties: ["Mühendislik", "Doğa Bilimleri", "Sosyal Bilimler ve Beşeri Bilimler"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "İngilizce dil yeterlilik belgesi (TOEFL/IELTS)",
+      "Motivasyon mektubu",
+      "Referans mektupları",
+      "SAT/ACT puanları (opsiyonel)"
+    ],
+    campusFacilities: [
+      "Yerleşik kampüs (residential campus)",
+      "Modern laboratuvarlar ve araştırma merkezleri",
+      "Kampüs içi öğrenci yurtları",
+      "Uluslararası topluluk",
+      "Spor tesisleri",
+      "Kütüphane ve çalışma alanları"
+    ],
+    scholarships: [
+      "Need-based burslar (ihtiyaç bazlı)",
+      "Merit-based burslar (başarı bazlı)",
+      "DAAD bursları",
+      "Jacobs Foundation bursları",
+      "Tam burs imkanları"
+    ]
+  },
+  {
+    id: 65,
+    name: "Bard College Berlin",
+    city: "Berlin",
+    description: "Liberal arts odaklı özel Amerikan üniversitesi, beşeri bilimler ve sanat programları",
+    programs: ["Beşeri Bilimler", "Sanat", "Sosyal Bilimler", "Felsefe"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - €28,700/yıl",
+    language: ["İngilizce", "Almanca"],
+    founded: 1999,
+    students: 350,
+    internationalStudents: 300,
+    coordinates: "52.5050,13.4370",
+    address: "Platanenstraße 24, 13156 Berlin, Germany",
+    faculties: ["Beşeri Bilimler, Sanat ve Sosyal Düşünce", "Ekonomi, Politika ve Sosyal Düşünce"],
+    admissionRequirements: [
+      "Lise diploması",
+      "İngilizce dil yeterlilik belgesi (TOEFL 100+ / IELTS 7.0+)",
+      "Extended essay veya akademik yazı örneği",
+      "Referans mektupları",
+      "Kişisel görüşme"
+    ],
+    campusFacilities: [
+      "Berlin Pankow'da tarihi bina",
+      "Küçük sınıf boyutları (12-15 öğrenci)",
+      "Merkezi kütüphane",
+      "Sanat stüdyoları",
+      "Öğrenci lounge alanları",
+      "Berlin'in kültürel olanaklarına kolay erişim"
+    ],
+    scholarships: [
+      "Need-based finansal destek",
+      "Merit scholarships",
+      "DAAD bursları",
+      "Fulbright programı",
+      "Bard College global network bursları"
+    ]
+  },
+  {
+    id: 66,
+    name: "WHU – Otto Beisheim School of Management",
+    city: "Vallendar",
+    description: "Almanya'nın en prestijli özel işletme okullarından biri, Vallendar ve Düsseldorf kampüsleri",
+    programs: ["İşletme", "Yönetim", "MBA", "Finans"],
+    ranking: 1,
+    worldRanking: 301,
+    tuition: "Özel Üniversite - €15,900-39,500/yıl (program göre)",
+    language: ["İngilizce", "Almanca"],
+    founded: 1984,
+    students: 1600,
+    internationalStudents: 800,
+    coordinates: "50.4027,7.6137",
+    address: "Burgplatz 2, 56179 Vallendar, Germany",
+    faculties: ["İşletme Yönetimi"],
+    admissionRequirements: [
+      "Lise diploması (Bachelor için) / Lisans diploması (Master için)",
+      "GMAT/GRE puanları (Master/MBA için)",
+      "İngilizce dil yeterlilik belgesi",
+      "Motivasyon mektubu",
+      "Referans mektupları",
+      "Mülakat"
+    ],
+    campusFacilities: [
+      "Modern kampüs Ren nehri kıyısında",
+      "Bloomberg terminalleri",
+      "Simülasyon odaları",
+      "Executive education merkezi",
+      "Campus Düsseldorf",
+      "Uluslararası değişim programları"
+    ],
+    scholarships: [
+      "WHU Academic Excellence bursları",
+      "Need-based burslar",
+      "Deutschland Stipendium",
+      "Externe Stiftungen bursları",
+      "İşletme sponsorluğu bursları"
+    ]
+  },
+  {
+    id: 67,
+    name: "EBS Universität für Wirtschaft und Recht",
+    city: "Wiesbaden",
+    description: "İşletme ve hukuk odaklı özel üniversite, güçlü şirket bağlantıları",
+    programs: ["İşletme", "Hukuk", "Gayrimenkul", "MBA"],
+    ranking: 2,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - €6,990-42,000/yıl (program göre)",
+    language: ["İngilizce", "Almanca"],
+    founded: 1971,
+    students: 2100,
+    internationalStudents: 600,
+    coordinates: "50.0782,8.2397",
+    address: "Gustav-Stresemann-Ring 3, 65189 Wiesbaden, Germany",
+    faculties: ["İşletme Fakültesi", "Hukuk Fakültesi"],
+    admissionRequirements: [
+      "Lise diploması / Lisans diploması",
+      "GMAT/GRE (MBA/Master programları için)",
+      "İngilizce/Almanca dil yeterlilik belgesi",
+      "Assessment Center",
+      "Kişisel görüşme",
+      "Motivasyon mektubu"
+    ],
+    campusFacilities: [
+      "Wiesbaden kampüs (işletme)",
+      "Oestrich-Winkel kampüs (tarihi kale)",
+      "Berlin ofisi",
+      "Modern sınıflar ve seminer odaları",
+      "Kariyer merkezi",
+      "Networking etkinlikleri"
+    ],
+    scholarships: [
+      "EBS Excellence bursları",
+      "Deutschland Stipendium",
+      "İşletme sponsorluğu programları",
+      "Need-based finansal destek",
+      "Alumni bursları"
+    ]
+  },
+  {
+    id: 68,
+    name: "Constructor University",
+    city: "Bremen",
+    description: "Önceden Jacobs University, 2023'te Constructor University olarak yenilendi, İngilizce eğitim",
+    programs: ["Bilgisayar Bilimleri", "Veri Bilimi", "Robotik", "İşletme"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Üniversite - €20,000/yıl",
+    language: ["İngilizce"],
+    founded: 2001,
+    students: 1500,
+    internationalStudents: 1400,
+    coordinates: "53.1677,8.6515",
+    address: "Campus Ring 1, 28759 Bremen, Germany",
+    faculties: ["Bilgisayar Bilimleri ve Yapay Zeka", "İnovasyon Mühendisliği", "Yaşam Bilimleri"],
+    admissionRequirements: [
+      "Lise diploması",
+      "İngilizce dil yeterlilik belgesi (TOEFL 90+ / IELTS 6.5+)",
+      "Motivasyon mektubu",
+      "Referans mektupları",
+      "Online mülakat"
+    ],
+    campusFacilities: [
+      "Yerleşik kampüs modeli",
+      "AI ve Data Science laboratuvarları",
+      "Robotik atölyeleri",
+      "Modern öğrenci yurtları",
+      "Uluslararası topluluk",
+      "Spor ve sosyal tesisler"
+    ],
+    scholarships: [
+      "Constructor bursları",
+      "Merit-based scholarships",
+      "Need-based finansal destek",
+      "DAAD bursları",
+      "Tam burs fırsatları"
+    ]
   }
 ];
 
