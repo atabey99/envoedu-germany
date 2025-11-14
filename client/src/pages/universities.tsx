@@ -19,7 +19,7 @@ interface University {
   category: UniversityCategory;
 }
 
-const universities: University[] = [
+export const universities: University[] = [
   {
     id: 1,
     name: "RWTH Aachen University",

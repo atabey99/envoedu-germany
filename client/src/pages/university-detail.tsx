@@ -3,8 +3,9 @@ import { useEffect } from "react";
 import { MapPin, Star, Globe, Calendar, BookOpen, Users, Award, Clock } from "lucide-react";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/sections/footer";
+import { universities as basicUniversities } from "./universities";
 
-const universities = [
+const detailedUniversities = [
   {
     id: 0,
     name: "Technical University of Munich",
@@ -3086,7 +3087,14 @@ const universities = [
 export default function UniversityDetail() {
   const params = useParams();
   const universityId = parseInt(params.id || "0");
-  const university = universities.find(uni => uni.id === universityId);
+  
+  // Try to find in detailed list first, then fall back to basic list
+  let university: any = detailedUniversities.find(uni => uni.id === universityId);
+  const isDetailed = !!university;
+  
+  if (!university) {
+    university = basicUniversities.find(uni => uni.id === universityId);
+  }
 
   // Sayfa açıldığında en üste scroll et
   useEffect(() => {
@@ -3105,6 +3113,34 @@ export default function UniversityDetail() {
       </div>
     );
   }
+  
+  // Default values for universities without detailed information
+  const defaultFaculties = university.programs || ["Bilgi yakında eklenecek"];
+  const defaultAdmissionRequirements = [
+    "Lise diploması veya dengi belge",
+    "Almanca dil yeterlik belgesi (program diline göre)",
+    "Başvuru detayları için üniversite web sitesini ziyaret edin"
+  ];
+  const defaultCampusFacilities = [
+    "Modern kampüs",
+    "Kütüphane",
+    "Öğrenci merkezleri",
+    "Detaylı bilgi için danışmanlarımızla iletişime geçin"
+  ];
+  const defaultScholarships = [
+    "DAAD bursları",
+    "Deutschland Stipendium",
+    "Burs imkanları için danışmanlarımızla iletişime geçin"
+  ];
+  
+  const faculties = (university as any).faculties || defaultFaculties;
+  const admissionRequirements = (university as any).admissionRequirements || defaultAdmissionRequirements;
+  const campusFacilities = (university as any).campusFacilities || defaultCampusFacilities;
+  const scholarships = (university as any).scholarships || defaultScholarships;
+  const founded = (university as any).founded || 1900;
+  const students = (university as any).students || 10000;
+  const internationalStudents = (university as any).internationalStudents || 1000;
+  const coordinates = (university as any).coordinates || "51.1657,10.4515"; // Germany center
 
   return (
     <div className="min-h-screen bg-background pt-16">
@@ -3136,7 +3172,7 @@ export default function UniversityDetail() {
               {/* University Map */}
               <div className="mt-6 border border-border rounded-xl overflow-hidden shadow-lg">
                 <iframe
-                  src={`https://www.google.com/maps?q=${university.coordinates}&output=embed`}
+                  src={`https://www.google.com/maps?q=${coordinates}&output=embed`}
                   width="100%"
                   height="300"
                   style={{ border: 0 }}
@@ -3153,25 +3189,25 @@ export default function UniversityDetail() {
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-16">
             <div className="bg-card p-6 rounded-xl border border-border text-center">
               <Calendar className="w-8 h-8 text-primary mx-auto mb-3" />
-              <div className="text-2xl font-bold text-foreground">{university.founded}</div>
+              <div className="text-2xl font-bold text-foreground">{founded}</div>
               <div className="text-sm text-muted-foreground">Kuruluş Yılı</div>
             </div>
             
             <div className="bg-card p-6 rounded-xl border border-border text-center">
               <Users className="w-8 h-8 text-accent mx-auto mb-3" />
-              <div className="text-2xl font-bold text-foreground">{university.students.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-foreground">{students.toLocaleString()}</div>
               <div className="text-sm text-muted-foreground">Toplam Öğrenci</div>
             </div>
             
             <div className="bg-card p-6 rounded-xl border border-border text-center">
               <Globe className="w-8 h-8 text-secondary mx-auto mb-3" />
-              <div className="text-2xl font-bold text-foreground">{university.internationalStudents.toLocaleString()}</div>
+              <div className="text-2xl font-bold text-foreground">{internationalStudents.toLocaleString()}</div>
               <div className="text-sm text-muted-foreground">Uluslararası Öğrenci</div>
             </div>
             
             <div className="bg-card p-6 rounded-xl border border-border text-center">
               <BookOpen className="w-8 h-8 text-primary mx-auto mb-3" />
-              <div className="text-2xl font-bold text-foreground">{university.faculties.length}</div>
+              <div className="text-2xl font-bold text-foreground">{faculties.length}</div>
               <div className="text-sm text-muted-foreground">Fakülte Sayısı</div>
             </div>
           </div>
@@ -3184,10 +3220,10 @@ export default function UniversityDetail() {
               <div className="bg-card p-8 rounded-xl border border-border">
                 <h2 className="text-2xl font-bold text-foreground mb-6 flex items-center">
                   <BookOpen className="w-6 h-6 mr-3 text-primary" />
-                  Fakülteler
+                  Fakülteler / Programlar
                 </h2>
                 <div className="grid grid-cols-1 gap-3">
-                  {university.faculties.map((faculty, index) => (
+                  {faculties.map((faculty: string, index: number) => (
                     <div key={index} className="flex items-center space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full"></div>
                       <span className="text-foreground">{faculty}</span>
@@ -3203,7 +3239,7 @@ export default function UniversityDetail() {
                   Başvuru Şartları
                 </h2>
                 <div className="space-y-3">
-                  {university.admissionRequirements.map((requirement, index) => (
+                  {admissionRequirements.map((requirement: string, index: number) => (
                     <div key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-accent rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{requirement}</span>
@@ -3222,7 +3258,7 @@ export default function UniversityDetail() {
                   Kampüs Olanakları
                 </h2>
                 <div className="space-y-3">
-                  {university.campusFacilities.map((facility, index) => (
+                  {campusFacilities.map((facility: string, index: number) => (
                     <div key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-secondary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{facility}</span>
@@ -3238,7 +3274,7 @@ export default function UniversityDetail() {
                   Burs İmkanları
                 </h2>
                 <div className="space-y-3">
-                  {university.scholarships.map((scholarship, index) => (
+                  {scholarships.map((scholarship: string, index: number) => (
                     <div key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
                       <span className="text-muted-foreground">{scholarship}</span>
@@ -3257,7 +3293,7 @@ export default function UniversityDetail() {
                   </div>
                   <div className="flex justify-between">
                     <span className="text-muted-foreground">Öğrenci Sayısı:</span>
-                    <span className="text-foreground font-medium">{university.students.toLocaleString()}</span>
+                    <span className="text-foreground font-medium">{students.toLocaleString()}</span>
                   </div>
                 </div>
               </div>
