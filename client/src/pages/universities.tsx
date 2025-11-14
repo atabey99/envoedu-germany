@@ -28,7 +28,7 @@ const universities: University[] = [
     worldRanking: 92,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Augsburg",
@@ -39,7 +39,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Bamberg (Otto-Friedrich-Universität)",
@@ -50,29 +50,31 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Bayreuth",
     city: "Bayreuth",
-    description: "Yenilikçi ve disiplinlerarası araştırmalarıyla tanınan üniversite",
+    description:
+      "Yenilikçi ve disiplinlerarası araştırmalarıyla tanınan üniversite",
     programs: ["Hukuk", "İşletme", "Doğa Bilimleri", "Mühendislik"],
     ranking: 3,
     worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Free University of Berlin (Freie Universität Berlin)",
     city: "Berlin",
-    description: "Berlin'in en prestijli üniversitelerinden biri, güçlü araştırma geleneği",
+    description:
+      "Berlin'in en prestijli üniversitelerinden biri, güçlü araştırma geleneği",
     programs: ["Sosyal Bilimler", "Hukuk", "Tıp", "Doğa Bilimleri"],
     ranking: 1,
     worldRanking: 117,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Humboldt University of Berlin",
@@ -83,7 +85,7 @@ const universities: University[] = [
     worldRanking: 84,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Technische Universität Berlin",
@@ -94,7 +96,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of the Arts Berlin (UdK)",
@@ -105,7 +107,7 @@ const universities: University[] = [
     worldRanking: 51,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Bielefeld University",
@@ -116,7 +118,7 @@ const universities: University[] = [
     worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Ruhr University Bochum",
@@ -127,7 +129,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Bonn",
@@ -138,7 +140,7 @@ const universities: University[] = [
     worldRanking: 89,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Brandenburg University of Technology Cottbus-Senftenberg",
@@ -149,7 +151,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Braunschweig University of Technology",
@@ -160,7 +162,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Bremen",
@@ -171,7 +173,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Chemnitz University of Technology",
@@ -182,7 +184,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Clausthal University of Technology",
@@ -193,7 +195,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Cologne (Universität zu Köln)",
@@ -204,7 +206,7 @@ const universities: University[] = [
     worldRanking: 145,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Technische Universität Darmstadt",
@@ -215,7 +217,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "TU Dortmund University",
@@ -226,7 +228,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "TU Dresden",
@@ -237,7 +239,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Duisburg-Essen",
@@ -248,7 +250,7 @@ const universities: University[] = [
     worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Heinrich Heine University Düsseldorf",
@@ -259,7 +261,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Erfurt",
@@ -270,7 +272,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Friedrich-Alexander University Erlangen–Nürnberg (FAU)",
@@ -281,7 +283,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Flensburg (Europa-Universität Flensburg)",
@@ -292,18 +294,19 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Goethe University Frankfurt am Main",
     city: "Frankfurt am Main",
-    description: "Almanya'nın en prestijli üniversitelerinden, güçlü finansal program",
+    description:
+      "Almanya'nın en prestijli üniversitelerinden, güçlü finansal program",
     programs: ["İşletme", "Hukuk", "Sosyal Bilimler", "Tıp"],
     ranking: 1,
     worldRanking: 89,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "European University Viadrina Frankfurt (Oder)",
@@ -314,18 +317,23 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "TU Bergakademie Freiberg",
     city: "Freiberg",
     description: "Maden ve malzeme bilimlerinde dünya lideri",
-    programs: ["Maden Mühendisliği", "Malzeme Bilimi", "Jeoloji", "Çevre Teknolojisi"],
+    programs: [
+      "Maden Mühendisliği",
+      "Malzeme Bilimi",
+      "Jeoloji",
+      "Çevre Teknolojisi",
+    ],
     ranking: 4,
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Freiburg (Albert-Ludwigs-Universität Freiburg)",
@@ -336,7 +344,7 @@ const universities: University[] = [
     worldRanking: 108,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Justus Liebig University Giessen",
@@ -347,18 +355,19 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Göttingen (Georg-August-Universität)",
     city: "Göttingen",
-    description: "1737'de kurulan, Nobel ödüllü bilim insanlarının üniversitesi",
+    description:
+      "1737'de kurulan, Nobel ödüllü bilim insanlarının üniversitesi",
     programs: ["Doğa Bilimleri", "Sosyal Bilimler", "Tıp", "Hukuk"],
     ranking: 1,
     worldRanking: 111,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Greifswald",
@@ -369,7 +378,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "FernUniversität in Hagen",
@@ -380,7 +389,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Düşük Ücret",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Martin Luther University Halle-Wittenberg",
@@ -391,7 +400,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Hamburg",
@@ -402,7 +411,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "HafenCity University Hamburg",
@@ -413,18 +422,19 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Hamburg University of Technology (TUHH)",
     city: "Hamburg",
-    description: "Hamburg'un teknik üniversitesi, güçlü mühendislik programları",
+    description:
+      "Hamburg'un teknik üniversitesi, güçlü mühendislik programları",
     programs: ["Mühendislik", "Teknoloji", "Bilgisayar", "Çevre Teknolojisi"],
     ranking: 3,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Leibniz University Hannover",
@@ -435,7 +445,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Heidelberg (Ruprecht-Karls-Universität)",
@@ -446,18 +456,23 @@ const universities: University[] = [
     worldRanking: 47,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Hildesheim",
     city: "Hildesheim",
     description: "Eğitim bilimleri ve kültürel çalışmalar odaklı üniversite",
-    programs: ["Eğitim", "Sosyal Bilimler", "Kültürel Çalışmalar", "Bilgisayar"],
+    programs: [
+      "Eğitim",
+      "Sosyal Bilimler",
+      "Kültürel Çalışmalar",
+      "Bilgisayar",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Hohenheim",
@@ -468,7 +483,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "TU Ilmenau",
@@ -479,7 +494,7 @@ const universities: University[] = [
     worldRanking: 567,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Jena (Friedrich-Schiller-Universität Jena)",
@@ -490,7 +505,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "TU Kaiserslautern",
@@ -501,7 +516,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Karlsruhe Institute of Technology (KIT)",
@@ -512,7 +527,7 @@ const universities: University[] = [
     worldRanking: 124,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Kassel",
@@ -523,7 +538,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Kiel (Christian-Albrechts-Universität Kiel)",
@@ -534,7 +549,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Koblenz",
@@ -545,18 +560,19 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Konstanz",
     city: "Konstanz",
-    description: "Elite üniversite statüsüne sahip, yenilikçi araştırma üniversitesi",
+    description:
+      "Elite üniversite statüsüne sahip, yenilikçi araştırma üniversitesi",
     programs: ["Sosyal Bilimler", "Doğa Bilimleri", "İşletme", "Hukuk"],
     ranking: 1,
     worldRanking: 167,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Leipzig",
@@ -567,7 +583,7 @@ const universities: University[] = [
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Lübeck",
@@ -578,18 +594,19 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Leuphana University Lüneburg",
     city: "Lüneburg",
-    description: "Sürdürülebilirlik ve liberal eğitim odaklı yenilikçi üniversite",
+    description:
+      "Sürdürülebilirlik ve liberal eğitim odaklı yenilikçi üniversite",
     programs: ["Sürdürülebilirlik", "İşletme", "Eğitim", "Kültürel Çalışmalar"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Magdeburg (Otto-von-Guericke-Universität)",
@@ -600,7 +617,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Johannes Gutenberg University Mainz",
@@ -611,7 +628,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Mannheim",
@@ -622,7 +639,7 @@ const universities: University[] = [
     worldRanking: 134,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Philipps University Marburg",
@@ -633,7 +650,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Technical University of Munich (TUM)",
@@ -644,7 +661,7 @@ const universities: University[] = [
     worldRanking: 30,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Ludwig Maximilian University of Munich (LMU)",
@@ -655,7 +672,7 @@ const universities: University[] = [
     worldRanking: 38,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Bundeswehr University Munich",
@@ -666,7 +683,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Askeri Üniversite - Özel",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Münster (WWU)",
@@ -677,7 +694,7 @@ const universities: University[] = [
     worldRanking: 156,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Oldenburg (Carl von Ossietzky Universität)",
@@ -688,29 +705,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Osnabrück",
     city: "Osnabrück",
-    description: "Sosyal bilimler ve bilişsel bilimler alanında güçlü üniversite",
+    description:
+      "Sosyal bilimler ve bilişsel bilimler alanında güçlü üniversite",
     programs: ["Sosyal Bilimler", "Bilişsel Bilim", "İşletme", "Hukuk"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Paderborn",
     city: "Paderborn",
-    description: "Bilgisayar bilimleri ve mühendislik alanında güçlü üniversite",
+    description:
+      "Bilgisayar bilimleri ve mühendislik alanında güçlü üniversite",
     programs: ["Bilgisayar", "Mühendislik", "İşletme", "Eğitim"],
     ranking: 3,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Passau",
@@ -721,7 +740,7 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Potsdam",
@@ -732,7 +751,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Regensburg",
@@ -743,7 +762,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Rostock",
@@ -754,18 +773,19 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Saarland University (Universität des Saarlandes)",
     city: "Saarbrücken",
-    description: "Bilgisayar bilimleri ve mühendislik alanında güçlü üniversite",
+    description:
+      "Bilgisayar bilimleri ve mühendislik alanında güçlü üniversite",
     programs: ["Bilgisayar", "Mühendislik", "Tıp", "Hukuk"],
     ranking: 3,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Siegen",
@@ -776,7 +796,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "German University of Administrative Sciences Speyer",
@@ -787,18 +807,19 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Stuttgart",
     city: "Stuttgart",
-    description: "Mühendislik ve teknoloji alanında dünya çapında tanınan üniversite",
+    description:
+      "Mühendislik ve teknoloji alanında dünya çapında tanınan üniversite",
     programs: ["Mühendislik", "Teknoloji", "Mimarlık", "Doğa Bilimleri"],
     ranking: 2,
     worldRanking: 201,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Trier",
@@ -809,7 +830,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Tübingen (Eberhard Karls Universität)",
@@ -820,7 +841,7 @@ const universities: University[] = [
     worldRanking: 100,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Ulm",
@@ -831,18 +852,19 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Vechta",
     city: "Vechta",
-    description: "Eğitim bilimleri ve sürdürülebilirlik odaklı küçük üniversite",
+    description:
+      "Eğitim bilimleri ve sürdürülebilirlik odaklı küçük üniversite",
     programs: ["Eğitim", "Sürdürülebilirlik", "Sosyal Bilimler", "Çevre"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "Bauhaus University Weimar",
@@ -853,18 +875,7 @@ const universities: University[] = [
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
-  },
-  {
-    name: "University of Weimar (Bauhaus)",
-    city: "Weimar",
-    description: "Bauhaus geleneğini sürdüren sanat ve tasarım üniversitesi",
-    programs: ["Sanat", "Tasarım", "Mimarlık", "Medya"],
-    ranking: 2,
-    worldRanking: 251,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Wuppertal (Bergische Universität Wuppertal)",
@@ -875,29 +886,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Würzburg (Julius-Maximilians-Universität Würzburg)",
     city: "Würzburg",
-    description: "1402'de kurulan, tıp ve doğa bilimleri alanında güçlü üniversite",
+    description:
+      "1402'de kurulan, tıp ve doğa bilimleri alanında güçlü üniversite",
     programs: ["Tıp", "Doğa Bilimleri", "Sosyal Bilimler", "Hukuk"],
     ranking: 1,
     worldRanking: 167,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "University of Kiel (Christian-Albrechts-Universität)",
     city: "Kiel",
-    description: "1665'te kurulan, deniz bilimleri ve tıp alanında güçlü üniversite",
+    description:
+      "1665'te kurulan, deniz bilimleri ve tıp alanında güçlü üniversite",
     programs: ["Tıp", "Deniz Bilimleri", "Hukuk", "Sosyal Bilimler"],
     ranking: 2,
     worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory
+    category: "Üniversite" as UniversityCategory,
   },
   {
     name: "FH Aachen – University of Applied Sciences",
@@ -908,40 +921,43 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Aalen",
     city: "Aalen",
-    description: "Teknoloji ve mühendislik odaklı uygulamalı bilimler üniversitesi",
+    description:
+      "Teknoloji ve mühendislik odaklı uygulamalı bilimler üniversitesi",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Optik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Albstadt-Sigmaringen",
     city: "Albstadt-Sigmaringen",
-    description: "Tekstil teknolojisi ve mühendislik alanında uzman Fachhochschule",
+    description:
+      "Tekstil teknolojisi ve mühendislik alanında uzman Fachhochschule",
     programs: ["Tekstil Mühendisliği", "İşletme", "Mühendislik", "Teknoloji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "OTH Amberg-Weiden",
     city: "Amberg-Weiden",
-    description: "Doğu Bavyera'da teknoloji odaklı uygulamalı bilimler üniversitesi",
+    description:
+      "Doğu Bavyera'da teknoloji odaklı uygulamalı bilimler üniversitesi",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Bilgisayar"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Anhalt",
@@ -952,29 +968,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Ansbach",
     city: "Ansbach",
-    description: "İşletme ve mühendislik alanında küçük ama etkili Fachhochschule",
+    description:
+      "İşletme ve mühendislik alanında küçük ama etkili Fachhochschule",
     programs: ["İşletme", "Mühendislik", "Medya", "Teknoloji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Aschaffenburg",
     city: "Aschaffenburg",
-    description: "İşletme ve mühendislik odaklı uygulamalı bilimler üniversitesi",
+    description:
+      "İşletme ve mühendislik odaklı uygulamalı bilimler üniversitesi",
     programs: ["İşletme", "Mühendislik", "Teknoloji", "Hukuk"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Augsburg",
@@ -985,18 +1003,23 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Biberach",
     city: "Biberach",
     description: "İnşaat ve çevre mühendisliği alanında uzman Fachhochschule",
-    programs: ["İnşaat Mühendisliği", "Çevre Mühendisliği", "Mimarlık", "İşletme"],
+    programs: [
+      "İnşaat Mühendisliği",
+      "Çevre Mühendisliği",
+      "Mimarlık",
+      "İşletme",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "FH Bielefeld",
@@ -1007,7 +1030,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bochum",
@@ -1018,7 +1041,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bonn-Rhein-Sieg",
@@ -1029,7 +1052,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Brandenburg University of Applied Sciences",
@@ -1040,7 +1063,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bremen",
@@ -1051,7 +1074,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bremerhaven",
@@ -1062,7 +1085,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Coburg",
@@ -1073,7 +1096,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Darmstadt (h_da)",
@@ -1084,18 +1107,19 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Deggendorf",
     city: "Deggendorf",
-    description: "Doğu Bavyera'da teknoloji odaklı uygulamalı bilimler üniversitesi",
+    description:
+      "Doğu Bavyera'da teknoloji odaklı uygulamalı bilimler üniversitesi",
     programs: ["Teknoloji", "Mühendislik", "İşletme", "Sağlık"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Düsseldorf (HSD)",
@@ -1106,7 +1130,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Esslingen",
@@ -1117,18 +1141,19 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Emden/Leer",
     city: "Emden",
-    description: "Kuzey Almanya'da denizcilik ve teknoloji odaklı Fachhochschule",
+    description:
+      "Kuzey Almanya'da denizcilik ve teknoloji odaklı Fachhochschule",
     programs: ["Denizcilik", "Mühendislik", "İşletme", "Sosyal Çalışma"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "FH Erfurt",
@@ -1139,7 +1164,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Fulda",
@@ -1150,29 +1175,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Furtwangen (HFU)",
     city: "Furtwangen",
-    description: "Kara Orman bölgesinde teknoloji ve inovasyon odaklı Fachhochschule",
+    description:
+      "Kara Orman bölgesinde teknoloji ve inovasyon odaklı Fachhochschule",
     programs: ["Bilgisayar", "Mühendislik", "İşletme", "Medya"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Flensburg",
     city: "Flensburg",
-    description: "Danimarka sınırında denizcilik ve enerji odaklı Fachhochschule",
+    description:
+      "Danimarka sınırında denizcilik ve enerji odaklı Fachhochschule",
     programs: ["Denizcilik", "Enerji", "İşletme", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Geisenheim",
@@ -1183,7 +1210,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HAWK Hildesheim/Holzminden/Göttingen",
@@ -1194,7 +1221,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Westfälische Hochschule Gelsenkirchen-Bocholt-Recklinghausen",
@@ -1205,7 +1232,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HAW Hamburg",
@@ -1216,18 +1243,19 @@ const universities: University[] = [
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Hannover",
     city: "Hannover",
-    description: "Aşağı Saksonya'da geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Aşağı Saksonya'da geniş program yelpazesine sahip Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Medya", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Harz",
@@ -1238,29 +1266,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Heilbronn",
     city: "Heilbronn",
-    description: "Baden-Württemberg'de güçlü mühendislik ve işletme programları",
+    description:
+      "Baden-Württemberg'de güçlü mühendislik ve işletme programları",
     programs: ["Mühendislik", "İşletme", "Teknoloji", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Hof",
     city: "Hof",
-    description: "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı Fachhochschule",
+    description:
+      "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı Fachhochschule",
     programs: ["Teknoloji", "İşletme", "Bilgisayar", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Kaiserslautern",
@@ -1271,18 +1301,19 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Karlsruhe (HKA)",
     city: "Karlsruhe",
-    description: "Teknoloji bölgesinde güçlü mühendislik ve bilgisayar programları",
+    description:
+      "Teknoloji bölgesinde güçlü mühendislik ve bilgisayar programları",
     programs: ["Mühendislik", "Bilgisayar", "İşletme", "Mimarlık"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Kempten",
@@ -1293,7 +1324,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Koblenz",
@@ -1304,7 +1335,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HTWG Konstanz",
@@ -1315,7 +1346,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Landshut",
@@ -1326,73 +1357,79 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Ostwestfalen-Lippe (Lemgo)",
     city: "Lemgo",
-    description: "Doğu Vestfalya'da teknoloji ve mühendislik odaklı Fachhochschule",
+    description:
+      "Doğu Vestfalya'da teknoloji ve mühendislik odaklı Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Lübeck",
     city: "Lübeck",
-    description: "Hanseatic şehrinde teknoloji ve mühendislik odaklı Fachhochschule",
+    description:
+      "Hanseatic şehrinde teknoloji ve mühendislik odaklı Fachhochschule",
     programs: ["Mühendislik", "Bilgisayar", "İşletme", "Mimarlık"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Ludwigshafen",
     city: "Ludwigshafen",
-    description: "Rheinland-Pfalz'ta işletme ve sosyal bilimler odaklı Fachhochschule",
+    description:
+      "Rheinland-Pfalz'ta işletme ve sosyal bilimler odaklı Fachhochschule",
     programs: ["İşletme", "Sosyal Çalışma", "Mühendislik", "Sağlık"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Magdeburg-Stendal",
     city: "Magdeburg",
-    description: "Sachsen-Anhalt'ta geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Sachsen-Anhalt'ta geniş program yelpazesine sahip Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Mainz",
     city: "Mainz",
-    description: "Rheinland-Pfalz'ın başkentinde tasarım ve medya odaklı Fachhochschule",
+    description:
+      "Rheinland-Pfalz'ın başkentinde tasarım ve medya odaklı Fachhochschule",
     programs: ["Tasarım", "Medya", "İşletme", "Mühendislik"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Mannheim",
     city: "Mannheim",
-    description: "Baden-Württemberg'de güçlü teknoloji ve mühendislik programları",
+    description:
+      "Baden-Württemberg'de güçlü teknoloji ve mühendislik programları",
     programs: ["Mühendislik", "Teknoloji", "Bilgisayar", "İşletme"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Merseburg",
@@ -1403,7 +1440,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Mittweida",
@@ -1414,7 +1451,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule München (HM)",
@@ -1425,18 +1462,19 @@ const universities: University[] = [
     worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "FH Münster",
     city: "Münster",
-    description: "Vestfalya'da geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Vestfalya'da geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Neu-Ulm (HNU)",
@@ -1447,18 +1485,24 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Niederrhein",
     city: "Krefeld",
-    description: "Kuzey Ren-Vestfalya'da tekstil ve mühendislik odaklı Fachhochschule",
-    programs: ["Tekstil Mühendisliği", "Mühendislik", "İşletme", "Sosyal Çalışma"],
+    description:
+      "Kuzey Ren-Vestfalya'da tekstil ve mühendislik odaklı Fachhochschule",
+    programs: [
+      "Tekstil Mühendisliği",
+      "Mühendislik",
+      "İşletme",
+      "Sosyal Çalışma",
+    ],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HfWU Nürtingen-Geislingen",
@@ -1469,18 +1513,19 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Neubrandenburg",
     city: "Neubrandenburg",
-    description: "Mecklenburg-Vorpommern'de tarım ve sağlık odaklı Fachhochschule",
+    description:
+      "Mecklenburg-Vorpommern'de tarım ve sağlık odaklı Fachhochschule",
     programs: ["Tarım", "Sağlık", "Sosyal Çalışma", "İşletme"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Nordhausen",
@@ -1491,29 +1536,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Offenburg",
     city: "Offenburg",
-    description: "Kara Orman bölgesinde mühendislik ve medya odaklı Fachhochschule",
+    description:
+      "Kara Orman bölgesinde mühendislik ve medya odaklı Fachhochschule",
     programs: ["Mühendislik", "Medya", "İşletme", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Osnabrück",
     city: "Osnabrück",
-    description: "Aşağı Saksonya'da geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Aşağı Saksonya'da geniş program yelpazesine sahip Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Ostfalia Hochschule (Wolfenbüttel, Salzgitter, Suderburg, Wolfsburg)",
@@ -1524,40 +1571,43 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Pforzheim",
     city: "Pforzheim",
-    description: "İşletme, tasarım ve mühendislik alanında güçlü Fachhochschule",
+    description:
+      "İşletme, tasarım ve mühendislik alanında güçlü Fachhochschule",
     programs: ["İşletme", "Tasarım", "Mühendislik", "Teknoloji"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Potsdam",
     city: "Potsdam",
-    description: "Brandenburg'da tasarım ve bilgi bilimleri odaklı Fachhochschule",
+    description:
+      "Brandenburg'da tasarım ve bilgi bilimleri odaklı Fachhochschule",
     programs: ["Tasarım", "Bilgi Bilimleri", "İşletme", "Sosyal Çalışma"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Ravensburg-Weingarten",
     city: "Ravensburg",
-    description: "Baden-Württemberg'de teknoloji ve sosyal çalışma odaklı Fachhochschule",
+    description:
+      "Baden-Württemberg'de teknoloji ve sosyal çalışma odaklı Fachhochschule",
     programs: ["Teknoloji", "Sosyal Çalışma", "İşletme", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Reutlingen",
@@ -1568,18 +1618,19 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule RheinMain (Wiesbaden/Rüsselsheim)",
     city: "Wiesbaden",
-    description: "Hessen'de iki kampüslü geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Hessen'de iki kampüslü geniş program yelpazesine sahip Fachhochschule",
     programs: ["İşletme", "Mühendislik", "Tasarım", "Sosyal Çalışma"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Rosenheim",
@@ -1590,7 +1641,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Schmalkalden",
@@ -1601,7 +1652,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Stralsund",
@@ -1612,51 +1663,60 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HFT Stuttgart",
     city: "Stuttgart",
-    description: "Stuttgart'ta mimarlık ve inşaat mühendisliği odaklı Fachhochschule",
-    programs: ["Mimarlık", "İnşaat Mühendisliği", "Şehir Planlama", "Teknoloji"],
+    description:
+      "Stuttgart'ta mimarlık ve inşaat mühendisliği odaklı Fachhochschule",
+    programs: [
+      "Mimarlık",
+      "İnşaat Mühendisliği",
+      "Şehir Planlama",
+      "Teknoloji",
+    ],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "FH Südwestfalen",
     city: "Hagen",
-    description: "Kuzey Ren-Vestfalya'da çok kampüslü teknoloji odaklı Fachhochschule",
+    description:
+      "Kuzey Ren-Vestfalya'da çok kampüslü teknoloji odaklı Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Trier",
     city: "Trier",
-    description: "Rheinland-Pfalz'ta çevre ve mühendislik odaklı Fachhochschule",
+    description:
+      "Rheinland-Pfalz'ta çevre ve mühendislik odaklı Fachhochschule",
     programs: ["Çevre Mühendisliği", "Mühendislik", "İşletme", "Tasarım"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Brandenburg",
     city: "Brandenburg an der Havel",
-    description: "Brandenburg'da teknoloji ve mühendislik odaklı Fachhochschule",
+    description:
+      "Brandenburg'da teknoloji ve mühendislik odaklı Fachhochschule",
     programs: ["Teknoloji", "Mühendislik", "İşletme", "Bilgisayar"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Ingolstadt",
@@ -1667,7 +1727,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Köln",
@@ -1678,29 +1738,31 @@ const universities: University[] = [
     worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Mittelhessen (THM)",
     city: "Gießen",
-    description: "Hessen'de çok kampüslü büyük uygulamalı bilimler üniversitesi",
+    description:
+      "Hessen'de çok kampüslü büyük uygulamalı bilimler üniversitesi",
     programs: ["Mühendislik", "İşletme", "Sağlık", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Nürnberg (Georg Simon Ohm)",
     city: "Nürnberg",
-    description: "Bavyera'nın ikinci büyük şehrinde güçlü teknoloji programları",
+    description:
+      "Bavyera'nın ikinci büyük şehrinde güçlü teknoloji programları",
     programs: ["Teknoloji", "Mühendislik", "İşletme", "Sosyal Bilimler"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Wildau",
@@ -1711,7 +1773,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "TH Würzburg-Schweinfurt (THWS)",
@@ -1722,29 +1784,31 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Ulm",
     city: "Ulm",
-    description: "Baden-Württemberg'de teknoloji ve mühendislik odaklı Fachhochschule",
+    description:
+      "Baden-Württemberg'de teknoloji ve mühendislik odaklı Fachhochschule",
     programs: ["Teknoloji", "Mühendislik", "İşletme", "Bilgisayar"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "HS Weihenstephan-Triesdorf",
     city: "Freising",
-    description: "Bavyera'da tarım ve gıda teknolojisi odaklı uzman Fachhochschule",
+    description:
+      "Bavyera'da tarım ve gıda teknolojisi odaklı uzman Fachhochschule",
     programs: ["Tarım", "Gıda Teknolojisi", "Peyzaj Mimarisi", "Biyoteknoloji"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Worms",
@@ -1755,7 +1819,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Zittau/Görlitz",
@@ -1766,7 +1830,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Westsächsische Hochschule Zwickau",
@@ -1777,29 +1841,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Alice Salomon University of Applied Sciences Berlin",
     city: "Berlin",
-    description: "Sosyal çalışma ve sağlık alanında uzman Berlin Fachhochschule'si",
+    description:
+      "Sosyal çalışma ve sağlık alanında uzman Berlin Fachhochschule'si",
     programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Berlin School of Economics and Law",
     city: "Berlin",
-    description: "Berlin'de işletme ve hukuk odaklı uygulamalı bilimler üniversitesi",
+    description:
+      "Berlin'de işletme ve hukuk odaklı uygulamalı bilimler üniversitesi",
     programs: ["İşletme", "Hukuk", "Kamu Yönetimi", "Sosyal Bilimler"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Berliner Hochschule für Technik (HTW Berlin)",
@@ -1810,7 +1876,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Dresden University of Applied Sciences (HTW Dresden)",
@@ -1821,7 +1887,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Ernst-Abbe-Hochschule Jena",
@@ -1832,40 +1898,43 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Eberswalde University for Sustainable Development",
     city: "Eberswalde",
-    description: "Sürdürülebilir kalkınma ve orman mühendisliği odaklı uzman Fachhochschule",
+    description:
+      "Sürdürülebilir kalkınma ve orman mühendisliği odaklı uzman Fachhochschule",
     programs: ["Orman Mühendisliği", "Sürdürülebilirlik", "Çevre", "Turizm"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Jade University of Applied Sciences (Wilhelmshaven/Oldenburg/Elsfleth)",
     city: "Wilhelmshaven",
-    description: "Kuzey Almanya'da üç kampüslü denizcilik ve mühendislik Fachhochschule'si",
+    description:
+      "Kuzey Almanya'da üç kampüslü denizcilik ve mühendislik Fachhochschule'si",
     programs: ["Denizcilik", "Mühendislik", "Mimarlık", "İşletme"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Kiel University of Applied Sciences",
     city: "Kiel",
-    description: "Schleswig-Holstein'da denizcilik ve teknoloji odaklı Fachhochschule",
+    description:
+      "Schleswig-Holstein'da denizcilik ve teknoloji odaklı Fachhochschule",
     programs: ["Denizcilik", "Mühendislik", "İşletme", "Sosyal Çalışma"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "West Coast University of Applied Sciences (Westküste)",
@@ -1876,7 +1945,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Harz University of Applied Studies",
@@ -1887,40 +1956,43 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Nordhausen University of Applied Sciences",
     city: "Nordhausen",
-    description: "Thüringen'de mühendislik ve sosyal bilimler odaklı Fachhochschule",
+    description:
+      "Thüringen'de mühendislik ve sosyal bilimler odaklı Fachhochschule",
     programs: ["Mühendislik", "Sosyal Bilimler", "İşletme", "Sağlık"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Wismar",
     city: "Wismar",
-    description: "Baltık denizi kıyısında denizcilik ve mühendislik odaklı Fachhochschule",
+    description:
+      "Baltık denizi kıyısında denizcilik ve mühendislik odaklı Fachhochschule",
     programs: ["Denizcilik", "Mühendislik", "İşletme", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Frankfurt University of Applied Sciences",
     city: "Frankfurt am Main",
-    description: "Frankfurt'ta geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Frankfurt'ta geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Sağlık"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Bingen Technical University of Applied Sciences",
@@ -1931,7 +2003,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Environmental Campus Birkenfeld",
@@ -1942,7 +2014,7 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Munich Business School",
@@ -1953,29 +2025,31 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Coburg University of Applied Sciences",
     city: "Coburg",
-    description: "Bavyera'da tasarım ve mühendislik odaklı köklü Fachhochschule",
+    description:
+      "Bavyera'da tasarım ve mühendislik odaklı köklü Fachhochschule",
     programs: ["Tasarım", "Mühendislik", "İşletme", "Sosyal Çalışma"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Lutheran University of Applied Sciences Nuremberg",
     city: "Nürnberg",
-    description: "Nürnberg'de sosyal çalışma ve sağlık odaklı Protestan Fachhochschule",
+    description:
+      "Nürnberg'de sosyal çalışma ve sağlık odaklı Protestan Fachhochschule",
     programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Düşük Ücret",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "FOM University of Applied Sciences",
@@ -1986,51 +2060,55 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Braunschweig University of Art",
     city: "Braunschweig",
-    description: "Güzel sanatlar ve tasarım alanında uzman sanat Fachhochschule'si",
+    description:
+      "Güzel sanatlar ve tasarım alanında uzman sanat Fachhochschule'si",
     programs: ["Güzel Sanatlar", "Tasarım", "Medya Sanatı", "Sahne Sanatları"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "University of the Arts Bremen",
     city: "Bremen",
-    description: "Bremen'de müzik ve sahne sanatları odaklı sanat Fachhochschule'si",
+    description:
+      "Bremen'de müzik ve sahne sanatları odaklı sanat Fachhochschule'si",
     programs: ["Müzik", "Sahne Sanatları", "Güzel Sanatlar", "Sanat Eğitimi"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Catholic University of Applied Sciences, Mainz",
     city: "Mainz",
-    description: "Katolik değerler temelinde sosyal çalışma odaklı Fachhochschule",
+    description:
+      "Katolik değerler temelinde sosyal çalışma odaklı Fachhochschule",
     programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Düşük Ücret",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "German University of Digital Science",
     city: "Berlin",
-    description: "Dijital teknolojiler ve bilgisayar bilimleri odaklı modern Fachhochschule",
+    description:
+      "Dijital teknolojiler ve bilgisayar bilimleri odaklı modern Fachhochschule",
     programs: ["Bilgisayar", "Dijital Teknoloji", "Yapay Zeka", "Veri Bilimi"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "City University of Applied Sciences Bremen",
@@ -2041,18 +2119,23 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule für Gestaltung Schwäbisch Gmünd",
     city: "Schwäbisch Gmünd",
     description: "Tasarım ve görsel iletişim alanında uzman Fachhochschule",
-    programs: ["Grafik Tasarım", "Endüstriyel Tasarım", "İç Mimarlık", "Dijital Tasarım"],
+    programs: [
+      "Grafik Tasarım",
+      "Endüstriyel Tasarım",
+      "İç Mimarlık",
+      "Dijital Tasarım",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "IU International University of Applied Sciences",
@@ -2063,18 +2146,19 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "SRH University Heidelberg",
     city: "Heidelberg",
-    description: "Heidelberg'de özel sağlık ve mühendislik odaklı Fachhochschule",
+    description:
+      "Heidelberg'de özel sağlık ve mühendislik odaklı Fachhochschule",
     programs: ["Sağlık", "Mühendislik", "İşletme", "Psikoloji"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "SRH Hochschule Berlin",
@@ -2085,7 +2169,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Technical University of Applied Sciences Lübeck",
@@ -2096,7 +2180,7 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hanover University of Applied Sciences and Arts",
@@ -2107,62 +2191,67 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Fachhochschule Dortmund",
     city: "Dortmund",
-    description: "Dortmund'da geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Dortmund'da geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Merseburg University of Applied Sciences",
     city: "Merseburg",
-    description: "Sachsen-Anhalt'ta kimya ve mühendislik odaklı geleneksel Fachhochschule",
+    description:
+      "Sachsen-Anhalt'ta kimya ve mühendislik odaklı geleneksel Fachhochschule",
     programs: ["Kimya Mühendisliği", "Mühendislik", "Medya", "İşletme"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Neu-Ulm für Wirtschaft (HNU)",
     city: "Neu-Ulm",
-    description: "Ekonomi ve bilgi yönetimi odaklı modern işletme Fachhochschule'si",
+    description:
+      "Ekonomi ve bilgi yönetimi odaklı modern işletme Fachhochschule'si",
     programs: ["İşletme", "Bilgi Yönetimi", "Lojistik", "Sağlık Yönetimi"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hof University of Applied Sciences",
     city: "Hof",
-    description: "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı köklü Fachhochschule",
+    description:
+      "Bavyera'nın kuzeyinde teknoloji ve işletme odaklı köklü Fachhochschule",
     programs: ["Teknoloji", "İşletme", "Bilgisayar", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Ludwigshafen University of Applied Sciences",
     city: "Ludwigshafen",
-    description: "Rhine-Neckar bölgesinde işletme ve sosyal çalışma odaklı Fachhochschule",
+    description:
+      "Rhine-Neckar bölgesinde işletme ve sosyal çalışma odaklı Fachhochschule",
     programs: ["İşletme", "Sosyal Çalışma", "Sağlık", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Kempten University of Applied Sciences",
@@ -2173,62 +2262,67 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "University of Applied Sciences Landshut",
     city: "Landshut",
-    description: "Bavyera'da mühendislik ve işletme odaklı güçlü Fachhochschule",
+    description:
+      "Bavyera'da mühendislik ve işletme odaklı güçlü Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Teknoloji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Pforzheim University of Applied Sciences",
     city: "Pforzheim",
-    description: "Baden-Württemberg'de işletme ve tasarım odaklı prestijli Fachhochschule",
+    description:
+      "Baden-Württemberg'de işletme ve tasarım odaklı prestijli Fachhochschule",
     programs: ["İşletme", "Tasarım", "Mühendislik", "Ekonomi"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Konstanz University of Applied Sciences (HTWG)",
     city: "Konstanz",
-    description: "Bodensee kıyısında teknoloji ve mühendislik odaklı güçlü Fachhochschule",
+    description:
+      "Bodensee kıyısında teknoloji ve mühendislik odaklı güçlü Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Mimarlık"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Nürtingen-Geislingen University of Applied Science",
     city: "Nürtingen",
-    description: "Çevre ve tarım odaklı sürdürülebilirlik uzmanı Fachhochschule",
+    description:
+      "Çevre ve tarım odaklı sürdürülebilirlik uzmanı Fachhochschule",
     programs: ["Çevre", "Tarım", "İşletme", "Peyzaj Mimarlığı"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Ostbayerische Technische Hochschule Amberg-Weiden",
     city: "Amberg",
-    description: "Doğu Bavyera'da teknik uygulamalar odaklı çift kampüslü Fachhochschule",
+    description:
+      "Doğu Bavyera'da teknik uygulamalar odaklı çift kampüslü Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Medya"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Ostfalia University of Applied Sciences",
@@ -2239,84 +2333,96 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "East Asia Institute (Ludwigshafen)",
     city: "Ludwigshafen",
-    description: "Doğu Asya çalışmaları ve uluslararası ilişkiler odaklı uzman enstitü",
-    programs: ["Doğu Asya Çalışmaları", "Uluslararası İlişkiler", "İşletme", "Kültür"],
+    description:
+      "Doğu Asya çalışmaları ve uluslararası ilişkiler odaklı uzman enstitü",
+    programs: [
+      "Doğu Asya Çalışmaları",
+      "Uluslararası İlişkiler",
+      "İşletme",
+      "Kültür",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce", "Çince"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "RheinMain University of Applied Sciences",
     city: "Wiesbaden",
-    description: "Rhein-Main bölgesinde geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Rhein-Main bölgesinde geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Tasarım", "Sosyal Çalışma"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Fachhochschule Potsdam",
     city: "Potsdam",
-    description: "Brandenburg'da tasarım ve kültür odaklı yaratıcı Fachhochschule",
+    description:
+      "Brandenburg'da tasarım ve kültür odaklı yaratıcı Fachhochschule",
     programs: ["Tasarım", "Kültür", "Sosyal Çalışma", "Mimarlık"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Biberach University of Applied Sciences",
     city: "Biberach",
-    description: "İnşaat ve mimarlık alanında uzman küçük ama kaliteli Fachhochschule",
+    description:
+      "İnşaat ve mimarlık alanında uzman küçük ama kaliteli Fachhochschule",
     programs: ["Mimarlık", "İnşaat Mühendisliği", "İşletme", "Enerji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Bielefeld University of Applied Sciences",
     city: "Bielefeld",
-    description: "Kuzey Rhein-Westfalen'da geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Kuzey Rhein-Westfalen'da geniş program yelpazesine sahip Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Bochum University of Applied Sciences",
     city: "Bochum",
-    description: "Ruhr bölgesinde mühendislik ve teknoloji odaklı güçlü Fachhochschule",
+    description:
+      "Ruhr bölgesinde mühendislik ve teknoloji odaklı güçlü Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Mimarlık"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Cologne University of Applied Sciences (TH Köln)",
     city: "Köln",
-    description: "Köln'de çok geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Köln'de çok geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Medya"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Düsseldorf University of Applied Sciences",
@@ -2327,139 +2433,156 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Esslingen University of Applied Sciences",
     city: "Esslingen",
-    description: "Stuttgart yakınında otomotiv ve mühendislik odaklı prestijli Fachhochschule",
-    programs: ["Otomotiv Mühendisliği", "Mühendislik", "İşletme", "Sosyal Çalışma"],
+    description:
+      "Stuttgart yakınında otomotiv ve mühendislik odaklı prestijli Fachhochschule",
+    programs: [
+      "Otomotiv Mühendisliği",
+      "Mühendislik",
+      "İşletme",
+      "Sosyal Çalışma",
+    ],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Furtwangen University (HFU)",
     city: "Furtwangen",
-    description: "Kara Orman'da bilgisayar ve mühendislik odaklı teknoloji Fachhochschule'si",
+    description:
+      "Kara Orman'da bilgisayar ve mühendislik odaklı teknoloji Fachhochschule'si",
     programs: ["Bilgisayar", "Mühendislik", "İşletme", "Medya"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Flensburg University of Applied Sciences",
     city: "Flensburg",
-    description: "Danimarka sınırında denizcilik ve enerji odaklı Fachhochschule",
+    description:
+      "Danimarka sınırında denizcilik ve enerji odaklı Fachhochschule",
     programs: ["Denizcilik", "Enerji", "İşletme", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Fulda University of Applied Sciences",
     city: "Fulda",
-    description: "Hessen'de çok disiplinli programlar sunan orta ölçekli Fachhochschule",
+    description:
+      "Hessen'de çok disiplinli programlar sunan orta ölçekli Fachhochschule",
     programs: ["İşletme", "Sosyal Çalışma", "Sağlık", "Mühendislik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hamburg University of Applied Sciences (HAW Hamburg)",
     city: "Hamburg",
-    description: "Hamburg'da çok geniş program yelpazesine sahip büyük Fachhochschule",
+    description:
+      "Hamburg'da çok geniş program yelpazesine sahip büyük Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Tasarım"],
     ranking: 2,
     worldRanking: 401,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "University of Applied Sciences, Kaiserslautern",
     city: "Kaiserslautern",
-    description: "Rheinland-Pfalz'ta teknoloji odaklı güçlü mühendislik Fachhochschule'si",
+    description:
+      "Rheinland-Pfalz'ta teknoloji odaklı güçlü mühendislik Fachhochschule'si",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Karlsruhe University of Applied Sciences",
     city: "Karlsruhe",
-    description: "Baden-Württemberg'de mühendislik ve bilgisayar odaklı teknik Fachhochschule",
+    description:
+      "Baden-Württemberg'de mühendislik ve bilgisayar odaklı teknik Fachhochschule",
     programs: ["Mühendislik", "Bilgisayar", "İşletme", "Teknoloji"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Koblenz University of Applied Sciences",
     city: "Koblenz",
-    description: "Rhein ve Mosel nehirleri birleşiminde teknoloji ve işletme odaklı Fachhochschule",
+    description:
+      "Rhein ve Mosel nehirleri birleşiminde teknoloji ve işletme odaklı Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Teknoloji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Mannheim University of Applied Sciences",
     city: "Mannheim",
-    description: "Baden-Württemberg'de teknik uygulamalar odaklı güçlü Fachhochschule",
+    description:
+      "Baden-Württemberg'de teknik uygulamalar odaklı güçlü Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Teknoloji", "Tasarım"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "University of Applied Sciences Mittelhessen (THM)",
     city: "Gießen",
-    description: "Hessen'de üç kampüslü geniş program yelpazesine sahip Fachhochschule",
+    description:
+      "Hessen'de üç kampüslü geniş program yelpazesine sahip Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Sağlık", "Medya"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Osnabrück University of Applied Sciences",
     city: "Osnabrück",
-    description: "Niedersachsen'da tarım, mühendislik ve sosyal bilimler odaklı Fachhochschule",
+    description:
+      "Niedersachsen'da tarım, mühendislik ve sosyal bilimler odaklı Fachhochschule",
     programs: ["Tarım", "Mühendislik", "İşletme", "Sosyal Çalışma"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Aalen - Technik und Wirtschaft",
     city: "Aalen",
-    description: "Baden-Württemberg'de teknoloji ve ekonomi odaklı güçlü Fachhochschule",
+    description:
+      "Baden-Württemberg'de teknoloji ve ekonomi odaklı güçlü Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Teknoloji", "Optik"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt",
@@ -2470,51 +2593,60 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bochum - University of Applied Sciences",
     city: "Bochum",
-    description: "Ruhr bölgesinde sürdürülebilirlik ve mühendislik odaklı Fachhochschule",
+    description:
+      "Ruhr bölgesinde sürdürülebilirlik ve mühendislik odaklı Fachhochschule",
     programs: ["Mühendislik", "Sürdürülebilirlik", "İşletme", "Mimarlık"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Bremen - City University of Applied Sciences",
     city: "Bremen",
-    description: "Bremen'de uluslararası programlar sunan çok disiplinli Fachhochschule",
-    programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Uluslararası İlişkiler"],
+    description:
+      "Bremen'de uluslararası programlar sunan çok disiplinli Fachhochschule",
+    programs: [
+      "Mühendislik",
+      "İşletme",
+      "Sosyal Çalışma",
+      "Uluslararası İlişkiler",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Düsseldorf - University of Applied Sciences",
     city: "Düsseldorf",
-    description: "Düsseldorf'ta geniş programlara sahip büyük şehir Fachhochschule'si",
+    description:
+      "Düsseldorf'ta geniş programlara sahip büyük şehir Fachhochschule'si",
     programs: ["Mühendislik", "İşletme", "Sosyal Çalışma", "Mimarlık"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Emden-Leer",
     city: "Emden",
-    description: "Kuzey denizi kıyısında denizcilik ve teknoloji odaklı Fachhochschule",
+    description:
+      "Kuzey denizi kıyısında denizcilik ve teknoloji odaklı Fachhochschule",
     programs: ["Denizcilik", "Mühendislik", "İşletme", "Sosyal Çalışma"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Fresenius",
@@ -2525,29 +2657,31 @@ const universities: University[] = [
     worldRanking: 601,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Geisenheim University",
     city: "Geisenheim",
-    description: "Şarap yapımı ve gıda teknolojisi alanında dünya çapında tanınan uzman Fachhochschule",
+    description:
+      "Şarap yapımı ve gıda teknolojisi alanında dünya çapında tanınan uzman Fachhochschule",
     programs: ["Şarap Yapımı", "Gıda Teknolojisi", "Tarım", "Peyzaj Mimarlığı"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Hamm-Lippstadt",
     city: "Hamm",
-    description: "2009'da kurulan yeni teknoloji odaklı çift kampüslü Fachhochschule",
+    description:
+      "2009'da kurulan yeni teknoloji odaklı çift kampüslü Fachhochschule",
     programs: ["Mühendislik", "Teknoloji", "Bilgisayar", "İşletme"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Hannover - University of Applied Sciences and Arts",
@@ -2558,29 +2692,31 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Harz - University of Applied Sciences",
     city: "Wernigerode",
-    description: "Harz dağlarında turizm ve dijital medya odaklı Fachhochschule",
+    description:
+      "Harz dağlarında turizm ve dijital medya odaklı Fachhochschule",
     programs: ["Turizm", "Dijital Medya", "İşletme", "Bilgisayar"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Heilbronn - Technik, Wirtschaft, Informatik",
     city: "Heilbronn",
-    description: "Baden-Württemberg'de teknoloji ve işletme odaklı büyüyen Fachhochschule",
+    description:
+      "Baden-Württemberg'de teknoloji ve işletme odaklı büyüyen Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Bilgisayar", "Teknoloji"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Kaiserslautern - University of Applied Sciences",
@@ -2591,145 +2727,178 @@ const universities: University[] = [
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Macromedia",
     city: "München",
-    description: "Medya, iletişim ve tasarım odaklı özel çok kampüslü Fachhochschule",
+    description:
+      "Medya, iletişim ve tasarım odaklı özel çok kampüslü Fachhochschule",
     programs: ["Medya", "İletişim", "Tasarım", "Film"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule für Musik und Theater München",
     city: "München",
-    description: "München'de müzik ve tiyatro eğitimi veren sanat Fachhochschule'si",
+    description:
+      "München'de müzik ve tiyatro eğitimi veren sanat Fachhochschule'si",
     programs: ["Müzik", "Tiyatro", "Sahne Sanatları", "Müzik Eğitimi"],
     ranking: 3,
     worldRanking: 501,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Rosenheim",
     city: "Rosenheim",
-    description: "Alp eteklerinde teknoloji ve işletme odaklı Bavyera Fachhochschule'si",
+    description:
+      "Alp eteklerinde teknoloji ve işletme odaklı Bavyera Fachhochschule'si",
     programs: ["Mühendislik", "İşletme", "Teknoloji", "Tasarım"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Ruhr West",
     city: "Mülheim an der Ruhr",
-    description: "2009'da kurulan Ruhr bölgesinin yeni teknoloji Fachhochschule'si",
+    description:
+      "2009'da kurulan Ruhr bölgesinin yeni teknoloji Fachhochschule'si",
     programs: ["Mühendislik", "Teknoloji", "İşletme", "Bilgisayar"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule Zittau-Görlitz",
     city: "Zittau",
-    description: "Saksonya'nın doğusunda Polonya ve Çek sınırında çift kampüslü Fachhochschule",
+    description:
+      "Saksonya'nın doğusunda Polonya ve Çek sınırında çift kampüslü Fachhochschule",
     programs: ["Mühendislik", "İşletme", "Teknoloji", "Uluslararası İlişkiler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule der Bundesagentur für Arbeit (HdBA)",
     city: "Mannheim",
-    description: "Federal İstihdam Ajansı'nın özel amaçlı kamu yönetimi Fachhochschule'si",
-    programs: ["Kamu Yönetimi", "İstihdam Politikaları", "Sosyal Güvenlik", "İşgücü"],
+    description:
+      "Federal İstihdam Ajansı'nın özel amaçlı kamu yönetimi Fachhochschule'si",
+    programs: [
+      "Kamu Yönetimi",
+      "İstihdam Politikaları",
+      "Sosyal Güvenlik",
+      "İşgücü",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Özel Program",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Katholische Hochschule Nordrhein-Westfalen",
     city: "Köln",
-    description: "Kuzey Rhein-Westfalen'da Katolik sosyal çalışma odaklı dört kampüslü Fachhochschule",
+    description:
+      "Kuzey Rhein-Westfalen'da Katolik sosyal çalışma odaklı dört kampüslü Fachhochschule",
     programs: ["Sosyal Çalışma", "Sağlık", "Eğitim", "Sosyal Bilimler"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Düşük Ücret",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Evangelische Hochschule Darmstadt",
     city: "Darmstadt",
-    description: "Darmstadt'ta Protestan değerlerle sosyal çalışma eğitimi veren Fachhochschule",
+    description:
+      "Darmstadt'ta Protestan değerlerle sosyal çalışma eğitimi veren Fachhochschule",
     programs: ["Sosyal Çalışma", "Sosyal Pedagoji", "Eğitim", "Danışmanlık"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Düşük Ücret",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule für Polizei Baden-Württemberg",
     city: "Villingen-Schwenningen",
-    description: "Baden-Württemberg eyalet polisi için özel polis eğitimi Fachhochschule'si",
+    description:
+      "Baden-Württemberg eyalet polisi için özel polis eğitimi Fachhochschule'si",
     programs: ["Polis Bilimleri", "Kamu Güvenliği", "Hukuk", "Kriminoloji"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Özel Program",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "AMD Akademie Mode & Design",
     city: "Hamburg",
-    description: "Moda ve tasarım alanında uzman özel çok kampüslü Fachhochschule",
-    programs: ["Moda Tasarımı", "Grafik Tasarım", "İç Mimarlık", "Moda İşletmeciliği"],
+    description:
+      "Moda ve tasarım alanında uzman özel çok kampüslü Fachhochschule",
+    programs: [
+      "Moda Tasarımı",
+      "Grafik Tasarım",
+      "İç Mimarlık",
+      "Moda İşletmeciliği",
+    ],
     ranking: 4,
     worldRanking: 601,
     tuition: "Özel Üniversite - Ücretli",
     language: ["Almanca", "İngilizce"],
-    category: "Fachhochschule" as UniversityCategory
+    category: "Fachhochschule" as UniversityCategory,
   },
   {
     name: "Hochschule für Verwaltung und Rechtspflege",
     city: "Meißen",
-    description: "Saksonya'da kamu yönetimi ve hukuk uygulamaları odaklı devlet Fachhochschule'si",
+    description:
+      "Saksonya'da kamu yönetimi ve hukuk uygulamaları odaklı devlet Fachhochschule'si",
     programs: ["Kamu Yönetimi", "Hukuk", "Vergi", "Sosyal Güvenlik"],
     ranking: 4,
     worldRanking: 601,
     tuition: "Devlet Üniversitesi - Özel Program",
     language: ["Almanca"],
-    category: "Fachhochschule" as UniversityCategory
-  }
+    category: "Fachhochschule" as UniversityCategory,
+  },
 ];
 
 const categoryOptions = ["Üniversite", "Fachhochschule"];
-const programs = ["Tümü", "Mühendislik", "Tıp", "İşletme", "Hukuk", "Fen Bilimleri"];
+const programs = [
+  "Tümü",
+  "Mühendislik",
+  "Tıp",
+  "İşletme",
+  "Hukuk",
+  "Fen Bilimleri",
+];
 
 export default function Universities() {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedCategory, setSelectedCategory] = useState<UniversityCategory>("Üniversite");
+  const [selectedCategory, setSelectedCategory] =
+    useState<UniversityCategory>("Üniversite");
   const [selectedProgram, setSelectedProgram] = useState("Tümü");
 
-  const filteredUniversities = universities.filter(uni => {
-    const matchesSearch = (uni.name?.toLowerCase().includes(searchTerm.toLowerCase()) || false) ||
-                         uni.description.toLowerCase().includes(searchTerm.toLowerCase());
-    const matchesProgram = selectedProgram === "Tümü" || uni.programs.some(p => p.includes(selectedProgram));
+  const filteredUniversities = universities.filter((uni) => {
+    const matchesSearch =
+      uni.name?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+      false ||
+      uni.description.toLowerCase().includes(searchTerm.toLowerCase());
+    const matchesProgram =
+      selectedProgram === "Tümü" ||
+      uni.programs.some((p) => p.includes(selectedProgram));
     const matchesCategory = uni.category === selectedCategory;
-    
+
     return matchesSearch && matchesProgram && matchesCategory;
   });
 
@@ -2738,177 +2907,229 @@ export default function Universities() {
       <Navbar />
       <div className="py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* Header */}
-        <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-foreground mb-6" data-testid="universities-page-title">
-            Partner Üniversitelerimiz
-          </h1>
-          <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed" data-testid="universities-page-description">
-            Almanya'nın en prestijli üniversiteleriyle işbirliği halindeyiz. Size en uygun üniversiteyi bulmanıza yardımcı oluyoruz.
-          </p>
-        </div>
-
-
-        {/* Filters */}
-        <div className="bg-card p-6 rounded-xl border border-border mb-12">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {/* Search */}
-            <div className="relative">
-              <Search className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
-              <input
-                type="text"
-                placeholder="Üniversite ara..."
-                className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background"
-                value={searchTerm}
-                onChange={(e) => setSearchTerm(e.target.value)}
-                data-testid="search-input"
-              />
-            </div>
-
-            {/* Category Filter */}
-            <div className="relative">
-              <GraduationCap className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
-              <select
-                className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background appearance-none"
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value as UniversityCategory)}
-                data-testid="category-filter"
-              >
-                {categoryOptions.map(category => (
-                  <option key={category} value={category}>{category}</option>
-                ))}
-              </select>
-            </div>
-
-            {/* Program Filter */}
-            <div className="relative">
-              <Filter className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
-              <select
-                className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background appearance-none"
-                value={selectedProgram}
-                onChange={(e) => setSelectedProgram(e.target.value)}
-                data-testid="program-filter"
-              >
-                {programs.map(program => (
-                  <option key={program} value={program}>{program}</option>
-                ))}
-              </select>
-            </div>
+          {/* Header */}
+          <div className="text-center mb-16">
+            <h1
+              className="text-5xl font-bold text-foreground mb-6"
+              data-testid="universities-page-title"
+            >
+              Üniversiteler
+            </h1>
           </div>
-        </div>
 
-        {/* Results Count */}
-        <div className="mb-8">
-          <p className="text-muted-foreground" data-testid="results-count">
-            {filteredUniversities.length} {selectedCategory === "Fachhochschule" ? "fachhochschule" : selectedCategory === "Üniversite" ? "üniversite" : "kurum"} bulundu
-          </p>
-        </div>
+          {/* Filters */}
+          <div className="bg-card p-6 rounded-xl border border-border mb-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+              {/* Search */}
+              <div className="relative">
+                <Search className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+                <input
+                  type="text"
+                  placeholder="Üniversite ara..."
+                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background"
+                  value={searchTerm}
+                  onChange={(e) => setSearchTerm(e.target.value)}
+                  data-testid="search-input"
+                />
+              </div>
 
-        {/* Universities Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
-          {filteredUniversities.map((university, index) => (
-            <div key={index} className="bg-card p-6 rounded-xl shadow-sm border border-border card-hover" data-testid={`university-${index}`}>
-              <div className="space-y-3">
-                <div className="flex justify-between items-start">
-                  <h3 className="text-xl font-semibold text-foreground" data-testid={`university-name-${index}`}>
-                    {university.name}
-                  </h3>
-                  <div className="text-right">
-                    <div className="bg-gradient-to-r from-accent to-primary text-white px-3 py-1 rounded-lg border-2 border-accent/20 text-sm font-bold shadow-sm">
-                      Dünya #{university.worldRanking}
-                    </div>
-                  </div>
-                </div>
-                
-                <div className="flex items-center text-muted-foreground text-sm">
-                  <MapPin className="w-4 h-4 mr-1" />
-                  <span data-testid={`university-city-${index}`}>{university.city}</span>
-                </div>
-                
-                <p className="text-muted-foreground" data-testid={`university-description-${index}`}>
-                  {university.description}
-                </p>
-                
-                <div className="space-y-2">
-                  <div className="text-sm font-medium text-foreground">Popüler Programlar:</div>
-                  <div className="flex flex-wrap gap-2">
-                    {university.programs.map((program, programIndex) => (
-                      <span 
-                        key={programIndex} 
-                        className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs"
-                        data-testid={`university-program-${index}-${programIndex}`}
-                      >
-                        {program}
-                      </span>
-                    ))}
-                  </div>
-                </div>
-                
-                <div className="space-y-1 text-sm">
-                  <div className="text-muted-foreground">
-                    <span className="font-medium">Dil:</span> {university.language.join(", ")}
-                  </div>
-                </div>
-                
-                <Link href={`/university/${index}`}>
-                  <button className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors" data-testid={`university-button-${index}`}>
-                    Detayları İncele
-                  </button>
-                </Link>
+              {/* Category Filter */}
+              <div className="relative">
+                <GraduationCap className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+                <select
+                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background appearance-none"
+                  value={selectedCategory}
+                  onChange={(e) =>
+                    setSelectedCategory(e.target.value as UniversityCategory)
+                  }
+                  data-testid="category-filter"
+                >
+                  {categoryOptions.map((category) => (
+                    <option key={category} value={category}>
+                      {category}
+                    </option>
+                  ))}
+                </select>
+              </div>
+
+              {/* Program Filter */}
+              <div className="relative">
+                <Filter className="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground" />
+                <select
+                  className="w-full pl-10 pr-4 py-3 rounded-lg border border-input bg-background appearance-none"
+                  value={selectedProgram}
+                  onChange={(e) => setSelectedProgram(e.target.value)}
+                  data-testid="program-filter"
+                >
+                  {programs.map((program) => (
+                    <option key={program} value={program}>
+                      {program}
+                    </option>
+                  ))}
+                </select>
               </div>
             </div>
-          ))}
-        </div>
-
-        {/* No Results */}
-        {filteredUniversities.length === 0 && (
-          <div className="text-center py-20" data-testid="no-results">
-            <div className="text-4xl mb-4">🔍</div>
-            <h3 className="text-xl font-semibold text-foreground mb-2">Üniversite bulunamadı</h3>
-            <p className="text-muted-foreground">Arama kriterlerinizi değiştirerek tekrar deneyin.</p>
           </div>
-        )}
 
-        {/* Why Study in Germany */}
-        <div className="bg-muted rounded-2xl p-8 md:p-12">
-          <h2 className="text-4xl font-bold text-foreground mb-12 text-center" data-testid="why-germany-title">
-            Neden Almanya'da Eğitim?
-          </h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {[
-              {
-                title: "Ücretsiz Eğitim",
-                description: "Devlet üniversitelerinde eğitim ücretsiz, sadece dönem başı küçük ücretler"
-              },
-              {
-                title: "Uluslararası Tanınırlık",
-                description: "Alman diplomanız dünya çapında kabul görmektedir"
-              },
-              {
-                title: "İş İmkanları",
-                description: "Güçlü ekonomi ve yüksek iş bulma oranı"
-              },
-              {
-                title: "Araştırma Fırsatları",
-                description: "Dünya çapında araştırma merkezleri ve projeler"
-              },
-              {
-                title: "Zengin Kültür",
-                description: "Tarih, sanat ve kültürle dolu bir yaşam"
-              },
-              {
-                title: "Avrupa'ya Kapı",
-                description: "AB vatandaşlığı ve serbest dolaşım hakkı"
-              }
-            ].map((benefit, index) => (
-              <div key={index} className="text-center space-y-4" data-testid={`benefit-${index}`}>
-                <h3 className="text-xl font-semibold text-foreground" data-testid={`benefit-title-${index}`}>{benefit.title}</h3>
-                <p className="text-muted-foreground" data-testid={`benefit-description-${index}`}>{benefit.description}</p>
+          {/* Results Count */}
+          <div className="mb-8">
+            <p className="text-muted-foreground" data-testid="results-count">
+              {filteredUniversities.length}{" "}
+              {selectedCategory === "Fachhochschule"
+                ? "fachhochschule"
+                : selectedCategory === "Üniversite"
+                  ? "üniversite"
+                  : "kurum"}{" "}
+              bulundu
+            </p>
+          </div>
+
+          {/* Universities Grid */}
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+            {filteredUniversities.map((university, index) => (
+              <div
+                key={index}
+                className="bg-card p-6 rounded-xl shadow-sm border border-border card-hover"
+                data-testid={`university-${index}`}
+              >
+                <div className="space-y-3">
+                  <div className="flex justify-between items-start">
+                    <h3
+                      className="text-xl font-semibold text-foreground"
+                      data-testid={`university-name-${index}`}
+                    >
+                      {university.name}
+                    </h3>
+                    <div className="text-right">
+                      <div className="bg-gradient-to-r from-accent to-primary text-white px-3 py-1 rounded-lg border-2 border-accent/20 text-sm font-bold shadow-sm">
+                        Dünya #{university.worldRanking}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex items-center text-muted-foreground text-sm">
+                    <MapPin className="w-4 h-4 mr-1" />
+                    <span data-testid={`university-city-${index}`}>
+                      {university.city}
+                    </span>
+                  </div>
+
+                  <p
+                    className="text-muted-foreground"
+                    data-testid={`university-description-${index}`}
+                  >
+                    {university.description}
+                  </p>
+
+                  <div className="space-y-2">
+                    <div className="text-sm font-medium text-foreground">
+                      Popüler Programlar:
+                    </div>
+                    <div className="flex flex-wrap gap-2">
+                      {university.programs.map((program, programIndex) => (
+                        <span
+                          key={programIndex}
+                          className="bg-primary/10 text-primary px-2 py-1 rounded-full text-xs"
+                          data-testid={`university-program-${index}-${programIndex}`}
+                        >
+                          {program}
+                        </span>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div className="space-y-1 text-sm">
+                    <div className="text-muted-foreground">
+                      <span className="font-medium">Dil:</span>{" "}
+                      {university.language.join(", ")}
+                    </div>
+                  </div>
+
+                  <Link href={`/university/${index}`}>
+                    <button
+                      className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                      data-testid={`university-button-${index}`}
+                    >
+                      Detayları İncele
+                    </button>
+                  </Link>
+                </div>
               </div>
             ))}
           </div>
-        </div>
+
+          {/* No Results */}
+          {filteredUniversities.length === 0 && (
+            <div className="text-center py-20" data-testid="no-results">
+              <div className="text-4xl mb-4">🔍</div>
+              <h3 className="text-xl font-semibold text-foreground mb-2">
+                Üniversite bulunamadı
+              </h3>
+              <p className="text-muted-foreground">
+                Arama kriterlerinizi değiştirerek tekrar deneyin.
+              </p>
+            </div>
+          )}
+
+          {/* Why Study in Germany */}
+          <div className="bg-muted rounded-2xl p-8 md:p-12">
+            <h2
+              className="text-4xl font-bold text-foreground mb-12 text-center"
+              data-testid="why-germany-title"
+            >
+              Neden Almanya'da Eğitim?
+            </h2>
+
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {[
+                {
+                  title: "Ücretsiz Eğitim",
+                  description:
+                    "Devlet üniversitelerinde eğitim ücretsiz, sadece dönem başı küçük ücretler",
+                },
+                {
+                  title: "Uluslararası Tanınırlık",
+                  description:
+                    "Alman diploması dünya çapında kabul görmektedir",
+                },
+                {
+                  title: "İş İmkanları",
+                  description: "Güçlü ekonomi ve yüksek iş bulma oranı",
+                },
+                {
+                  title: "Araştırma Fırsatları",
+                  description: "Dünya çapında araştırma merkezleri ve projeler",
+                },
+                {
+                  title: "Zengin Kültür",
+                  description: "Tarih, sanat ve kültürle dolu bir yaşam",
+                },
+                {
+                  title: "Avrupa'ya Kapı",
+                  description: "AB vatandaşlığı ve serbest dolaşım hakkı",
+                },
+              ].map((benefit, index) => (
+                <div
+                  key={index}
+                  className="text-center space-y-4"
+                  data-testid={`benefit-${index}`}
+                >
+                  <h3
+                    className="text-xl font-semibold text-foreground"
+                    data-testid={`benefit-title-${index}`}
+                  >
+                    {benefit.title}
+                  </h3>
+                  <p
+                    className="text-muted-foreground"
+                    data-testid={`benefit-description-${index}`}
+                  >
+                    {benefit.description}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       <Footer />
