@@ -3147,7 +3147,7 @@ export const universities: University[] = [
     name: "Brandenburg Medical School Theodor Fontane",
     city: "Brandenburg an der Havel",
     description:
-      "2014'te kurulan modern özel tıp fakültesi, yenilikçi pratik odaklı eğitim",
+      "2014'te kurulan modern özel üniversite, tıp ve sağlık bilimleri odaklı yenilikçi pratik eğitim",
     programs: ["Tıp", "Psikoloji", "Sağlık Bilimleri", "Klinik Araştırma"],
     ranking: 4,
     worldRanking: 601,
