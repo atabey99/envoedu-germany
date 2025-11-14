@@ -14,7 +14,7 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16">
           <Link
             href="/"
-            className="flex items-center space-x-6"
+            className="flex items-center space-x-6 mr-16"
             data-testid="nav-logo"
           >
             <GraduationCap className="w-8 h-8 text-primary" />
