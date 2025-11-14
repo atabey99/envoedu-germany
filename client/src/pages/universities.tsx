@@ -3277,24 +3277,14 @@ export default function Universities() {
                     </div>
                   </div>
 
-                  {university.id ? (
-                    <Link href={`/universities/${university.id}`}>
-                      <button
-                        className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
-                        data-testid={`university-button-${index}`}
-                      >
-                        Detayları İncele
-                      </button>
-                    </Link>
-                  ) : (
+                  <Link href={`/universities/${university.id}`}>
                     <button
-                      className="w-full bg-muted text-muted-foreground py-2 rounded-lg font-semibold cursor-not-allowed"
-                      disabled
+                      className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
                       data-testid={`university-button-${index}`}
                     >
-                      Detaylar Yakında
+                      Detayları İncele
                     </button>
-                  )}
+                  </Link>
                 </div>
               </div>
             ))}
