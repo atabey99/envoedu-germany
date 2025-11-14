@@ -7,7 +7,7 @@ import { universities as basicUniversities } from "./universities";
 
 const detailedUniversities = [
   {
-    id: 0,
+    id: 57,
     name: "Technical University of Munich",
     city: "München",
     description: "Almanya'nın en iyi teknik üniversitelerinden biri",
@@ -45,7 +45,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 1,
+    id: 39,
     name: "Heidelberg Üniversitesi",
     city: "Heidelberg", 
     description: "Almanya'nın en eski ve prestijli üniversitesi",
@@ -83,7 +83,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 2,
+    id: 6,
     name: "Humboldt Üniversitesi",
     city: "Berlin",
     description: "Berlin'in kalbi Unter den Linden'da",
@@ -121,7 +121,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 4,
+    id: 1,
     name: "RWTH Aachen",
     city: "Aachen",
     description: "Almanya'nın en büyük teknik üniversitesi",
@@ -159,7 +159,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 5,
+    id: 4,
     name: "Freie Universität Berlin",
     city: "Berlin",
     description: "Berlin'in liberal ve uluslararası üniversitesi",
@@ -197,7 +197,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 6,
+    id: 23,
     name: "University of Erfurt",
     city: "Erfurt",
     description: "Liberal sanatlar ve sosyal bilimler odaklı reform üniversitesi",
@@ -242,7 +242,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 7,
+    id: 8,
     name: "University of the Arts Berlin (UdK)",
     city: "Berlin",
     description: "Avrupa'nın en büyük ve en eski sanat üniversitelerinden biri",
@@ -282,7 +282,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 8,
+    id: 9,
     name: "Bielefeld University",
     city: "Bielefeld",
     description: "Disiplinlerarası araştırma ve yenilikçi eğitim metodları ile tanınan reform üniversitesi",
@@ -321,7 +321,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 9,
+    id: 10,
     name: "Ruhr University Bochum",
     city: "Bochum",
     description: "Almanya'nın ilk yeni tip üniversitelerinden, güçlü araştırma geleneği",
@@ -361,7 +361,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 10,
+    id: 11,
     name: "University of Bonn",
     city: "Bonn",
     description: "1818'de kurulan, Nobel ödüllü mezunlarıyla ünlü excellence üniversitesi",
@@ -403,7 +403,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 11,
+    id: 12,
     name: "Brandenburg University of Technology Cottbus-Senftenberg",
     city: "Cottbus",
     description: "Teknoloji ve çevre odaklı genç teknik üniversite",
@@ -442,7 +442,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 12,
+    id: 14,
     name: "University of Bremen",
     city: "Bremen",
     description: "Yenilikçi ve uluslararası odaklı araştırma üniversitesi",
@@ -524,7 +524,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 14,
+    id: 15,
     name: "Chemnitz University of Technology",
     city: "Chemnitz",
     description: "1836'da kurulan, güçlü endüstri bağlantıları olan teknik üniversite",
@@ -565,7 +565,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 15,
+    id: 16,
     name: "Clausthal University of Technology",
     city: "Clausthal-Zellerfeld",
     description: "1775'te kurulan, dünyanın en eski madencilik bilim üniversitesi",
@@ -688,7 +688,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 18,
+    id: 19,
     name: "TU Dortmund University",
     city: "Dortmund",
     description: "1968'de kurulan genç ve dinamik teknik üniversite",
@@ -729,7 +729,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 19,
+    id: 20,
     name: "TU Dresden",
     city: "Dresden",
     description: "1828'de kurulan Excellence University",
@@ -771,7 +771,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 20,
+    id: 21,
     name: "University of Duisburg-Essen",
     city: "Duisburg/Essen",
     description: "2003'te birleşen, Almanya'nın en genç büyük üniversitelerinden",
@@ -812,7 +812,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 21,
+    id: 22,
     name: "Heinrich Heine University Düsseldorf",
     city: "Düsseldorf",
     description: "1965'te kurulan, şairin adını taşıyan modern üniversite",
@@ -978,7 +978,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 25,
+    id: 27,
     name: "European University Viadrina Frankfurt (Oder)",
     city: "Frankfurt (Oder)",
     description: "1991'de yeniden kurulan, Alman-Polonya sınırındaki Avrupa üniversitesi",
@@ -1018,7 +1018,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 26,
+    id: 28,
     name: "TU Bergakademie Freiberg",
     city: "Freiberg",
     description: "1765'te kurulan, dünyanın en eski maden bilim üniversitesi",
@@ -1058,7 +1058,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 27,
+    id: 35,
     name: "University of Hamburg",
     city: "Hamburg",
     description: "1919'da kurulan, Hamburg'un en büyük araştırma üniversitesi",
@@ -1099,7 +1099,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 28,
+    id: 71,
     name: "University of Stuttgart",
     city: "Stuttgart",
     description: "1829'da kurulan, TU9 üyesi teknik üniversite",
@@ -1139,7 +1139,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 29,
+    id: 45,
     name: "Karlsruhe Institute of Technology (KIT)",
     city: "Karlsruhe",
     description: "2009'da kurulan (1825 köklü), Excellence University",
@@ -1261,7 +1261,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 32,
+    id: 55,
     name: "University of Mannheim",
     city: "Mannheim",
     description: "1967'de kurulan, Almanya'da İşletme #1",
@@ -1303,7 +1303,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 33,
+    id: 49,
     name: "University of Konstanz",
     city: "Konstanz",
     description: "1966'da kurulan, 'Constance Gölü'nde Küçük Harvard'",
@@ -1387,7 +1387,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 35,
+    id: 66,
     name: "University of Regensburg",
     city: "Regensburg",
     description: "1962'de kurulan, Papa Benedict XVI'nın eski üniversitesi",
@@ -1513,7 +1513,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 38,
+    id: 30,
     name: "Justus Liebig University Giessen",
     city: "Giessen",
     description: "1607'de kurulan, modern tarım kimyasının beşiği",
@@ -1554,7 +1554,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 39,
+    id: 32,
     name: "University of Greifswald",
     city: "Greifswald",
     description: "1456'da kurulan, günümüz Almanya'nın 4. en eski üniversitesi",
@@ -1636,7 +1636,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 41,
+    id: 34,
     name: "Martin Luther University Halle-Wittenberg",
     city: "Halle",
     description: "1817'de birleşen, Luther'in adını taşıyan 500+ yaşında kökleri",
@@ -1677,7 +1677,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 42,
+    id: 36,
     name: "HafenCity University Hamburg",
     city: "Hamburg",
     description: "2006'da kurulan, mimarlık ve kent gelişimine odaklanan tek üniversite",
@@ -1718,7 +1718,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 43,
+    id: 37,
     name: "Hamburg University of Technology (TUHH)",
     city: "Hamburg",
     description: "1978'de kurulan, 'İnsanlık için Teknoloji' misyonu",
@@ -1759,7 +1759,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 44,
+    id: 38,
     name: "Leibniz University Hannover",
     city: "Hannover",
     description: "1831'de kurulan, TU9 üyesi teknik üniversite",
@@ -1842,7 +1842,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 46,
+    id: 40,
     name: "University of Hildesheim",
     city: "Hildesheim",
     description: "1946'da kurulan, 2003'ten beri Vakıf Üniversitesi",
@@ -1884,7 +1884,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 47,
+    id: 41,
     name: "University of Hohenheim",
     city: "Stuttgart",
     description: "1818'de kurulan, Stuttgart'ın en eski üniversitesi",
@@ -1926,7 +1926,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 48,
+    id: 42,
     name: "TU Ilmenau",
     city: "Ilmenau",
     description: "1894'te kurulan, Thüringen'in tek teknik üniversitesi",
@@ -2052,7 +2052,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 51,
+    id: 45,
     name: "Karlsruhe Institute of Technology (KIT)",
     city: "Karlsruhe",
     description: "1825/2009'da kurulan Excellence University, araştırma odaklı",
@@ -2094,7 +2094,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 52,
+    id: 46,
     name: "University of Kassel",
     city: "Kassel",
     description: "1971'de kurulan, sosyal sorumluluk odaklı reform üniversitesi",
@@ -2136,7 +2136,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 53,
+    id: 48,
     name: "University of Koblenz",
     city: "Koblenz",
     description: "2023'te kurulan, modern teknoloji odaklı genç üniversite",
@@ -2220,7 +2220,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 55,
+    id: 49,
     name: "University of Konstanz",
     city: "Konstanz",
     description: "1966'da kurulan Excellence University, 'Küçük Harvard'",
@@ -2304,7 +2304,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 57,
+    id: 51,
     name: "University of Lübeck",
     city: "Lübeck",
     description: "1964'te kurulan, tıp ve yaşam bilimleri odaklı üniversite",
@@ -2346,7 +2346,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 58,
+    id: 52,
     name: "Leuphana University Lüneburg",
     city: "Lüneburg",
     description: "1946'da kurulan, sürdürülebilirlik odaklı liberal arts üniversite",
@@ -2430,7 +2430,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 60,
+    id: 54,
     name: "Johannes Gutenberg University Mainz",
     city: "Mainz",
     description: "1477/1946'da kurulan, güçlü araştırma geleneği olan U15 üyesi",
@@ -2472,7 +2472,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 61,
+    id: 55,
     name: "University of Mannheim",
     city: "Mannheim",
     description: "1967'de kurulan, işletme ve ekonomide Almanya'nın #1'i",
@@ -2514,7 +2514,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 62,
+    id: 56,
     name: "Philipps University Marburg",
     city: "Marburg",
     description: "1527'de kurulan, dünyanın en eski Protestan üniversitesi",
@@ -2795,7 +2795,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 69,
+    id: 70,
     name: "German University of Administrative Sciences Speyer",
     city: "Speyer",
     description: "1947'de kurulan, kamu yönetimi ve idare hukuku konusunda uzmanlaşmış lisansüstü üniversite",
@@ -2835,7 +2835,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 70,
+    id: 72,
     name: "University of Trier",
     city: "Trier",
     description: "1473'te kurulan tarihi üniversite, Karl Marx'ın doğduğu şehir",
@@ -2876,7 +2876,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 71,
+    id: 74,
     name: "University of Ulm",
     city: "Ulm",
     description: "1967'de kurulan, tıp ve doğa bilimleri odaklı araştırma üniversitesi",
@@ -2917,7 +2917,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 72,
+    id: 75,
     name: "University of Vechta",
     city: "Vechta",
     description: "1830'da öğretmen okulu olarak kurulan, eğitim bilimleri ve sürdürülebilirlik odaklı küçük üniversite",
@@ -2958,7 +2958,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 73,
+    id: 76,
     name: "Bauhaus University Weimar",
     city: "Weimar",
     description: "1860'ta kurulan, Bauhaus sanat akımının doğduğu üniversite, mimarlık ve tasarım odaklı",

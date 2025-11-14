@@ -33,7 +33,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 1,
+    id: 2,
     name: "University of Augsburg",
     city: "Augsburg",
     description: "Bayern'de modern bir araştırma üniversitesi",
@@ -45,7 +45,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 2,
+    id: 3,
     name: "University of Bamberg (Otto-Friedrich-Universität)",
     city: "Bamberg",
     description: "UNESCO Dünya Mirası şehrinde küçük ama kaliteli üniversite",
@@ -57,7 +57,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 3,
+    id: 4,
     name: "University of Bayreuth",
     city: "Bayreuth",
     description:
@@ -70,7 +70,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 4,
+    id: 5,
     name: "Free University of Berlin (Freie Universität Berlin)",
     city: "Berlin",
     description:
@@ -83,7 +83,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 5,
+    id: 6,
     name: "Humboldt University of Berlin",
     city: "Berlin",
     description: "1810'da kurulan, modern üniversite kavramının öncüsü",
@@ -95,7 +95,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 6,
+    id: 7,
     name: "Technische Universität Berlin",
     city: "Berlin",
     description: "Berlin'in önde gelen teknik üniversitesi",
@@ -107,7 +107,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 7,
+    id: 8,
     name: "University of the Arts Berlin (UdK)",
     city: "Berlin",
     description: "Avrupa'nın en büyük sanat üniversitelerinden biri",
@@ -119,7 +119,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 8,
+    id: 9,
     name: "Bielefeld University",
     city: "Bielefeld",
     description: "Disiplinlerarası araştırma ve yenilikçi eğitim metodları",
@@ -131,7 +131,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 9,
+    id: 10,
     name: "Ruhr University Bochum",
     city: "Bochum",
     description: "Almanya'nın ilk yeni tip üniversitelerinden, güçlü araştırma",
@@ -143,7 +143,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 10,
+    id: 11,
     name: "University of Bonn",
     city: "Bonn",
     description: "1818'de kurulan, Nobel ödüllü mezunlarıyla ünlü üniversite",
@@ -155,7 +155,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 11,
+    id: 12,
     name: "Brandenburg University of Technology Cottbus-Senftenberg",
     city: "Cottbus",
     description: "Teknoloji ve çevre odaklı genç üniversite",
@@ -167,7 +167,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 12,
+    id: 13,
     name: "Braunschweig University of Technology",
     city: "Braunschweig",
     description: "1745'te kurulan, Almanya'nın en eski teknik üniversitesi",
@@ -179,7 +179,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 13,
+    id: 14,
     name: "University of Bremen",
     city: "Bremen",
     description: "Yenilikçi ve uluslararası odaklı araştırma üniversitesi",
@@ -191,7 +191,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 14,
+    id: 15,
     name: "Chemnitz University of Technology",
     city: "Chemnitz",
     description: "Teknoloji ve inovasyon odaklı modern üniversite",
@@ -203,7 +203,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 15,
+    id: 16,
     name: "Clausthal University of Technology",
     city: "Clausthal-Zellerfeld",
     description: "Maden ve malzeme mühendisliğinde uzman üniversite",
@@ -215,7 +215,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 16,
+    id: 17,
     name: "University of Cologne (Universität zu Köln)",
     city: "Cologne",
     description: "1388'de kurulan, Almanya'nın en eski üniversitelerinden",
@@ -227,7 +227,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 17,
+    id: 18,
     name: "Technische Universität Darmstadt",
     city: "Darmstadt",
     description: "Teknoloji ve mühendislik alanında öncü üniversite",
@@ -239,7 +239,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 18,
+    id: 19,
     name: "TU Dortmund University",
     city: "Dortmund",
     description: "Teknoloji ve araştırma odaklı genç üniversite",
@@ -251,7 +251,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 19,
+    id: 20,
     name: "TU Dresden",
     city: "Dresden",
     description: "Doğu Almanya'nın en prestijli teknik üniversitesi",
@@ -263,7 +263,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 20,
+    id: 21,
     name: "University of Duisburg-Essen",
     city: "Duisburg-Essen",
     description: "Ruhr bölgesinin büyük araştırma üniversitesi",
@@ -275,7 +275,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 21,
+    id: 22,
     name: "Heinrich Heine University Düsseldorf",
     city: "Düsseldorf",
     description: "Tıp ve doğa bilimleri alanında güçlü araştırma üniversitesi",
@@ -287,7 +287,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 22,
+    id: 23,
     name: "University of Erfurt",
     city: "Erfurt",
     description: "Liberal sanatlar ve sosyal bilimler odaklı üniversite",
@@ -299,7 +299,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 23,
+    id: 24,
     name: "Friedrich-Alexander University Erlangen–Nürnberg (FAU)",
     city: "Erlangen",
     description: "Bayern'in ikinci büyük üniversitesi, güçlü araştırma",
@@ -311,7 +311,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 24,
+    id: 25,
     name: "University of Flensburg (Europa-Universität Flensburg)",
     city: "Flensburg",
     description: "Eğitim bilimleri ve sürdürülebilirlik odaklı üniversite",
@@ -323,7 +323,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 25,
+    id: 26,
     name: "Goethe University Frankfurt am Main",
     city: "Frankfurt am Main",
     description:
@@ -336,7 +336,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 26,
+    id: 27,
     name: "European University Viadrina Frankfurt (Oder)",
     city: "Frankfurt (Oder)",
     description: "Avrupa odaklı uluslararası üniversite",
@@ -348,7 +348,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 27,
+    id: 28,
     name: "TU Bergakademie Freiberg",
     city: "Freiberg",
     description: "Maden ve malzeme bilimlerinde dünya lideri",
@@ -365,7 +365,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 28,
+    id: 29,
     name: "University of Freiburg (Albert-Ludwigs-Universität Freiburg)",
     city: "Freiburg",
     description: "1457'de kurulan, Almanya'nın en eski üniversitelerinden",
@@ -377,7 +377,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 29,
+    id: 30,
     name: "Justus Liebig University Giessen",
     city: "Giessen",
     description: "Veteriner hekimlik ve yaşam bilimleri alanında öncü",
@@ -389,7 +389,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 30,
+    id: 31,
     name: "University of Göttingen (Georg-August-Universität)",
     city: "Göttingen",
     description:
@@ -402,7 +402,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 31,
+    id: 32,
     name: "University of Greifswald",
     city: "Greifswald",
     description: "1456'da kurulan, Baltık denizi kıyısında tarihi üniversite",
@@ -414,7 +414,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 32,
+    id: 33,
     name: "FernUniversität in Hagen",
     city: "Hagen",
     description: "Almanya'nın tek uzaktan eğitim üniversitesi",
@@ -426,7 +426,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 33,
+    id: 34,
     name: "Martin Luther University Halle-Wittenberg",
     city: "Halle",
     description: "1502'de kurulan, Martin Luther'in adını taşıyan üniversite",
@@ -438,7 +438,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 34,
+    id: 35,
     name: "University of Hamburg",
     city: "Hamburg",
     description: "Kuzey Almanya'nın en büyük araştırma üniversitesi",
@@ -450,7 +450,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 35,
+    id: 36,
     name: "HafenCity University Hamburg",
     city: "Hamburg",
     description: "Mimarlık ve şehir planlaması odaklı özel üniversite",
@@ -462,7 +462,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 36,
+    id: 37,
     name: "Hamburg University of Technology (TUHH)",
     city: "Hamburg",
     description:
@@ -475,7 +475,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 37,
+    id: 38,
     name: "Leibniz University Hannover",
     city: "Hannover",
     description: "Mühendislik ve doğa bilimleri alanında güçlü üniversite",
@@ -487,7 +487,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 38,
+    id: 39,
     name: "University of Heidelberg (Ruprecht-Karls-Universität)",
     city: "Heidelberg",
     description: "1386'da kurulan, Almanya'nın en eski üniversitesi",
@@ -499,7 +499,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 39,
+    id: 40,
     name: "University of Hildesheim",
     city: "Hildesheim",
     description: "Eğitim bilimleri ve kültürel çalışmalar odaklı üniversite",
@@ -516,7 +516,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 40,
+    id: 41,
     name: "University of Hohenheim",
     city: "Stuttgart-Hohenheim",
     description: "Tarım ve beslenme bilimleri alanında uzman üniversite",
@@ -528,7 +528,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 41,
+    id: 42,
     name: "TU Ilmenau",
     city: "Ilmenau",
     description: "Thüringen'de teknoloji odaklı üniversite",
@@ -540,7 +540,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 42,
+    id: 43,
     name: "University of Jena (Friedrich-Schiller-Universität Jena)",
     city: "Jena",
     description: "1558'de kurulan, Thüringen'in araştırma üniversitesi",
@@ -552,7 +552,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 43,
+    id: 44,
     name: "TU Kaiserslautern",
     city: "Kaiserslautern",
     description: "Teknoloji ve mühendislik odaklı güçlü araştırma üniversitesi",
@@ -564,7 +564,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 44,
+    id: 45,
     name: "Karlsruhe Institute of Technology (KIT)",
     city: "Karlsruhe",
     description: "Almanya'nın MIT'i olarak bilinen teknoloji enstitüsü",
@@ -576,7 +576,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 45,
+    id: 46,
     name: "University of Kassel",
     city: "Kassel",
     description: "Sürdürülebilirlik ve çevre teknolojileri odaklı üniversite",
@@ -588,7 +588,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 75,
+    id: 47,
     name: "University of Kiel (Christian-Albrechts-Universität Kiel)",
     city: "Kiel",
     description: "1665'te kurulan, deniz bilimleri alanında öncü üniversite",
@@ -600,7 +600,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 46,
+    id: 48,
     name: "University of Koblenz",
     city: "Koblenz",
     description: "Eğitim bilimleri ve bilgisayar bilimleri odaklı üniversite",
@@ -612,7 +612,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 47,
+    id: 49,
     name: "University of Konstanz",
     city: "Konstanz",
     description:
@@ -625,7 +625,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 48,
+    id: 50,
     name: "University of Leipzig",
     city: "Leipzig",
     description: "1409'da kurulan, Almanya'nın ikinci en eski üniversitesi",
@@ -637,7 +637,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 49,
+    id: 51,
     name: "University of Lübeck",
     city: "Lübeck",
     description: "Tıp ve yaşam bilimleri odaklı araştırma üniversitesi",
@@ -649,7 +649,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 50,
+    id: 52,
     name: "Leuphana University Lüneburg",
     city: "Lüneburg",
     description:
@@ -662,7 +662,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 51,
+    id: 53,
     name: "University of Magdeburg (Otto-von-Guericke-Universität)",
     city: "Magdeburg",
     description: "Mühendislik ve tıp alanında güçlü araştırma üniversitesi",
@@ -674,7 +674,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 52,
+    id: 54,
     name: "Johannes Gutenberg University Mainz",
     city: "Mainz",
     description: "Kapsamlı araştırma üniversitesi, güçlü medya programları",
@@ -686,7 +686,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 53,
+    id: 55,
     name: "University of Mannheim",
     city: "Mannheim",
     description: "İşletme ve sosyal bilimler alanında Almanya'nın lideri",
@@ -698,7 +698,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 54,
+    id: 56,
     name: "Philipps University Marburg",
     city: "Marburg",
     description: "1527'de kurulan, Almanya'nın en eski Protestan üniversitesi",
@@ -710,7 +710,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 55,
+    id: 57,
     name: "Technical University of Munich (TUM)",
     city: "Munich",
     description: "Almanya'nın en prestijli teknik üniversitesi",
@@ -722,7 +722,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 56,
+    id: 58,
     name: "Ludwig Maximilian University of Munich (LMU)",
     city: "Munich",
     description: "1472'de kurulan, Almanya'nın en prestijli üniversitelerinden",
@@ -734,7 +734,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 57,
+    id: 59,
     name: "Bundeswehr University Munich",
     city: "Munich",
     description: "Alman silahlı kuvvetlerinin üniversitesi",
@@ -746,7 +746,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 58,
+    id: 60,
     name: "University of Münster (WWU)",
     city: "Münster",
     description: "1780'de kurulan, geniş kapsamlı araştırma üniversitesi",
@@ -758,7 +758,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 59,
+    id: 61,
     name: "University of Oldenburg (Carl von Ossietzky Universität)",
     city: "Oldenburg",
     description: "Sürdürülebilirlik ve enerji araştırmaları odaklı üniversite",
@@ -770,7 +770,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 60,
+    id: 62,
     name: "University of Osnabrück",
     city: "Osnabrück",
     description:
@@ -783,7 +783,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 61,
+    id: 63,
     name: "University of Paderborn",
     city: "Paderborn",
     description:
@@ -796,7 +796,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 62,
+    id: 64,
     name: "University of Passau",
     city: "Passau",
     description: "Hukuk ve işletme alanında güçlü küçük üniversite",
@@ -808,7 +808,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 63,
+    id: 65,
     name: "University of Potsdam",
     city: "Potsdam",
     description: "Brandenburg'un ana üniversitesi, güçlü araştırma",
@@ -820,7 +820,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 64,
+    id: 66,
     name: "University of Regensburg",
     city: "Regensburg",
     description: "Modern kampüs üniversitesi, güçlü araştırma programları",
@@ -832,7 +832,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 65,
+    id: 67,
     name: "University of Rostock",
     city: "Rostock",
     description: "1419'da kurulan, Baltık denizi kıyısında tarihi üniversite",
@@ -844,7 +844,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 66,
+    id: 68,
     name: "Saarland University (Universität des Saarlandes)",
     city: "Saarbrücken",
     description:
@@ -857,7 +857,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 67,
+    id: 69,
     name: "University of Siegen",
     city: "Siegen",
     description: "Mühendislik ve sosyal bilimler alanında güçlü üniversite",
@@ -869,7 +869,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 69,
+    id: 70,
     name: "German University of Administrative Sciences Speyer",
     city: "Speyer",
     description: "Kamu yönetimi alanında uzman üniversite",
@@ -881,7 +881,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 28,
+    id: 71,
     name: "University of Stuttgart",
     city: "Stuttgart",
     description:
@@ -894,7 +894,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 70,
+    id: 72,
     name: "University of Trier",
     city: "Trier",
     description: "Sosyal bilimler ve hukuk alanında güçlü küçük üniversite",
@@ -906,7 +906,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 34,
+    id: 73,
     name: "University of Tübingen (Eberhard Karls Universität)",
     city: "Tübingen",
     description: "1477'de kurulan, Almanya'nın en prestijli üniversitelerinden",
@@ -918,7 +918,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 71,
+    id: 74,
     name: "University of Ulm",
     city: "Ulm",
     description: "Tıp ve doğa bilimleri odaklı araştırma üniversitesi",
@@ -930,7 +930,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 72,
+    id: 75,
     name: "University of Vechta",
     city: "Vechta",
     description:
@@ -943,7 +943,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 73,
+    id: 76,
     name: "Bauhaus University Weimar",
     city: "Weimar",
     description: "Mimarlık, sanat ve tasarım alanında dünyaca ünlü üniversite",
@@ -955,7 +955,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 74,
+    id: 77,
     name: "University of Wuppertal (Bergische Universität Wuppertal)",
     city: "Wuppertal",
     description: "Mühendislik ve tasarım alanında güçlü üniversite",
@@ -967,7 +967,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 31,
+    id: 78,
     name: "University of Würzburg (Julius-Maximilians-Universität Würzburg)",
     city: "Würzburg",
     description:
@@ -980,7 +980,7 @@ export const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
-    id: 68,
+    id: 79,
     name: "FH Aachen – University of Applied Sciences",
     city: "Aachen",
     description: "Uygulamalı bilimler alanında güçlü mühendislik programları",
@@ -992,7 +992,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 69,
+    id: 80,
     name: "Hochschule Aalen",
     city: "Aalen",
     description:
@@ -1005,7 +1005,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 70,
+    id: 81,
     name: "Hochschule Albstadt-Sigmaringen",
     city: "Albstadt-Sigmaringen",
     description:
@@ -1018,7 +1018,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 71,
+    id: 82,
     name: "OTH Amberg-Weiden",
     city: "Amberg-Weiden",
     description:
@@ -1031,7 +1031,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 72,
+    id: 83,
     name: "Hochschule Anhalt",
     city: "Köthen",
     description: "Tarım, mühendislik ve tasarım alanlarında güçlü programlar",
@@ -1043,7 +1043,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 73,
+    id: 84,
     name: "Hochschule Ansbach",
     city: "Ansbach",
     description:
@@ -1056,7 +1056,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 74,
+    id: 85,
     name: "Hochschule Aschaffenburg",
     city: "Aschaffenburg",
     description:
@@ -1069,7 +1069,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 75,
+    id: 86,
     name: "Hochschule Augsburg",
     city: "Augsburg",
     description: "Teknoloji ve tasarım alanında güçlü Fachhochschule",
@@ -1081,7 +1081,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 76,
+    id: 87,
     name: "Hochschule Biberach",
     city: "Biberach",
     description: "İnşaat ve çevre mühendisliği alanında uzman Fachhochschule",
@@ -1098,7 +1098,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 77,
+    id: 88,
     name: "FH Bielefeld",
     city: "Bielefeld",
     description: "Geniş program yelpazesine sahip büyük Fachhochschule",
@@ -1110,7 +1110,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 78,
+    id: 89,
     name: "Hochschule Bochum",
     city: "Bochum",
     description: "Ruhr bölgesinde mühendislik odaklı Fachhochschule",
@@ -1122,7 +1122,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 79,
+    id: 90,
     name: "Hochschule Bonn-Rhein-Sieg",
     city: "Sankt Augustin",
     description: "Bonn yakınında modern uygulamalı bilimler üniversitesi",
@@ -1134,7 +1134,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 80,
+    id: 91,
     name: "Brandenburg University of Applied Sciences",
     city: "Brandenburg an der Havel",
     description: "Brandenburg'da uygulamalı teknoloji odaklı Fachhochschule",
@@ -1146,7 +1146,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 81,
+    id: 92,
     name: "Hochschule Bremen",
     city: "Bremen",
     description: "Kuzey Almanya'da güçlü mühendislik programları",
@@ -1158,7 +1158,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 82,
+    id: 93,
     name: "Hochschule Bremerhaven",
     city: "Bremerhaven",
     description: "Denizcilik ve lojistik alanında uzman Fachhochschule",
@@ -1170,7 +1170,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 83,
+    id: 94,
     name: "Hochschule Coburg",
     city: "Coburg",
     description: "Bavyera'da tasarım ve mühendislik odaklı Fachhochschule",
@@ -1182,7 +1182,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 84,
+    id: 95,
     name: "Hochschule Darmstadt (h_da)",
     city: "Darmstadt",
     description: "Almanya'nın en büyük Fachhochschule'lerinden biri",
@@ -1194,7 +1194,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 85,
+    id: 96,
     name: "TH Deggendorf",
     city: "Deggendorf",
     description:
@@ -1207,7 +1207,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 86,
+    id: 97,
     name: "Hochschule Düsseldorf (HSD)",
     city: "Düsseldorf",
     description: "Kuzey Ren-Vestfalya'nın büyük Fachhochschule'lerinden",
@@ -1219,7 +1219,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 87,
+    id: 98,
     name: "Hochschule Esslingen",
     city: "Esslingen",
     description: "Stuttgart yakınında güçlü mühendislik programları",
@@ -1231,7 +1231,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 88,
+    id: 99,
     name: "Hochschule Emden/Leer",
     city: "Emden",
     description:
@@ -1244,7 +1244,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 89,
+    id: 100,
     name: "FH Erfurt",
     city: "Erfurt",
     description: "Thüringen'de tarım ve peyzaj mimarisi odaklı Fachhochschule",
@@ -1256,7 +1256,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 90,
+    id: 101,
     name: "Hochschule Fulda",
     city: "Fulda",
     description: "Hessen'de geniş program yelpazesine sahip Fachhochschule",
@@ -1268,7 +1268,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 91,
+    id: 102,
     name: "Hochschule Furtwangen (HFU)",
     city: "Furtwangen",
     description:
@@ -1281,7 +1281,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 92,
+    id: 103,
     name: "Hochschule Flensburg",
     city: "Flensburg",
     description:
@@ -1294,7 +1294,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 93,
+    id: 104,
     name: "Hochschule Geisenheim",
     city: "Geisenheim",
     description: "Şarap yapımı ve tarım alanında uzman Fachhochschule",
@@ -1306,7 +1306,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 94,
+    id: 105,
     name: "HAWK Hildesheim/Holzminden/Göttingen",
     city: "Hildesheim",
     description: "Üç kampüslü geniş kapsamlı uygulamalı bilimler üniversitesi",
@@ -1318,7 +1318,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 95,
+    id: 106,
     name: "Westfälische Hochschule Gelsenkirchen-Bocholt-Recklinghausen",
     city: "Gelsenkirchen",
     description: "Ruhr bölgesinde çok kampüslü büyük Fachhochschule",
@@ -1330,7 +1330,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 96,
+    id: 107,
     name: "HAW Hamburg",
     city: "Hamburg",
     description: "Kuzey Almanya'nın en büyük Fachhochschule'lerinden",
@@ -1342,7 +1342,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 97,
+    id: 108,
     name: "Hochschule Hannover",
     city: "Hannover",
     description:
@@ -1355,7 +1355,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 98,
+    id: 109,
     name: "Hochschule Harz",
     city: "Wernigerode",
     description: "Harz dağlarında teknoloji ve turizm odaklı Fachhochschule",
@@ -1367,7 +1367,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 99,
+    id: 110,
     name: "Hochschule Heilbronn",
     city: "Heilbronn",
     description:
@@ -1380,7 +1380,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 100,
+    id: 111,
     name: "Hochschule Hof",
     city: "Hof",
     description:
@@ -1393,7 +1393,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 101,
+    id: 112,
     name: "Hochschule Kaiserslautern",
     city: "Kaiserslautern",
     description: "Rheinland-Pfalz'ta mühendislik odaklı güçlü Fachhochschule",
@@ -1405,7 +1405,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 102,
+    id: 113,
     name: "Hochschule Karlsruhe (HKA)",
     city: "Karlsruhe",
     description:
@@ -1418,7 +1418,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 103,
+    id: 114,
     name: "Hochschule Kempten",
     city: "Kempten",
     description: "Allgäu bölgesinde teknoloji ve turizm odaklı Fachhochschule",
@@ -1430,7 +1430,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 104,
+    id: 115,
     name: "Hochschule Koblenz",
     city: "Koblenz",
     description: "Ren ve Mosel nehirleri kesişiminde güçlü Fachhochschule",
@@ -1442,7 +1442,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 105,
+    id: 116,
     name: "HTWG Konstanz",
     city: "Konstanz",
     description: "Konstanz Gölü kıyısında teknoloji odaklı Fachhochschule",
@@ -1454,7 +1454,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 106,
+    id: 117,
     name: "Hochschule Landshut",
     city: "Landshut",
     description: "Bavyera'da mühendislik ve işletme odaklı Fachhochschule",
@@ -1466,7 +1466,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 107,
+    id: 118,
     name: "TH Ostwestfalen-Lippe (Lemgo)",
     city: "Lemgo",
     description:
@@ -1479,7 +1479,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 108,
+    id: 119,
     name: "Hochschule Lübeck",
     city: "Lübeck",
     description:
@@ -1492,7 +1492,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 109,
+    id: 120,
     name: "Hochschule Ludwigshafen",
     city: "Ludwigshafen",
     description:
@@ -1505,7 +1505,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 110,
+    id: 121,
     name: "Hochschule Magdeburg-Stendal",
     city: "Magdeburg",
     description:
@@ -1518,7 +1518,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 111,
+    id: 122,
     name: "Hochschule Mainz",
     city: "Mainz",
     description:
@@ -1531,7 +1531,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 112,
+    id: 123,
     name: "Hochschule Mannheim",
     city: "Mannheim",
     description:
@@ -1544,7 +1544,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 113,
+    id: 124,
     name: "Hochschule Merseburg",
     city: "Merseburg",
     description: "Sachsen-Anhalt'ta kimya ve mühendislik odaklı Fachhochschule",
@@ -1556,7 +1556,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 114,
+    id: 125,
     name: "Hochschule Mittweida",
     city: "Mittweida",
     description: "Saksonya'da medya ve teknoloji odaklı Fachhochschule",
@@ -1568,7 +1568,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 115,
+    id: 126,
     name: "Hochschule München (HM)",
     city: "München",
     description: "Bavyera'nın en büyük Fachhochschule'lerinden biri",
@@ -1580,7 +1580,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 116,
+    id: 127,
     name: "FH Münster",
     city: "Münster",
     description:
@@ -1593,7 +1593,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 117,
+    id: 128,
     name: "Hochschule Neu-Ulm (HNU)",
     city: "Neu-Ulm",
     description: "İşletme ve bilgi yönetimi odaklı modern Fachhochschule",
@@ -1605,7 +1605,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 118,
+    id: 129,
     name: "Hochschule Niederrhein",
     city: "Krefeld",
     description:
@@ -1623,7 +1623,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 119,
+    id: 130,
     name: "HfWU Nürtingen-Geislingen",
     city: "Nürtingen",
     description: "İşletme ve çevre alanında uzman Fachhochschule",
@@ -1635,7 +1635,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 120,
+    id: 131,
     name: "Hochschule Neubrandenburg",
     city: "Neubrandenburg",
     description:
@@ -1648,7 +1648,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 121,
+    id: 132,
     name: "Hochschule Nordhausen",
     city: "Nordhausen",
     description: "Thüringen'de mühendislik ve işletme odaklı Fachhochschule",
@@ -1660,7 +1660,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 122,
+    id: 133,
     name: "Hochschule Offenburg",
     city: "Offenburg",
     description:
@@ -1673,7 +1673,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 123,
+    id: 134,
     name: "Hochschule Osnabrück",
     city: "Osnabrück",
     description:
@@ -1686,7 +1686,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 124,
+    id: 135,
     name: "Ostfalia Hochschule (Wolfenbüttel, Salzgitter, Suderburg, Wolfsburg)",
     city: "Wolfenbüttel",
     description: "Aşağı Saksonya'da dört kampüslü büyük Fachhochschule",
@@ -1698,7 +1698,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 125,
+    id: 136,
     name: "Hochschule Pforzheim",
     city: "Pforzheim",
     description:
@@ -1711,7 +1711,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 126,
+    id: 137,
     name: "Hochschule Potsdam",
     city: "Potsdam",
     description:
@@ -1724,7 +1724,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 127,
+    id: 138,
     name: "Hochschule Ravensburg-Weingarten",
     city: "Ravensburg",
     description:
@@ -1737,7 +1737,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 128,
+    id: 139,
     name: "Hochschule Reutlingen",
     city: "Reutlingen",
     description: "Stuttgart yakınında güçlü işletme ve mühendislik programları",
@@ -1749,7 +1749,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 129,
+    id: 140,
     name: "Hochschule RheinMain (Wiesbaden/Rüsselsheim)",
     city: "Wiesbaden",
     description:
@@ -1762,7 +1762,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 130,
+    id: 141,
     name: "TH Rosenheim",
     city: "Rosenheim",
     description: "Alpler yakınında teknoloji ve işletme odaklı Fachhochschule",
@@ -1774,7 +1774,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 131,
+    id: 142,
     name: "Hochschule Schmalkalden",
     city: "Schmalkalden",
     description: "Thüringen'de işletme ve mühendislik odaklı Fachhochschule",
@@ -1786,7 +1786,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 132,
+    id: 143,
     name: "Hochschule Stralsund",
     city: "Stralsund",
     description: "Baltık denizi kıyısında teknoloji odaklı Fachhochschule",
@@ -1798,7 +1798,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 133,
+    id: 144,
     name: "HFT Stuttgart",
     city: "Stuttgart",
     description:
@@ -1816,7 +1816,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 134,
+    id: 145,
     name: "FH Südwestfalen",
     city: "Hagen",
     description:
@@ -1829,7 +1829,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 135,
+    id: 146,
     name: "Hochschule Trier",
     city: "Trier",
     description:
@@ -1842,7 +1842,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 136,
+    id: 147,
     name: "TH Brandenburg",
     city: "Brandenburg an der Havel",
     description:
@@ -1855,7 +1855,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 137,
+    id: 148,
     name: "TH Ingolstadt",
     city: "Ingolstadt",
     description: "Bavyera'da otomotiv ve teknoloji odaklı Fachhochschule",
@@ -1867,7 +1867,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 138,
+    id: 149,
     name: "TH Köln",
     city: "Köln",
     description: "Almanya'nın en büyük uygulamalı bilimler üniversitelerinden",
@@ -1879,7 +1879,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 139,
+    id: 150,
     name: "TH Mittelhessen (THM)",
     city: "Gießen",
     description:
@@ -1892,7 +1892,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 140,
+    id: 151,
     name: "TH Nürnberg (Georg Simon Ohm)",
     city: "Nürnberg",
     description:
@@ -1905,7 +1905,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 141,
+    id: 152,
     name: "TH Wildau",
     city: "Wildau",
     description: "Berlin yakınında teknoloji ve lojistik odaklı Fachhochschule",
@@ -1917,7 +1917,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 142,
+    id: 153,
     name: "TH Würzburg-Schweinfurt (THWS)",
     city: "Würzburg",
     description: "Bavyera'da iki kampüslü teknoloji odaklı Fachhochschule",
@@ -1929,7 +1929,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 143,
+    id: 154,
     name: "Hochschule Ulm",
     city: "Ulm",
     description:
@@ -1942,7 +1942,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 144,
+    id: 155,
     name: "HS Weihenstephan-Triesdorf",
     city: "Freising",
     description:
@@ -1955,7 +1955,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 145,
+    id: 156,
     name: "Hochschule Worms",
     city: "Worms",
     description: "Rheinland-Pfalz'ta işletme ve turizm odaklı Fachhochschule",
@@ -1967,7 +1967,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 146,
+    id: 157,
     name: "Hochschule Zittau/Görlitz",
     city: "Zittau",
     description: "Saksonya'nın doğusunda iki kampüslü sınır Fachhochschule'si",
@@ -1979,7 +1979,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 147,
+    id: 158,
     name: "Westsächsische Hochschule Zwickau",
     city: "Zwickau",
     description: "Saksonya'da otomotiv ve teknoloji odaklı Fachhochschule",
@@ -1991,7 +1991,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 148,
+    id: 159,
     name: "Alice Salomon University of Applied Sciences Berlin",
     city: "Berlin",
     description:
@@ -2004,7 +2004,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 149,
+    id: 160,
     name: "Berlin School of Economics and Law",
     city: "Berlin",
     description:
@@ -2017,7 +2017,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 150,
+    id: 161,
     name: "Berliner Hochschule für Technik (HTW Berlin)",
     city: "Berlin",
     description: "Berlin'in teknik uygulamalar odaklı Fachhochschule'si",
@@ -2029,7 +2029,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 151,
+    id: 162,
     name: "Dresden University of Applied Sciences (HTW Dresden)",
     city: "Dresden",
     description: "Dresden'de teknoloji ve mühendislik odaklı Fachhochschule",
@@ -2041,7 +2041,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 152,
+    id: 163,
     name: "Ernst-Abbe-Hochschule Jena",
     city: "Jena",
     description: "Jena'da teknoloji ve mühendislik odaklı Fachhochschule",
@@ -2053,7 +2053,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 153,
+    id: 164,
     name: "Eberswalde University for Sustainable Development",
     city: "Eberswalde",
     description:
@@ -2066,7 +2066,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 154,
+    id: 165,
     name: "Jade University of Applied Sciences (Wilhelmshaven/Oldenburg/Elsfleth)",
     city: "Wilhelmshaven",
     description:
@@ -2079,7 +2079,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 155,
+    id: 166,
     name: "Kiel University of Applied Sciences",
     city: "Kiel",
     description:
@@ -2092,7 +2092,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 156,
+    id: 167,
     name: "West Coast University of Applied Sciences (Westküste)",
     city: "Heide",
     description: "Schleswig-Holstein'da küçük ama uzman Fachhochschule",
@@ -2104,7 +2104,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 157,
+    id: 168,
     name: "Harz University of Applied Studies",
     city: "Wernigerode",
     description: "Harz dağlarında turizm ve bilgisayar odaklı Fachhochschule",
@@ -2116,7 +2116,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 158,
+    id: 169,
     name: "Nordhausen University of Applied Sciences",
     city: "Nordhausen",
     description:
@@ -2129,7 +2129,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 159,
+    id: 170,
     name: "Hochschule Wismar",
     city: "Wismar",
     description:
@@ -2142,7 +2142,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 160,
+    id: 171,
     name: "Frankfurt University of Applied Sciences",
     city: "Frankfurt am Main",
     description:
@@ -2155,7 +2155,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 161,
+    id: 172,
     name: "Bingen Technical University of Applied Sciences",
     city: "Bingen",
     description: "Rheinland-Pfalz'ta teknik ve çevre odaklı Fachhochschule",
@@ -2167,7 +2167,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 162,
+    id: 173,
     name: "Environmental Campus Birkenfeld",
     city: "Birkenfeld",
     description: "Çevre teknolojileri ve sürdürülebilirlik odaklı uzman kampüs",
@@ -2179,7 +2179,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 163,
+    id: 174,
     name: "Munich Business School",
     city: "München",
     description: "München'de özel işletme odaklı Fachhochschule",
@@ -2191,7 +2191,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 164,
+    id: 175,
     name: "Coburg University of Applied Sciences",
     city: "Coburg",
     description:
@@ -2204,7 +2204,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 165,
+    id: 176,
     name: "Lutheran University of Applied Sciences Nuremberg",
     city: "Nürnberg",
     description:
@@ -2217,7 +2217,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 166,
+    id: 177,
     name: "FOM University of Applied Sciences",
     city: "Essen",
     description: "Almanya'nın en büyük özel Fachhochschule'si, çok kampüslü",
@@ -2229,7 +2229,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 167,
+    id: 178,
     name: "Braunschweig University of Art",
     city: "Braunschweig",
     description:
@@ -2242,7 +2242,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 168,
+    id: 179,
     name: "University of the Arts Bremen",
     city: "Bremen",
     description:
@@ -2255,7 +2255,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 169,
+    id: 180,
     name: "Catholic University of Applied Sciences, Mainz",
     city: "Mainz",
     description:
@@ -2268,7 +2268,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 170,
+    id: 181,
     name: "German University of Digital Science",
     city: "Berlin",
     description:
@@ -2281,7 +2281,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 171,
+    id: 182,
     name: "City University of Applied Sciences Bremen",
     city: "Bremen",
     description: "Bremen'de uygulama odaklı çok disiplinli Fachhochschule",
@@ -2293,7 +2293,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 172,
+    id: 183,
     name: "Hochschule für Gestaltung Schwäbisch Gmünd",
     city: "Schwäbisch Gmünd",
     description: "Tasarım ve görsel iletişim alanında uzman Fachhochschule",
@@ -2310,7 +2310,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 173,
+    id: 184,
     name: "IU International University of Applied Sciences",
     city: "Bad Honnef",
     description: "Uluslararası odaklı özel uzaktan eğitim Fachhochschule'si",
@@ -2322,7 +2322,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 174,
+    id: 185,
     name: "SRH University Heidelberg",
     city: "Heidelberg",
     description:
@@ -2335,7 +2335,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 175,
+    id: 186,
     name: "SRH Hochschule Berlin",
     city: "Berlin",
     description: "Berlin'de özel işletme ve teknoloji odaklı Fachhochschule",
@@ -2347,7 +2347,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 176,
+    id: 187,
     name: "Technical University of Applied Sciences Lübeck",
     city: "Lübeck",
     description: "Lübeck'te teknik uygulamalar odaklı Fachhochschule",
@@ -2359,7 +2359,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 177,
+    id: 188,
     name: "Hanover University of Applied Sciences and Arts",
     city: "Hannover",
     description: "Hannover'da sanat ve uygulamalı bilimler birleşimi",
@@ -2371,7 +2371,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 178,
+    id: 189,
     name: "Fachhochschule Dortmund",
     city: "Dortmund",
     description:
@@ -2384,7 +2384,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 179,
+    id: 190,
     name: "Merseburg University of Applied Sciences",
     city: "Merseburg",
     description:
@@ -2397,7 +2397,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 180,
+    id: 191,
     name: "Hochschule Neu-Ulm für Wirtschaft (HNU)",
     city: "Neu-Ulm",
     description:
@@ -2410,7 +2410,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 181,
+    id: 192,
     name: "Hof University of Applied Sciences",
     city: "Hof",
     description:
@@ -2423,7 +2423,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 182,
+    id: 193,
     name: "Ludwigshafen University of Applied Sciences",
     city: "Ludwigshafen",
     description:
@@ -2436,7 +2436,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 183,
+    id: 194,
     name: "Kempten University of Applied Sciences",
     city: "Kempten",
     description: "Allgäu bölgesinde turizm ve teknoloji odaklı Fachhochschule",
@@ -2448,7 +2448,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 184,
+    id: 195,
     name: "University of Applied Sciences Landshut",
     city: "Landshut",
     description:
@@ -2461,7 +2461,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 185,
+    id: 196,
     name: "Pforzheim University of Applied Sciences",
     city: "Pforzheim",
     description:
@@ -2474,7 +2474,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 186,
+    id: 197,
     name: "Konstanz University of Applied Sciences (HTWG)",
     city: "Konstanz",
     description:
@@ -2487,7 +2487,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 187,
+    id: 198,
     name: "Nürtingen-Geislingen University of Applied Science",
     city: "Nürtingen",
     description:
@@ -2500,7 +2500,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 188,
+    id: 199,
     name: "Ostbayerische Technische Hochschule Amberg-Weiden",
     city: "Amberg",
     description:
@@ -2513,7 +2513,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 189,
+    id: 200,
     name: "Ostfalia University of Applied Sciences",
     city: "Wolfenbüttel",
     description: "Niedersachsen'da çok kampüslü büyük teknik Fachhochschule",
@@ -2525,7 +2525,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 190,
+    id: 201,
     name: "East Asia Institute (Ludwigshafen)",
     city: "Ludwigshafen",
     description:
@@ -2543,7 +2543,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 191,
+    id: 202,
     name: "RheinMain University of Applied Sciences",
     city: "Wiesbaden",
     description:
@@ -2556,7 +2556,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 192,
+    id: 203,
     name: "Fachhochschule Potsdam",
     city: "Potsdam",
     description:
@@ -2569,7 +2569,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 193,
+    id: 204,
     name: "Biberach University of Applied Sciences",
     city: "Biberach",
     description:
@@ -2582,7 +2582,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 194,
+    id: 205,
     name: "Bielefeld University of Applied Sciences",
     city: "Bielefeld",
     description:
@@ -2595,7 +2595,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 195,
+    id: 206,
     name: "Bochum University of Applied Sciences",
     city: "Bochum",
     description:
@@ -2608,7 +2608,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 196,
+    id: 207,
     name: "Cologne University of Applied Sciences (TH Köln)",
     city: "Köln",
     description:
@@ -2621,7 +2621,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 197,
+    id: 208,
     name: "Düsseldorf University of Applied Sciences",
     city: "Düsseldorf",
     description: "Düsseldorf'ta sanat, tasarım ve mühendislik birleşimi",
@@ -2633,7 +2633,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 198,
+    id: 209,
     name: "Esslingen University of Applied Sciences",
     city: "Esslingen",
     description:
@@ -2651,7 +2651,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 199,
+    id: 210,
     name: "Hochschule Furtwangen University (HFU)",
     city: "Furtwangen",
     description:
@@ -2664,7 +2664,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 200,
+    id: 211,
     name: "Flensburg University of Applied Sciences",
     city: "Flensburg",
     description:
@@ -2677,7 +2677,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 201,
+    id: 212,
     name: "Fulda University of Applied Sciences",
     city: "Fulda",
     description:
@@ -2690,7 +2690,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 202,
+    id: 213,
     name: "Hamburg University of Applied Sciences (HAW Hamburg)",
     city: "Hamburg",
     description:
@@ -2703,7 +2703,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 203,
+    id: 214,
     name: "University of Applied Sciences, Kaiserslautern",
     city: "Kaiserslautern",
     description:
@@ -2716,7 +2716,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 204,
+    id: 215,
     name: "Karlsruhe University of Applied Sciences",
     city: "Karlsruhe",
     description:
@@ -2729,7 +2729,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 205,
+    id: 216,
     name: "Koblenz University of Applied Sciences",
     city: "Koblenz",
     description:
@@ -2742,7 +2742,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 206,
+    id: 217,
     name: "Mannheim University of Applied Sciences",
     city: "Mannheim",
     description:
@@ -2755,7 +2755,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 207,
+    id: 218,
     name: "University of Applied Sciences Mittelhessen (THM)",
     city: "Gießen",
     description:
@@ -2768,7 +2768,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 208,
+    id: 219,
     name: "Osnabrück University of Applied Sciences",
     city: "Osnabrück",
     description:
@@ -2781,7 +2781,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 209,
+    id: 220,
     name: "Hochschule Aalen - Technik und Wirtschaft",
     city: "Aalen",
     description:
@@ -2794,7 +2794,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 210,
+    id: 221,
     name: "Hochschule für angewandte Wissenschaften Würzburg-Schweinfurt",
     city: "Würzburg",
     description: "Franconia bölgesinde çift kampüslü teknik Fachhochschule",
@@ -2806,7 +2806,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 211,
+    id: 222,
     name: "Hochschule Bochum - University of Applied Sciences",
     city: "Bochum",
     description:
@@ -2819,7 +2819,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 212,
+    id: 223,
     name: "Hochschule Bremen - City University of Applied Sciences",
     city: "Bremen",
     description:
@@ -2837,7 +2837,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 213,
+    id: 224,
     name: "Hochschule Düsseldorf - University of Applied Sciences",
     city: "Düsseldorf",
     description:
@@ -2850,7 +2850,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 214,
+    id: 225,
     name: "Hochschule Emden-Leer",
     city: "Emden",
     description:
@@ -2863,7 +2863,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 215,
+    id: 226,
     name: "Hochschule Fresenius",
     city: "Idstein",
     description: "Çok kampüslü özel sağlık ve işletme odaklı Fachhochschule",
@@ -2875,7 +2875,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 216,
+    id: 227,
     name: "Hochschule Geisenheim University",
     city: "Geisenheim",
     description:
@@ -2888,7 +2888,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 217,
+    id: 228,
     name: "Hochschule Hamm-Lippstadt",
     city: "Hamm",
     description:
@@ -2901,7 +2901,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 218,
+    id: 229,
     name: "Hochschule Hannover - University of Applied Sciences and Arts",
     city: "Hannover",
     description: "Hannover'da teknik ve sanatsal programların birleşimi",
@@ -2913,7 +2913,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 219,
+    id: 230,
     name: "Hochschule Harz - University of Applied Sciences",
     city: "Wernigerode",
     description:
@@ -2926,7 +2926,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 220,
+    id: 231,
     name: "Hochschule Heilbronn - Technik, Wirtschaft, Informatik",
     city: "Heilbronn",
     description:
@@ -2939,7 +2939,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 221,
+    id: 232,
     name: "Hochschule Kaiserslautern - University of Applied Sciences",
     city: "Kaiserslautern",
     description: "Rheinland-Pfalz'ta üç kampüslü teknik Fachhochschule",
@@ -2951,7 +2951,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 222,
+    id: 233,
     name: "Hochschule Macromedia",
     city: "München",
     description:
@@ -2964,7 +2964,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 223,
+    id: 234,
     name: "Hochschule für Musik und Theater München",
     city: "München",
     description:
@@ -2977,7 +2977,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 224,
+    id: 235,
     name: "Hochschule Rosenheim",
     city: "Rosenheim",
     description:
@@ -2990,7 +2990,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 225,
+    id: 236,
     name: "Hochschule Ruhr West",
     city: "Mülheim an der Ruhr",
     description:
@@ -3003,7 +3003,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 226,
+    id: 237,
     name: "Hochschule Zittau-Görlitz",
     city: "Zittau",
     description:
@@ -3016,7 +3016,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 227,
+    id: 238,
     name: "Hochschule der Bundesagentur für Arbeit (HdBA)",
     city: "Mannheim",
     description:
@@ -3034,7 +3034,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 228,
+    id: 239,
     name: "Katholische Hochschule Nordrhein-Westfalen",
     city: "Köln",
     description:
@@ -3047,7 +3047,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 229,
+    id: 240,
     name: "Evangelische Hochschule Darmstadt",
     city: "Darmstadt",
     description:
@@ -3060,7 +3060,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 230,
+    id: 241,
     name: "Hochschule für Polizei Baden-Württemberg",
     city: "Villingen-Schwenningen",
     description:
@@ -3073,7 +3073,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 231,
+    id: 242,
     name: "AMD Akademie Mode & Design",
     city: "Hamburg",
     description:
@@ -3091,7 +3091,7 @@ export const universities: University[] = [
     category: "Fachhochschule" as UniversityCategory,
   },
   {
-    id: 232,
+    id: 243,
     name: "Hochschule für Verwaltung und Rechtspflege",
     city: "Meißen",
     description:
