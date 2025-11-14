@@ -11,10 +11,10 @@ export default function Navbar() {
       style={{ color: "#ddd" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-16">
+        <div className="flex justify-between items-center h-16 gap-16">
           <Link
             href="/"
-            className="flex items-center space-x-6 mr-16"
+            className="flex items-center space-x-6"
             data-testid="nav-logo"
           >
             <GraduationCap className="w-8 h-8 text-primary" />
@@ -23,7 +23,7 @@ export default function Navbar() {
             </span>
           </Link>
 
-          <div className="hidden md:flex space-x-8" style={{ float: "right" }}>
+          <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
               className="hover:text-accent transition-colors"
