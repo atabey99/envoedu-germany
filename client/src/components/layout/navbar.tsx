@@ -26,7 +26,7 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-home"
             >
@@ -34,7 +34,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/services"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-services"
             >
@@ -42,7 +42,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/universities"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-universities"
             >
@@ -50,7 +50,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/process"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-process"
             >
@@ -59,7 +59,7 @@ export default function Navbar() {
             {/* Yeni: Başarı Hikayeleri */}
             <Link
               href="/#testimonials"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-testimonials"
             >
@@ -67,7 +67,7 @@ export default function Navbar() {
             </Link>
             <Link
               href="/contact"
-              className="hover:text-accent transition-colors"
+              className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
               data-testid="nav-contact"
             >
