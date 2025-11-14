@@ -7,6 +7,7 @@ import Footer from "@/components/sections/footer";
 type UniversityCategory = "Üniversite" | "Fachhochschule";
 
 interface University {
+  id?: number;
   name: string;
   city: string;
   description: string;
@@ -541,6 +542,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 75,
     name: "University of Kiel (Christian-Albrechts-Universität Kiel)",
     city: "Kiel",
     description: "1665'te kurulan, deniz bilimleri alanında öncü üniversite",
@@ -799,6 +801,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 69,
     name: "German University of Administrative Sciences Speyer",
     city: "Speyer",
     description: "Kamu yönetimi alanında uzman üniversite",
@@ -810,6 +813,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 28,
     name: "University of Stuttgart",
     city: "Stuttgart",
     description:
@@ -822,6 +826,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 70,
     name: "University of Trier",
     city: "Trier",
     description: "Sosyal bilimler ve hukuk alanında güçlü küçük üniversite",
@@ -833,6 +838,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 34,
     name: "University of Tübingen (Eberhard Karls Universität)",
     city: "Tübingen",
     description: "1477'de kurulan, Almanya'nın en prestijli üniversitelerinden",
@@ -844,6 +850,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 71,
     name: "University of Ulm",
     city: "Ulm",
     description: "Tıp ve doğa bilimleri odaklı araştırma üniversitesi",
@@ -855,6 +862,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 72,
     name: "University of Vechta",
     city: "Vechta",
     description:
@@ -867,6 +875,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 73,
     name: "Bauhaus University Weimar",
     city: "Weimar",
     description: "Mimarlık, sanat ve tasarım alanında dünyaca ünlü üniversite",
@@ -878,6 +887,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 74,
     name: "University of Wuppertal (Bergische Universität Wuppertal)",
     city: "Wuppertal",
     description: "Mühendislik ve tasarım alanında güçlü üniversite",
@@ -889,6 +899,7 @@ const universities: University[] = [
     category: "Üniversite" as UniversityCategory,
   },
   {
+    id: 31,
     name: "University of Würzburg (Julius-Maximilians-Universität Würzburg)",
     city: "Würzburg",
     description:
@@ -896,18 +907,6 @@ const universities: University[] = [
     programs: ["Tıp", "Doğa Bilimleri", "Sosyal Bilimler", "Hukuk"],
     ranking: 1,
     worldRanking: 167,
-    tuition: "Devlet Üniversitesi - Ücretsiz",
-    language: ["Almanca", "İngilizce"],
-    category: "Üniversite" as UniversityCategory,
-  },
-  {
-    name: "University of Kiel (Christian-Albrechts-Universität)",
-    city: "Kiel",
-    description:
-      "1665'te kurulan, deniz bilimleri ve tıp alanında güçlü üniversite",
-    programs: ["Tıp", "Deniz Bilimleri", "Hukuk", "Sosyal Bilimler"],
-    ranking: 2,
-    worldRanking: 251,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory,
@@ -3045,14 +3044,24 @@ export default function Universities() {
                     </div>
                   </div>
 
-                  <Link href={`/university/${index}`}>
+                  {university.id ? (
+                    <Link href={`/universities/${university.id}`}>
+                      <button
+                        className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                        data-testid={`university-button-${index}`}
+                      >
+                        Detayları İncele
+                      </button>
+                    </Link>
+                  ) : (
                     <button
-                      className="w-full bg-primary text-primary-foreground py-2 rounded-lg font-semibold hover:bg-primary/90 transition-colors"
+                      className="w-full bg-muted text-muted-foreground py-2 rounded-lg font-semibold cursor-not-allowed"
+                      disabled
                       data-testid={`university-button-${index}`}
                     >
-                      Detayları İncele
+                      Detaylar Yakında
                     </button>
-                  </Link>
+                  )}
                 </div>
               </div>
             ))}
