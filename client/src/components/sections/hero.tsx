@@ -1,65 +1,96 @@
-import { CalendarCheck, Play } from "lucide-react";
+import { CalendarCheck, GraduationCap, TrendingUp } from "lucide-react";
 import { Link } from "wouter";
 
 export default function Hero() {
   return (
-    <section className="hero-gradient text-foreground relative">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+    <section className="hero-gradient text-foreground relative overflow-hidden">
+      <div className="absolute inset-0 bg-grid-slate-100 [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0.6))] -z-10" />
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="space-y-8">
+            <div className="inline-flex items-center gap-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium border border-primary/20">
+              <GraduationCap className="w-4 h-4" />
+              <span>Almanya'da Eğitim Fırsatları</span>
+            </div>
+            
             <h1
-              className="text-5xl font-bold leading-tight text-primary"
+              className="text-6xl md:text-7xl font-bold leading-tight"
               data-testid="hero-title"
             >
-              Almanya'da Eğitim Hayalinizi
-              <span className="text-secondary"> Gerçeğe</span> Dönüştürün
+              <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+                Almanya'da Eğitim
+              </span>
+              <br />
+              <span className="text-foreground">Hayalinizi</span>
+              <br />
+              <span className="bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent">
+                Gerçeğe Dönüştürün
+              </span>
             </h1>
+            
             <p
-              className="text-xl text-foreground/80 leading-relaxed"
+              className="text-lg text-muted-foreground leading-relaxed max-w-xl"
               data-testid="hero-description"
             >
-              Sizler için özel olarak tasarlanmış kapsamlı danışmanlık
-              hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
+              Sizler için özel olarak tasarlanmış kapsamlı danışmanlık hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
             </p>
+            
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/contact">
                 <button
-                  className="bg-gray-600 text-white px-8 py-4 rounded-lg font-semibold hover:bg-gray-700 transition-colors flex items-center justify-center space-x-2 w-full sm:w-auto"
+                  className="group relative bg-gradient-to-r from-primary to-accent text-white px-8 py-4 rounded-xl font-semibold hover:shadow-xl hover:shadow-primary/30 transition-all duration-300 flex items-center justify-center space-x-2 w-full sm:w-auto overflow-hidden"
                   data-testid="button-consultation"
                 >
-                  <CalendarCheck className="w-5 h-5" />
-                  <span>Ücretsiz Danışmanlık Al</span>
+                  <div className="absolute inset-0 bg-white opacity-0 group-hover:opacity-20 transition-opacity" />
+                  <CalendarCheck className="w-5 h-5 relative z-10" />
+                  <span className="relative z-10">Ücretsiz Danışmanlık Al</span>
                 </button>
               </Link>
             </div>
-            <div className="flex space-x-8 pt-4">
-              <div className="text-center">
-                <div
-                  className="text-3xl font-bold"
-                  data-testid="stat-universities"
-                >
-                  100+
+            
+            <div className="grid grid-cols-2 gap-6 pt-6">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-primary/10 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="p-2 bg-primary/10 rounded-lg">
+                    <GraduationCap className="w-5 h-5 text-primary" />
+                  </div>
+                  <div
+                    className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+                    data-testid="stat-universities"
+                  >
+                    100+
+                  </div>
                 </div>
-                <div className="text-sm text-foreground/70">
+                <div className="text-sm font-medium text-muted-foreground">
                   Üniversite Kabulü
                 </div>
               </div>
-              <div className="text-center">
-                <div
-                  className="text-3xl font-bold"
-                  data-testid="stat-success-rate"
-                >
-                  98%
+              
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-secondary/10 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex items-center gap-3 mb-2">
+                  <div className="p-2 bg-secondary/10 rounded-lg">
+                    <TrendingUp className="w-5 h-5 text-secondary" />
+                  </div>
+                  <div
+                    className="text-4xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
+                    data-testid="stat-success-rate"
+                  >
+                    98%
+                  </div>
                 </div>
-                <div className="text-sm text-foreground/70">Başarı Oranı</div>
+                <div className="text-sm font-medium text-muted-foreground">
+                  Başarı Oranı
+                </div>
               </div>
             </div>
           </div>
+          
           <div className="relative">
+            <div className="absolute -inset-4 bg-gradient-to-r from-primary to-accent rounded-3xl opacity-20 blur-2xl" />
             <img
               src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
               alt="Students studying in German university"
-              className="rounded-xl shadow-2xl w-full h-auto"
+              className="relative rounded-2xl shadow-2xl w-full h-auto border-4 border-white/50"
               data-testid="hero-image"
             />
           </div>
