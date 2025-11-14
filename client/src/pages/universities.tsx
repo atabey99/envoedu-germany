@@ -3103,6 +3103,58 @@ export const universities: University[] = [
     language: ["Almanca"],
     category: "Fachhochschule" as UniversityCategory,
   },
+  {
+    id: 244,
+    name: "Witten/Herdecke University",
+    city: "Witten",
+    description:
+      "1983'te kurulan, Almanya'nın ilk özel üniversitesi - tıp, ekonomi ve kültür alanlarında öncü",
+    programs: ["Tıp", "Diş Hekimliği", "İşletme", "Felsefe", "Kültür"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory,
+  },
+  {
+    id: 245,
+    name: "Constructor University (Jacobs University Bremen)",
+    city: "Bremen",
+    description:
+      "Uluslararası özel araştırma üniversitesi, 2021'de Constructor University adını aldı",
+    programs: ["Mühendislik", "Bilgisayar", "İşletme", "Doğa Bilimleri", "Sosyal Bilimler"],
+    ranking: 3,
+    worldRanking: 451,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["İngilizce"],
+    category: "Üniversite" as UniversityCategory,
+  },
+  {
+    id: 246,
+    name: "EBS Universität für Wirtschaft und Recht",
+    city: "Wiesbaden",
+    description:
+      "Almanya'nın en prestijli özel işletme ve hukuk üniversitesi, 1971'de kuruldu",
+    programs: ["İşletme", "Hukuk", "Ekonomi", "Finans", "Yönetim"],
+    ranking: 2,
+    worldRanking: 301,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Üniversite" as UniversityCategory,
+  },
+  {
+    id: 247,
+    name: "Brandenburg Medical School Theodor Fontane",
+    city: "Brandenburg an der Havel",
+    description:
+      "2014'te kurulan modern özel tıp fakültesi, yenilikçi pratik odaklı eğitim",
+    programs: ["Tıp", "Psikoloji", "Sağlık Bilimleri", "Klinik Araştırma"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Üniversite - Ücretli",
+    language: ["Almanca"],
+    category: "Üniversite" as UniversityCategory,
+  },
 ];
 
 const categoryOptions = ["Üniversite", "Fachhochschule"];
