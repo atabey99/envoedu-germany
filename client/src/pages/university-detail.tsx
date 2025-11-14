@@ -2792,6 +2792,294 @@ const universities = [
       "DAAD bursları",
       "Tam burs fırsatları"
     ]
+  },
+  {
+    id: 69,
+    name: "German University of Administrative Sciences Speyer",
+    city: "Speyer",
+    description: "1947'de kurulan, kamu yönetimi ve idare hukuku konusunda uzmanlaşmış lisansüstü üniversite",
+    programs: ["Kamu Yönetimi", "İdare Hukuku", "Avrupa Yönetimi", "Dijital Yönetim"],
+    ranking: 3,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz (sadece yüksek lisans)",
+    language: ["Almanca"],
+    founded: 1947,
+    students: 600,
+    internationalStudents: 120,
+    coordinates: "49.3167,8.4311",
+    address: "Freiherr-vom-Stein-Straße 2, 67346 Speyer, Germany",
+    faculties: ["Kamu Hukuku ve İdare Bilimleri", "Yönetim Bilimleri", "Avrupa ve Uluslararası İdare"],
+    admissionRequirements: [
+      "Lisans diploması (sadece yüksek lisans programları)",
+      "Kamu yönetimi veya hukuk arka planı tercih edilir",
+      "Almanca dil yeterlilik belgesi",
+      "Motivasyon mektubu",
+      "Akademik referanslar",
+      "Mesleki deneyim (bazı programlar için)"
+    ],
+    campusFacilities: [
+      "Tarihi şehir merkezinde kampüs",
+      "Uzman kütüphane (idare hukuku)",
+      "Araştırma enstitüleri",
+      "Seminer odaları",
+      "Ulusal ve uluslararası işbirlikleri",
+      "Speyer Katedrali yakınlığı (UNESCO)"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Kamu sektörü sponsorlukları",
+      "Eyalet bursları (Rheinland-Pfalz)",
+      "Araştırma asistanlıkları",
+      "Stipendien für Beamte"
+    ]
+  },
+  {
+    id: 70,
+    name: "University of Trier",
+    city: "Trier",
+    description: "1473'te kurulan tarihi üniversite, Karl Marx'ın doğduğu şehir",
+    programs: ["Sosyal Bilimler", "Hukuk", "İşletme", "Beşeri Bilimler"],
+    ranking: 3,
+    worldRanking: 401,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1473,
+    students: 13000,
+    internationalStudents: 2000,
+    coordinates: "49.7488,6.6831",
+    address: "Universitätsring 15, 54296 Trier, Germany",
+    faculties: ["İlahiyat", "Hukuk", "Ekonomi/İşletme", "Beşeri Bilimler", "Sosyal Bilimler", "Çevre Bilimleri"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Almanca dil yeterlilik belgesi (TestDaF/DSH)",
+      "Bazı programlar için NC (Numerus Clausus)",
+      "130+ derece programı",
+      "Erasmus+ ortaklıkları",
+      "Uluslararası öğrencilere açık"
+    ],
+    campusFacilities: [
+      "Modern kampüs Tarforst bölgesinde",
+      "Merkezi kütüphane",
+      "Bilgisayar havuzları",
+      "Spor tesisleri",
+      "Öğrenci yurtları",
+      "Roma döneminden kalma tarihi şehir",
+      "Porta Nigra yakınlığı (UNESCO)"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Erasmus+ değişim programları",
+      "Deutschland Stipendium",
+      "Rheinland-Pfalz eyalet bursları",
+      "Araştırma asistanlıkları"
+    ]
+  },
+  {
+    id: 71,
+    name: "University of Ulm",
+    city: "Ulm",
+    description: "1967'de kurulan, tıp ve doğa bilimleri odaklı araştırma üniversitesi",
+    programs: ["Tıp", "Doğa Bilimleri", "Mühendislik", "Matematik"],
+    ranking: 2,
+    worldRanking: 251,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1967,
+    students: 10000,
+    internationalStudents: 1500,
+    coordinates: "48.4223,9.9552",
+    address: "Helmholtzstraße 16, 89081 Ulm, Germany",
+    faculties: ["Tıp", "Doğa Bilimleri", "Matematik ve Ekonomi", "Mühendislik Bilimleri ve Bilgisayar"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Tıp için yüksek NC puanı gerekli",
+      "Almanca/İngilizce dil yeterlilik belgesi",
+      "STEM alanlarında güçlü programlar",
+      "60+ derece programı",
+      "Albert Einstein'ın doğduğu şehir"
+    ],
+    campusFacilities: [
+      "Modern Oberer Eselsberg kampüsü",
+      "Üniversite Hastanesi (tıp eğitimi)",
+      "Bilim parkı ve araştırma merkezleri",
+      "Kütüphane ve öğrenme merkezi",
+      "Spor tesisleri ve yurtlar",
+      "Tuna nehri kıyısında şehir",
+      "Ulm Katedrali (dünyanın en yüksek kilisesi)"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Baden-Württemberg Scholarship",
+      "Deutschland Stipendium",
+      "Araştırma bursları",
+      "Tıp öğrencileri için özel fonlar"
+    ]
+  },
+  {
+    id: 72,
+    name: "University of Vechta",
+    city: "Vechta",
+    description: "1830'da öğretmen okulu olarak kurulan, eğitim bilimleri ve sürdürülebilirlik odaklı küçük üniversite",
+    programs: ["Eğitim", "Sürdürülebilirlik", "Sosyal Bilimler", "Çevre Bilimleri"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca"],
+    founded: 1830,
+    students: 5000,
+    internationalStudents: 300,
+    coordinates: "52.7167,8.2833",
+    address: "Driverstraße 22, 49377 Vechta, Germany",
+    faculties: ["Eğitim ve Sosyal Bilimler", "Doğa Bilimleri ve Teknik", "Kültür ve Geowissenschaften"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Almanca dil yeterlilik belgesi",
+      "Eğitim programları için pedagojik ilgi",
+      "30+ derece programı",
+      "Küçük kampüs topluluk avantajı",
+      "Öğretmen yetiştirmede güçlü"
+    ],
+    campusFacilities: [
+      "Kompakt şehir merkezi kampüsü",
+      "Modern eğitim tesisleri",
+      "Kütüphane ve çalışma alanları",
+      "Spor tesisleri",
+      "Öğrenci yurtları",
+      "Sürdürülebilirlik araştırma merkezi",
+      "Kırsal Aşağı Saksonya ortamı"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Niedersachsen eyalet bursları",
+      "Deutschland Stipendium",
+      "Eğitim bursları",
+      "Öğretmen adayları için destekler"
+    ]
+  },
+  {
+    id: 73,
+    name: "Bauhaus University Weimar",
+    city: "Weimar",
+    description: "1860'ta kurulan, Bauhaus sanat akımının doğduğu üniversite, mimarlık ve tasarım odaklı",
+    programs: ["Mimarlık", "Sanat", "Tasarım", "Medya", "İnşaat Mühendisliği"],
+    ranking: 2,
+    worldRanking: 251,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1860,
+    students: 4500,
+    internationalStudents: 1000,
+    coordinates: "50.9803,11.3236",
+    address: "Geschwister-Scholl-Straße 8, 99423 Weimar, Germany",
+    faculties: ["Mimarlık ve Şehircilik", "İnşaat Mühendisliği", "Sanat ve Tasarım", "Medya"],
+    admissionRequirements: [
+      "Lise diploması",
+      "Portfölyo (sanat/tasarım/mimarlık programları)",
+      "Yetenek sınavı veya giriş projesi",
+      "Almanca/İngilizce dil yeterlilik belgesi",
+      "40+ derece programı",
+      "Yaratıcı ve tasarım odaklı seçim"
+    ],
+    campusFacilities: [
+      "Tarihi Bauhaus binaları",
+      "Modern tasarım stüdyoları",
+      "Sanat atölyeleri ve galeriler",
+      "Mimarlık modelleme laboratuvarları",
+      "Anna Amalia Kütüphanesi yakınlığı",
+      "Bauhaus Müzesi",
+      "Goethe ve Schiller'in şehri (UNESCO)"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Bauhaus özel fonları",
+      "Thüringen eyalet bursları",
+      "Deutschland Stipendium",
+      "Sanat ve tasarım bursları",
+      "Uluslararası değişim programları"
+    ]
+  },
+  {
+    id: 74,
+    name: "University of Wuppertal",
+    city: "Wuppertal",
+    description: "1972'de kurulan, mühendislik ve tasarım alanında güçlü üniversite",
+    programs: ["Mühendislik", "Tasarım", "İşletme", "Eğitim", "Sosyal Bilimler"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1972,
+    students: 22000,
+    internationalStudents: 3000,
+    coordinates: "51.2456,7.1489",
+    address: "Gaußstraße 20, 42119 Wuppertal, Germany",
+    faculties: ["Beşeri ve Kültürel Bilimler", "İşletme ve Ekonomi", "Matematik ve Doğa Bilimleri", "Mimarlık ve İnşaat", "Elektrik ve Bilgisayar", "Makine Mühendisliği", "Tasarım ve Sanat", "Eğitim Bilimleri"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Almanca dil yeterlilik belgesi",
+      "Bazı programlar için portfölyo",
+      "100+ derece programı",
+      "Endüstriyel tasarım konusunda tanınmış",
+      "Güvenlik mühendisliği (özel program)"
+    ],
+    campusFacilities: [
+      "Grifflenberg ana kampüsü (tepe üzerinde)",
+      "Haspel kampüsü (tasarım/sanat)",
+      "Freudenberg kampüsü (makine/güvenlik)",
+      "Modern mühendislik laboratuvarları",
+      "Tasarım stüdyoları",
+      "Schwebebahn (askılı tren) ulaşımı",
+      "Kütüphane ve spor tesisleri"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "NRW eyalet bursları",
+      "Deutschland Stipendium",
+      "Endüstri işbirlikleri bursları",
+      "Mühendislik öğrencileri için özel fonlar"
+    ]
+  },
+  {
+    id: 75,
+    name: "University of Kiel",
+    city: "Kiel",
+    description: "1665'te kurulan (Christian-Albrechts-Universität), deniz bilimleri ve tıp alanında güçlü üniversite",
+    programs: ["Tıp", "Deniz Bilimleri", "Hukuk", "Sosyal Bilimler", "Doğa Bilimleri"],
+    ranking: 2,
+    worldRanking: 251,
+    tuition: "Devlet Üniversitesi - Ücretsiz",
+    language: ["Almanca", "İngilizce"],
+    founded: 1665,
+    students: 27000,
+    internationalStudents: 3500,
+    coordinates: "54.3406,10.1228",
+    address: "Christian-Albrechts-Platz 4, 24118 Kiel, Germany",
+    faculties: ["İlahiyat", "Hukuk", "İşletme/Ekonomi/Sosyal", "Tıp", "Felsefe", "Matematik/Doğa", "Tarım/Beslenme", "Mühendislik"],
+    admissionRequirements: [
+      "Lise diploması veya dengi",
+      "Almanca/İngilizce dil yeterlilik belgesi",
+      "Tıp için NC gerekli",
+      "190+ derece programı",
+      "Deniz bilimleri araştırmalarında lider",
+      "GEOMAR araştırma enstitüsü ortaklığı"
+    ],
+    campusFacilities: [
+      "Merkezi kampüs şehir içinde",
+      "GEOMAR Deniz Araştırmaları Merkezi",
+      "Üniversite Hastanesi (UKSH)",
+      "Botanik bahçesi",
+      "Deniz biyolojisi laboratuvarları",
+      "Kütüphane ve öğrenme merkezleri",
+      "Baltık Denizi kıyısında şehir"
+    ],
+    scholarships: [
+      "DAAD bursları",
+      "Schleswig-Holstein eyalet bursları",
+      "Deutschland Stipendium",
+      "Deniz bilimleri araştırma bursları",
+      "GEOMAR doktora programları",
+      "Excellence Initiative fonları"
+    ]
   }
 ];
 
