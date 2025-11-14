@@ -3155,6 +3155,71 @@ export const universities: University[] = [
     language: ["Almanca"],
     category: "Üniversite" as UniversityCategory,
   },
+  {
+    id: 248,
+    name: "Hochschule Fresenius (HSF)",
+    city: "Idstein",
+    description:
+      "1848'den beri eğitim veren köklü özel Fachhochschule, sağlık ve ekonomi alanında uzman",
+    programs: ["Sağlık Yönetimi", "İşletme", "Kimya", "Psikoloji", "Tasarım"],
+    ranking: 3,
+    worldRanking: 501,
+    tuition: "Özel Fachhochschule - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory,
+  },
+  {
+    id: 249,
+    name: "IU Internationale Hochschule",
+    city: "Erfurt",
+    description:
+      "Almanya'nın en büyük özel Fachhochschule'si, online ve kampüs tabanlı eğitim",
+    programs: ["İşletme", "Bilgisayar", "Pazarlama", "Sağlık", "Sosyal Çalışma"],
+    ranking: 3,
+    worldRanking: 551,
+    tuition: "Özel Fachhochschule - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory,
+  },
+  {
+    id: 250,
+    name: "Rheinische Fachhochschule Köln",
+    city: "Köln",
+    description:
+      "1958'de kurulan özel Fachhochschule, mühendislik ve medya alanında güçlü",
+    programs: ["Mühendislik", "Medya", "İşletme", "Hukuk", "Tıbbi Teknoloji"],
+    ranking: 3,
+    worldRanking: 551,
+    tuition: "Özel Fachhochschule - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory,
+  },
+  {
+    id: 251,
+    name: "Hochschule 21 (hs21)",
+    city: "Buxtehude",
+    description:
+      "Pratik odaklı dual study programları sunan modern özel Fachhochschule",
+    programs: ["İnşaat Mühendisliği", "Mimarlık", "Fizyoterapi", "İşletme"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Fachhochschule - Ücretli",
+    language: ["Almanca"],
+    category: "Fachhochschule" as UniversityCategory,
+  },
+  {
+    id: 252,
+    name: "Leibniz‑Fachhochschule",
+    city: "Hannover",
+    description:
+      "İşletme ve yönetim alanında uzmanlaşmış özel Fachhochschule",
+    programs: ["İşletme", "Turizm Yönetimi", "Otel Yönetimi", "Uluslararası İşletme"],
+    ranking: 4,
+    worldRanking: 601,
+    tuition: "Özel Fachhochschule - Ücretli",
+    language: ["Almanca", "İngilizce"],
+    category: "Fachhochschule" as UniversityCategory,
+  },
 ];
 
 const categoryOptions = ["Üniversite", "Fachhochschule"];
