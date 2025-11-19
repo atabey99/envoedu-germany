@@ -11,25 +11,26 @@ export default function Footer() {
               <span className="text-xl font-bold">Envoedu Germany</span>
             </div>
             <p className="text-secondary-foreground/80 mb-4">
-              Almanya'da eğitim hayalinizi gerçeğe dönüştüren güvenilir ortağınız.
+              Almanya'da eğitim hayalinizi gerçeğe dönüştüren güvenilir
+              ortağınız.
             </p>
             <div className="flex space-x-4">
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="text-secondary-foreground/60 hover:text-accent transition-colors"
                 data-testid="footer-link-facebook"
               >
                 <i className="fab fa-facebook-f"></i>
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="text-secondary-foreground/60 hover:text-accent transition-colors"
                 data-testid="footer-link-instagram"
               >
                 <i className="fab fa-instagram"></i>
               </a>
-              <a 
-                href="#" 
+              <a
+                href="#"
                 className="text-secondary-foreground/60 hover:text-accent transition-colors"
                 data-testid="footer-link-linkedin"
               >
@@ -37,27 +38,91 @@ export default function Footer() {
               </a>
             </div>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Hizmetler</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-service-university">Üniversite Danışmanlığı</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-service-application">Başvuru Hazırlığı</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-service-visa">Vize İşlemleri</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-service-language">Dil Eğitimi</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-service-university"
+                >
+                  Üniversite Danışmanlığı
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-service-application"
+                >
+                  Başvuru Hazırlığı
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-service-visa"
+                >
+                  Vize İşlemleri
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-service-language"
+                >
+                  Dil Eğitimi
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">Bilgi</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-about">Hakkımızda</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-success-stories">Başarı Hikayeleri</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-blog">Blog</a></li>
-              <li><a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-faq">SSS</a></li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-link-about"
+                >
+                  Hakkımızda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-link-success-stories"
+                >
+                  Başarı Hikayeleri
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-link-blog"
+                >
+                  Blog
+                </a>
+              </li>
+              <li>
+                <a
+                  href="#"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-link-faq"
+                >
+                  SSS
+                </a>
+              </li>
             </ul>
           </div>
-          
+
           <div>
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <div className="space-y-2 text-secondary-foreground/80">
@@ -67,15 +132,36 @@ export default function Footer() {
             </div>
           </div>
         </div>
-        
+
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-secondary-foreground/60 text-sm" data-testid="footer-copyright">
-            © 2024 Envoedu Germany. Tüm hakları saklıdır.
+          <p
+            className="text-secondary-foreground/60 text-sm"
+            data-testid="footer-copyright"
+          >
+            © 2014 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
-            <a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-privacy">Gizlilik Politikası</a>
-            <a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-terms">Kullanım Şartları</a>
-            <a href="#" className="hover:text-accent transition-colors" data-testid="footer-link-cookies">Çerez Politikası</a>
+            <a
+              href="#"
+              className="hover:text-accent transition-colors"
+              data-testid="footer-link-privacy"
+            >
+              Gizlilik Politikası
+            </a>
+            <a
+              href="#"
+              className="hover:text-accent transition-colors"
+              data-testid="footer-link-terms"
+            >
+              Kullanım Şartları
+            </a>
+            <a
+              href="#"
+              className="hover:text-accent transition-colors"
+              data-testid="footer-link-cookies"
+            >
+              Çerez Politikası
+            </a>
           </div>
         </div>
       </div>

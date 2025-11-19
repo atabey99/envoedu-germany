@@ -66,7 +66,7 @@ export default function Footer() {
             className="text-secondary-foreground/60 text-sm"
             data-testid="footer-copyright"
           >
-            © 2024 Envoedu Germany. Tüm hakları saklıdır.
+            © 2014 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a

@@ -106,7 +106,7 @@ export default function Footer() {
 
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary-foreground/60 text-sm">
-            © 2024 Envoedu Germany. Tüm hakları saklıdır.
+            © 2014 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a
