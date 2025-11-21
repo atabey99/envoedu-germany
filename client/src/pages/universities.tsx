@@ -269,7 +269,7 @@ export const universities: University[] = [
     description: "Ruhr bölgesinin büyük araştırma üniversitesi",
     programs: ["Mühendislik", "İşletme", "Tıp", "Sosyal Bilimler"],
     ranking: 3,
-    worldRanking: 401,
+    worldRanking: 301,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory,
