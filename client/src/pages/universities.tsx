@@ -716,7 +716,7 @@ export const universities: University[] = [
     description: "Almanya'nın en prestijli teknik üniversitesi",
     programs: ["Mühendislik", "Doğa Bilimleri", "Tıp", "İşletme"],
     ranking: 1,
-    worldRanking: 30,
+    worldRanking: 26,
     tuition: "Devlet Üniversitesi - Ücretsiz",
     language: ["Almanca", "İngilizce"],
     category: "Üniversite" as UniversityCategory,
