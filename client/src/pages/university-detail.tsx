@@ -375,7 +375,7 @@ const detailedUniversities = [
     internationalStudents: 4000,
     coordinates: "50.7374,7.1003",
     address: "Regina-Pacis-Weg 3, 53113 Bonn, Germany",
-    faculties: ["Protestan İlahiyat", "Katolik İlahiyat", "Hukuk/Ekonomi", "Tıp", "Felsefe", "Matematik/Doğa Bilimleri", "Tarım"],
+    faculties: ["Protestan İlahiyat", "Katolik İlahiyat", "Hukuk/Ekonomi", "Tıp", "Felsefe", "Matematik/Doğa Bilimleri", "Tarım, Beslenme ve Mühendislik Bilimleri"],
     admissionRequirements: [
       "Lise diploması veya Abitur eşdeğeri",
       "Almanca dil yeterlik belgesi (DSH-2/C1)",
@@ -1193,7 +1193,7 @@ const detailedUniversities = [
     internationalStudents: 3080,
     coordinates: "51.5339,9.9386",
     address: "Wilhelmsplatz 1, 37073 Göttingen, Germany",
-    faculties: ["Doğa Bilimleri (Kimya/Biyoloji/Fizik/Matematik)", "Tıp", "Beşeri/Sosyal", "Hukuk", "Ekonomi", "Tarım", "Orman/Ekoloji", "Jeobilim/Coğrafya", "İlahiyat"],
+    faculties: ["Doğa Bilimleri (Kimya/Biyoloji/Fizik/Matematik)", "Tıp", "Beşeri/Sosyal", "Hukuk", "Ekonomi", "Tarım/Beslenme/Çevre", "Orman/Ekoloji", "Jeobilim/Coğrafya", "İlahiyat"],
     admissionRequirements: [
       "210+ derece programı",
       "%11 uluslararası öğrenci",
@@ -1220,7 +1220,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 31,
+    id: 78,
     name: "University of Würzburg",
     city: "Würzburg",
     description: "1402'de kurulan, Röntgen'in X-ışını keşfettiği yer",
@@ -1513,7 +1513,7 @@ const detailedUniversities = [
     ]
   },
   {
-    id: 30,
+    id: 31,
     name: "Justus Liebig University Giessen",
     city: "Giessen",
     description: "1607'de kurulan, modern tarım kimyasının beşiği",
@@ -1527,7 +1527,7 @@ const detailedUniversities = [
     internationalStudents: 1700,
     coordinates: "50.5833,8.6667",
     address: "Ludwigstrasse 23, 35390 Giessen, Germany",
-    faculties: ["Hukuk", "Ekonomi/İşletme", "Sosyal/Kültür", "Tarih/Kültür", "Dil/Edebiyat/Kültür", "Psikoloji/Spor", "Matematik/Bilgisayar/Fizik/Coğrafya", "Biyoloji/Kimya", "Tarım/Beslenme/Çevre", "Veteriner", "Tıp"],
+    faculties: ["Hukuk", "Ekonomi/İşletme", "Sosyal/Kültür", "Tarih/Kültür", "Dil/Edebiyat/Kültür", "Psikoloji/Spor", "Matematik/Bilgisayar/Fizik/Coğrafya", "Biyoloji/Kimya", "Tarım/Beslenme/Çevre", "Veteriner Hekimliği", "Tıp"],
     admissionRequirements: [
       "100+ derece programı",
       "5,853 çalışan",
@@ -1898,7 +1898,7 @@ const detailedUniversities = [
     internationalStudents: 1500,
     coordinates: "48.7094,9.2072",
     address: "Schloss Hohenheim 1, 70599 Stuttgart, Germany",
-    faculties: ["Tarım Bilimleri", "Doğa Bilimleri", "İşletme/Ekonomi/Sosyal Bilimler"],
+    faculties: ["Tarım Bilimleri, Beslenme ve Çevre Yönetimi", "Doğa Bilimleri", "İşletme/Ekonomi/Sosyal Bilimler"],
     admissionRequirements: [
       "35 lisans/yüksek lisans programı",
       "Kabul oranı %42",
@@ -2276,7 +2276,7 @@ const detailedUniversities = [
     internationalStudents: 3600,
     coordinates: "51.3397,12.3731",
     address: "Augustusplatz 10, 04109 Leipzig, Germany",
-    faculties: ["Teoloji", "Hukuk", "Tarih/Sanat/Şarkiyat", "Filoloji", "Eğitim", "Sosyal/Felsefe", "Ekonomi/Yönetim", "Spor", "Tıp", "Matematik/Bilgisayar", "Biyobilimler/Eczacılık/Psikoloji", "Fizik/Jeobilimler", "Kimya/Mineraloji", "Veteriner"],
+    faculties: ["Teoloji", "Hukuk", "Tarih/Sanat/Şarkiyat", "Filoloji", "Eğitim", "Sosyal/Felsefe", "Ekonomi/Yönetim", "Spor", "Tıp", "Matematik/Bilgisayar", "Biyobilimler/Eczacılık/Psikoloji", "Fizik/Jeobilimler", "Kimya/Mineraloji", "Veteriner Hekimliği"],
     admissionRequirements: [
       "Kabul oranı %10 (çok seçici)",
       "158+ derece programı",
@@ -2570,7 +2570,7 @@ const detailedUniversities = [
     internationalStudents: 14832,
     coordinates: "48.1506,11.5804",
     address: "Geschwister-Scholl-Platz 1, 80539 München, Germany",
-    faculties: ["Katolik Teoloji", "Protestan Teoloji", "Hukuk", "İşletme/Ekonomi", "Tıp", "Veteriner", "Tarih/Sanat", "Felsefe/Bilim/Din", "Psikoloji/Eğitim", "Kültür", "Diller/Edebiyat", "Sosyal Bilimler", "Matematik/Bilgisayar/İstatistik", "Fizik", "Kimya/Eczacılık", "Biyoloji", "Jeoloji/Çevre", "Tıp Fakültesi"],
+    faculties: ["Katolik Teoloji", "Protestan Teoloji", "Hukuk", "İşletme/Ekonomi", "Tıp", "Veteriner Hekimliği", "Tarih/Sanat", "Felsefe/Bilim/Din", "Psikoloji/Eğitim", "Kültür", "Diller/Edebiyat", "Sosyal Bilimler", "Matematik/Bilgisayar/İstatistik", "Fizik", "Kimya/Eczacılık", "Biyoloji", "Jeoloji/Çevre", "Tıp Fakültesi"],
     admissionRequirements: [
       "150 konu 700+ profesör",
       "Almanya'nın 6. en eski üniversitesi",
