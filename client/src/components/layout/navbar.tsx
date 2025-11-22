@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import { Menu, X, GraduationCap } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import logoImage from "@assets/Design ohne Titel_1763851851621.png";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -14,13 +15,10 @@ export default function Navbar() {
         <div className="flex justify-between items-center h-16 gap-16">
           <Link
             href="/"
-            className="flex items-center space-x-6"
+            className="flex items-center space-x-3"
             data-testid="nav-logo"
           >
-            <GraduationCap className="w-8 h-8 text-primary" />
-            <span className="text-xl font-bold" style={{ color: "#ddd" }}>
-              Envoedu Germany
-            </span>
+            <img src={logoImage} alt="Envoedu Germany" className="h-10 w-auto" />
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
