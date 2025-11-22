@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
-import logoImage from "@assets/envoedu-logo-dark.png"; // <-- yeni logo
+import logoImage from "@assets/ChatGPT Image 23. Nov. 2025, 00_27_42_1763854074668.png";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
