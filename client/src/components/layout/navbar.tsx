@@ -18,7 +18,7 @@ export default function Navbar() {
             className="flex items-center space-x-3"
             data-testid="nav-logo"
           >
-            <img src={logoImage} alt="Envoedu Germany" className="h-10 w-auto" />
+            <img src={logoImage} alt="Envoedu Germany" className="h-16 w-auto" />
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
