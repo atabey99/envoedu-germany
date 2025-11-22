@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "wouter";
 import { Menu, X } from "lucide-react";
-import logoImage from "@assets/ChatGPT Image 23. Nov. 2025, 00_27_42_1763854074668.png";
+import logoImage from "@assets/envoedu-logo-dark.png"; // <-- yeni logo
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,14 +13,20 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-24 gap-16">
+          {/* Logo + text */}
           <Link
             href="/"
             className="flex items-center space-x-3"
             data-testid="nav-logo"
           >
-            <img src={logoImage} alt="Envoedu Germany" className="h-20 w-auto" />
+            <img
+              src={logoImage}
+              alt="Envoedu Germany – Yurtdışı Eğitim Danışmanlığı"
+              className="h-14 w-auto"
+            />
           </Link>
 
+          {/* Desktop menu */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
               href="/"
@@ -54,7 +60,6 @@ export default function Navbar() {
             >
               Süreç
             </Link>
-            {/* Yeni: Başarı Hikayeleri */}
             <Link
               href="/#testimonials"
               className="hover:text-accent transition-colors whitespace-nowrap"
@@ -73,6 +78,7 @@ export default function Navbar() {
             </Link>
           </div>
 
+          {/* Mobile menu button */}
           <button
             className="md:hidden"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -125,7 +131,6 @@ export default function Navbar() {
               >
                 Süreç
               </Link>
-
               <Link
                 href="/about"
                 className="hover:text-accent transition-colors"
