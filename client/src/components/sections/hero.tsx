@@ -14,7 +14,7 @@ export default function Hero() {
             </div>
             
             <h1
-              className="text-6xl md:text-7xl font-bold leading-tight"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight"
               data-testid="hero-title"
             >
               <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
@@ -48,37 +48,37 @@ export default function Hero() {
               </Link>
             </div>
             
-            <div className="grid grid-cols-2 gap-6 pt-6">
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-primary/10 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="flex items-center gap-3 mb-2">
-                  <div className="p-2 bg-primary/10 rounded-lg">
-                    <GraduationCap className="w-5 h-5 text-primary" />
+            <div className="grid grid-cols-2 gap-4 sm:gap-6 pt-6">
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-primary/10 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex items-center gap-2 sm:gap-3 mb-2">
+                  <div className="p-1.5 sm:p-2 bg-primary/10 rounded-lg">
+                    <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5 text-primary" />
                   </div>
                   <div
-                    className="text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
+                    className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent"
                     data-testid="stat-universities"
                   >
                     100+
                   </div>
                 </div>
-                <div className="text-sm font-medium text-muted-foreground">
+                <div className="text-xs sm:text-sm font-medium text-muted-foreground">
                   Üniversite Kabulü
                 </div>
               </div>
               
-              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-secondary/10 shadow-lg hover:shadow-xl transition-shadow">
-                <div className="flex items-center gap-3 mb-2">
-                  <div className="p-2 bg-secondary/10 rounded-lg">
-                    <TrendingUp className="w-5 h-5 text-secondary" />
+              <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-4 sm:p-6 border border-secondary/10 shadow-lg hover:shadow-xl transition-shadow">
+                <div className="flex items-center gap-2 sm:gap-3 mb-2">
+                  <div className="p-1.5 sm:p-2 bg-secondary/10 rounded-lg">
+                    <TrendingUp className="w-4 h-4 sm:w-5 sm:h-5 text-secondary" />
                   </div>
                   <div
-                    className="text-4xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
+                    className="text-2xl sm:text-3xl md:text-4xl font-bold bg-gradient-to-r from-secondary to-primary bg-clip-text text-transparent"
                     data-testid="stat-success-rate"
                   >
                     98%
                   </div>
                 </div>
-                <div className="text-sm font-medium text-muted-foreground">
+                <div className="text-xs sm:text-sm font-medium text-muted-foreground">
                   Başarı Oranı
                 </div>
               </div>
