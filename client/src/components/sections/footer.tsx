@@ -55,7 +55,13 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <div className="space-y-2 text-secondary-foreground/80">
               <p data-testid="footer-phone">+90 212 123 45 67</p>
-              <p data-testid="footer-email">info@envoedu.com.tr</p>
+              <a 
+                href="mailto:info@envoedugermany.com" 
+                className="hover:text-accent transition-colors block"
+                data-testid="footer-email"
+              >
+                info@envoedugermany.com
+              </a>
               <p data-testid="footer-location">İstanbul, Türkiye</p>
             </div>
           </div>
