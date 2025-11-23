@@ -12,19 +12,16 @@ export default function Navbar() {
       style={{ color: "#ddd" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        {/* 🔹 NAVBAR YÜKSEKLİĞİ BURADA AYARLANIYOR */}
-        <div className="flex justify-between items-center h-16 md:h-20 lg:h-24 gap-8  overflow-hidden">
-          {/* Logo + text */}
+        <div className="flex justify-between items-center h-24 sm:h-28 md:h-32 gap-8">
           <Link
             href="/"
             className="flex items-center space-x-3"
             data-testid="nav-logo"
           >
-            {/* 🔹 LOGO BOYUTU BURADA AYARLANIYOR */}
             <img
               src={logoImage}
               alt="Envoedu Germany – Yurtdışı Eğitim Danışmanlığı"
-              className="h-40 md:h-52 lg:h-60 w-auto"
+              className="h-20 sm:h-24 md:h-28 w-auto"
             />
           </Link>
 
