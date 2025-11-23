@@ -12,7 +12,7 @@ export default function Navbar() {
       style={{ color: "#ddd" }}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center h-24 gap-16">
+        <div className="flex justify-between items-center h-32 gap-16">
           {/* Logo + text */}
           <Link
             href="/"
@@ -22,7 +22,7 @@ export default function Navbar() {
             <img
               src={logoImage}
               alt="Envoedu Germany – Yurtdışı Eğitim Danışmanlığı"
-              className="h-14 w-auto"
+              className="h-24 w-auto"
             />
           </Link>
 
