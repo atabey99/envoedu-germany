@@ -13,7 +13,7 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* 🔹 NAVBAR YÜKSEKLİĞİ BURADA AYARLANIYOR */}
-        <div className="flex justify-between items-center h-56 md:h-20 lg:h-24 gap-8  overflow-hidden">
+        <div className="flex justify-between items-center h-16 md:h-20 lg:h-24 gap-8  overflow-hidden">
           {/* Logo + text */}
           <Link
             href="/"
