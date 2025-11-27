@@ -62,7 +62,7 @@ const faqs = [
 
 export default function FAQ() {
   return (
-    <div className="min-h-screen bg-background pt-16">
+    <div className="min-h-screen bg-background pt-28 sm:pt-32 md:pt-36">
       <Navbar />
 
       <section className="py-20">
