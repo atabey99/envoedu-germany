@@ -55,8 +55,8 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <div className="space-y-2 text-secondary-foreground/80">
               <p data-testid="footer-phone">+90 212 123 45 67</p>
-              <a 
-                href="mailto:info@envoedugermany.com" 
+              <a
+                href="mailto:info@envoedugermany.com"
                 className="hover:text-accent transition-colors block"
                 data-testid="footer-email"
               >
@@ -72,7 +72,7 @@ export default function Footer() {
             className="text-secondary-foreground/60 text-sm"
             data-testid="footer-copyright"
           >
-            © 2014 Envoedu Germany. Tüm hakları saklıdır.
+            © 2020 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
             <a
