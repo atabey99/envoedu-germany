@@ -1,4 +1,6 @@
 import { GraduationCap } from "lucide-react";
+import { Link } from "wouter";
+
 export default function Footer() {
   return (
     <footer className="bg-secondary text-secondary-foreground py-12">
@@ -21,32 +23,32 @@ export default function Footer() {
             <h3 className="text-lg font-semibold mb-4">Bilgi</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>
-                <a
+                <Link
                   href="/about"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-about"
                 >
                   Hakkımızda
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="/#testimonials"
+                <Link
+                  href="/"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-success-stories"
                 >
                   Başarı Hikayeleri
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
+                <Link
                   href="/faq"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-link-faq"
                 >
                   SSS
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -75,27 +77,27 @@ export default function Footer() {
             © 2020 Envoedu Germany. Tüm hakları saklıdır.
           </p>
           <div className="flex space-x-6 text-sm text-secondary-foreground/60 mt-4 md:mt-0">
-            <a
+            <Link
               href="/privacy"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-privacy"
             >
               Gizlilik Politikası
-            </a>
-            <a
+            </Link>
+            <Link
               href="/terms"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-terms"
             >
               Kullanım Şartları
-            </a>
-            <a
+            </Link>
+            <Link
               href="/cookies"
               className="hover:text-accent transition-colors"
               data-testid="footer-link-cookies"
             >
               Çerez Politikası
-            </a>
+            </Link>
           </div>
         </div>
       </div>
