@@ -31,7 +31,7 @@ export default function About() {
               className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed"
               data-testid="about-page-description"
             >
-              2014'ten beri öğrencilerin Almanya'da eğitim hayallerini
+              2020'ten beri öğrencilerin Almanya'da eğitim hayallerini
               gerçekleştirmelerine yardımcı oluyoruz. Deneyimli kadromuz ve
               güvenilir hizmetimizle binlerce öğrenciye ulaştık.
             </p>
@@ -157,7 +157,7 @@ export default function About() {
                 </h2>
                 <div className="space-y-6 text-muted-foreground">
                   <p data-testid="story-paragraph-1">
-                    Envoedu Germany, 2014 yılında Dr. Mehmet Yılmaz tarafından
+                    Envoedu Germany, 2020 yılında Dr. Mehmet Yılmaz tarafından
                     kuruldu. Kendisi de Almanya'da eğitim almış biri olarak,
                     Türkiye'de okuyan öğrencilerin yaşadığı zorlukları çok iyi
                     biliyordu.
@@ -176,8 +176,8 @@ export default function About() {
 
               <div className="grid grid-cols-2 gap-6">
                 {[
-                  { year: "2014", title: "Kuruluş", desc: "İlk adım atıldı" },
-                  { year: "2017", title: "Büyüme", desc: "Ekip genişletildi" },
+                  { year: "2020", title: "Kuruluş", desc: "İlk adım atıldı" },
+                  { year: "2021", title: "Büyüme", desc: "Ekip genişletildi" },
                   {
                     year: "2024",
                     title: "500+ Öğrenci",

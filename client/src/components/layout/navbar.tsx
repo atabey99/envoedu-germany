@@ -63,10 +63,10 @@ export default function Navbar() {
               Süreç
             </Link>
             <Link
-              href="/#testimonials"
+              href="/about"
               className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
-              data-testid="nav-testimonials"
+              data-testid="nav-about"
             >
               Hakkımızda
             </Link>
