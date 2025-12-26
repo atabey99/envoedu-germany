@@ -97,7 +97,6 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">İletişim</h3>
             <div className="space-y-2 text-secondary-foreground/80">
-              <p data-testid="footer-phone">+90 212 123 45 67</p>
               <p data-testid="footer-email">info@envoedu.com.tr</p>
               <p data-testid="footer-location">İstanbul, Türkiye</p>
             </div>
