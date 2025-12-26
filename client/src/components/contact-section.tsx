@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MapPin, Phone, Mail, NotebookPen } from "lucide-react";
+import { MapPin, Mail, NotebookPen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -93,10 +93,16 @@ export default function ContactSection() {
     <section id="contact" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4">
+          <h2
+            className="text-4xl font-bold text-foreground mb-4"
+            data-testid="contact-title"
+          >
             İletişime Geçin
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+          <p
+            className="text-xl text-muted-foreground max-w-3xl mx-auto"
+            data-testid="contact-description"
+          >
             Uzman ekibimizle ücretsiz danışmanlık randevunuzu alın
           </p>
         </div>
@@ -105,15 +111,19 @@ export default function ContactSection() {
           {/* Contact Form */}
           <Card>
             <CardContent className="p-8">
-              <h3 className="text-2xl font-semibold text-foreground mb-6">
+              <h3
+                className="text-2xl font-semibold text-foreground mb-6"
+                data-testid="contact-form-title"
+              >
                 Randevu Talep Formu
               </h3>
+
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <Label
                       htmlFor="fullName"
-                      className="text-sm font-medium text-foreground mb-2"
+                      className="block text-sm font-medium text-foreground mb-2"
                     >
                       Ad Soyad
                     </Label>
@@ -125,13 +135,15 @@ export default function ContactSection() {
                       onChange={(e) =>
                         handleInputChange("fullName", e.target.value)
                       }
+                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                       data-testid="input-full-name"
                     />
                   </div>
+
                   <div>
                     <Label
                       htmlFor="phone"
-                      className="text-sm font-medium text-foreground mb-2"
+                      className="block text-sm font-medium text-foreground mb-2"
                     >
                       Telefon
                     </Label>
@@ -143,14 +155,16 @@ export default function ContactSection() {
                       onChange={(e) =>
                         handleInputChange("phone", e.target.value)
                       }
+                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                       data-testid="input-phone"
                     />
                   </div>
                 </div>
+
                 <div>
                   <Label
                     htmlFor="email"
-                    className="text-sm font-medium text-foreground mb-2"
+                    className="block text-sm font-medium text-foreground mb-2"
                   >
                     E-posta
                   </Label>
@@ -160,13 +174,15 @@ export default function ContactSection() {
                     placeholder="E-posta adresiniz"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                     data-testid="input-email"
                   />
                 </div>
+
                 <div>
                   <Label
                     htmlFor="program"
-                    className="text-sm font-medium text-foreground mb-2"
+                    className="block text-sm font-medium text-foreground mb-2"
                   >
                     İlgilendiğiniz Program
                   </Label>
@@ -176,7 +192,10 @@ export default function ContactSection() {
                       handleInputChange("program", value)
                     }
                   >
-                    <SelectTrigger data-testid="select-program">
+                    <SelectTrigger
+                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
+                      data-testid="select-program"
+                    >
                       <SelectValue placeholder="Program seçin" />
                     </SelectTrigger>
                     <SelectContent>
@@ -188,10 +207,11 @@ export default function ContactSection() {
                     </SelectContent>
                   </Select>
                 </div>
+
                 <div>
                   <Label
                     htmlFor="message"
-                    className="text-sm font-medium text-foreground mb-2"
+                    className="block text-sm font-medium text-foreground mb-2"
                   >
                     Mesajınız
                   </Label>
@@ -203,19 +223,23 @@ export default function ContactSection() {
                     onChange={(e) =>
                       handleInputChange("message", e.target.value)
                     }
+                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
                     data-testid="textarea-message"
                   />
                 </div>
+
                 <Button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground py-4 h-auto text-base font-semibold hover:bg-primary/90"
+                  className="w-full bg-primary text-primary-foreground py-4 rounded-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center space-x-2"
                   disabled={createConsultationRequest.isPending}
                   data-testid="button-submit-consultation"
                 >
-                  <NotebookPen className="mr-2 h-5 w-5" />
-                  {createConsultationRequest.isPending
-                    ? "Gönderiliyor..."
-                    : "Randevu Talep Et"}
+                  <NotebookPen className="w-5 h-5" />
+                  <span>
+                    {createConsultationRequest.isPending
+                      ? "Gönderiliyor..."
+                      : "Randevu Talep Et"}
+                  </span>
                 </Button>
               </form>
             </CardContent>
@@ -224,20 +248,24 @@ export default function ContactSection() {
           {/* Contact Info */}
           <div className="space-y-8">
             <div>
-              <h3 className="text-2xl font-semibold text-foreground mb-6">
+              <h3
+                className="text-2xl font-semibold text-foreground mb-6"
+                data-testid="contact-info-title"
+              >
                 İletişim Bilgileri
               </h3>
 
               <div className="space-y-6">
+                {/* Address */}
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="h-6 w-6 text-primary" />
+                    <MapPin className="text-primary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">Adres</h4>
                     <p
                       className="text-muted-foreground"
-                      data-testid="text-address"
+                      data-testid="contact-address"
                     >
                       Levent Mahallesi, Büyükdere Caddesi
                       <br />
@@ -248,42 +276,56 @@ export default function ContactSection() {
                   </div>
                 </div>
 
+                {/* WhatsApp (replaces old phone) */}
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Phone className="h-6 w-6 text-accent" />
+                    {/* WhatsApp icon (SVG) */}
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      className="h-6 w-6 text-accent fill-current"
+                    >
+                      <path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.6c2.3 1.3 5 2.1 7.7 2.1 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28.2c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.9 1.5 1.6-4.8-.3-.5c-1.2-2-1.8-4.3-1.8-6.7C3.4 8.4 9.4 2.4 16 2.4S28.6 8.4 28.6 16 22.6 28.7 16 28.7z" />
+                    </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-foreground">Telefon</h4>
+                    <h4 className="font-semibold text-foreground">WhatsApp</h4>
                     <p
                       className="text-muted-foreground"
-                      data-testid="text-phone"
+                      data-testid="text-whatsapp"
                     >
-                      +90 212 123 45 67
-                      <br />
-                      +90 532 123 45 67
+                      <a
+                        href="https://wa.me/4915214885048?text=Merhaba%20bilgi%20almak%20istiyorum"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="hover:underline"
+                      >
+                        +49 1521 4885048
+                      </a>
                     </p>
                   </div>
                 </div>
 
+                {/* Email */}
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="h-6 w-6 text-secondary" />
+                    <Mail className="text-secondary" />
                   </div>
                   <div>
                     <h4 className="font-semibold text-foreground">E-posta</h4>
-                    <p
-                      className="text-muted-foreground"
-                      data-testid="text-email-info"
+                    <a
+                      href="mailto:info@envoedugermany.com"
+                      className="text-muted-foreground hover:text-secondary hover:underline transition-all"
+                      data-testid="contact-email"
                     >
-                      info@envoedu.com.tr
-                      <br />
-                      danismanlik@envoedu.com.tr
-                    </p>
+                      info@envoedugermany.com
+                    </a>
                   </div>
                 </div>
               </div>
             </div>
 
+            {/* Working Hours */}
             <div>
               <h4 className="font-semibold text-foreground mb-4">
                 Çalışma Saatleri
@@ -313,6 +355,7 @@ export default function ContactSection() {
               </div>
             </div>
 
+            {/* Social Media */}
             <div>
               <h4 className="font-semibold text-foreground mb-4">
                 Sosyal Medya
@@ -321,30 +364,37 @@ export default function ContactSection() {
                 <a
                   href="#"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="link-facebook"
+                  data-testid="social-facebook"
                 >
                   <i className="fab fa-facebook-f"></i>
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="link-instagram"
+                  data-testid="social-instagram"
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="link-linkedin"
+                  data-testid="social-linkedin"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
                 <a
                   href="#"
                   className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="link-youtube"
+                  data-testid="social-youtube"
                 >
                   <i className="fab fa-youtube"></i>
+                </a>
+                <a
+                  href="#"
+                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
+                  data-testid="social-x"
+                >
+                  <i className="fab fa-x-twitter"></i>
                 </a>
               </div>
             </div>
