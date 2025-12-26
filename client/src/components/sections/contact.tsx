@@ -16,6 +16,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import type { InsertConsultationRequest } from "@shared/schema";
+import emailjs from "@emailjs/browser"; // EmailJS kütüphanesi eklendi
 
 export default function Contact() {
   const { toast } = useToast();
@@ -29,6 +30,32 @@ export default function Contact() {
     message: "",
   });
 
+  // E-posta gönderme fonksiyonu
+  const sendEmailNotification = (data: any) => {
+    const templateParams = {
+      from_name: data.fullName,
+      from_email: data.email,
+      phone: data.phone,
+      program: data.program,
+      message: data.message,
+      to_email: "info@envoedugermany.com",
+    };
+
+    emailjs
+      .send(
+        "service_jwj2g9q", // Senin Service ID'n
+        "template_oeu7yz6", // Senin Template ID'n
+        templateParams,
+        "nSk-BeJXUhXBUfwmY", // Senin Public Key'in
+      )
+      .then((result) => {
+        console.log("E-posta başarıyla gönderildi:", result.text);
+      })
+      .catch((error) => {
+        console.error("E-posta gönderim hatası:", error);
+      });
+  };
+
   const createConsultationRequest = useMutation({
     mutationFn: async (data: InsertConsultationRequest) => {
       const response = await apiRequest(
@@ -38,11 +65,14 @@ export default function Contact() {
       );
       return response.json();
     },
-    onSuccess: () => {
+    onSuccess: (data) => {
+      // Veritabanı kaydı başarılı olduğunda e-posta gönderimini tetikle
+      sendEmailNotification(formData);
+
       toast({
         title: "Başarılı!",
         description:
-          "Randevu talebiniz alınmıştır. En kısa sürede sizinle iletişime geçeceğiz.",
+          "Randevu talebiniz alınmıştır. Bilgiler e-posta ile iletildi.",
       });
       setFormData({
         fullName: "",
@@ -108,7 +138,6 @@ export default function Contact() {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
           <Card>
             <CardContent className="p-8">
               <h3
@@ -239,7 +268,6 @@ export default function Contact() {
             </CardContent>
           </Card>
 
-          {/* Contact Info */}
           <div className="space-y-8">
             <div>
               <h3
@@ -271,7 +299,6 @@ export default function Contact() {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    {/* WhatsApp ikonu */}
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 32 32"
@@ -280,7 +307,6 @@ export default function Contact() {
                       <path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.6c2.3 1.3 5 2.1 7.7 2.1 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28.2c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.9 1.5 1.6-4.8-.3-.5c-1.2-2-1.8-4.3-1.8-6.7C3.4 8.4 9.4 2.4 16 2.4S28.6 8.4 28.6 16 22.6 28.7 16 28.7z" />
                     </svg>
                   </div>
-
                   <div>
                     <h4 className="font-semibold text-foreground">WhatsApp</h4>
                     <p
@@ -322,24 +348,15 @@ export default function Contact() {
                 Çalışma Saatleri
               </h4>
               <div className="space-y-2 text-muted-foreground">
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-weekdays"
-                >
+                <div className="flex justify-between">
                   <span>Pazartesi - Cuma:</span>
                   <span>09:00 - 18:00</span>
                 </div>
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-saturday"
-                >
+                <div className="flex justify-between">
                   <span>Cumartesi:</span>
                   <span>10:00 - 16:00</span>
                 </div>
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-sunday"
-                >
+                <div className="flex justify-between">
                   <span>Pazar:</span>
                   <span>Kapalı</span>
                 </div>
