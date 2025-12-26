@@ -271,33 +271,17 @@ export default function Contact() {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    {/* Basit WhatsApp ikonu (TSX-safe) */}
-                    <svg
-                      width="24"
-                      height="24"
-                      viewBox="0 0 24 24"
-                      fill="currentColor"
-                      className="text-accent"
-                      xmlns="http://www.w3.org/2000/svg"
-                    >
-                      <path d="M20.52 3.48A11.91 11.91 0 0012 .5C5.65.5.5 5.65.5 12c0 2.1.55 4.15 1.6 5.96L.5 23.5l5.7-1.5A11.94 11.94 0 0012 23.5c6.35 0 11.5-5.15 11.5-11.5 0-3.07-1.2-5.95-3.48-8.52z" />
-                    </svg>
+                    <Phone className="text-accent" />
                   </div>
-
                   <div>
-                    <h4 className="font-semibold text-foreground">WhatsApp</h4>
+                    <h4 className="font-semibold text-foreground">Telefon</h4>
                     <p
                       className="text-muted-foreground"
-                      data-testid="text-whatsapp"
+                      data-testid="contact-phone"
                     >
-                      <a
-                        href="https://wa.me/4915214885048"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline"
-                      >
-                        +49 1521 4885048
-                      </a>
+                      +90 212 123 45 67
+                      <br />
+                      +90 532 123 45 67
                     </p>
                   </div>
                 </div>
@@ -312,8 +296,9 @@ export default function Contact() {
                       className="text-muted-foreground"
                       data-testid="contact-email"
                     >
-                      info@envoedugermany.com
+                      info@envoedu.com.tr
                       <br />
+                      danismanlik@envoedu.com.tr
                     </p>
                   </div>
                 </div>
