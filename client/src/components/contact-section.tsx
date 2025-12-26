@@ -16,6 +16,7 @@ import { useToast } from "@/hooks/use-toast";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { apiRequest } from "@/lib/queryClient";
 import type { InsertConsultationRequest } from "@shared/schema";
+import emailjs from "@emailjs/browser"; // EmailJS eklendi
 
 export default function ContactSection() {
   const { toast } = useToast();
@@ -29,6 +30,32 @@ export default function ContactSection() {
     message: "",
   });
 
+  // E-posta gönderim fonksiyonu
+  const sendEmailNotification = (data: typeof formData) => {
+    const templateParams = {
+      from_name: data.fullName,
+      from_email: data.email,
+      phone: data.phone,
+      program: data.program,
+      message: data.message,
+      to_email: "info@envoedugermany.com",
+    };
+
+    emailjs
+      .send(
+        "service_jwj2g9q", // Service ID
+        "template_oeu7yz6", // Template ID
+        templateParams,
+        "nSk-BeJXUhXBUfwmY", // Public Key
+      )
+      .then((result) => {
+        console.log("Email başarıyla gönderildi:", result.text);
+      })
+      .catch((error) => {
+        console.error("Email gönderim hatası:", error);
+      });
+  };
+
   const createConsultationRequest = useMutation({
     mutationFn: async (data: InsertConsultationRequest) => {
       const response = await apiRequest(
@@ -39,10 +66,12 @@ export default function ContactSection() {
       return response.json();
     },
     onSuccess: () => {
+      // Veritabanı kaydı başarılı olunca e-posta gönder
+      sendEmailNotification(formData);
+
       toast({
         title: "Başarılı!",
-        description:
-          "Randevu talebiniz alınmıştır. En kısa sürede sizinle iletişime geçeceğiz.",
+        description: "Randevu talebiniz alınmıştır ve bize iletilmiştir.",
       });
       setFormData({
         fullName: "",
@@ -93,57 +122,42 @@ export default function ContactSection() {
     <section id="contact" className="py-20 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2
-            className="text-4xl font-bold text-foreground mb-4"
-            data-testid="contact-title"
-          >
+          <h2 className="text-4xl font-bold text-foreground mb-4">
             İletişime Geçin
           </h2>
-          <p
-            className="text-xl text-muted-foreground max-w-3xl mx-auto"
-            data-testid="contact-description"
-          >
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
             Uzman ekibimizle ücretsiz danışmanlık randevunuzu alın
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
-          {/* Contact Form */}
           <Card>
             <CardContent className="p-8">
-              <h3
-                className="text-2xl font-semibold text-foreground mb-6"
-                data-testid="contact-form-title"
-              >
+              <h3 className="text-2xl font-semibold text-foreground mb-6">
                 Randevu Talep Formu
               </h3>
-
               <form onSubmit={handleSubmit} className="space-y-6">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <Label
                       htmlFor="fullName"
-                      className="block text-sm font-medium text-foreground mb-2"
+                      className="mb-2 block text-sm font-medium"
                     >
                       Ad Soyad
                     </Label>
                     <Input
                       id="fullName"
-                      type="text"
                       placeholder="Adınızı girin"
                       value={formData.fullName}
                       onChange={(e) =>
                         handleInputChange("fullName", e.target.value)
                       }
-                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                      data-testid="input-full-name"
                     />
                   </div>
-
                   <div>
                     <Label
                       htmlFor="phone"
-                      className="block text-sm font-medium text-foreground mb-2"
+                      className="mb-2 block text-sm font-medium"
                     >
                       Telefon
                     </Label>
@@ -155,16 +169,13 @@ export default function ContactSection() {
                       onChange={(e) =>
                         handleInputChange("phone", e.target.value)
                       }
-                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                      data-testid="input-phone"
                     />
                   </div>
                 </div>
-
                 <div>
                   <Label
                     htmlFor="email"
-                    className="block text-sm font-medium text-foreground mb-2"
+                    className="mb-2 block text-sm font-medium"
                   >
                     E-posta
                   </Label>
@@ -174,28 +185,20 @@ export default function ContactSection() {
                     placeholder="E-posta adresiniz"
                     value={formData.email}
                     onChange={(e) => handleInputChange("email", e.target.value)}
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                    data-testid="input-email"
                   />
                 </div>
-
                 <div>
                   <Label
                     htmlFor="program"
-                    className="block text-sm font-medium text-foreground mb-2"
+                    className="mb-2 block text-sm font-medium"
                   >
                     İlgilendiğiniz Program
                   </Label>
                   <Select
                     value={formData.program}
-                    onValueChange={(value) =>
-                      handleInputChange("program", value)
-                    }
+                    onValueChange={(v) => handleInputChange("program", v)}
                   >
-                    <SelectTrigger
-                      className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                      data-testid="select-program"
-                    >
+                    <SelectTrigger>
                       <SelectValue placeholder="Program seçin" />
                     </SelectTrigger>
                     <SelectContent>
@@ -207,11 +210,10 @@ export default function ContactSection() {
                     </SelectContent>
                   </Select>
                 </div>
-
                 <div>
                   <Label
                     htmlFor="message"
-                    className="block text-sm font-medium text-foreground mb-2"
+                    className="mb-2 block text-sm font-medium"
                   >
                     Mesajınız
                   </Label>
@@ -223,16 +225,12 @@ export default function ContactSection() {
                     onChange={(e) =>
                       handleInputChange("message", e.target.value)
                     }
-                    className="w-full px-4 py-3 rounded-lg border border-input bg-background text-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-                    data-testid="textarea-message"
                   />
                 </div>
-
                 <Button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground py-4 rounded-lg font-semibold hover:bg-primary/90 transition-colors flex items-center justify-center space-x-2"
+                  className="w-full py-4 flex items-center justify-center space-x-2"
                   disabled={createConsultationRequest.isPending}
-                  data-testid="button-submit-consultation"
                 >
                   <NotebookPen className="w-5 h-5" />
                   <span>
@@ -245,157 +243,81 @@ export default function ContactSection() {
             </CardContent>
           </Card>
 
-          {/* Contact Info */}
           <div className="space-y-8">
-            <div>
-              <h3
-                className="text-2xl font-semibold text-foreground mb-6"
-                data-testid="contact-info-title"
-              >
-                İletişim Bilgileri
-              </h3>
-
-              <div className="space-y-6">
-                {/* Address */}
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <MapPin className="text-primary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">Adres</h4>
-                    <p
-                      className="text-muted-foreground"
-                      data-testid="contact-address"
-                    >
-                      Levent Mahallesi, Büyükdere Caddesi
-                      <br />
-                      No: 185, Kanyon Ofis Binası
-                      <br />
-                      34394 Şişli, İstanbul
-                    </p>
-                  </div>
+            <h3 className="text-2xl font-semibold text-foreground mb-6">
+              İletişim Bilgileri
+            </h3>
+            <div className="space-y-6">
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <MapPin className="text-primary" />
                 </div>
-
-                {/* WhatsApp (replaces old phone) */}
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    {/* WhatsApp icon (SVG) */}
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      viewBox="0 0 32 32"
-                      className="h-6 w-6 text-accent fill-current"
-                    >
-                      <path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.6c2.3 1.3 5 2.1 7.7 2.1 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28.2c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.9 1.5 1.6-4.8-.3-.5c-1.2-2-1.8-4.3-1.8-6.7C3.4 8.4 9.4 2.4 16 2.4S28.6 8.4 28.6 16 22.6 28.7 16 28.7z" />
-                    </svg>
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">WhatsApp</h4>
-                    <p
-                      className="text-muted-foreground"
-                      data-testid="text-whatsapp"
-                    >
-                      <a
-                        href="https://wa.me/4915214885048?text=Merhaba%20bilgi%20almak%20istiyorum"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="hover:underline"
-                      >
-                        +49 1521 4885048
-                      </a>
-                    </p>
-                  </div>
+                <div>
+                  <h4 className="font-semibold">Adres</h4>
+                  <p className="text-muted-foreground">
+                    Levent Mahallesi, Büyükdere Caddesi
+                    <br />
+                    No: 185, Kanyon Ofis Binası
+                    <br />
+                    34394 Şişli, İstanbul
+                  </p>
                 </div>
+              </div>
 
-                {/* Email */}
-                <div className="flex items-start space-x-4">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
-                    <Mail className="text-secondary" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-foreground">E-posta</h4>
-                    <a
-                      href="mailto:info@envoedugermany.com"
-                      className="text-muted-foreground hover:text-secondary hover:underline transition-all"
-                      data-testid="contact-email"
-                    >
-                      info@envoedugermany.com
-                    </a>
-                  </div>
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-accent/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 32 32"
+                    className="h-6 w-6 text-accent fill-current"
+                  >
+                    <path d="M16 .5C7.4.5.5 7.4.5 16c0 2.8.7 5.5 2.1 7.9L0 32l8.3-2.6c2.3 1.3 5 2.1 7.7 2.1 8.6 0 15.5-6.9 15.5-15.5S24.6.5 16 .5zm0 28.2c-2.4 0-4.7-.6-6.7-1.8l-.5-.3-4.9 1.5 1.6-4.8-.3-.5c-1.2-2-1.8-4.3-1.8-6.7C3.4 8.4 9.4 2.4 16 2.4S28.6 8.4 28.6 16 22.6 28.7 16 28.7z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="font-semibold">WhatsApp</h4>
+                  <a
+                    href="https://wa.me/4915214885048"
+                    target="_blank"
+                    className="text-muted-foreground hover:underline"
+                  >
+                    +49 1521 4885048
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start space-x-4">
+                <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <Mail className="text-secondary" />
+                </div>
+                <div>
+                  <h4 className="font-semibold">E-posta</h4>
+                  <a
+                    href="mailto:info@envoedugermany.com"
+                    className="text-muted-foreground hover:text-secondary hover:underline transition-all"
+                  >
+                    info@envoedugermany.com
+                  </a>
                 </div>
               </div>
             </div>
 
-            {/* Working Hours */}
+            {/* Çalışma Saatleri */}
             <div>
-              <h4 className="font-semibold text-foreground mb-4">
-                Çalışma Saatleri
-              </h4>
+              <h4 className="font-semibold mb-4">Çalışma Saatleri</h4>
               <div className="space-y-2 text-muted-foreground">
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-weekdays"
-                >
+                <div className="flex justify-between">
                   <span>Pazartesi - Cuma:</span>
                   <span>09:00 - 18:00</span>
                 </div>
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-saturday"
-                >
+                <div className="flex justify-between">
                   <span>Cumartesi:</span>
                   <span>10:00 - 16:00</span>
                 </div>
-                <div
-                  className="flex justify-between"
-                  data-testid="working-hours-sunday"
-                >
+                <div className="flex justify-between">
                   <span>Pazar:</span>
                   <span>Kapalı</span>
                 </div>
-              </div>
-            </div>
-
-            {/* Social Media */}
-            <div>
-              <h4 className="font-semibold text-foreground mb-4">
-                Sosyal Medya
-              </h4>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-facebook"
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-instagram"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-linkedin"
-                >
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-youtube"
-                >
-                  <i className="fab fa-youtube"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-x"
-                >
-                  <i className="fab fa-x-twitter"></i>
-                </a>
               </div>
             </div>
           </div>
