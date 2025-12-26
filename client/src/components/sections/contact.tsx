@@ -345,49 +345,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            <div>
-              <h4 className="font-semibold text-foreground mb-4">
-                Sosyal Medya
-              </h4>
-              <div className="flex space-x-4">
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-facebook"
-                >
-                  <i className="fab fa-facebook-f"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-instagram"
-                >
-                  <i className="fab fa-instagram"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-linkedin"
-                >
-                  <i className="fab fa-linkedin-in"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-youtube"
-                >
-                  <i className="fab fa-youtube"></i>
-                </a>
-                <a
-                  href="#"
-                  className="w-10 h-10 bg-primary/10 rounded-lg flex items-center justify-center text-primary hover:bg-primary hover:text-primary-foreground transition-colors"
-                  data-testid="social-x"
-                >
-                  <i className="fab fa-x-twitter"></i>
-                </a>
-              </div>
-            </div>
           </div>
         </div>
       </div>
