@@ -84,7 +84,7 @@ export default function Footer() {
         {/* Alt Alan */}
         <div className="border-t border-secondary-foreground/20 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-secondary-foreground/60 text-sm">
-            © 2014 Envoedu Germany. Tüm hakları saklıdır.
+            © 2020 Envoedu Germany. Tüm hakları saklıdır.
           </p>
 
           <div className="flex space-x-6 text-sm text-secondary-foreground/60">
