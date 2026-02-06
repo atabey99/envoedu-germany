@@ -6,6 +6,7 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// Loglama Middleware'i
 app.use((req, res, next) => {
   const start = Date.now();
   const path = req.path;
@@ -24,11 +25,9 @@ app.use((req, res, next) => {
       if (capturedJsonResponse) {
         logLine += ` :: ${JSON.stringify(capturedJsonResponse)}`;
       }
-
       if (logLine.length > 80) {
         logLine = logLine.slice(0, 79) + "…";
       }
-
       log(logLine);
     }
   });
@@ -36,36 +35,31 @@ app.use((req, res, next) => {
   next();
 });
 
+// Sunucu Başlatma Mantığı
 (async () => {
   const server = await registerRoutes(app);
 
+  // Hata Yakalama Middleware'i
   app.use((err: any, _req: Request, res: Response, _next: NextFunction) => {
     const status = err.status || err.statusCode || 500;
     const message = err.message || "Internal Server Error";
-
     res.status(status).json({ message });
-    throw err;
   });
 
-  // importantly only setup vite in development and after
-  // setting up all the other routes so the catch-all route
-  // doesn't interfere with the other routes
+  // Geliştirme ve Prodüksiyon Ayrımı
   if (app.get("env") === "development") {
     await setupVite(app, server);
+    
+    // Yerel geliştirme için port dinleme
+    const port = parseInt(process.env.PORT || "5000", 10);
+    server.listen(port, "0.0.0.0", () => {
+      log(`serving on port ${port}`);
+    });
   } else {
+    // Prodüksiyonda (Vercel) statik dosyaları servis et
     serveStatic(app);
   }
-
-  // ALWAYS serve the app on the port specified in the environment variable PORT
-  // Other ports are firewalled. Default to 5000 if not specified.
-  // this serves both the API and the client.
-  // It is the only port that is not firewalled.
-  const port = parseInt(process.env.PORT || "5000", 10);
-  const host = process.env.HOST || "127.0.0.1";
-  server.listen({
-    port,
-    host,
-  }, () => {
-    log(`serving on port ${port}`);
-  });
 })();
+
+// Vercel için kritik satır: Uygulamayı dışa aktar
+export default app;
