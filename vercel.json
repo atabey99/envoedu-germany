@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "public": true,
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
-  ] 
+  "builds": [
+    { "src": "server/index.ts", "use": "@vercel/node" },
+    { "src": "client/package.json", "use": "@vercel/static-build" }
+  ],
+  "routes": [
+    { "source": "/api/(.*)", "dest": "server/index.ts" },
+    { "source": "/(.*)", "dest": "client/$1", "check": true },
+    { "source": "/(.*)", "dest": "client/index.html" }
+  ]
 }
