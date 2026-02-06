@@ -1,14 +1,8 @@
 import { CalendarCheck, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { Link } from "wouter";
 
 export default function HeroSection() {
-  const scrollToContact = () => {
-    const element = document.getElementById('contact');
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
-
   return (
     <section id="home" className="hero-gradient text-primary-foreground">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
@@ -22,14 +16,15 @@ export default function HeroSection() {
               Türk öğrenciler için özel olarak tasarlanmış kapsamlı danışmanlık hizmetleri ile Almanya'daki en iyi üniversitelere adım atın.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button 
-                onClick={scrollToContact}
-                className="bg-accent text-accent-foreground px-8 py-4 h-auto text-base font-semibold hover:bg-accent/90"
-                data-testid="button-free-consultation"
-              >
-                <CalendarCheck className="mr-2 h-5 w-5" />
-                Ücretsiz Danışmanlık Al
-              </Button>
+              <Link href="/contact">
+                <Button 
+                  className="bg-accent text-accent-foreground px-8 py-4 h-auto text-base font-semibold hover:bg-accent/90"
+                  data-testid="button-free-consultation"
+                >
+                  <CalendarCheck className="mr-2 h-5 w-5" />
+                  Ücretsiz Danışmanlık Al
+                </Button>
+              </Link>
               <Button 
                 variant="outline"
                 className="border-2 border-primary-foreground text-primary-foreground px-8 py-4 h-auto text-base font-semibold hover:bg-primary-foreground hover:text-primary"

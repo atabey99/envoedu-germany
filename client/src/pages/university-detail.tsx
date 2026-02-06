@@ -1,4 +1,4 @@
-import { useParams } from "wouter";
+import { useParams, Link } from "wouter";
 import { useEffect } from "react";
 import { MapPin, Star, Globe, Calendar, BookOpen, Users, Award, Clock } from "lucide-react";
 import Navbar from "@/components/layout/navbar";
@@ -3309,9 +3309,11 @@ export default function UniversityDetail() {
               <p className="text-muted-foreground mb-6">
                 Uzman danışmanlarımızla ücretsiz görüşme ayarlayın
               </p>
-              <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
-                Danışmanlık Randevusu Al
-              </button>
+              <Link href="/contact">
+                <button className="bg-primary text-primary-foreground px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition-colors">
+                  Danışmanlık Randevusu Al
+                </button>
+              </Link>
             </div>
           </div>
         </div>
