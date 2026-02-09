@@ -41,7 +41,7 @@ export default function ContactSection() {
       to_email: "info@envoedugermany.com",
     };
 
-    emailjs
+    return emailjs
       .send(
         "service_jwj2g9q", // Service ID
         "template_oeu7yz6", // Template ID
@@ -50,9 +50,11 @@ export default function ContactSection() {
       )
       .then((result) => {
         console.log("Email başarıyla gönderildi:", result.text);
+        return result;
       })
       .catch((error) => {
         console.error("Email gönderim hatası:", error);
+        throw error;
       });
   };
 
@@ -65,14 +67,24 @@ export default function ContactSection() {
       );
       return response.json();
     },
-    onSuccess: () => {
-      // Veritabanı kaydı başarılı olunca e-posta gönder
-      sendEmailNotification(formData);
-
-      toast({
-        title: "Başarılı!",
-        description: "Randevu talebiniz alınmıştır ve bize iletilmiştir.",
-      });
+    onSuccess: async () => {
+      try {
+        // Veritabanı kaydı başarılı olunca e-posta gönder
+        await sendEmailNotification(formData);
+        
+        toast({
+          title: "Başarılı!",
+          description: "Randevu talebiniz alınmıştır ve e-posta olarak iletilmiştir.",
+        });
+      } catch (emailError) {
+        console.error("E-posta gönderimi başarısız:", emailError);
+        toast({
+          title: "Kısmi Başarı",
+          description: "Randevu talebiniz alınmıştır. E-posta bildirimi gönderilemedi, en kısa sürede sizinle iletişime geçeceğiz.",
+          variant: "default", // warning yerine default kullanıyoruz
+        });
+      }
+      
       setFormData({
         fullName: "",
         phone: "",
