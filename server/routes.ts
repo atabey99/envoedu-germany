@@ -1,17 +1,17 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
-import { insertAppointmentRequestSchema } from "@shared/schema";
-import { sendAppointmentRequest, sendConfirmationEmail } from "./emailService";
+import { insertConsultationRequestSchema } from "@shared/schema";
+import { sendConsultationRequest, sendConfirmationEmail } from "./emailService";
 import { z } from "zod";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Create appointment request and send email
-  app.post("/api/appointment-requests", async (req, res) => {
+  // Create consultation request and send email
+  app.post("/api/consultation-requests", async (req, res) => {
     try {
-      const validatedData = insertAppointmentRequestSchema.parse(req.body);
+      const validatedData = insertConsultationRequestSchema.parse(req.body);
       
-      // Send appointment request to info@envoedugermany.com
-      await sendAppointmentRequest(validatedData);
+      // Send consultation request to info@envoedugermany.com
+      await sendConsultationRequest(validatedData);
       
       // Send confirmation email to user
       await sendConfirmationEmail(validatedData);
@@ -28,7 +28,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
           errors: error.errors 
         });
       } else {
-        console.error('Appointment request error:', error);
+        console.error('Consultation request error:', error);
         res.status(500).json({ 
           success: false, 
           message: "Randevu talebi gönderilirken bir hata oluştu. Lütfen tekrar deneyin." 

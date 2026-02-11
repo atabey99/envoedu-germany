@@ -9,14 +9,13 @@ export const users = pgTable("users", {
   password: text("password").notNull(),
 });
 
-export const appointmentRequests = pgTable("appointment_requests", {
+export const consultationRequests = pgTable("consultation_requests", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
   fullName: text("full_name").notNull(),
   email: text("email").notNull(),
   phone: text("phone").notNull(),
   program: text("program").notNull(),
-  preferredDate: text("preferred_date").notNull(),
-  message: text("message"),
+  message: text("message").notNull(),
   createdAt: timestamp("created_at").defaultNow(),
 });
 
@@ -25,16 +24,15 @@ export const insertUserSchema = createInsertSchema(users).pick({
   password: true,
 });
 
-export const insertAppointmentRequestSchema = createInsertSchema(appointmentRequests).pick({
+export const insertConsultationRequestSchema = createInsertSchema(consultationRequests).pick({
   fullName: true,
   email: true,
   phone: true,
   program: true,
-  preferredDate: true,
   message: true,
 });
 
 export type InsertUser = z.infer<typeof insertUserSchema>;
 export type User = typeof users.$inferSelect;
-export type InsertAppointmentRequest = z.infer<typeof insertAppointmentRequestSchema>;
-export type AppointmentRequest = typeof appointmentRequests.$inferSelect;
+export type InsertConsultationRequest = z.infer<typeof insertConsultationRequestSchema>;
+export type ConsultationRequest = typeof consultationRequests.$inferSelect;
