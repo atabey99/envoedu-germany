@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { MapPin, Mail, NotebookPen } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -28,6 +28,12 @@ export default function ContactSection() {
 
   const [isLoading, setIsLoading] = useState(false);
 
+  // EmailJS Initialize
+  useEffect(() => {
+    emailjs.init("nSk-BeJXUhXBUfwmY"); // Public Key
+    console.log("EmailJS initialized");
+  }, []);
+
   // E-posta gönderim fonksiyonu
   const sendEmailNotification = async (data: typeof formData) => {
     const templateParams = {
@@ -39,23 +45,31 @@ export default function ContactSection() {
       to_email: "info@envoedugermany.com",
     };
 
+    console.log("Gönderilecek data:", templateParams);
+
     try {
       const result = await emailjs.send(
         "service_jwj2g9q", // Service ID
         "template_oeu7yz6", // Template ID
         templateParams,
-        "nSk-BeJXUhXBUfwmY" // Public Key
+        "nSk-BeJXUhXBUfwmY" // Public Key (redundant ama güvenlik için)
       );
-      console.log("Email başarıyla gönderildi:", result.text);
+      console.log("Email başarıyla gönderildi:", result);
       return result;
     } catch (error) {
-      console.error("Email gönderim hatası:", error);
+      console.error("Email gönderim hatası detayı:", error);
+      // Error objesinin içeriğini de görelim
+      if (error instanceof Error) {
+        console.error("Error message:", error.message);
+        console.error("Error stack:", error.stack);
+      }
       throw error;
     }
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
+    console.log("Form submit edildi");
 
     if (
       !formData.fullName ||
@@ -64,6 +78,7 @@ export default function ContactSection() {
       !formData.program ||
       !formData.message
     ) {
+      console.log("Eksik alanlar tespit edildi");
       toast({
         title: "Eksik Bilgi",
         description: "Lütfen tüm alanları doldurun.",
@@ -73,9 +88,11 @@ export default function ContactSection() {
     }
 
     setIsLoading(true);
+    console.log("Email gönderim başlıyor...");
 
     try {
-      await sendEmailNotification(formData);
+      const result = await sendEmailNotification(formData);
+      console.log("Email gönderim sonucu:", result);
       
       toast({
         title: "Başarılı!",
@@ -91,10 +108,18 @@ export default function ContactSection() {
         message: "",
       });
     } catch (error) {
-      console.error("Form gönderim hatası:", error);
+      console.error("Form gönderim hatası detayı:", error);
+      
+      let errorMessage = "Randevu talebi gönderilemedi. Lütfen tekrar deneyin.";
+      
+      // Daha spesifik error mesajları
+      if (error && typeof error === 'object' && 'text' in error) {
+        errorMessage += ` (${error.text})`;
+      }
+      
       toast({
         title: "Hata!",
-        description: "Randevu talebi gönderilemedi. Lütfen tekrar deneyin veya doğrudan iletişime geçin.",
+        description: errorMessage + " veya doğrudan info@envoedugermany.com adresine email gönderebilirsiniz.",
         variant: "destructive",
       });
     } finally {
