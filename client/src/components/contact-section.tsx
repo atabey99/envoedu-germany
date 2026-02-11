@@ -13,14 +13,10 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { apiRequest } from "@/lib/queryClient";
-import type { InsertConsultationRequest } from "@shared/schema";
-import emailjs from "@emailjs/browser"; // EmailJS eklendi
+import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
   const { toast } = useToast();
-  const queryClient = useQueryClient();
 
   const [formData, setFormData] = useState({
     fullName: "",
@@ -30,8 +26,10 @@ export default function ContactSection() {
     message: "",
   });
 
+  const [isLoading, setIsLoading] = useState(false);
+
   // E-posta gönderim fonksiyonu
-  const sendEmailNotification = (data: typeof formData) => {
+  const sendEmailNotification = async (data: typeof formData) => {
     const templateParams = {
       from_name: data.fullName,
       from_email: data.email,
@@ -41,71 +39,22 @@ export default function ContactSection() {
       to_email: "info@envoedugermany.com",
     };
 
-    return emailjs
-      .send(
+    try {
+      const result = await emailjs.send(
         "service_jwj2g9q", // Service ID
         "template_oeu7yz6", // Template ID
         templateParams,
-        "nSk-BeJXUhXBUfwmY", // Public Key
-      )
-      .then((result) => {
-        console.log("Email başarıyla gönderildi:", result.text);
-        return result;
-      })
-      .catch((error) => {
-        console.error("Email gönderim hatası:", error);
-        throw error;
-      });
+        "nSk-BeJXUhXBUfwmY" // Public Key
+      );
+      console.log("Email başarıyla gönderildi:", result.text);
+      return result;
+    } catch (error) {
+      console.error("Email gönderim hatası:", error);
+      throw error;
+    }
   };
 
-  const createConsultationRequest = useMutation({
-    mutationFn: async (data: InsertConsultationRequest) => {
-      const response = await apiRequest(
-        "POST",
-        "/api/consultation-requests",
-        data,
-      );
-      return response.json();
-    },
-    onSuccess: async () => {
-      try {
-        // Veritabanı kaydı başarılı olunca e-posta gönder
-        await sendEmailNotification(formData);
-        
-        toast({
-          title: "Başarılı!",
-          description: "Randevu talebiniz alınmıştır ve e-posta olarak iletilmiştir.",
-        });
-      } catch (emailError) {
-        console.error("E-posta gönderimi başarısız:", emailError);
-        toast({
-          title: "Kısmi Başarı",
-          description: "Randevu talebiniz alınmıştır. E-posta bildirimi gönderilemedi, en kısa sürede sizinle iletişime geçeceğiz.",
-          variant: "default", // warning yerine default kullanıyoruz
-        });
-      }
-      
-      setFormData({
-        fullName: "",
-        phone: "",
-        email: "",
-        program: "",
-        message: "",
-      });
-      queryClient.invalidateQueries({
-        queryKey: ["/api/consultation-requests"],
-      });
-    },
-    onError: () => {
-      toast({
-        title: "Hata!",
-        description: "Randevu talebiniz alınamadı. Lütfen tekrar deneyin.",
-        variant: "destructive",
-      });
-    },
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
     if (
@@ -123,7 +72,34 @@ export default function ContactSection() {
       return;
     }
 
-    createConsultationRequest.mutate(formData);
+    setIsLoading(true);
+
+    try {
+      await sendEmailNotification(formData);
+      
+      toast({
+        title: "Başarılı!",
+        description: "Randevu talebiniz başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.",
+      });
+      
+      // Form reset
+      setFormData({
+        fullName: "",
+        phone: "",
+        email: "",
+        program: "",
+        message: "",
+      });
+    } catch (error) {
+      console.error("Form gönderim hatası:", error);
+      toast({
+        title: "Hata!",
+        description: "Randevu talebi gönderilemedi. Lütfen tekrar deneyin veya doğrudan iletişime geçin.",
+        variant: "destructive",
+      });
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   const handleInputChange = (field: string, value: string) => {
@@ -242,11 +218,11 @@ export default function ContactSection() {
                 <Button
                   type="submit"
                   className="w-full py-4 flex items-center justify-center space-x-2"
-                  disabled={createConsultationRequest.isPending}
+                  disabled={isLoading}
                 >
                   <NotebookPen className="w-5 h-5" />
                   <span>
-                    {createConsultationRequest.isPending
+                    {isLoading
                       ? "Gönderiliyor..."
                       : "Randevu Talep Et"}
                   </span>
