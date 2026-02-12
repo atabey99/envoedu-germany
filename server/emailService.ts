@@ -7,8 +7,8 @@ const transporter = nodemailer.createTransport({
   // For Gmail (you'll need to enable "Less secure app access" or use App Password)
   service: 'gmail',
   auth: {
-    user: process.env.EMAIL_USER || 'your-email@gmail.com',
-    pass: process.env.EMAIL_PASS || 'your-app-password'
+    user: process.env.EMAIL_USER || 'info@envoedugermany.com',
+    pass: process.env.EMAIL_PASS || 'xfpXnhsXxwGLpLYs9yBycHZWWm4WyzmM'
   } 
 });
 
