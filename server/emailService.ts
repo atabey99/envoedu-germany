@@ -9,7 +9,7 @@ const transporter = nodemailer.createTransport({
   auth: {
     user: process.env.EMAIL_USER || 'info@envoedugermany.com',
     pass: process.env.EMAIL_PASS || 'xfpXnhsXxwGLpLYs9yBycHZWWm4WyzmM'
-  } 
+  }  
 });
 
 // Alternative SMTP configuration (uncomment and modify as needed)
