@@ -1,29 +1,16 @@
 import nodemailer from 'nodemailer';
 import type { InsertConsultationRequest } from '@shared/schema';
 
-// Email transporter configuration
-// You can configure this with your preferred email service (Gmail, Outlook, SMTP, etc.)
+// IONOS SMTP yapılandırması
 const transporter = nodemailer.createTransport({
-  // For Gmail (you'll need to enable "Less secure app access" or use App Password)
-  service: 'gmail',
+  host: 'smtp.ionos.com', // IONOS sunucusu
+  port: 465,              // Güvenli port
+  secure: true,           // SSL kullanımı (465 için true)
   auth: {
-    user: process.env.EMAIL_USER || 'info@envoedugermany.com',
-    pass: process.env.EMAIL_PASS || 'xfpXnhsXxwGLpLYs9yBycHZWWm4WyzmM'
-  }  
+    user: process.env.EMAIL_USER, // Vercel'deki info@envoedugermany.com
+    pass: process.env.EMAIL_PASS  // Vercel'e eklediğin uygulama şifresi
+  } 
 });
-
-// Alternative SMTP configuration (uncomment and modify as needed)
-/*
-const transporter = nodemailer.createTransport({
-  host: 'smtp.gmail.com',
-  port: 587,
-  secure: false,
-  auth: {
-    user: process.env.EMAIL_USER,
-    pass: process.env.EMAIL_PASS
-  }
-});
-*/
 
 export async function sendConsultationRequest(consultationData: InsertConsultationRequest): Promise<void> {
   const emailContent = `
@@ -40,7 +27,7 @@ export async function sendConsultationRequest(consultationData: InsertConsultati
   `;
 
   const mailOptions = {
-    from: process.env.EMAIL_USER || 'noreply@envoedugermany.com',
+    from: process.env.EMAIL_USER,
     to: 'info@envoedugermany.com',
     subject: `Yeni Randevu Talebi - ${consultationData.fullName}`,
     html: emailContent,
@@ -77,7 +64,7 @@ export async function sendConfirmationEmail(consultationData: InsertConsultation
   `;
 
   const mailOptions = {
-    from: process.env.EMAIL_USER || 'noreply@envoedugermany.com',
+    from: process.env.EMAIL_USER,
     to: consultationData.email,
     subject: 'Randevu Talebiniz Alındı - EnvoEdu Germany',
     html: confirmationContent
@@ -88,6 +75,5 @@ export async function sendConfirmationEmail(consultationData: InsertConsultation
     console.log('Confirmation email sent successfully');
   } catch (error) {
     console.error('Error sending confirmation email:', error);
-    // Don't throw error for confirmation email, it's not critical
   }
 }
