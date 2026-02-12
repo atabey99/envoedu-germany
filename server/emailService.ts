@@ -3,14 +3,18 @@ import type { InsertConsultationRequest } from '@shared/schema';
 
 // IONOS SMTP yapılandırması
 const transporter = nodemailer.createTransport({
-  host: 'smtp.ionos.com', // IONOS sunucusu
-  port: 465,              // Güvenli port
-  secure: true,           // SSL kullanımı (465 için true)
+  host: 'smtp.ionos.com',
+  port: 587,              // Vercel'de 465 bazen engellenir, 587 daha garantidir
+  secure: false,          // 587 portu için false olmalı
   auth: {
-    user: process.env.EMAIL_USER, // Vercel'deki info@envoedugermany.com
-    pass: process.env.EMAIL_PASS  // Vercel'e eklediğin uygulama şifresi
-  } 
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS
+  },
+  tls: {
+    rejectUnauthorized: false // Sertifika doğrulama hatalarını aşmak için gerekli
+  }
 });
+
 
 export async function sendConsultationRequest(consultationData: InsertConsultationRequest): Promise<void> {
   const emailContent = `
