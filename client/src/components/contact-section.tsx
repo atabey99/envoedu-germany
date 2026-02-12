@@ -13,7 +13,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { useToast } from "@/hooks/use-toast";
-import emailjs from "@emailjs/browser";
 
 export default function ContactSection() {
   const { toast } = useToast();
@@ -28,48 +27,9 @@ export default function ContactSection() {
 
   const [isLoading, setIsLoading] = useState(false);
 
-  // EmailJS Initialize
-  useEffect(() => {
-    emailjs.init("nSk-BeJXUhXBUfwmY"); // Public Key
-    console.log("EmailJS initialized");
-  }, []);
-
-  // E-posta gönderim fonksiyonu
-  const sendEmailNotification = async (data: typeof formData) => {
-    const templateParams = {
-      from_name: data.fullName,
-      from_email: data.email,
-      phone: data.phone,
-      program: data.program,
-      message: data.message,
-      to_email: "info@envoedugermany.com",
-    };
-
-    console.log("Gönderilecek data:", templateParams);
-
-    try {
-      const result = await emailjs.send(
-        "service_jwj2g9q", // Service ID
-        "template_oeu7yz6", // Template ID
-        templateParams,
-        "nSk-BeJXUhXBUfwmY" // Public Key (redundant ama güvenlik için)
-      );
-      console.log("Email başarıyla gönderildi:", result);
-      return result;
-    } catch (error) {
-      console.error("Email gönderim hatası detayı:", error);
-      // Error objesinin içeriğini de görelim
-      if (error instanceof Error) {
-        console.error("Error message:", error.message);
-        console.error("Error stack:", error.stack);
-      }
-      throw error;
-    }
-  };
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    console.log("Form submit edildi");
+    console.log("Form submit başladı");
 
     if (
       !formData.fullName ||
@@ -78,7 +38,6 @@ export default function ContactSection() {
       !formData.program ||
       !formData.message
     ) {
-      console.log("Eksik alanlar tespit edildi");
       toast({
         title: "Eksik Bilgi",
         description: "Lütfen tüm alanları doldurun.",
@@ -88,38 +47,49 @@ export default function ContactSection() {
     }
 
     setIsLoading(true);
-    console.log("Email gönderim başlıyor...");
+    console.log("Gönderilecek data:", formData);
 
     try {
-      const result = await sendEmailNotification(formData);
-      console.log("Email gönderim sonucu:", result);
-      
-      toast({
-        title: "Başarılı!",
-        description: "Randevu talebiniz başarıyla gönderildi. En kısa sürede sizinle iletişime geçeceğiz.",
+      const response = await fetch("/api/consultation-requests", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       });
-      
-      // Form reset
-      setFormData({
-        fullName: "",
-        phone: "",
-        email: "",
-        program: "",
-        message: "",
-      });
+
+      console.log("Response status:", response.status);
+      const result = await response.json();
+      console.log("Response data:", result);
+
+      if (response.ok && result.success) {
+        toast({
+          title: "Başarılı!",
+          description: result.message || "Randevu talebiniz başarıyla gönderildi.",
+        });
+        
+        // Form reset
+        setFormData({
+          fullName: "",
+          phone: "",
+          email: "",
+          program: "",
+          message: "",
+        });
+      } else {
+        throw new Error(result.message || "Beklenmedik hata");
+      }
     } catch (error) {
-      console.error("Form gönderim hatası detayı:", error);
+      console.error("Form gönderim hatası:", error);
       
       let errorMessage = "Randevu talebi gönderilemedi. Lütfen tekrar deneyin.";
-      
-      // Daha spesifik error mesajları
-      if (error && typeof error === 'object' && 'text' in error) {
-        errorMessage += ` (${error.text})`;
+      if (error instanceof Error) {
+        errorMessage = error.message;
       }
       
       toast({
         title: "Hata!",
-        description: errorMessage + " veya doğrudan info@envoedugermany.com adresine email gönderebilirsiniz.",
+        description: errorMessage,
         variant: "destructive",
       });
     } finally {
