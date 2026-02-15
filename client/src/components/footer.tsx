@@ -38,7 +38,6 @@ export default function Footer() {
               <li>Üniversite Danışmanlığı</li>
               <li>Başvuru ve Kabul Süreci</li>
               <li>Vize Danışmanlığı</li>
-              <li>Dil Eğitimi</li>
             </ul>
           </div>
 
