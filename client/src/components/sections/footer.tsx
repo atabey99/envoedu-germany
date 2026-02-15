@@ -99,15 +99,27 @@ export default function Footer() {
           </p>
 
           <div className="flex space-x-6 text-sm text-secondary-foreground/60">
-            <span className="hover:text-accent cursor-pointer">
+            <a
+              href="/privacy"
+              className="hover:text-accent transition-colors cursor-pointer"
+              data-testid="footer-privacy"
+            >
               Gizlilik Politikası
-            </span>
-            <span className="hover:text-accent cursor-pointer">
+            </a>
+            <a
+              href="/terms"
+              className="hover:text-accent transition-colors cursor-pointer"
+              data-testid="footer-terms"
+            >
               Kullanım Şartları
-            </span>
-            <span className="hover:text-accent cursor-pointer">
+            </a>
+            <a
+              href="/cookies"
+              className="hover:text-accent transition-colors cursor-pointer"
+              data-testid="footer-cookies"
+            >
               Çerez Politikası
-            </span>
+            </a>
           </div>
         </div>
       </div>
