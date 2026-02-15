@@ -48,7 +48,6 @@ export default function Footer() {
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>Hakkımızda</li>
               <li>Başarı Hikayeleri</li>
-              <li>Blog</li>
               <li>Sıkça Sorulan Sorular</li>
             </ul>
           </div>

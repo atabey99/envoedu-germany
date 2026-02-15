@@ -19,110 +19,45 @@ export default function Privacy() {
 
           <div className="prose prose-lg max-w-none space-y-8">
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">1. Genel Bilgiler</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">1. Veri Sorumlusu</h2>
               <p className="text-muted-foreground leading-relaxed">
-                Envoedu Germany olarak, kişisel verilerinizin gizliliğini korumayı taahhüt ediyoruz. 
-                Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda 
-                kişisel verilerinizin nasıl toplandığını, kullanıldığını ve korunduğunu açıklamaktadır.
+                6698 sayılı Kişisel Verilerin Korunması Kanunu ("KVKK") uyarınca, kişisel verileriniz veri sorumlusu sıfatıyla Envoedu (bundan sonra "Şirket" olarak anılacaktır) tarafından aşağıda açıklanan kapsamda işlenebilecektir.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">2. Toplanan Bilgiler</h2>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">2. Kişisel Verilerin İşlenme Amacı</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Toplanan kişisel verileriniz, Envoedu tarafından sunulan Almanya eğitim danışmanlığı, vize süreçleri ve kariyer planlama hizmetlerinden faydalanabilmeniz için gerekli çalışmaların iş birimlerimiz tarafından yapılması; hizmetlerimizin beğeni ve ihtiyaçlarınıza göre özelleştirilmesi; hukuki ve ticari güvenliğin temini ile ticari stratejilerimizin belirlenmesi amaçlarıyla KVKK'nın 5. ve 6. maddelerinde belirtilen şartlar dahilinde işlenmektedir.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">3. İşlenen Kişisel Veriler</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Envoedu web sitesi üzerinden; ad-soyad, telefon, e-posta, mezuniyet notu, dil seviyesi ve IP adresi gibi verileriniz, açık rızanız veya kanunlarda öngörülen hallerde (sözleşmenin kurulması, veri sorumlusunun meşru menfaati vb.) işlenmektedir.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">4. İşlenen Kişisel Verilerin Kimlere ve Hangi Amaçla Aktarılabileceği</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Kişisel verileriniz; yukarıda belirtilen amaçların gerçekleştirilmesi doğrultusunda, Almanya'daki anlaşmalı üniversiteler, dil okulları, konaklama sağlayıcıları ve yasal yükümlülükler gereği yetkili kamu kurum ve kuruluşları ile paylaşılabilecektir. Veri aktarımı sırasında KVKK'nın 8. ve 9. maddelerine uygun hareket edilmektedir.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">5. Kişisel Veri Toplamanın Yöntemi ve Hukuki Sebebi</h2>
+              <p className="text-muted-foreground leading-relaxed">
+                Kişisel verileriniz; web sitemizdeki iletişim formları, çerezler (cookies) ve e-posta yazışmaları aracılığıyla elektronik ortamda toplanmaktadır. Bu süreçte verileriniz, "ilgili kişinin temel hak ve özgürlüklerine zarar vermemek kaydıyla, veri sorumlusunun meşru menfaatleri için veri işlenmesinin zorunlu olması" hukuki sebebine dayanarak işlenir.
+              </p>
+            </section>
+
+            <section>
+              <h2 className="text-2xl font-semibold text-foreground mb-4">6. Veri Sahibinin Hakları</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                Hizmetlerimizi sağlamak için aşağıdaki bilgileri topluyoruz:
+                KVKK'nın 11. maddesi uyarınca her kullanıcı; verilerinin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, eksik veya yanlış işlenmişse düzeltilmesini isteme ve verilerin silinmesini (anonim hale getirilmesini) talep etme hakkına sahiptir. Taleplerinizi info@envoedugermany.com adresine yazılı olarak iletebilirsiniz.
               </p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                <li>Ad, soyad ve iletişim bilgileri (e-posta, telefon)</li>
-                <li>Eğitim geçmişi ve akademik bilgiler</li>
-                <li>Tercih ettiğiniz üniversiteler ve programlar</li>
-                <li>Danışmanlık sürecinde paylaştığınız belgeler</li>
-                <li>Web sitesi kullanım verileri (çerezler aracılığıyla)</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">3. Bilgilerin Kullanımı</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Topladığımız bilgileri şu amaçlarla kullanırız:
-              </p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                <li>Danışmanlık hizmetlerini sağlamak ve geliştirmek</li>
-                <li>Sizinle iletişim kurmak ve bilgilendirme yapmak</li>
-                <li>Başvuru süreçlerinizi yönetmek</li>
-                <li>Hizmet kalitemizi iyileştirmek</li>
-                <li>Yasal yükümlülüklerimizi yerine getirmek</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">4. Bilgi Güvenliği</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Kişisel verilerinizi yetkisiz erişim, değişiklik, ifşa veya imha edilmeye karşı korumak için 
-                endüstri standardı güvenlik önlemleri kullanıyoruz. Verileriniz şifreli bağlantılar üzerinden 
-                iletilir ve güvenli sunucularda saklanır.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">5. Bilgi Paylaşımı</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Kişisel bilgilerinizi üçüncü taraflarla paylaşmayız. Sadece başvuru süreçleriniz için gerekli 
-                olduğunda (üniversiteler, vize makamları vb.) ve açık izninizle bilgilerinizi paylaşırız.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">6. Haklarınız</h2>
-              <p className="text-muted-foreground leading-relaxed mb-4">
-                Kişisel verilerinizle ilgili olarak aşağıdaki haklara sahipsiniz:
-              </p>
-              <ul className="list-disc list-inside space-y-2 text-muted-foreground ml-4">
-                <li>Kişisel verilerinize erişim ve kopyasını talep etme</li>
-                <li>Yanlış veya eksik bilgileri düzeltme</li>
-                <li>Belirli koşullar altında verilerinizi silme</li>
-                <li>Veri işleme faaliyetlerine itiraz etme</li>
-                <li>Pazarlama iletişimlerinden çıkma</li>
-              </ul>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">7. Veri Saklama</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Kişisel verilerinizi, hizmet sağlamak için gerekli olduğu sürece veya yasal yükümlülüklerimiz 
-                gerektirdiği sürece saklarız. Danışmanlık hizmetleri tamamlandıktan sonra, verileriniz yasal 
-                gereklilikler çerçevesinde arşivlenir veya silinir.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">8. Çerezler</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Web sitemiz, kullanıcı deneyimini iyileştirmek için çerezler kullanır. Çerezlerin nasıl 
-                kullanıldığı hakkında daha fazla bilgi için lütfen Çerez Politikamızı inceleyin.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">9. Politika Değişiklikleri</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda, 
-                sizi e-posta veya web sitemiz üzerinden bilgilendireceğiz. Politikayı düzenli olarak 
-                gözden geçirmenizi öneririz.
-              </p>
-            </section>
-
-            <section>
-              <h2 className="text-2xl font-semibold text-foreground mb-4">10. İletişim</h2>
-              <p className="text-muted-foreground leading-relaxed">
-                Gizlilik politikamız veya kişisel verilerinizle ilgili sorularınız için bizimle iletişime 
-                geçebilirsiniz:
-              </p>
-              <div className="mt-4 space-y-2 text-muted-foreground ml-4">
-                <p><strong>E-posta:</strong> info@envoedu.com.tr</p>
-                <p><strong>Telefon:</strong> +90 212 123 45 67</p>
-                <p><strong>Adres:</strong> İstanbul, Türkiye</p>
-              </div>
             </section>
           </div>
         </div>

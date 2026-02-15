@@ -65,15 +65,21 @@ export default function FAQ() {
     <div className="min-h-screen bg-background pt-28 sm:pt-32 md:pt-36">
       <Navbar />
 
+      {/* Başlık Bölümü */}
+      <div className="bg-primary/5 border-b border-border py-12">
+        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h1
+            className="text-4xl md:text-5xl font-bold text-foreground text-center"
+            data-testid="faq-title"
+          >
+            Sıkça Sorulan Sorular
+          </h1>
+        </div>
+      </div>
+
       <section className="py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
-            <h1
-              className="text-4xl font-bold text-foreground mb-4"
-              data-testid="faq-title"
-            >
-              Sıkça Sorulan Sorular
-            </h1>
             <p
               className="text-xl text-muted-foreground"
               data-testid="faq-description"
