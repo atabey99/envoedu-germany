@@ -48,7 +48,15 @@ export default function Footer() {
             <ul className="space-y-2 text-secondary-foreground/80">
               <li>Hakkımızda</li>
               <li>Başarı Hikayeleri</li>
-              <li>Sıkça Sorulan Sorular</li>
+              <li>
+                <a
+                  href="/faq"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-faq"
+                >
+                  Sıkça Sorulan Sorular
+                </a>
+              </li>
             </ul>
           </div>
 

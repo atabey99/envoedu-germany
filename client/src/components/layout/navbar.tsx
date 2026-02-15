@@ -71,6 +71,14 @@ export default function Navbar() {
               Hakkımızda
             </Link>
             <Link
+              href="/faq"
+              className="hover:text-accent transition-colors whitespace-nowrap"
+              style={{ color: "#ddd" }}
+              data-testid="nav-faq"
+            >
+              Sıkça Sorulan Sorular
+            </Link>
+            <Link
               href="/contact"
               className="hover:text-accent transition-colors whitespace-nowrap"
               style={{ color: "#ddd" }}
