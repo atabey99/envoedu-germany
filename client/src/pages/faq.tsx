@@ -115,7 +115,7 @@ export default function FAQ() {
             </p>
             <a
               href="/contact"
-              className="inline-block bg-gray-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-gray-700 transition-colors"
+              className="inline-block bg-red-600 text-white px-8 py-3 rounded-lg font-semibold hover:bg-red-700 transition-colors"
               data-testid="button-contact-from-faq"
             >
               Bize Ulaşın
