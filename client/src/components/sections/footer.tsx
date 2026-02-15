@@ -57,15 +57,6 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="/#testimonials"
-                  className="hover:text-accent transition-colors"
-                  data-testid="footer-success-stories"
-                >
-                  Başarı Hikayeleri
-                </a>
-              </li>
-              <li>
-                <a
                   href="/faq"
                   className="hover:text-accent transition-colors"
                   data-testid="footer-faq"
