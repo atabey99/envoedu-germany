@@ -12,9 +12,6 @@ export default function Terms() {
             <h1 className="text-4xl font-bold text-foreground mb-4" data-testid="terms-title">
               Kullanım Şartları
             </h1>
-            <p className="text-muted-foreground" data-testid="terms-last-updated">
-              Son Güncelleme: 11 Kasım 2024
-            </p>
           </div>
 
           <div className="prose prose-lg max-w-none space-y-8">

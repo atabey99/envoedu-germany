@@ -12,9 +12,6 @@ export default function Privacy() {
             <h1 className="text-4xl font-bold text-foreground mb-4" data-testid="privacy-title">
               Gizlilik Politikası
             </h1>
-            <p className="text-muted-foreground" data-testid="privacy-last-updated">
-              Son Güncelleme: 11 Kasım 2024
-            </p>
           </div>
 
           <div className="prose prose-lg max-w-none space-y-8">

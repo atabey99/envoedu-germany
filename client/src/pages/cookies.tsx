@@ -12,9 +12,6 @@ export default function Cookies() {
             <h1 className="text-4xl font-bold text-foreground mb-4" data-testid="cookies-title">
               Çerez Politikası
             </h1>
-            <p className="text-muted-foreground" data-testid="cookies-last-updated">
-              Son Güncelleme: 11 Kasım 2024
-            </p>
           </div>
 
           <div className="prose prose-lg max-w-none space-y-8">
