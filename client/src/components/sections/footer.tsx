@@ -46,8 +46,24 @@ export default function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Bilgi</h3>
             <ul className="space-y-2 text-secondary-foreground/80">
-              <li>Hakkımızda</li>
-              <li>Başarı Hikayeleri</li>
+              <li>
+                <a
+                  href="/about"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-about"
+                >
+                  Hakkımızda
+                </a>
+              </li>
+              <li>
+                <a
+                  href="/#testimonials"
+                  className="hover:text-accent transition-colors"
+                  data-testid="footer-success-stories"
+                >
+                  Başarı Hikayeleri
+                </a>
+              </li>
               <li>
                 <a
                   href="/faq"
