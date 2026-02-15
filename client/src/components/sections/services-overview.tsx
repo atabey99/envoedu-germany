@@ -7,44 +7,44 @@ const services = [
     title: "Üniversite Seçimi",
     description: "Profilinize en uygun Almanya üniversitelerini belirleyip başvuru stratejinizi oluşturuyoruz.",
     features: ["Üniversite araştırması", "Program analizi", "Şehir rehberi"],
-    color: "primary"
+    color: "primary" as const
   },
   {
     icon: FileText,
     title: "Başvuru Hazırlığı", 
     description: "Motivasyon mektubu, CV ve gerekli belgelerinizi profesyonel olarak hazırlıyoruz.",
     features: ["Motivasyon mektubu", "CV hazırlama", "Belge kontrolü"],
-    color: "accent"
+    color: "accent" as const
   },
   {
     icon: Languages,
     title: "Dil Eğitimi",
     description: "Almanca seviyenizi geliştirin ve dil sınavlarına hazırlanın.",
     features: ["Almanca kursu", "TestDaF hazırlığı", "DSH hazırlığı"],
-    color: "secondary"
+    color: "secondary" as const
   },
   {
     icon: IdCard,
     title: "Vize İşlemleri",
     description: "Öğrenci vizesi sürecinizi baştan sona yönetiyoruz.",
     features: ["Vize danışmanlığı", "Belge hazırlama", "Randevu takibi"],
-    color: "primary"
+    color: "primary" as const
   },
   {
     icon: Home,
     title: "Yerleşim Desteği",
     description: "Almanya'da yaşam kurulumunuzda size rehberlik ediyoruz.",
     features: ["Konaklama bulma", "Banka hesabı", "Sigorta işlemleri"],
-    color: "accent"
+    color: "accent" as const
   },
   {
     icon: Handshake,
     title: "Kariyer Danışmanlığı",
     description: "Mezuniyet sonrası kariyer planlamanızda destek sağlıyoruz.",
     features: ["İş arama desteği", "Staj programları", "Networking"],
-    color: "secondary"
+    color: "secondary" as const
   }
-];
+] as const;
 
 export default function ServicesOverview() {
   return (

@@ -1,6 +1,18 @@
 import nodemailer from 'nodemailer';
 import type { InsertConsultationRequest } from '@shared/schema';
 
+// HTML escape fonksiyonu - XSS koruması için
+export function escapeHtml(text: string): string {
+  const map: Record<string, string> = {
+    '&': '&amp;',
+    '<': '&lt;',
+    '>': '&gt;',
+    '"': '&quot;',
+    "'": '&#039;'
+  };
+  return text.replace(/[&<>"']/g, (m) => map[m]);
+}
+
 // IONOS SMTP yapılandırması
 const transporter = nodemailer.createTransport({
   host: 'smtp.ionos.com',
@@ -17,14 +29,15 @@ const transporter = nodemailer.createTransport({
 
 
 export async function sendConsultationRequest(consultationData: InsertConsultationRequest): Promise<void> {
+  // XSS koruması için tüm kullanıcı verilerini escape et
   const emailContent = `
     <h2>Yeni Randevu Talebi</h2>
-    <p><strong>Ad Soyad:</strong> ${consultationData.fullName}</p>
-    <p><strong>Email:</strong> ${consultationData.email}</p>
-    <p><strong>Telefon:</strong> ${consultationData.phone}</p>
-    <p><strong>Program:</strong> ${consultationData.program}</p>
+    <p><strong>Ad Soyad:</strong> ${escapeHtml(consultationData.fullName)}</p>
+    <p><strong>Email:</strong> ${escapeHtml(consultationData.email)}</p>
+    <p><strong>Telefon:</strong> ${escapeHtml(consultationData.phone)}</p>
+    <p><strong>Program:</strong> ${escapeHtml(consultationData.program)}</p>
     <p><strong>Mesaj:</strong></p>
-    <p>${consultationData.message || 'Mesaj bulunmamaktadır.'}</p>
+    <p>${consultationData.message ? escapeHtml(consultationData.message) : 'Mesaj bulunmamaktadır.'}</p>
     
     <hr>
     <p><small>Bu email EnvoEdu Germany web sitesi üzerinden gönderilmiştir.</small></p>
@@ -33,7 +46,7 @@ export async function sendConsultationRequest(consultationData: InsertConsultati
   const mailOptions = {
     from: process.env.EMAIL_USER,
     to: 'info@envoedugermany.com',
-    subject: `Yeni Randevu Talebi - ${consultationData.fullName}`,
+    subject: `Yeni Randevu Talebi - ${escapeHtml(consultationData.fullName)}`,
     html: emailContent,
     replyTo: consultationData.email
   };
@@ -48,15 +61,16 @@ export async function sendConsultationRequest(consultationData: InsertConsultati
 }
 
 export async function sendConfirmationEmail(consultationData: InsertConsultationRequest): Promise<void> {
+  // XSS koruması için tüm kullanıcı verilerini escape et
   const confirmationContent = `
     <h2>Randevu Talebiniz Alındı</h2>
-    <p>Sayın ${consultationData.fullName},</p>
+    <p>Sayın ${escapeHtml(consultationData.fullName)},</p>
     
     <p>Randevu talebiniz başarıyla alınmıştır. En kısa sürede size dönüş yapacağız.</p>
     
     <h3>Talep Detaylarınız:</h3>
-    <p><strong>Program:</strong> ${consultationData.program}</p>
-    <p><strong>Telefon:</strong> ${consultationData.phone}</p>
+    <p><strong>Program:</strong> ${escapeHtml(consultationData.program)}</p>
+    <p><strong>Telefon:</strong> ${escapeHtml(consultationData.phone)}</p>
     
     <p>Herhangi bir sorunuz olursa bizimle iletişime geçmekten çekinmeyin.</p>
     

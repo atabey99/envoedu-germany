@@ -41,13 +41,17 @@ export default function Contact() {
       to_email: "info@envoedugermany.com",
     };
 
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID || "";
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID || "";
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY || "";
+
+    if (!serviceId || !templateId || !publicKey) {
+      console.warn("EmailJS credentials not configured");
+      return;
+    }
+
     emailjs
-      .send(
-        "service_jwj2g9q", // Senin Service ID'n
-        "template_oeu7yz6", // Senin Template ID'n
-        templateParams,
-        "nSk-BeJXUhXBUfwmY", // Senin Public Key'in
-      )
+      .send(serviceId, templateId, templateParams, publicKey)
       .then((result) => {
         console.log("E-posta başarıyla gönderildi:", result.text);
       })
